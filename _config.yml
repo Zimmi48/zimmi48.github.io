@@ -1,0 +1,14 @@
+# Site settings
+title: Théo Zimmermann
+email: theo.zimmermann@ens.fr
+description: "Mostly a place to share ideas and thoughts."
+#Description will appear in your document head meta (for Google search results) and in your feed.xml site description.
+baseurl: ""
+url: "http://theozimmermann.net"
+twitter_username: Zimm_i48
+github_username: Zimmi48
+timezone: "Europe/Paris"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
