@@ -13,7 +13,7 @@ Cependant, plutôt que de me restreidre à un petit nombre de telles
 catégories, voici une liste plus longues de choses que je suis :
 
 amoureux, athée, chercheur, écologiste, étudiant, Européen, féministe,
-Français, informaticien, jeune homme, Marseillais,
+Français, informaticien, jeune homme, [Marseillais](/marseille),
 militant politique, [normalien](http://www.ens.fr),
 [Parisien](/paris), révolutionnaire, scientifique
 
@@ -39,3 +39,21 @@ développement d'applications mobiles.
 Travaux passés
 --------------
 
+* Biologie
+	* Pendant mon année d'études au Texas,
+	j'ai découvert le domaine de la bio-informatique et de la
+	biologie computationnelle.
+	J'ai travaillé avec la Professeure Tandy Warnow pendant un semestre
+	(après avoir suivi son cours le premier semestre)
+	et je suis co-auteur de deux articles à paraitre dans des conférences :
+		* "BBCA: Improving the scalability of *BEAST
+		using random binning",
+		T. Zimmermann, S. Mirarab, T. Warnow, à paraitre, RECOMB-CG 2014
+        * "ASTRAL: Genome-scale coalescent-based species tree
+		estimation", S. Mirarab, R. Reaz, M. Bayzid, T. Zimmermann,
+		M. Swenson, T. Warnow,
+        à paraitre, ECCB 2014
+	* Au lycée, j'ai fait, avec deux camarades,
+	un TPE sur l'adaptation des plantes à un nouvel environnement.
+	
+* Linguistique

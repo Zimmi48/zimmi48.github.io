@@ -16,7 +16,7 @@ boyfriend, computer scientist, environmentalist, European,
 ex-Austinite,
 feminist, French, graduate student, [Parisian](/paris-en),
 political activist,
-researcher, wannabe world changer, young man
+researcher, [wannabe world changer](/world-changer), young man
 
 If you want to see my curriculum,
 please refer to my [LinkedIn page](https://fr.linkedin.com/in/theozim).
@@ -40,12 +40,21 @@ Past work
 ---------
 
 * Biology
-    * During my year in Texas, I discovered the field of bio-informatics and computational biology.
-    I have been working with Professor Tandy Warnow for one semester and I have co-authored two articles which are about to appear in conferences:
-        * "BBCA: Improving the scalability of *BEAST using random binning", T. Zimmermann, S. Mirarab, T. Warnow, to appear in RECOMB-CG 2014
-        * "ASTRAL: Genome-scale coalescent-based species tree estimation", S. Mirarab, R. Reaz, M. Bayzid, T. Zimmermann, M. Swenson, T. Warnow,
+    * During my year in Texas,
+	I discovered the field of bio-informatics and computational biology.
+    I have been working with Professor Tandy Warnow for one semester
+	(after having followed her class during the first semester)
+	and I have co-authored two articles
+	which are about to appear in conferences:
+        * "BBCA: Improving the scalability of *BEAST
+		using random binning",
+		T. Zimmermann, S. Mirarab, T. Warnow, to appear in RECOMB-CG 2014
+        * "ASTRAL: Genome-scale coalescent-based species tree
+		estimation", S. Mirarab, R. Reaz, M. Bayzid, T. Zimmermann,
+		M. Swenson, T. Warnow,
         to appear in ECCB 2014
-    * When in high school, I did a report on the adaption of plants to a new environment with two classmates [in French].
+    * When in high school, I did a report on the adaption of plants
+	to a new environment with two classmates [in French].
 	
 * Linguistic
 	* I did an internship with Paul Sabatier at LIF in Marseille in the area of Natural Language Processing.
@@ -78,7 +87,7 @@ Apart from what I've said already, I have a broad range of interests, including:
 * Travels
 	* I've been to a lot of western European countries as well as to the US and Canada.
 	* I lived in four different cities/towns in three different countries
-	(Marseille, France; Paris, France;
+	([Marseille](/marseille-en), France; [Paris](/paris-en), France;
 	[Cambridge](/cambridge-en), England; Austin, Texas)
 	and I recommend all these places.
 	* I also love the cities of [London](/london),
@@ -99,4 +108,4 @@ Apart from what I've said already, I have a broad range of interests, including:
 	I had purchased this book eight years
 	before but I think I picked the perfect time to read it because it echoed my own personal adventure in the US.
 
-* Politics
+* [Politics](/world-changer)
