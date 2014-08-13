@@ -73,6 +73,11 @@ a:visited { color: #205caa; }
   letter-spacing: -.5px;
 }
 
+.inactive {
+  /*font-weight: bold;*/
+  color: #7F1917
+}
+
 /* Site footer */
 
 .site-footer {

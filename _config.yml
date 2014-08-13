@@ -5,8 +5,6 @@ description: "Mostly a place to share ideas and thoughts."
 baseurl: ""
 url: "http://www.theozimmermann.net"
 timezone: "Europe/Paris"
-#author:
-#  name: Théo Zimmermann
 email: "theo.zimmermann [...] ens.fr"
 linkedin_username: theozim
 twitter_username: Zimm_i48
@@ -15,3 +13,10 @@ github_username: Zimmi48
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+#Multilingual settings (origin: http://sylvain.durand.tf/site-multilingue-avec-jekyll/)
+t:
+  fr:
+    translation: "read in English"
+  en:
+    translation: "lire en français"

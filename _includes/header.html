@@ -16,6 +16,15 @@
         </svg>
       </a>
       <div class="trigger">
+		{% if page.lang != 'fr'%}  <span class="active">en</span> | 
+			{% if page.trans %}    <a href="{{page.trans}}">fr</a>
+			{% else %}             <span class="inactive" title="Pas de traduction disponible pour cette page">fr</span>
+			{% endif %}
+		{% else %}
+			{% if page.trans %}    <a href="{{page.trans}}">en</a>
+			{% else %}             <span class="inactive" title="No available translation for this page">en</span>
+			{% endif %}          | <span class="active">fr</span>
+		{% endif %}
         {% for page in site.pages %}
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
         {% endfor %}
