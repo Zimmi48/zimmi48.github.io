@@ -1,7 +1,7 @@
 <header class="site-header">
 
   <div class="wrap">
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <a class="site-title" href="{% if page.lang != 'fr' %}{{ site.baseurl }}{% else %}{{ site.baseurl-fr }}{% endif %}/">{{ site.title }}</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">

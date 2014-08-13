@@ -2,7 +2,7 @@
 title: Théo Zimmermann
 description: "Mostly a place to share ideas and thoughts."
 #Description will appear in your document head meta (for Google search results) and in your feed.xml site description.
-baseurl: ""
+
 url: "http://www.theozimmermann.net"
 timezone: "Europe/Paris"
 email: "theo.zimmermann [...] ens.fr"
@@ -20,3 +20,5 @@ t:
     translation: "read in English"
   en:
     translation: "lire en français"
+baseurl: ""
+baseurl-fr: "/accueil"

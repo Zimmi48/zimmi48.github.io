@@ -12,8 +12,10 @@ this is just what I'm about to do to myself.
 But rather than giving a few such boxes,
 here's a longer list of things I am:
 
-boyfriend, computer scientist, environmentalist, European, ex-Austinite,
-feminist, French, graduate student, Parisian, political activist,
+boyfriend, computer scientist, environmentalist, European,
+ex-Austinite,
+feminist, French, graduate student, [Parisian](/paris-en),
+political activist,
 researcher, wannabe world changer, young man
 
 If you want to see my curriculum,
@@ -22,11 +24,15 @@ please refer to my [LinkedIn page](https://fr.linkedin.com/in/theozim).
 Current topics
 --------------
 
-Currently, my main interest is crowdsourcing.
-I am amazed at a few projects that have enable people, through online massive collaboration, to create knowledge in a way that would
-never have been possible in a pre-web area.
-I am convinced that the tremendous possibilities that the internet opens are far from being unveilled.
-In particular, communication and collaboration tools are required and a lot of them are still to be invented.
+Currently, my main interest is
+[crowdsourcing](http://en.wikipedia.org/wiki/Crowdsourcing).
+I am amazed at a few projects that have enable people,
+through online massive collaboration, to create knowledge
+in a way that would never have been possible in a pre-web area.
+I am convinced that the tremendous possibilities that the internet
+opens are far from being unveilled.
+In particular, communication and collaboration tools are required
+and a lot of them are still to be invented.
 
 I am also developing mobile apps with my brother as a hobby.
 
@@ -71,18 +77,26 @@ Apart from what I've said already, I have a broad range of interests, including:
 
 * Travels
 	* I've been to a lot of western European countries as well as to the US and Canada.
-	* I lived in four different cities/towns in three different countries (Marseille, France; Paris, France; Cambridge, England; Austin, Texas)
+	* I lived in four different cities/towns in three different countries
+	(Marseille, France; Paris, France;
+	[Cambridge](/cambridge-en), England; Austin, Texas)
 	and I recommend all these places.
-	* I also love the cities of London, New York, San Francisco and Dublin.
+	* I also love the cities of [London](/london),
+	New York, San Francisco and Dublin.
 	* With my girlfriend, we took advantage of our year abroad to visit a lot of places in Texas and in the US in general.
 	Some of the cities I liked most were Houston, San Antonio, New Orleans, Memphis, Washington (DC).
 	I would also like to recommend the fantastic National Park system, in particular Big Bend National Park, the Natchez Trace Parkway,
 	the Blue Ridge Parkway and Shenandoah National Park.
 
 * Reading
-	* One of my favorite author is Isaac Asimov and I particularly recommend the Robots series (most stories are at the crossroad
+	* One of my favorite author is
+	[Isaac Asimov](http://en.wikipedia.org/wiki/Isaac_Asimov)
+	and I particularly recommend the Robots series
+	(most stories are at the crossroad
 	between science-fiction and detective stories).
-	* A book I read recently and liked a lot is "L'Étudiant Étranger" by Philippe Labro. I had purchased this book eight years
+	* A book I read recently and liked a lot is "L'Étudiant Étranger"
+	by [Philippe Labro](http://en.wikipedia.org/wiki/Philippe_Labro).
+	I had purchased this book eight years
 	before but I think I picked the perfect time to read it because it echoed my own personal adventure in the US.
 
 * Politics
