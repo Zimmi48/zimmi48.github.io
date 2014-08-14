@@ -53,8 +53,10 @@ Past work
 		estimation", S. Mirarab, R. Reaz, M. Bayzid, T. Zimmermann,
 		M. Swenson, T. Warnow,
         to appear in ECCB 2014
-    * When in high school, I did a report on the adaption of plants
-	to a new environment with two classmates [in French].
+    * When in high school, I did a [report on the adaption of plants
+	to a new environment](/pdf/TPE.pdf) with two classmates [in French].
+	* My first internship in a research unit was in middle school
+	when I visited a biology/cancer research lab for one week.
 	
 * Linguistic
 	* I did an internship with Paul Sabatier at LIF in Marseille in the area of Natural Language Processing.
@@ -85,7 +87,8 @@ Interests
 Apart from what I've said already, I have a broad range of interests, including:
 
 * Travels
-	* I've been to a lot of western European countries as well as to the US and Canada.
+	* I've been to a lot of western European countries
+	as well as to the US and Canada.
 	* I lived in four different cities/towns in three different countries
 	([Marseille](/marseille-en), France; [Paris](/paris-en), France;
 	[Cambridge](/cambridge-en), England; Austin, Texas)
