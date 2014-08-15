@@ -1,11 +1,9 @@
 ---
 layout: page
+title: Marseille
 lang: en
-trans: /marseille-fr
+trans: /marseille
 ---
-
-Marseille
----------
 
 Beware, this is not the most typical view you can have in Marseille:
 
@@ -14,3 +12,9 @@ Beware, this is not the most typical view you can have in Marseille:
 This is a more classical view:
 
 ![The vallon des Auffes](/images/vallon-des-auffes.jpg)
+
+This is why I like Marseille so much:
+
+![Sailing](/images/voile.jpg)
+
+Credits: Zimmi family

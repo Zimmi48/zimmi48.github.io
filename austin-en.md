@@ -1,11 +1,9 @@
 ---
 layout: page
+title: Austin
 lang: en
 trans: /austin
 ---
-
-Austin
-------
 
 Austin from the Colorado river:
 

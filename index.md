@@ -30,7 +30,7 @@ I am amazed at a few projects that have enable people,
 through online massive collaboration, to create knowledge
 in a way that would never have been possible in a pre-web area.
 I am convinced that the tremendous possibilities that the internet
-opens are far from being unveilled.
+opens are far from being unveiled.
 In particular, communication and collaboration tools are required
 and a lot of them are still to be invented.
 
@@ -48,43 +48,73 @@ Past work
 	which are about to appear in conferences:
         * "BBCA: Improving the scalability of *BEAST
 		using random binning",
-		T. Zimmermann, S. Mirarab, T. Warnow, to appear in RECOMB-CG 2014
+		T. Zimmermann, S. Mirarab, T. Warnow, to appear in RECOMB-CG 2014.
         * "ASTRAL: Genome-scale coalescent-based species tree
 		estimation", S. Mirarab, R. Reaz, M. Bayzid, T. Zimmermann,
 		M. Swenson, T. Warnow,
-        to appear in ECCB 2014
-    * When in high school, I did a [report on the adaption of plants
-	to a new environment](/pdf/TPE.pdf) with two classmates [in French].
+        to appear in ECCB 2014.
+	* Some works done for Prof. Warnow's class:
+		* ["Boosting BAli-Phy with UPP"](/pdf/boosting-bali-phy.pdf),
+		C. Rottner, T. Zimmermann,
+		with help of N. Nguyen and T. Warnow, class project paper.
+		* [Presentation of CABOG](/pdf/presentation-CABOG.pdf),
+		a genome assembler.
+    * When in high school, I did a report
+	[[in French](/pdf/TPE.pdf)] on the adaption of plants
+	to a new environment with two classmates.
 	* My first internship in a research unit was in middle school
-	when I visited a biology/cancer research lab for one week.
+	when I visited a biology/cancer research lab for one week
+	[[report, in French](/pdf/stage-IGC.pdf)].
 	
 * Linguistic
-	* I did an internship with Paul Sabatier at LIF in Marseille in the area of Natural Language Processing.
-	I developed an algorithm to infer syntactic transformation of a sentence from examples and implemented it in Prolog.
-	* When in primary and middle school, I invented a language called Enfantin.
-	This paper I wrote about it explains everything you need to know on it [in French].
-	On a side note, I never spoke this language fluently and I would have had no one to talk to anyway.
-	* I like languages in general. I have learned Latin, Spanish and English for many years.
+	* I did an internship with Professor Paul Sabatier at LIF
+	in Marseille
+	in the area of Natural Language Processing.
+	I developed an algorithm to infer syntactic transformation
+	of a sentence from examples and implemented it in Prolog
+	[[report, in French](/pdf/stage-LIF.pdf)].
+	* When in primary and middle school,
+	I invented a language called Enfantin.
+	This paper I wrote about it [[in French](/pdf/enfantin.pdf)]
+	explains everything you need to know on it.
+	On a side note, I've never spoken this language fluently
+	and I would have had no one to talk to anyways.
+	* I like languages in general. I have learned Latin,
+	Spanish and English for many years.
 	I speak English and French fluently and I love them both.
-	I would need to spend some time getting better at Spanish and I will love to learn new foreign languages if I have time.
+	I would need to spend some time getting better at Spanish
+	and I will love to learn new foreign languages if I have time.
 	
 * Physics
-	* In second year of College studies (_maths spé_ at Lycée Thiers, Marseille), I worked on my first actual research project.
-	I defended this report [in French] for the competitive exams leading to my acceptance at the ENS (École Normale Supérieure), Paris.
+	* In second year of college studies
+	(_maths spé_ at Lycée Thiers, Marseille),
+	I worked on my first actual research project.
+	The subject was how to adapt a vehicle to the road surface
+	(in the context of Shell Eco-Marathon).
+	I defended this report [[in French](/pdf/TIPE.pdf)]
+	for the competitive exams leading to my admission to
+	the [ENS](http://www.ens.fr) (École Normale Supérieure), Paris.
 	
 * Other computer science works
-	* During an internship at Microsoft Research Cambridge, I worked on non-termination proofs, under the supervision of Byron Cook.
-	You can read my report [in English].
-	* I have read and commented many computer science research papers. Here are some comments of which I am the proudest...
+	* During an internship at Microsoft Research Cambridge,
+	I worked on non-termination proofs,
+	under the supervision of Byron Cook
+	[[report, in English](/pdf/internship-MSRC.pdf)].
+	* I have read and commented many computer science research papers.
+	I'm including here a link to one of the first comment I did,
+	on a paper in the area of robotics
+	[[in French](/pdf/planification-trajectoires.pdf)].
 
-* Developping
+* Developing
 	* A number of school/research projects I'm not going to list here.
-	* My first programming project: Test-Pedago [in French].
+	* My first programming project: Test-Pedago
+	[[in French](/test-pedago)].
 	
 Interests
 ---------
 
-Apart from what I've said already, I have a broad range of interests, including:
+Apart from what I've said already, I have a broad range of interests,
+including:
 
 * Travels
 	* I've been to a lot of western European countries
@@ -94,10 +124,13 @@ Apart from what I've said already, I have a broad range of interests, including:
 	[Cambridge](/cambridge-en), England; Austin, Texas)
 	and I recommend all these places.
 	* I also love the cities of [London](/london),
-	New York, San Francisco and Dublin.
-	* With my girlfriend, we took advantage of our year abroad to visit a lot of places in Texas and in the US in general.
-	Some of the cities I liked most were Houston, San Antonio, New Orleans, Memphis, Washington (DC).
-	I would also like to recommend the fantastic National Park system, in particular Big Bend National Park, the Natchez Trace Parkway,
+	New York, San Francisco, Barcelona and Dublin.
+	* With my girlfriend, we took advantage of our year abroad to visit
+	a lot of places in Texas and in the US in general.
+	Some of the cities I liked most were Houston,
+	[San Antonio](/san-antonio-en), New Orleans, Memphis, Washington (DC).
+	I would also like to recommend the fantastic National Park system,
+	in particular Big Bend National Park, the Natchez Trace Parkway,
 	the Blue Ridge Parkway and Shenandoah National Park.
 
 * Reading

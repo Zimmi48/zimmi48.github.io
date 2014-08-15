@@ -1,11 +1,9 @@
 ---
 layout: page
+title: Cambridge
 lang: en
 trans: /cambridge
 ---
-
-Cambridge
----------
 
 Every day on my way to work:
 

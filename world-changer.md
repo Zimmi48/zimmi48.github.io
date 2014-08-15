@@ -18,14 +18,19 @@ Yet, even progressive politicians have a lot of difficulties
 to implement what they are elected for (when they are elected).
 
 To bring change at a quicker pace, what the organizations,
-entreprenneurs and inventors do can matter as much.
+entrepreneurs and inventors do can matter as much.
 
-General tools like social medias won't suffice though.
-More specialized tools like Avaaz as well as day-to-day
+General tools like social media won't suffice though.
+More specialized tools like [Avaaz](https://www.avaaz.org)
+as well as day-to-day
 activism are needed.
 
+Money is power too. Philanthropists can have a big impact
+and people with big money who do not use it rightfully
+have a large share of responsibility in today's world state.
+
 That's why I'm thriving to invent new ways of having a progressive
-impact while I also do some classical poltical activism too.
+impact while also doing some classical political activism.
 
 By the way, we can make the world a better place but we should
 worry of not

@@ -15,7 +15,7 @@ catégories, voici une liste plus longues de choses que je suis :
 amoureux, athée, chercheur, écologiste, étudiant, Européen, féministe,
 Français, informaticien, jeune homme, [Marseillais](/marseille),
 militant politique, [normalien](http://www.ens.fr),
-[Parisien](/paris), révolutionnaire, scientifique
+[Parisien](/paris), [révolutionnaire](/changer-le-monde), scientifique
 
 Si vous voulez connaitre mon parcours,
 référez-vous à ma [page LinkedIn](https://fr.linkedin.com/in/theozim).
@@ -45,7 +45,8 @@ Travaux passés
 	biologie computationnelle.
 	J'ai travaillé avec la Professeure Tandy Warnow pendant un semestre
 	(après avoir suivi son cours le premier semestre)
-	et je suis co-auteur de deux articles à paraitre dans des conférences :
+	et je suis co-auteur de deux articles
+	à paraitre dans des conférences :
 		* "BBCA: Improving the scalability of *BEAST
 		using random binning",
 		T. Zimmermann, S. Mirarab, T. Warnow, à paraitre, RECOMB-CG 2014
@@ -53,7 +54,81 @@ Travaux passés
 		estimation", S. Mirarab, R. Reaz, M. Bayzid, T. Zimmermann,
 		M. Swenson, T. Warnow,
         à paraitre, ECCB 2014
+	* Quelques travaux réalisés pour le cours de Tandy Warnow :
+		* ["Boosting BAli-Phy with UPP"](/pdf/boosting-bali-phy.pdf),
+		C. Rottner, T. Zimmermann,
+		avec l'aide de N. Nguyen et T. Warnow, rapport de projet.
+		* [Presentation of CABOG](/pdf/presentation-CABOG.pdf),
+		un assembleur génomique.
 	* Au lycée, j'ai fait, avec deux camarades,
-	un TPE sur l'adaptation des plantes à un nouvel environnement.
+	un [TPE](/pdf/TPE.pdf)
+	sur l'adaptation des plantes à un nouvel environnement.
+	* J'ai effectué mon premier stage dans une unité de recherche
+	lorsque j'étais au collège. J'ai visité pendant une semaine un
+	laboratoire de recherche en biologie/cancérologie
+	[[rapport de stage](/pdf/stage-IGC.pdf)].
 	
 * Linguistique
+	* J'ai fait un stage avec le Directeur de Recherche Paul Sabatier
+	au LIF, à Marseille, dans le domaine du traitement automatique
+	du langage naturel.
+	J'ai développé un algorithme pour inférer des transformations
+	syntaxiques d'une phrase à partir d'exemples, que j'ai implémenté
+	en Prolog [[rapport de stage](/pdf/stage-LIF.pdf)].
+	* À l'époque où j'étais à l'école primaire puis au collège,
+	j'ai inventé un langage que j'ai appelé Enfantin.
+	J'ai écrit un [papier](/pdf/enfantin.pdf)
+	qui explique tout ce dont que vous avez
+	besoin de savoir à son sujet.
+	Notez bien que je n'ai jamais parlé ce langage de manière courante.
+	De toute façon, je n'aurais eu personne à qui parler !
+	* J'aime étudier les langues en général. J'ai fait du latin, de
+	l'espagnol et de l'anglais pendant de nombreuses années.
+	Aujourd'hui, je parle couramment l'anglais et le français et
+	j'adore ces deux langues.
+	Au contraire, il me faudrait consacrer un peu de temps à reprendre
+	l'espagnol. Par ailleurs, si je trouve le temps, j'aimerais
+	apprendre encore d'autres langues.
+	
+* Physique
+	* En maths spé au Lycée Thiers (Marseille), j'ai réalisé mon
+	premier véritable travail de recherche, sur l'adaptation
+	d'un véhicule au revêtement de la piste (dans le cadre
+	de l'éco-Marathon Shell).
+	Il s'agit du
+	[TIPE](/pdf/TIPE.pdf) que
+	j'ai présenté à mon cours d'admission à
+	l'[ENS](http://www.ens.fr) (École Normale Supérieure), Paris.
+	
+* Quelques autres travaux en informatique
+	* Lors d'un stage à Microsoft Research Cambridge,
+	j'ai travaillé sur les preuves de non-terminaison de programmes,
+	sous la direction de Byron Cook
+	[[rapport, en anglais](/pdf/internship-MSRC.pdf)].
+	* J'ai lu et commenté de nombreux articles de recherche en
+	informatique. Voici un des tous premiers commentaires que j'ai
+	fait, pour un cours de planification du mouvement en robotique
+	[[en français](/pdf/planification-trajectoires.pdf)].
+	
+* Programmation logicielle 
+	* Je ne vais pas lister ici la liste de tous les projets de
+	programmation réalisés dans le cadre de mes études ou de
+	ma recherche.
+	* Mon premier logiciel : [Test-Pedago](/test-pedago).
+	
+Intérêts
+--------
+
+En dehors de ceux que j'ai déjà cités, j'ai des intérêts éclectiques.
+En particulier :
+
+* Voyager
+	* J'ai été dans de nombreux pays d'Europe de l'ouest ainsi
+	qu'aux États-Unis et au Canada.
+	* J'ai vécu dans quatre villes différentes, dans trois pays
+	différents ([Marseille](/marseille), France; [Paris](/paris), France;
+	[Cambridge](/cambridge), Angleterre; Austin, Texas)
+	et je les recommanderais toutes.
+	* J'adore aussi les villes de [Londres](/londres), New York,
+	San Francisco, Barcelone et Dublin.
+	* Avec ma petite amie, 

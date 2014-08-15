@@ -14,7 +14,7 @@ github_username: Zimmi48
 markdown: kramdown
 permalink: pretty
 
-#Multilingual settings (origin: http://sylvain.durand.tf/site-multilingue-avec-jekyll/)
+# Multilingual settings (origin: http://sylvain.durand.tf/site-multilingue-avec-jekyll/)
 t:
   fr:
     translation: "read in English"
@@ -22,3 +22,7 @@ t:
     translation: "lire en français"
 baseurl: ""
 baseurl-fr: "/accueil"
+
+# Redirects function for short URLs
+gems:
+  - jekyll-redirect-from

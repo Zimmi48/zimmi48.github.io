@@ -1,11 +1,9 @@
 ---
 layout: page
+title: Cambridge
 lang: fr
 trans: /cambridge-en
 ---
-
-Cambridge
----------
 
 Tous les jours, sur le chemin qui m'amenait à mon travail:
 

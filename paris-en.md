@@ -1,11 +1,9 @@
 ---
 layout: page
+title: Paris
 lang: en
 trans: /paris
 ---
-
-Paris
------
 
 Panthéon by night
 

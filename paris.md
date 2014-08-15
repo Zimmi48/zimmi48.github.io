@@ -1,11 +1,9 @@
 ---
 layout: page
+title: Paris
 lang: fr
 trans: /paris-en
 ---
-
-Paris
------
 
 Le Panthéon dans la nuit
 

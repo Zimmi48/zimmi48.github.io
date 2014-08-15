@@ -1,11 +1,9 @@
 ---
 layout: page
+title: Londres
 lang: fr
 trans: /london
 ---
-
-London
-------
 
 ![Typiquement londonien](/images/london-castle-and-underground.jpg)
 
