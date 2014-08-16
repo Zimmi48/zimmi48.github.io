@@ -1,0 +1,1092 @@
+<html>
+ <head>
+  <title>SCCs vs. Loops</title>
+ <head>
+ <body>
+  <h1>SCCs vs. Loops</h1>
+  <h2>Example overview</h2>
+  <table border="
+   <tr>
+    <th rowspan=2>Ex. name</th>
+    <th colspan=2>SCCs</th>
+    <th colspan=2>Loops</th>
+   </tr>
+   <tr>
+    <th>Result</th>
+    <th>Time</th>
+    <th>Result</th>
+    <th>Time</th>
+   </tr>
+
+   <tr >
+    <td>known/2.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.98</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.84</td>
+   </tr>
+   <tr >
+    <td>known/byron-1.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.88</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.91</td>
+   </tr>
+   <tr >
+    <td>known/byron-2.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.55</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.53</td>
+   </tr>
+   <tr >
+    <td>known/cfg.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.73</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.72</td>
+   </tr>
+   <tr >
+    <td>known/consts1.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.62</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.59</td>
+   </tr>
+   <tr >
+    <td>known/consts1nt.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.44</td>
+    <td>OutputError: No result</td>
+    <td>5.24</td>
+   </tr>
+   <tr >
+    <td>known/consts2.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.53</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.48</td>
+   </tr>
+   <tr >
+    <td>known/consts2nt.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.72</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.70</td>
+   </tr>
+   <tr >
+    <td>known/consts3.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.55</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.48</td>
+   </tr>
+   <tr >
+    <td>known/consts3nt.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.70</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.69</td>
+   </tr>
+   <tr >
+    <td>known/consts4.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.48</td>
+   </tr>
+   <tr >
+    <td>known/consts4nt.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.70</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.70</td>
+   </tr>
+   <tr >
+    <td>known/consts5.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.58</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.56</td>
+   </tr>
+   <tr >
+    <td>known/consts5nt.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.75</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.73</td>
+   </tr>
+   <tr >
+    <td>known/create.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.53</td>
+   </tr>
+   <tr >
+    <td>known/create_seg.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>known/create_via_tmps.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.61</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.61</td>
+   </tr>
+   <tr >
+    <td>known/curious.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.48</td>
+    <td>OutputError: No result</td>
+    <td>5.25</td>
+   </tr>
+   <tr >
+    <td>known/curious2.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.34</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.34</td>
+   </tr>
+   <tr >
+    <td>known/db.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.47</td>
+   </tr>
+   <tr >
+    <td>known/destroy.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.59</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.62</td>
+   </tr>
+   <tr >
+    <td>known/destroy_seg.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.61</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.59</td>
+   </tr>
+   <tr >
+    <td>known/destroy_seg_leak.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.24</td>
+    <td>OutputError: No result</td>
+    <td>5.33</td>
+   </tr>
+   <tr >
+    <td>known/disj_nightmare.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.27</td>
+    <td>OutputError: No result</td>
+    <td>5.27</td>
+   </tr>
+   <tr >
+    <td>known/eric3.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.28</td>
+    <td>OutputError: No result</td>
+    <td>5.19</td>
+   </tr>
+   <tr >
+    <td>known/flipflop.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.80</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.81</td>
+   </tr>
+   <tr >
+    <td>known/fun1.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.19</td>
+    <td>OutputError: No result</td>
+    <td>5.30</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>known/fun10.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>1.34</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>3.53</td>
+   </tr>
+   <tr >
+    <td>known/fun11.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.30</td>
+    <td>OutputError: No result</td>
+    <td>5.21</td>
+   </tr>
+   <tr >
+    <td>known/fun2.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.30</td>
+    <td>OutputError: No result</td>
+    <td>5.24</td>
+   </tr>
+   <tr >
+    <td>known/fun4.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.24</td>
+    <td>OutputError: No result</td>
+    <td>5.26</td>
+   </tr>
+   <tr >
+    <td>known/fun6.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.98</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>1.00</td>
+   </tr>
+   <tr >
+    <td>known/fun7.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.22</td>
+    <td>OutputError: No result</td>
+    <td>5.21</td>
+   </tr>
+   <tr >
+    <td>known/fun9.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.31</td>
+    <td>OutputError: No result</td>
+    <td>5.20</td>
+   </tr>
+   <tr >
+    <td>known/heidy1.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.69</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.69</td>
+   </tr>
+   <tr >
+    <td>known/heidy10.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.56</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>known/heidy2.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.73</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.78</td>
+   </tr>
+   <tr >
+    <td>known/heidy3.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.72</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.73</td>
+   </tr>
+   <tr >
+    <td>known/heidy5.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.49</td>
+   </tr>
+   <tr >
+    <td>known/heidy6.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.77</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.76</td>
+   </tr>
+   <tr >
+    <td>known/heidy7.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.22</td>
+    <td>OutputError: No result</td>
+    <td>5.30</td>
+   </tr>
+   <tr >
+    <td>known/heidy8.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.83</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.85</td>
+   </tr>
+   <tr >
+    <td>known/heidy9.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.49</td>
+   </tr>
+   <tr >
+    <td>known/huh.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.52</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.52</td>
+   </tr>
+   <tr >
+    <td>known/iecs.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.86</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.87</td>
+   </tr>
+   <tr >
+    <td>known/n-1.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.22</td>
+    <td>OutputError: No result</td>
+    <td>5.31</td>
+   </tr>
+   <tr >
+    <td>known/n-10.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.83</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.84</td>
+   </tr>
+   <tr >
+    <td>known/n-12.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.78</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.80</td>
+   </tr>
+   <tr >
+    <td>known/n-12a.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.70</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.70</td>
+   </tr>
+   <tr >
+    <td>known/n-13.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.72</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.71</td>
+   </tr>
+   <tr >
+    <td>known/n-14.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.78</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.80</td>
+   </tr>
+   <tr >
+    <td>known/n-15.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.83</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.81</td>
+   </tr>
+   <tr >
+    <td>known/n-15a.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.67</td>
+    <td>OutputError: No result</td>
+    <td>5.74</td>
+   </tr>
+   <tr >
+    <td>known/n-16.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.73</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.75</td>
+   </tr>
+   <tr >
+    <td>known/n-16a.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.78</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.78</td>
+   </tr>
+   <tr >
+    <td>known/n-17.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.72</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.75</td>
+   </tr>
+   <tr >
+    <td>known/n-18.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.72</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.71</td>
+   </tr>
+   <tr >
+    <td>known/n-18a.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.77</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.78</td>
+   </tr>
+   <tr >
+    <td>known/n-1c.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.78</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.81</td>
+   </tr>
+   <tr >
+    <td>known/n-1d.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.30</td>
+    <td>OutputError: No result</td>
+    <td>5.19</td>
+   </tr>
+   <tr >
+    <td>known/n-20.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.73</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.73</td>
+   </tr>
+   <tr >
+    <td>known/n-21.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.73</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.76</td>
+   </tr>
+   <tr >
+    <td>known/n-3.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.73</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.78</td>
+   </tr>
+   <tr >
+    <td>known/n-32.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.70</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.75</td>
+   </tr>
+   <tr >
+    <td>known/n-33.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.73</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.81</td>
+   </tr>
+   <tr >
+    <td>known/n-36.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.24</td>
+    <td>OutputError: No result</td>
+    <td>5.20</td>
+   </tr>
+   <tr >
+    <td>known/n-37.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.72</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.71</td>
+   </tr>
+   <tr >
+    <td>known/n-3a.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.22</td>
+    <td>OutputError: No result</td>
+    <td>5.21</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>known/n-4.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.17</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>5.91</td>
+   </tr>
+   <tr >
+    <td>known/n-40.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.20</td>
+    <td>OutputError: No result</td>
+    <td>5.24</td>
+   </tr>
+   <tr >
+    <td>known/n-46.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.72</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.73</td>
+   </tr>
+   <tr >
+    <td>known/n-48.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.80</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.79</td>
+   </tr>
+   <tr >
+    <td>known/n-5.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.19</td>
+    <td>OutputError: No result</td>
+    <td>5.27</td>
+   </tr>
+   <tr >
+    <td>known/n-6.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.26</td>
+    <td>OutputError: No result</td>
+    <td>5.26</td>
+   </tr>
+   <tr >
+    <td>known/n-6a.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.19</td>
+    <td>OutputError: No result</td>
+    <td>5.27</td>
+   </tr>
+   <tr >
+    <td>known/n-7.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.22</td>
+    <td>OutputError: No result</td>
+    <td>5.24</td>
+   </tr>
+   <tr >
+    <td>known/n-8.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.31</td>
+    <td>OutputError: No result</td>
+    <td>5.23</td>
+   </tr>
+   <tr >
+    <td>known/n-8a.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.70</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.70</td>
+   </tr>
+   <tr >
+    <td>known/n-9.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.22</td>
+    <td>OutputError: No result</td>
+    <td>5.30</td>
+   </tr>
+   <tr >
+    <td>known/nested2.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.53</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.53</td>
+   </tr>
+   <tr >
+    <td>known/p-1.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.70</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.76</td>
+   </tr>
+   <tr >
+    <td>known/p-10.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.72</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.78</td>
+   </tr>
+   <tr >
+    <td>known/p-12.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.53</td>
+   </tr>
+   <tr >
+    <td>known/p-13.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.38</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.38</td>
+   </tr>
+   <tr >
+    <td>known/p-14.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.49</td>
+   </tr>
+   <tr >
+    <td>known/p-15.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.52</td>
+   </tr>
+   <tr >
+    <td>known/p-16.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.47</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>known/p-18.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>known/p-1b.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.52</td>
+   </tr>
+   <tr >
+    <td>known/p-1d.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.52</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.55</td>
+   </tr>
+   <tr >
+    <td>known/p-20.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.70</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.74</td>
+   </tr>
+   <tr >
+    <td>known/p-21.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.56</td>
+   </tr>
+   <tr >
+    <td>known/p-22.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>known/p-3.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.57</td>
+   </tr>
+   <tr >
+    <td>known/p-32.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.70</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.76</td>
+   </tr>
+   <tr >
+    <td>known/p-33.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.72</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.75</td>
+   </tr>
+   <tr >
+    <td>known/p-34.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.77</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.84</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>known/p-36.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>4.33</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>1.14</td>
+   </tr>
+   <tr >
+    <td>known/p-37.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.53</td>
+   </tr>
+   <tr >
+    <td>known/p-4.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.52</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.52</td>
+   </tr>
+   <tr >
+    <td>known/p-40.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.53</td>
+   </tr>
+   <tr >
+    <td>known/p-41.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.33</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.35</td>
+   </tr>
+   <tr >
+    <td>known/p-42.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.53</td>
+   </tr>
+   <tr >
+    <td>known/p-43.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.25</td>
+    <td>OutputError: No result</td>
+    <td>5.29</td>
+   </tr>
+   <tr >
+    <td>known/p-44.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.52</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>known/p-45.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>known/p-46.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.38</td>
+    <td>OutputError: No result</td>
+    <td>5.25</td>
+   </tr>
+   <tr >
+    <td>known/p-49.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.52</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.51</td>
+   </tr>
+   <tr >
+    <td>known/p-5.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.22</td>
+    <td>OutputError: No result</td>
+    <td>5.23</td>
+   </tr>
+   <tr >
+    <td>known/p-52.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.72</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.72</td>
+   </tr>
+   <tr >
+    <td>known/p-53.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.34</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.36</td>
+   </tr>
+   <tr >
+    <td>known/p-55.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.55</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.53</td>
+   </tr>
+   <tr >
+    <td>known/p-56.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.54</td>
+   </tr>
+   <tr >
+    <td>known/p-58.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.52</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.52</td>
+   </tr>
+   <tr >
+    <td>known/p-6.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.53</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.51</td>
+   </tr>
+   <tr >
+    <td>known/p-60.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>known/p-61.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>known/p-63.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.86</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.85</td>
+   </tr>
+   <tr >
+    <td>known/p-7.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.52</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.52</td>
+   </tr>
+   <tr >
+    <td>known/p-7b.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.53</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.51</td>
+   </tr>
+   <tr >
+    <td>known/p-8.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.72</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.74</td>
+   </tr>
+   <tr >
+    <td>known/p-9.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.72</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.72</td>
+   </tr>
+   <tr >
+    <td>known/pgarch.t2</td>
+    <td>OutputError: No result</td>
+    <td>6.16</td>
+    <td>OutputError: No result</td>
+    <td>6.11</td>
+   </tr>
+   <tr >
+    <td>known/polyrank1.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.28</td>
+    <td>OutputError: No result</td>
+    <td>5.27</td>
+   </tr>
+   <tr >
+    <td>known/polyrank2.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.33</td>
+    <td>OutputError: No result</td>
+    <td>5.33</td>
+   </tr>
+   <tr >
+    <td>known/polyrank3.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.28</td>
+    <td>OutputError: No result</td>
+    <td>5.46</td>
+   </tr>
+   <tr >
+    <td>known/polyrank4.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.17</td>
+    <td>OutputError: No result</td>
+    <td>5.27</td>
+   </tr>
+   <tr >
+    <td>known/polyrank5.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.26</td>
+    <td>OutputError: No result</td>
+    <td>5.39</td>
+   </tr>
+   <tr >
+    <td>known/polyrank6.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.20</td>
+    <td>OutputError: No result</td>
+    <td>5.25</td>
+   </tr>
+   <tr >
+    <td>known/polyrank7.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.72</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.72</td>
+   </tr>
+   <tr >
+    <td>known/print.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.77</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.80</td>
+   </tr>
+   <tr >
+    <td>known/refine_disj_problem.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.22</td>
+    <td>OutputError: No result</td>
+    <td>5.31</td>
+   </tr>
+   <tr >
+    <td>known/rev_nt2.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.98</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.96</td>
+   </tr>
+   <tr >
+    <td>known/reverse.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.83</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.84</td>
+   </tr>
+   <tr >
+    <td>known/reverse_div4.t2</td>
+    <td>OutputError: No result</td>
+    <td>5.31</td>
+    <td>OutputError: No result</td>
+    <td>5.39</td>
+   </tr>
+   <tr >
+    <td>known/reverse_seg_cyclic.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.72</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.72</td>
+   </tr>
+   <tr >
+    <td>known/rewrite.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.72</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.72</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>known/s1-saved.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.73</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>2.94</td>
+   </tr>
+   <tr >
+    <td>known/seq.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.49</td>
+   </tr>
+   <tr >
+    <td>known/seq2.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.52</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.51</td>
+   </tr>
+   <tr >
+    <td>known/simple.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.73</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.72</td>
+   </tr>
+   <tr >
+    <td>known/traverse.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.72</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.73</td>
+   </tr>
+   <tr >
+    <td>known/traverse2.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.72</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.74</td>
+   </tr>
+   <tr >
+    <td>known/traverse_seg.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.75</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.77</td>
+   </tr>
+   <tr >
+    <td>known/traverse_seg2.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.77</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.76</td>
+   </tr>
+   <tr >
+    <td>known/traverse_twice.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.86</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.89</td>
+   </tr>
+   <tr >
+    <td>known/unsat.t2</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.47</td>
+    <td>OutputSAFE+TERMINATING</td>
+    <td>0.52</td>
+   </tr>
+   <tr >
+    <td>known/w1.t2</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.69</td>
+    <td>OutputSAFE+NONTERMINATING</td>
+    <td>0.73</td>
+   </tr>
+  </table>
+  <h2>Aggregate numbers</h2>
+  <table border="
+   <tr>
+    <th></th>
+    <th>SCCs</th>
+    <th>Loops</th>
+   </tr>
+   <tr>
+    <td>Number TERM</td>
+    <td>61</td>
+    <td>61</td>
+   </tr>
+   <tr>
+    <td>Avg. time TERM</td>
+    <td>0.56</td>
+    <td>0.60</td>
+   </tr>
+   <tr>
+    <td>Number NONTERM</td>
+    <td>50</td>
+    <td>51</td>
+   </tr>
+   <tr>
+    <td>Avg. time NONTERM</td>
+    <td>0.84</td>
+    <td>0.93</td>
+   </tr>
+   <tr>
+    <td>Avg. time total</td>
+    <td>1.84</td>
+    <td>1.86</td>
+   </tr>
+  </table>
+ </body>
+</html>

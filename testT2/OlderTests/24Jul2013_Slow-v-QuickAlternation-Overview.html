@@ -1,0 +1,3115 @@
+<html>
+ <head>
+  <title>SlowAlternation vs. QuickAlternation</title>
+ <head>
+ <body>
+  <h1>SlowAlternation vs. QuickAlternation</h1>
+  <h2>Example overview</h2>
+  <table border="
+   <tr>
+    <th rowspan=2>Ex. name</th>
+    <th colspan=2>SlowAlternation</th>
+    <th colspan=2>QuickAlternation</th>
+   </tr>
+   <tr>
+    <th>Result</th>
+    <th>Time</th>
+    <th>Result</th>
+    <th>Time</th>
+   </tr>
+
+   <tr >
+    <td>suite/Loop.t2</td>
+    <td>SlowAlternation/suite/Loop.tSAFE+TERMINATING</td>
+    <td>0.31</td>
+    <td>QuickAlternation/suite/Loop.tSAFE+TERMINATING</td>
+    <td>0.34</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/Prim_4.t2</td>
+    <td>SlowAlternation/suite/Prim_Error: No result</td>
+    <td>5.31</td>
+    <td>QuickAlternation/suite/Prim_TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/Prim_5.t2</td>
+    <td>SlowAlternation/suite/Prim_Error: No result</td>
+    <td>5.31</td>
+    <td>QuickAlternation/suite/Prim_TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/Prim_6.t2</td>
+    <td>SlowAlternation/suite/Prim_Error: No result</td>
+    <td>5.30</td>
+    <td>QuickAlternation/suite/Prim_TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/Prim_7.t2</td>
+    <td>SlowAlternation/suite/Prim_Error: No result</td>
+    <td>5.31</td>
+    <td>QuickAlternation/suite/Prim_TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/Prim_8.t2</td>
+    <td>SlowAlternation/suite/Prim_Error: No result</td>
+    <td>5.41</td>
+    <td>QuickAlternation/suite/Prim_TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/andrey.t2</td>
+    <td>SlowAlternation/suite/andrey.tSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/andrey.tSAFE+TERMINATING</td>
+    <td>0.49</td>
+   </tr>
+   <tr >
+    <td>suite/arith.t2</td>
+    <td>SlowAlternation/suite/arith.tSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/arith.tSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/armc-difficult_defect.t2</td>
+    <td>SlowAlternation/suite/armc-difficult_defect.tSAFE+TERMINATING</td>
+    <td>0.92</td>
+    <td>QuickAlternation/suite/armc-difficult_defect.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/armc-difficult_foo.t2</td>
+    <td>SlowAlternation/suite/armc-difficult_foo.tTIMEOUT</td>
+    <td>60.00</td>
+    <td>QuickAlternation/suite/armc-difficult_foo.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/armc-difficult_foo2.t2</td>
+    <td>SlowAlternation/suite/armc-difficult_fooSAFE+TERMINATING</td>
+    <td>0.31</td>
+    <td>QuickAlternation/suite/armc-difficult_fooSAFE+TERMINATING</td>
+    <td>0.31</td>
+   </tr>
+   <tr >
+    <td>suite/armc-difficult_foo3.t2</td>
+    <td>SlowAlternation/suite/armc-difficult_fooSAFE+TERMINATING</td>
+    <td>14.76</td>
+    <td>QuickAlternation/suite/armc-difficult_fooSAFE+TERMINATING</td>
+    <td>14.92</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/armc-difficult_k.t2</td>
+    <td>SlowAlternation/suite/armc-difficult_k.tSAFE+TERMINATING</td>
+    <td>3.70</td>
+    <td>QuickAlternation/suite/armc-difficult_k.tSAFE+TERMINATING</td>
+    <td>1.23</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/armc-difficult_k2.t2</td>
+    <td>SlowAlternation/suite/armc-difficult_kSAFE+TERMINATING</td>
+    <td>0.95</td>
+    <td>QuickAlternation/suite/armc-difficult_kTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/array.t2</td>
+    <td>SlowAlternation/suite/array.tSAFE+TERMINATING</td>
+    <td>0.35</td>
+    <td>QuickAlternation/suite/array.tSAFE+TERMINATING</td>
+    <td>0.34</td>
+   </tr>
+   <tr >
+    <td>suite/array1.t2</td>
+    <td>SlowAlternation/suite/arraySAFE+TERMINATING</td>
+    <td>0.33</td>
+    <td>QuickAlternation/suite/arraySAFE+TERMINATING</td>
+    <td>0.33</td>
+   </tr>
+   <tr >
+    <td>suite/array2.t2</td>
+    <td>SlowAlternation/suite/arraySAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/arraySAFE+TERMINATING</td>
+    <td>0.48</td>
+   </tr>
+   <tr >
+    <td>suite/array3.t2</td>
+    <td>SlowAlternation/suite/arraySAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/arraySAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>suite/array4.t2</td>
+    <td>SlowAlternation/suite/arraySAFE+TERMINATING</td>
+    <td>0.51</td>
+    <td>QuickAlternation/suite/arraySAFE+TERMINATING</td>
+    <td>0.52</td>
+   </tr>
+   <tr >
+    <td>suite/array_free.t2</td>
+    <td>SlowAlternation/suite/array_free.tSAFE+TERMINATING</td>
+    <td>0.52</td>
+    <td>QuickAlternation/suite/array_free.tSAFE+TERMINATING</td>
+    <td>0.52</td>
+   </tr>
+   <tr >
+    <td>suite/array_free1.t2</td>
+    <td>SlowAlternation/suite/array_freeSAFE+TERMINATING</td>
+    <td>0.52</td>
+    <td>QuickAlternation/suite/array_freeSAFE+TERMINATING</td>
+    <td>0.53</td>
+   </tr>
+   <tr >
+    <td>suite/array_free2.t2</td>
+    <td>SlowAlternation/suite/array_freeSAFE+TERMINATING</td>
+    <td>0.52</td>
+    <td>QuickAlternation/suite/array_freeSAFE+TERMINATING</td>
+    <td>0.53</td>
+   </tr>
+   <tr >
+    <td>suite/array_init.t2</td>
+    <td>SlowAlternation/suite/array_init.tSAFE+TERMINATING</td>
+    <td>0.54</td>
+    <td>QuickAlternation/suite/array_init.tSAFE+TERMINATING</td>
+    <td>0.53</td>
+   </tr>
+   <tr >
+    <td>suite/array_init_assign.t2</td>
+    <td>SlowAlternation/suite/array_init_assign.tSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/array_init_assign.tSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>suite/ase_example.t2</td>
+    <td>SlowAlternation/suite/ase_example.tSAFE+TERMINATING</td>
+    <td>0.52</td>
+    <td>QuickAlternation/suite/ase_example.tSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>suite/bf10.t2</td>
+    <td>SlowAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.56</td>
+    <td>QuickAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.55</td>
+   </tr>
+   <tr >
+    <td>suite/bf11.t2</td>
+    <td>SlowAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.56</td>
+    <td>QuickAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.56</td>
+   </tr>
+   <tr >
+    <td>suite/bf12.t2</td>
+    <td>SlowAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.56</td>
+    <td>QuickAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.59</td>
+   </tr>
+   <tr >
+    <td>suite/bf13.t2</td>
+    <td>SlowAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.58</td>
+    <td>QuickAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.56</td>
+   </tr>
+   <tr >
+    <td>suite/bf14.t2</td>
+    <td>SlowAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.57</td>
+    <td>QuickAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.56</td>
+   </tr>
+   <tr >
+    <td>suite/bf15.t2</td>
+    <td>SlowAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.60</td>
+    <td>QuickAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.58</td>
+   </tr>
+   <tr >
+    <td>suite/bf16.t2</td>
+    <td>SlowAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.60</td>
+    <td>QuickAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.58</td>
+   </tr>
+   <tr >
+    <td>suite/bf17.t2</td>
+    <td>SlowAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.57</td>
+    <td>QuickAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.56</td>
+   </tr>
+   <tr >
+    <td>suite/bf18.t2</td>
+    <td>SlowAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.56</td>
+    <td>QuickAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.56</td>
+   </tr>
+   <tr >
+    <td>suite/bf19.t2</td>
+    <td>SlowAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.56</td>
+    <td>QuickAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.56</td>
+   </tr>
+   <tr >
+    <td>suite/bf20.t2</td>
+    <td>SlowAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.56</td>
+    <td>QuickAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.59</td>
+   </tr>
+   <tr >
+    <td>suite/bf5.t2</td>
+    <td>SlowAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.56</td>
+    <td>QuickAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.58</td>
+   </tr>
+   <tr >
+    <td>suite/bf6.t2</td>
+    <td>SlowAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.56</td>
+    <td>QuickAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.56</td>
+   </tr>
+   <tr >
+    <td>suite/bf7.t2</td>
+    <td>SlowAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.56</td>
+    <td>QuickAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.56</td>
+   </tr>
+   <tr >
+    <td>suite/bf8.t2</td>
+    <td>SlowAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.56</td>
+    <td>QuickAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.56</td>
+   </tr>
+   <tr >
+    <td>suite/bf9.t2</td>
+    <td>SlowAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.56</td>
+    <td>QuickAlternation/suite/bfSAFE+TERMINATING</td>
+    <td>0.56</td>
+   </tr>
+   <tr >
+    <td>suite/bio.t2</td>
+    <td>SlowAlternation/suite/bio.tTIMEOUT</td>
+    <td>60.00</td>
+    <td>QuickAlternation/suite/bio.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/bitcount16.t2</td>
+    <td>SlowAlternation/suite/bitcountSAFE+TERMINATING</td>
+    <td>0.51</td>
+    <td>QuickAlternation/suite/bitcountSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>suite/bitcount32.t2</td>
+    <td>SlowAlternation/suite/bitcountSAFE+TERMINATING</td>
+    <td>0.53</td>
+    <td>QuickAlternation/suite/bitcountSAFE+TERMINATING</td>
+    <td>0.52</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/brockschmidt_1.t2</td>
+    <td>SlowAlternation/suite/brockschmidt_SAFE+TERMINATION UNKNOWN</td>
+    <td>13.87</td>
+    <td>QuickAlternation/suite/brockschmidt_TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/broydn.t2</td>
+    <td>SlowAlternation/suite/broydn.tSAFE+TERMINATING</td>
+    <td>19.58</td>
+    <td>QuickAlternation/suite/broydn.tSAFE+TERMINATING</td>
+    <td>19.96</td>
+   </tr>
+   <tr >
+    <td>suite/brp.t2</td>
+    <td>SlowAlternation/suite/brp.tSAFE+TERMINATING</td>
+    <td>0.34</td>
+    <td>QuickAlternation/suite/brp.tSAFE+TERMINATING</td>
+    <td>0.31</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/brp_withassume.t2</td>
+    <td>SlowAlternation/suite/brp_withassume.tSAFE+TERMINATING</td>
+    <td>23.07</td>
+    <td>QuickAlternation/suite/brp_withassume.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/bs.t2</td>
+    <td>SlowAlternation/suite/bs.tSAFE+TERMINATION UNKNOWN</td>
+    <td>17.68</td>
+    <td>QuickAlternation/suite/bs.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/bsort100.t2</td>
+    <td>SlowAlternation/suite/bsortSAFE+TERMINATING</td>
+    <td>0.56</td>
+    <td>QuickAlternation/suite/bsortSAFE+TERMINATING</td>
+    <td>0.58</td>
+   </tr>
+   <tr >
+    <td>suite/bubblesort.t2</td>
+    <td>SlowAlternation/suite/bubblesort.tSAFE+TERMINATING</td>
+    <td>0.52</td>
+    <td>QuickAlternation/suite/bubblesort.tSAFE+TERMINATING</td>
+    <td>0.53</td>
+   </tr>
+   <tr >
+    <td>suite/bubblesort_inner_loop.t2</td>
+    <td>SlowAlternation/suite/bubblesort_inner_loop.tSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/bubblesort_inner_loop.tSAFE+TERMINATING</td>
+    <td>0.52</td>
+   </tr>
+   <tr >
+    <td>suite/buggyNonTermLoop.t2</td>
+    <td>SlowAlternation/suite/buggyNonTermLoop.tSAFE+TERMINATING</td>
+    <td>0.31</td>
+    <td>QuickAlternation/suite/buggyNonTermLoop.tSAFE+TERMINATING</td>
+    <td>0.31</td>
+   </tr>
+   <tr >
+    <td>suite/byron-1.t2</td>
+    <td>SlowAlternation/suite/byron-SAFE+TERMINATING</td>
+    <td>0.89</td>
+    <td>QuickAlternation/suite/byron-SAFE+TERMINATING</td>
+    <td>0.88</td>
+   </tr>
+   <tr >
+    <td>suite/byron-2.t2</td>
+    <td>SlowAlternation/suite/byron-SAFE+TERMINATING</td>
+    <td>0.52</td>
+    <td>QuickAlternation/suite/byron-SAFE+TERMINATING</td>
+    <td>0.52</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/byron-3.t2</td>
+    <td>SlowAlternation/suite/byron-SAFE+TERMINATING</td>
+    <td>0.91</td>
+    <td>QuickAlternation/suite/byron-TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/byron-4.t2</td>
+    <td>SlowAlternation/suite/byron-SAFE+TERMINATING</td>
+    <td>0.69</td>
+    <td>QuickAlternation/suite/byron-SAFE+TERMINATING</td>
+    <td>0.72</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/cfg.t2</td>
+    <td>SlowAlternation/suite/cfg.tSAFE+NONTERMINATING</td>
+    <td>1.27</td>
+    <td>QuickAlternation/suite/cfg.tSAFE+NONTERMINATING</td>
+    <td>0.75</td>
+   </tr>
+   <tr >
+    <td>suite/cnt.t2</td>
+    <td>SlowAlternation/suite/cnt.tSAFE+TERMINATING</td>
+    <td>0.56</td>
+    <td>QuickAlternation/suite/cnt.tSAFE+TERMINATING</td>
+    <td>0.56</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/collatz.t2</td>
+    <td>SlowAlternation/suite/collatz.tError: No result</td>
+    <td>3.03</td>
+    <td>QuickAlternation/suite/collatz.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/complex_guard.t2</td>
+    <td>SlowAlternation/suite/complex_guard.tSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/complex_guard.tSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>suite/compress.t2</td>
+    <td>SlowAlternation/suite/compress.tError: No result</td>
+    <td>36.97</td>
+    <td>QuickAlternation/suite/compress.tError: No result</td>
+    <td>37.84</td>
+   </tr>
+   <tr >
+    <td>suite/constants.t2</td>
+    <td>SlowAlternation/suite/constants.tSAFE+TERMINATING</td>
+    <td>0.49</td>
+    <td>QuickAlternation/suite/constants.tSAFE+TERMINATING</td>
+    <td>0.51</td>
+   </tr>
+   <tr >
+    <td>suite/consts1.t2</td>
+    <td>SlowAlternation/suite/constsSAFE+TERMINATING</td>
+    <td>0.60</td>
+    <td>QuickAlternation/suite/constsSAFE+TERMINATING</td>
+    <td>0.62</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/consts1nt.t2</td>
+    <td>SlowAlternation/suite/constsSAFE+NONTERMINATING</td>
+    <td>3.13</td>
+    <td>QuickAlternation/suite/constsTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/consts2.t2</td>
+    <td>SlowAlternation/suite/constsSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/constsSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>suite/consts2nt.t2</td>
+    <td>SlowAlternation/suite/constsSAFE+NONTERMINATING</td>
+    <td>1.01</td>
+    <td>QuickAlternation/suite/constsSAFE+NONTERMINATING</td>
+    <td>0.71</td>
+   </tr>
+   <tr >
+    <td>suite/consts3.t2</td>
+    <td>SlowAlternation/suite/constsSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/constsSAFE+TERMINATING</td>
+    <td>0.53</td>
+   </tr>
+   <tr >
+    <td>suite/consts3nt.t2</td>
+    <td>SlowAlternation/suite/constsSAFE+NONTERMINATING</td>
+    <td>1.00</td>
+    <td>QuickAlternation/suite/constsSAFE+NONTERMINATING</td>
+    <td>0.71</td>
+   </tr>
+   <tr >
+    <td>suite/consts4.t2</td>
+    <td>SlowAlternation/suite/constsSAFE+TERMINATING</td>
+    <td>0.49</td>
+    <td>QuickAlternation/suite/constsSAFE+TERMINATING</td>
+    <td>0.49</td>
+   </tr>
+   <tr >
+    <td>suite/consts4nt.t2</td>
+    <td>SlowAlternation/suite/constsSAFE+NONTERMINATING</td>
+    <td>1.05</td>
+    <td>QuickAlternation/suite/constsSAFE+NONTERMINATING</td>
+    <td>0.72</td>
+   </tr>
+   <tr >
+    <td>suite/consts5.t2</td>
+    <td>SlowAlternation/suite/constsSAFE+TERMINATING</td>
+    <td>0.56</td>
+    <td>QuickAlternation/suite/constsSAFE+TERMINATING</td>
+    <td>0.57</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/consts5nt.t2</td>
+    <td>SlowAlternation/suite/constsSAFE+NONTERMINATING</td>
+    <td>1.28</td>
+    <td>QuickAlternation/suite/constsSAFE+NONTERMINATING</td>
+    <td>0.75</td>
+   </tr>
+   <tr >
+    <td>suite/cover.t2</td>
+    <td>SlowAlternation/suite/cover.tError: No result</td>
+    <td>34.11</td>
+    <td>QuickAlternation/suite/cover.tError: No result</td>
+    <td>34.15</td>
+   </tr>
+   <tr >
+    <td>suite/crc.t2</td>
+    <td>SlowAlternation/suite/crc.tSAFE+TERMINATING</td>
+    <td>0.67</td>
+    <td>QuickAlternation/suite/crc.tSAFE+TERMINATING</td>
+    <td>0.67</td>
+   </tr>
+   <tr >
+    <td>suite/create.t2</td>
+    <td>SlowAlternation/suite/create.tSAFE+TERMINATING</td>
+    <td>0.49</td>
+    <td>QuickAlternation/suite/create.tSAFE+TERMINATING</td>
+    <td>0.56</td>
+   </tr>
+   <tr >
+    <td>suite/create_seg.t2</td>
+    <td>SlowAlternation/suite/create_seg.tSAFE+TERMINATING</td>
+    <td>0.49</td>
+    <td>QuickAlternation/suite/create_seg.tSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>suite/create_via_tmps.t2</td>
+    <td>SlowAlternation/suite/create_via_tmps.tSAFE+TERMINATING</td>
+    <td>0.63</td>
+    <td>QuickAlternation/suite/create_via_tmps.tSAFE+TERMINATING</td>
+    <td>0.60</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/ctl.t2</td>
+    <td>SlowAlternation/suite/ctl.tSAFE+NONTERMINATING</td>
+    <td>4.15</td>
+    <td>QuickAlternation/suite/ctl.tSAFE+NONTERMINATING</td>
+    <td>0.72</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/curious.t2</td>
+    <td>SlowAlternation/suite/curious.tSAFE+NONTERMINATING</td>
+    <td>2.14</td>
+    <td>QuickAlternation/suite/curious.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/curious2.t2</td>
+    <td>SlowAlternation/suite/curiousSAFE+TERMINATING</td>
+    <td>0.35</td>
+    <td>QuickAlternation/suite/curiousSAFE+TERMINATING</td>
+    <td>0.35</td>
+   </tr>
+   <tr >
+    <td>suite/curious4.t2</td>
+    <td>SlowAlternation/suite/curiousTIMEOUT</td>
+    <td>60.00</td>
+    <td>QuickAlternation/suite/curiousTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/d.t2</td>
+    <td>SlowAlternation/suite/d.tSAFE+TERMINATION UNKNOWN</td>
+    <td>20.75</td>
+    <td>QuickAlternation/suite/d.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/dead.neg-st88b-succeed.t2</td>
+    <td>SlowAlternation/suite/dead.neg-stError: No result</td>
+    <td>2.78</td>
+    <td>QuickAlternation/suite/dead.neg-stTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/destroy.t2</td>
+    <td>SlowAlternation/suite/destroy.tSAFE+TERMINATING</td>
+    <td>0.59</td>
+    <td>QuickAlternation/suite/destroy.tSAFE+TERMINATING</td>
+    <td>0.60</td>
+   </tr>
+   <tr >
+    <td>suite/destroy_seg.t2</td>
+    <td>SlowAlternation/suite/destroy_seg.tSAFE+TERMINATING</td>
+    <td>0.62</td>
+    <td>QuickAlternation/suite/destroy_seg.tSAFE+TERMINATING</td>
+    <td>0.61</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/destroy_seg_leak.t2</td>
+    <td>SlowAlternation/suite/destroy_seg_leak.tSAFE+TERMINATION UNKNOWN</td>
+    <td>34.49</td>
+    <td>QuickAlternation/suite/destroy_seg_leak.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/disj_nightmare.t2</td>
+    <td>SlowAlternation/suite/disj_nightmare.tSAFE+TERMINATING</td>
+    <td>13.36</td>
+    <td>QuickAlternation/suite/disj_nightmare.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/disj_nightmare_abi.t2</td>
+    <td>SlowAlternation/suite/disj_nightmare_abi.tSAFE+TERMINATING</td>
+    <td>1.97</td>
+    <td>QuickAlternation/suite/disj_nightmare_abi.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/dropbuf-live.t2</td>
+    <td>SlowAlternation/suite/dropbuf-live.tSAFE+TERMINATING</td>
+    <td>0.36</td>
+    <td>QuickAlternation/suite/dropbuf-live.tSAFE+TERMINATING</td>
+    <td>0.34</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/dropbuf.t2</td>
+    <td>SlowAlternation/suite/dropbuf.tSAFE+NONTERMINATING</td>
+    <td>6.59</td>
+    <td>QuickAlternation/suite/dropbuf.tSAFE+NONTERMINATING</td>
+    <td>0.92</td>
+   </tr>
+   <tr >
+    <td>suite/dummy.t2</td>
+    <td>SlowAlternation/suite/dummy.tSAFE+NONTERMINATING</td>
+    <td>1.06</td>
+    <td>QuickAlternation/suite/dummy.tSAFE+NONTERMINATING</td>
+    <td>0.73</td>
+   </tr>
+   <tr >
+    <td>suite/dumper.t2</td>
+    <td>SlowAlternation/suite/dumper.tTIMEOUT</td>
+    <td>60.00</td>
+    <td>QuickAlternation/suite/dumper.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/edn.t2</td>
+    <td>SlowAlternation/suite/edn.tSAFE+TERMINATING</td>
+    <td>0.73</td>
+    <td>QuickAlternation/suite/edn.tSAFE+TERMINATING</td>
+    <td>0.73</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/efegp.t2</td>
+    <td>SlowAlternation/suite/efegp.tError: No result</td>
+    <td>24.58</td>
+    <td>QuickAlternation/suite/efegp.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/elmhes.t2</td>
+    <td>SlowAlternation/suite/elmhes.tSAFE+TERMINATING</td>
+    <td>1.11</td>
+    <td>QuickAlternation/suite/elmhes.tSAFE+TERMINATING</td>
+    <td>1.14</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/eric.t2</td>
+    <td>SlowAlternation/suite/eric.tSAFE+TERMINATION UNKNOWN</td>
+    <td>19.88</td>
+    <td>QuickAlternation/suite/eric.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/eric1.t2</td>
+    <td>SlowAlternation/suite/ericError: No result</td>
+    <td>57.73</td>
+    <td>QuickAlternation/suite/ericTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/eric2.t2</td>
+    <td>SlowAlternation/suite/ericTIMEOUT</td>
+    <td>60.00</td>
+    <td>QuickAlternation/suite/ericTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/eric3.t2</td>
+    <td>SlowAlternation/suite/ericSAFE+NONTERMINATING</td>
+    <td>5.47</td>
+    <td>QuickAlternation/suite/ericTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/ex1.t2</td>
+    <td>SlowAlternation/suite/exSAFE+NONTERMINATING</td>
+    <td>0.95</td>
+    <td>QuickAlternation/suite/exSAFE+NONTERMINATING</td>
+    <td>0.69</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/ex10.t2</td>
+    <td>SlowAlternation/suite/exSAFE+NONTERMINATING</td>
+    <td>4.89</td>
+    <td>QuickAlternation/suite/exTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/ex11.t2</td>
+    <td>SlowAlternation/suite/exSAFE+TERMINATION UNKNOWN</td>
+    <td>20.14</td>
+    <td>QuickAlternation/suite/exTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/ex12.t2</td>
+    <td>SlowAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.48</td>
+   </tr>
+   <tr >
+    <td>suite/ex13.t2</td>
+    <td>SlowAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.33</td>
+    <td>QuickAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.33</td>
+   </tr>
+   <tr >
+    <td>suite/ex14.t2</td>
+    <td>SlowAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>suite/ex15.t2</td>
+    <td>SlowAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.34</td>
+    <td>QuickAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.34</td>
+   </tr>
+   <tr >
+    <td>suite/ex16.t2</td>
+    <td>SlowAlternation/suite/exTIMEOUT</td>
+    <td>60.00</td>
+    <td>QuickAlternation/suite/exTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/ex17.t2</td>
+    <td>SlowAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.69</td>
+    <td>QuickAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.69</td>
+   </tr>
+   <tr >
+    <td>suite/ex18.t2</td>
+    <td>SlowAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.62</td>
+    <td>QuickAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.59</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/ex19.t2</td>
+    <td>SlowAlternation/suite/exSAFE+NONTERMINATING</td>
+    <td>7.83</td>
+    <td>QuickAlternation/suite/exTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/ex2.t2</td>
+    <td>SlowAlternation/suite/exSAFE+NONTERMINATING</td>
+    <td>1.08</td>
+    <td>QuickAlternation/suite/exSAFE+NONTERMINATING</td>
+    <td>0.72</td>
+   </tr>
+   <tr >
+    <td>suite/ex20.t2</td>
+    <td>SlowAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.48</td>
+   </tr>
+   <tr >
+    <td>suite/ex21.t2</td>
+    <td>SlowAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>suite/ex22.t2</td>
+    <td>SlowAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.58</td>
+    <td>QuickAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.58</td>
+   </tr>
+   <tr >
+    <td>suite/ex23.t2</td>
+    <td>SlowAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>suite/ex26.t2</td>
+    <td>SlowAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>suite/ex27.t2</td>
+    <td>SlowAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.62</td>
+    <td>QuickAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.64</td>
+   </tr>
+   <tr >
+    <td>suite/ex29.t2</td>
+    <td>SlowAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.38</td>
+    <td>QuickAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.38</td>
+   </tr>
+   <tr >
+    <td>suite/ex3.t2</td>
+    <td>SlowAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.52</td>
+   </tr>
+   <tr >
+    <td>suite/ex30.t2</td>
+    <td>SlowAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.48</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/ex31.t2</td>
+    <td>SlowAlternation/suite/exSAFE+TERMINATION UNKNOWN</td>
+    <td>11.06</td>
+    <td>QuickAlternation/suite/exTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/ex32.t2</td>
+    <td>SlowAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>suite/ex33.t2</td>
+    <td>SlowAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.36</td>
+    <td>QuickAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.36</td>
+   </tr>
+   <tr >
+    <td>suite/ex34.t2</td>
+    <td>SlowAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.34</td>
+    <td>QuickAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.34</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/ex36.t2</td>
+    <td>SlowAlternation/suite/exSAFE+NONTERMINATING</td>
+    <td>16.27</td>
+    <td>QuickAlternation/suite/exSAFE+NONTERMINATING</td>
+    <td>3.48</td>
+   </tr>
+   <tr >
+    <td>suite/ex37.t2</td>
+    <td>SlowAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.33</td>
+    <td>QuickAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.33</td>
+   </tr>
+   <tr >
+    <td>suite/ex4.t2</td>
+    <td>SlowAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.53</td>
+    <td>QuickAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.53</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/ex40.t2</td>
+    <td>SlowAlternation/suite/exSAFE+NONTERMINATING</td>
+    <td>3.20</td>
+    <td>QuickAlternation/suite/exSAFE+NONTERMINATING</td>
+    <td>0.69</td>
+   </tr>
+   <tr >
+    <td>suite/ex5.t2</td>
+    <td>SlowAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.33</td>
+    <td>QuickAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.31</td>
+   </tr>
+   <tr >
+    <td>suite/ex6.t2</td>
+    <td>SlowAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.34</td>
+    <td>QuickAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.33</td>
+   </tr>
+   <tr >
+    <td>suite/ex7.t2</td>
+    <td>SlowAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/exSAFE+TERMINATING</td>
+    <td>0.48</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/ex8.t2</td>
+    <td>SlowAlternation/suite/exSAFE+NONTERMINATING</td>
+    <td>1.78</td>
+    <td>QuickAlternation/suite/exSAFE+NONTERMINATING</td>
+    <td>0.77</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/ex9.t2</td>
+    <td>SlowAlternation/suite/exSAFE+NONTERMINATING</td>
+    <td>2.55</td>
+    <td>QuickAlternation/suite/exSAFE+NONTERMINATING</td>
+    <td>0.78</td>
+   </tr>
+   <tr >
+    <td>suite/example.t2</td>
+    <td>SlowAlternation/suite/example.tSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/example.tSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/fake-succeed.t2</td>
+    <td>SlowAlternation/suite/fake-succeed.tSAFE+NONTERMINATING</td>
+    <td>9.72</td>
+    <td>QuickAlternation/suite/fake-succeed.tSAFE+NONTERMINATING</td>
+    <td>1.03</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/fast_poll.t2</td>
+    <td>SlowAlternation/suite/fast_poll.tSAFE+NONTERMINATING</td>
+    <td>4.09</td>
+    <td>QuickAlternation/suite/fast_poll.tSAFE+NONTERMINATING</td>
+    <td>1.59</td>
+   </tr>
+   <tr >
+    <td>suite/fdct.t2</td>
+    <td>SlowAlternation/suite/fdct.tSAFE+TERMINATING</td>
+    <td>0.58</td>
+    <td>QuickAlternation/suite/fdct.tSAFE+TERMINATING</td>
+    <td>0.56</td>
+   </tr>
+   <tr >
+    <td>suite/fermat.t2</td>
+    <td>SlowAlternation/suite/fermat.tSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/fermat.tSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>suite/fibcall.t2</td>
+    <td>SlowAlternation/suite/fibcall.tSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/fibcall.tSAFE+TERMINATING</td>
+    <td>0.52</td>
+   </tr>
+   <tr >
+    <td>suite/fir.t2</td>
+    <td>SlowAlternation/suite/fir.tSAFE+TERMINATING</td>
+    <td>0.55</td>
+    <td>QuickAlternation/suite/fir.tSAFE+TERMINATING</td>
+    <td>0.56</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/firewire.t2</td>
+    <td>SlowAlternation/suite/firewire.tSAFE+TERMINATING</td>
+    <td>40.33</td>
+    <td>QuickAlternation/suite/firewire.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/flipflop.t2</td>
+    <td>SlowAlternation/suite/flipflop.tSAFE+NONTERMINATING</td>
+    <td>1.05</td>
+    <td>QuickAlternation/suite/flipflop.tSAFE+NONTERMINATING</td>
+    <td>0.78</td>
+   </tr>
+   <tr >
+    <td>suite/florian.t2</td>
+    <td>SlowAlternation/suite/florian.tSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/florian.tSAFE+TERMINATING</td>
+    <td>0.48</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/florian_new_ex.t2</td>
+    <td>SlowAlternation/suite/florian_new_ex.tError: No result</td>
+    <td>59.03</td>
+    <td>QuickAlternation/suite/florian_new_ex.tSAFE+NONTERMINATING</td>
+    <td>9.81</td>
+   </tr>
+   <tr >
+    <td>suite/florian_pldi.t2</td>
+    <td>SlowAlternation/suite/florian_pldi.tSAFE+TERMINATING</td>
+    <td>0.53</td>
+    <td>QuickAlternation/suite/florian_pldi.tSAFE+TERMINATING</td>
+    <td>0.53</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/florian_sas1.t2</td>
+    <td>SlowAlternation/suite/florian_sasSAFE+TERMINATING</td>
+    <td>11.30</td>
+    <td>QuickAlternation/suite/florian_sasTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/florian_sas2.t2</td>
+    <td>SlowAlternation/suite/florian_sasTIMEOUT</td>
+    <td>60.00</td>
+    <td>QuickAlternation/suite/florian_sasTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/florian_sumit.t2</td>
+    <td>SlowAlternation/suite/florian_sumit.tSAFE+TERMINATION UNKNOWN</td>
+    <td>21.08</td>
+    <td>QuickAlternation/suite/florian_sumit.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/foo.t2</td>
+    <td>SlowAlternation/suite/foo.tTIMEOUT</td>
+    <td>60.00</td>
+    <td>QuickAlternation/suite/foo.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/foo2.t2</td>
+    <td>SlowAlternation/suite/fooSAFE+TERMINATING</td>
+    <td>0.31</td>
+    <td>QuickAlternation/suite/fooSAFE+TERMINATING</td>
+    <td>0.31</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/foo3.t2</td>
+    <td>SlowAlternation/suite/fooSAFE+TERMINATING</td>
+    <td>15.22</td>
+    <td>QuickAlternation/suite/fooSAFE+TERMINATING</td>
+    <td>12.50</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/fourn.t2</td>
+    <td>SlowAlternation/suite/fourn.tSAFE+NONTERMINATING</td>
+    <td>10.20</td>
+    <td>QuickAlternation/suite/fourn.tSAFE+NONTERMINATING</td>
+    <td>4.81</td>
+   </tr>
+   <tr >
+    <td>suite/fuhs-inflasso.t2</td>
+    <td>SlowAlternation/suite/fuhs-inflasso.tSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/fuhs-inflasso.tSAFE+TERMINATING</td>
+    <td>0.57</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/fun1.t2</td>
+    <td>SlowAlternation/suite/funSAFE+TERMINATION UNKNOWN</td>
+    <td>39.06</td>
+    <td>QuickAlternation/suite/funTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/fun10.t2</td>
+    <td>SlowAlternation/suite/funSAFE+NONTERMINATING</td>
+    <td>27.16</td>
+    <td>QuickAlternation/suite/funSAFE+NONTERMINATING</td>
+    <td>1.34</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/fun10b.t2</td>
+    <td>SlowAlternation/suite/funSAFE+NONTERMINATING</td>
+    <td>25.33</td>
+    <td>QuickAlternation/suite/funSAFE+NONTERMINATING</td>
+    <td>1.29</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/fun11.t2</td>
+    <td>SlowAlternation/suite/funSAFE+TERMINATION UNKNOWN</td>
+    <td>2.00</td>
+    <td>QuickAlternation/suite/funTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/fun1b.t2</td>
+    <td>SlowAlternation/suite/funSAFE+TERMINATION UNKNOWN</td>
+    <td>38.42</td>
+    <td>QuickAlternation/suite/funTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/fun2.t2</td>
+    <td>SlowAlternation/suite/funSAFE+TERMINATING</td>
+    <td>7.20</td>
+    <td>QuickAlternation/suite/funTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/fun2b.t2</td>
+    <td>SlowAlternation/suite/funSAFE+TERMINATING</td>
+    <td>4.84</td>
+    <td>QuickAlternation/suite/funTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/fun3.t2</td>
+    <td>SlowAlternation/suite/funSAFE+TERMINATING</td>
+    <td>6.97</td>
+    <td>QuickAlternation/suite/funTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/fun4-alt.t2</td>
+    <td>SlowAlternation/suite/funSAFE+TERMINATING</td>
+    <td>6.08</td>
+    <td>QuickAlternation/suite/funTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/fun4.t2</td>
+    <td>SlowAlternation/suite/funSAFE+TERMINATING</td>
+    <td>8.20</td>
+    <td>QuickAlternation/suite/funTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/fun5.t2</td>
+    <td>SlowAlternation/suite/funError: No result</td>
+    <td>27.03</td>
+    <td>QuickAlternation/suite/funTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/fun6.t2</td>
+    <td>SlowAlternation/suite/funSAFE+NONTERMINATING</td>
+    <td>7.62</td>
+    <td>QuickAlternation/suite/funSAFE+NONTERMINATING</td>
+    <td>1.03</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/fun7.t2</td>
+    <td>SlowAlternation/suite/funError: No result</td>
+    <td>2.39</td>
+    <td>QuickAlternation/suite/funTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/fun8.t2</td>
+    <td>SlowAlternation/suite/funSAFE+TERMINATING</td>
+    <td>0.56</td>
+    <td>QuickAlternation/suite/funSAFE+TERMINATING</td>
+    <td>0.58</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/fun9.t2</td>
+    <td>SlowAlternation/suite/funSAFE+TERMINATION UNKNOWN</td>
+    <td>23.42</td>
+    <td>QuickAlternation/suite/funTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/graycode.t2</td>
+    <td>SlowAlternation/suite/graycode.tSAFE+TERMINATING</td>
+    <td>0.73</td>
+    <td>QuickAlternation/suite/graycode.tSAFE+TERMINATING</td>
+    <td>0.70</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/hand7.t2</td>
+    <td>SlowAlternation/suite/handSAFE+NONTERMINATING</td>
+    <td>1.33</td>
+    <td>QuickAlternation/suite/handSAFE+NONTERMINATING</td>
+    <td>0.72</td>
+   </tr>
+   <tr >
+    <td>suite/hongyi1.t2</td>
+    <td>SlowAlternation/suite/hongyiSAFE+TERMINATING</td>
+    <td>15.02</td>
+    <td>QuickAlternation/suite/hongyiSAFE+TERMINATING</td>
+    <td>14.70</td>
+   </tr>
+   <tr >
+    <td>suite/hqr.t2</td>
+    <td>SlowAlternation/suite/hqr.tTIMEOUT</td>
+    <td>60.00</td>
+    <td>QuickAlternation/suite/hqr.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/huh.t2</td>
+    <td>SlowAlternation/suite/huh.tSAFE+TERMINATING</td>
+    <td>0.52</td>
+    <td>QuickAlternation/suite/huh.tSAFE+TERMINATING</td>
+    <td>0.51</td>
+   </tr>
+   <tr >
+    <td>suite/iecs.t2</td>
+    <td>SlowAlternation/suite/iecs.tSAFE+TERMINATING</td>
+    <td>0.89</td>
+    <td>QuickAlternation/suite/iecs.tSAFE+TERMINATING</td>
+    <td>0.87</td>
+   </tr>
+   <tr >
+    <td>suite/insertsort.t2</td>
+    <td>SlowAlternation/suite/insertsort.tSAFE+NONTERMINATING</td>
+    <td>1.09</td>
+    <td>QuickAlternation/suite/insertsort.tSAFE+NONTERMINATING</td>
+    <td>0.74</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/intSqRoot.t2</td>
+    <td>SlowAlternation/suite/intSqRoot.tSAFE+TERMINATION UNKNOWN</td>
+    <td>11.19</td>
+    <td>QuickAlternation/suite/intSqRoot.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/jacobi.t2</td>
+    <td>SlowAlternation/suite/jacobi.tSAFE+TERMINATING</td>
+    <td>6.59</td>
+    <td>QuickAlternation/suite/jacobi.tSAFE+TERMINATING</td>
+    <td>6.70</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/janne_complex.t2</td>
+    <td>SlowAlternation/suite/janne_complex.tError: No result</td>
+    <td>42.99</td>
+    <td>QuickAlternation/suite/janne_complex.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/java_Ackermann.c.t2</td>
+    <td>SlowAlternation/suite/java_Ackermann.c.tSAFE+TERMINATING</td>
+    <td>1.17</td>
+    <td>QuickAlternation/suite/java_Ackermann.c.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/java_Avg.c.t2</td>
+    <td>SlowAlternation/suite/java_Avg.c.tTIMEOUT</td>
+    <td>60.00</td>
+    <td>QuickAlternation/suite/java_Avg.c.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/java_Break.c.t2</td>
+    <td>SlowAlternation/suite/java_Break.c.tSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/java_Break.c.tSAFE+TERMINATING</td>
+    <td>0.51</td>
+   </tr>
+   <tr >
+    <td>suite/java_BubbleSort.c.t2</td>
+    <td>SlowAlternation/suite/java_BubbleSort.c.tSAFE+TERMINATING</td>
+    <td>0.55</td>
+    <td>QuickAlternation/suite/java_BubbleSort.c.tSAFE+TERMINATING</td>
+    <td>0.55</td>
+   </tr>
+   <tr >
+    <td>suite/java_Continue1.c.t2</td>
+    <td>SlowAlternation/suite/java_ContinueSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/java_ContinueSAFE+TERMINATING</td>
+    <td>0.52</td>
+   </tr>
+   <tr >
+    <td>suite/java_DivMinus1.c.t2</td>
+    <td>SlowAlternation/suite/java_DivMinusSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/java_DivMinusSAFE+TERMINATING</td>
+    <td>0.53</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/java_Double1.c.t2</td>
+    <td>SlowAlternation/suite/java_DoubleSAFE+TERMINATING</td>
+    <td>2.05</td>
+    <td>QuickAlternation/suite/java_DoubleTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/java_Double2.c.t2</td>
+    <td>SlowAlternation/suite/java_DoubleSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/java_DoubleSAFE+TERMINATING</td>
+    <td>0.52</td>
+   </tr>
+   <tr >
+    <td>suite/java_Double3.c.t2</td>
+    <td>SlowAlternation/suite/java_DoubleSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/java_DoubleSAFE+TERMINATING</td>
+    <td>0.51</td>
+   </tr>
+   <tr >
+    <td>suite/java_Duplicate.c.t2</td>
+    <td>SlowAlternation/suite/java_Duplicate.c.tSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/java_Duplicate.c.tSAFE+TERMINATING</td>
+    <td>0.51</td>
+   </tr>
+   <tr >
+    <td>suite/java_FactSum.c.t2</td>
+    <td>SlowAlternation/suite/java_FactSum.c.tSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/java_FactSum.c.tSAFE+TERMINATING</td>
+    <td>0.51</td>
+   </tr>
+   <tr >
+    <td>suite/java_Factorial.c.t2</td>
+    <td>SlowAlternation/suite/java_Factorial.c.tSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/java_Factorial.c.tSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>suite/java_LogBuiltIn.c.t2</td>
+    <td>SlowAlternation/suite/java_LogBuiltIn.c.tSAFE+TERMINATING</td>
+    <td>0.53</td>
+    <td>QuickAlternation/suite/java_LogBuiltIn.c.tSAFE+TERMINATING</td>
+    <td>0.52</td>
+   </tr>
+   <tr >
+    <td>suite/java_MinusBuiltIn.c.t2</td>
+    <td>SlowAlternation/suite/java_MinusBuiltIn.c.tSAFE+TERMINATING</td>
+    <td>0.52</td>
+    <td>QuickAlternation/suite/java_MinusBuiltIn.c.tSAFE+TERMINATING</td>
+    <td>0.51</td>
+   </tr>
+   <tr >
+    <td>suite/java_Nested.c.t2</td>
+    <td>SlowAlternation/suite/java_Nested.c.tSAFE+TERMINATING</td>
+    <td>0.52</td>
+    <td>QuickAlternation/suite/java_Nested.c.tSAFE+TERMINATING</td>
+    <td>0.54</td>
+   </tr>
+   <tr >
+    <td>suite/java_NestedLoop.c.t2</td>
+    <td>SlowAlternation/suite/java_NestedLoop.c.tSAFE+TERMINATING</td>
+    <td>0.58</td>
+    <td>QuickAlternation/suite/java_NestedLoop.c.tSAFE+TERMINATING</td>
+    <td>0.59</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/java_PlusSwap.c.t2</td>
+    <td>SlowAlternation/suite/java_PlusSwap.c.tSAFE+TERMINATING</td>
+    <td>0.97</td>
+    <td>QuickAlternation/suite/java_PlusSwap.c.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/java_Recursions.c.t2</td>
+    <td>SlowAlternation/suite/java_Recursions.c.tSAFE+TERMINATING</td>
+    <td>0.56</td>
+    <td>QuickAlternation/suite/java_Recursions.c.tSAFE+TERMINATING</td>
+    <td>0.57</td>
+   </tr>
+   <tr >
+    <td>suite/java_Sequence.c.t2</td>
+    <td>SlowAlternation/suite/java_Sequence.c.tSAFE+TERMINATING</td>
+    <td>0.55</td>
+    <td>QuickAlternation/suite/java_Sequence.c.tSAFE+TERMINATING</td>
+    <td>0.55</td>
+   </tr>
+   <tr >
+    <td>suite/jfdctint.c.t2</td>
+    <td>SlowAlternation/suite/jfdctint.c.tSAFE+TERMINATING</td>
+    <td>0.52</td>
+    <td>QuickAlternation/suite/jfdctint.c.tSAFE+TERMINATING</td>
+    <td>0.53</td>
+   </tr>
+   <tr >
+    <td>suite/jfdctint.t2</td>
+    <td>SlowAlternation/suite/jfdctint.tSAFE+TERMINATING</td>
+    <td>0.53</td>
+    <td>QuickAlternation/suite/jfdctint.tSAFE+TERMINATING</td>
+    <td>0.52</td>
+   </tr>
+   <tr >
+    <td>suite/k.t2</td>
+    <td>SlowAlternation/suite/k.tSAFE+TERMINATING</td>
+    <td>1.45</td>
+    <td>QuickAlternation/suite/k.tSAFE+TERMINATING</td>
+    <td>1.27</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/k2.t2</td>
+    <td>SlowAlternation/suite/kSAFE+TERMINATING</td>
+    <td>0.95</td>
+    <td>QuickAlternation/suite/kTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/l1.t2</td>
+    <td>SlowAlternation/suite/lSAFE+TERMINATION UNKNOWN</td>
+    <td>11.09</td>
+    <td>QuickAlternation/suite/lTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/loop3.t2</td>
+    <td>SlowAlternation/suite/loopSAFE+TERMINATING</td>
+    <td>37.92</td>
+    <td>QuickAlternation/suite/loopSAFE+TERMINATING</td>
+    <td>38.77</td>
+   </tr>
+   <tr >
+    <td>suite/loop_on_input.t2</td>
+    <td>SlowAlternation/suite/loop_on_input.tSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/loop_on_input.tSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>suite/ludcmp.t2</td>
+    <td>SlowAlternation/suite/ludcmp.tSAFE+TERMINATING</td>
+    <td>1.81</td>
+    <td>QuickAlternation/suite/ludcmp.tSAFE+TERMINATING</td>
+    <td>1.84</td>
+   </tr>
+   <tr >
+    <td>suite/magic.t2</td>
+    <td>SlowAlternation/suite/magic.tSAFE+TERMINATING</td>
+    <td>0.94</td>
+    <td>QuickAlternation/suite/magic.tSAFE+TERMINATING</td>
+    <td>0.96</td>
+   </tr>
+   <tr >
+    <td>suite/matmul.t2</td>
+    <td>SlowAlternation/suite/matmul.tSAFE+TERMINATING</td>
+    <td>0.58</td>
+    <td>QuickAlternation/suite/matmul.tSAFE+TERMINATING</td>
+    <td>0.59</td>
+   </tr>
+   <tr >
+    <td>suite/matmult.t2</td>
+    <td>SlowAlternation/suite/matmult.tSAFE+TERMINATING</td>
+    <td>0.59</td>
+    <td>QuickAlternation/suite/matmult.tSAFE+TERMINATING</td>
+    <td>0.60</td>
+   </tr>
+   <tr >
+    <td>suite/matrixsqrt.t2</td>
+    <td>SlowAlternation/suite/matrixsqrt.tSAFE+TERMINATING</td>
+    <td>0.56</td>
+    <td>QuickAlternation/suite/matrixsqrt.tSAFE+TERMINATING</td>
+    <td>0.58</td>
+   </tr>
+   <tr >
+    <td>suite/mc91.t2</td>
+    <td>SlowAlternation/suite/mcSAFE+TERMINATING</td>
+    <td>0.52</td>
+    <td>QuickAlternation/suite/mcSAFE+TERMINATING</td>
+    <td>0.52</td>
+   </tr>
+   <tr >
+    <td>suite/mc91test.t2</td>
+    <td>SlowAlternation/suite/mcSAFE+TERMINATING</td>
+    <td>0.53</td>
+    <td>QuickAlternation/suite/mcSAFE+TERMINATING</td>
+    <td>0.55</td>
+   </tr>
+   <tr >
+    <td>suite/minmax.t2</td>
+    <td>SlowAlternation/suite/minmax.tSAFE+TERMINATING</td>
+    <td>0.36</td>
+    <td>QuickAlternation/suite/minmax.tSAFE+TERMINATING</td>
+    <td>0.38</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/n-1.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+TERMINATION UNKNOWN</td>
+    <td>13.69</td>
+    <td>QuickAlternation/suite/n-TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/n-10.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>1.52</td>
+    <td>QuickAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>0.91</td>
+   </tr>
+   <tr >
+    <td>suite/n-12.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>1.11</td>
+    <td>QuickAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>0.81</td>
+   </tr>
+   <tr >
+    <td>suite/n-12a.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>0.94</td>
+    <td>QuickAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>0.71</td>
+   </tr>
+   <tr >
+    <td>suite/n-13.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>0.98</td>
+    <td>QuickAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>0.73</td>
+   </tr>
+   <tr >
+    <td>suite/n-14.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>1.11</td>
+    <td>QuickAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>0.80</td>
+   </tr>
+   <tr >
+    <td>suite/n-15.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>0.98</td>
+    <td>QuickAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>0.76</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/n-15a.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+TERMINATION UNKNOWN</td>
+    <td>14.77</td>
+    <td>QuickAlternation/suite/n-TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/n-16.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>1.05</td>
+    <td>QuickAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>0.74</td>
+   </tr>
+   <tr >
+    <td>suite/n-16a.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>1.17</td>
+    <td>QuickAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>0.78</td>
+   </tr>
+   <tr >
+    <td>suite/n-17.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>1.06</td>
+    <td>QuickAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>0.76</td>
+   </tr>
+   <tr >
+    <td>suite/n-18.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>1.06</td>
+    <td>QuickAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>0.71</td>
+   </tr>
+   <tr >
+    <td>suite/n-18a.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>1.09</td>
+    <td>QuickAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>0.78</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/n-1c.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>1.44</td>
+    <td>QuickAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>0.79</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/n-1d.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+TERMINATION UNKNOWN</td>
+    <td>13.38</td>
+    <td>QuickAlternation/suite/n-TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/n-20.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>1.44</td>
+    <td>QuickAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>0.73</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/n-21.t2</td>
+    <td>SlowAlternation/suite/n-Error: No result</td>
+    <td>0.88</td>
+    <td>QuickAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>0.75</td>
+   </tr>
+   <tr >
+    <td>suite/n-3.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>1.14</td>
+    <td>QuickAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>0.74</td>
+   </tr>
+   <tr >
+    <td>suite/n-32.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>1.06</td>
+    <td>QuickAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>0.72</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/n-33.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>4.16</td>
+    <td>QuickAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>0.74</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/n-36.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+TERMINATION UNKNOWN</td>
+    <td>15.75</td>
+    <td>QuickAlternation/suite/n-TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/n-37.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>1.08</td>
+    <td>QuickAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>0.71</td>
+   </tr>
+   <tr >
+    <td>suite/n-38.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+TERMINATING</td>
+    <td>0.34</td>
+    <td>QuickAlternation/suite/n-SAFE+TERMINATING</td>
+    <td>0.34</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/n-3a.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+TERMINATION UNKNOWN</td>
+    <td>11.33</td>
+    <td>QuickAlternation/suite/n-TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/n-4.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>1.75</td>
+    <td>QuickAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>3.83</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/n-40.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+TERMINATION UNKNOWN</td>
+    <td>11.48</td>
+    <td>QuickAlternation/suite/n-TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/n-46.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>1.09</td>
+    <td>QuickAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>0.73</td>
+   </tr>
+   <tr >
+    <td>suite/n-48.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>1.23</td>
+    <td>QuickAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>0.81</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/n-5.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+TERMINATION UNKNOWN</td>
+    <td>21.94</td>
+    <td>QuickAlternation/suite/n-TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/n-6.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+TERMINATION UNKNOWN</td>
+    <td>13.59</td>
+    <td>QuickAlternation/suite/n-TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/n-6a.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+TERMINATION UNKNOWN</td>
+    <td>11.16</td>
+    <td>QuickAlternation/suite/n-TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/n-7.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+TERMINATION UNKNOWN</td>
+    <td>11.23</td>
+    <td>QuickAlternation/suite/n-TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/n-8.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>3.92</td>
+    <td>QuickAlternation/suite/n-TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/n-8a.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>1.20</td>
+    <td>QuickAlternation/suite/n-SAFE+NONTERMINATING</td>
+    <td>0.73</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/n-9.t2</td>
+    <td>SlowAlternation/suite/n-SAFE+TERMINATION UNKNOWN</td>
+    <td>11.34</td>
+    <td>QuickAlternation/suite/n-TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/n_firewire_instrumented-PP.t2</td>
+    <td>SlowAlternation/suite/n_firewire_instrumented-PP.tError: No result</td>
+    <td>59.63</td>
+    <td>QuickAlternation/suite/n_firewire_instrumented-PP.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/nakata.t2</td>
+    <td>SlowAlternation/suite/nakata.tError: No result</td>
+    <td>51.35</td>
+    <td>QuickAlternation/suite/nakata.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/nakata_withassume.t2</td>
+    <td>SlowAlternation/suite/nakata_withassume.tError: No result</td>
+    <td>41.81</td>
+    <td>QuickAlternation/suite/nakata_withassume.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/ndes.t2</td>
+    <td>SlowAlternation/suite/ndes.tSAFE+TERMINATING</td>
+    <td>7.17</td>
+    <td>QuickAlternation/suite/ndes.tSAFE+TERMINATING</td>
+    <td>7.26</td>
+   </tr>
+   <tr >
+    <td>suite/neg.t2</td>
+    <td>SlowAlternation/suite/neg.tSAFE+TERMINATING</td>
+    <td>0.34</td>
+    <td>QuickAlternation/suite/neg.tSAFE+TERMINATING</td>
+    <td>0.34</td>
+   </tr>
+   <tr >
+    <td>suite/nested.t2</td>
+    <td>SlowAlternation/suite/nested.tSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/nested.tSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>suite/nested2.t2</td>
+    <td>SlowAlternation/suite/nestedSAFE+TERMINATING</td>
+    <td>0.52</td>
+    <td>QuickAlternation/suite/nestedSAFE+TERMINATING</td>
+    <td>0.51</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/new_ex.t2</td>
+    <td>SlowAlternation/suite/new_ex.tTIMEOUT</td>
+    <td>60.00</td>
+    <td>QuickAlternation/suite/new_ex.tSAFE+NONTERMINATING</td>
+    <td>4.40</td>
+   </tr>
+   <tr >
+    <td>suite/non_term.t2</td>
+    <td>SlowAlternation/suite/non_term.tSAFE+NONTERMINATING</td>
+    <td>1.06</td>
+    <td>QuickAlternation/suite/non_term.tSAFE+NONTERMINATING</td>
+    <td>0.74</td>
+   </tr>
+   <tr >
+    <td>suite/ns.t2</td>
+    <td>SlowAlternation/suite/ns.tSAFE+TERMINATING</td>
+    <td>0.62</td>
+    <td>QuickAlternation/suite/ns.tSAFE+TERMINATING</td>
+    <td>0.64</td>
+   </tr>
+   <tr >
+    <td>suite/oct_vs_subpoly.t2</td>
+    <td>SlowAlternation/suite/oct_vs_subpoly.tSAFE+NONTERMINATING</td>
+    <td>0.92</td>
+    <td>QuickAlternation/suite/oct_vs_subpoly.tSAFE+NONTERMINATING</td>
+    <td>0.71</td>
+   </tr>
+   <tr >
+    <td>suite/opt-tree.c.t2</td>
+    <td>SlowAlternation/suite/opt-tree.c.tSAFE+TERMINATING</td>
+    <td>0.94</td>
+    <td>QuickAlternation/suite/opt-tree.c.tSAFE+TERMINATING</td>
+    <td>0.97</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/p-1.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>1.26</td>
+    <td>QuickAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>0.74</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/p-10.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>1.28</td>
+    <td>QuickAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>0.73</td>
+   </tr>
+   <tr >
+    <td>suite/p-12.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.51</td>
+   </tr>
+   <tr >
+    <td>suite/p-13.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.34</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.36</td>
+   </tr>
+   <tr >
+    <td>suite/p-14.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.52</td>
+   </tr>
+   <tr >
+    <td>suite/p-15.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.47</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.48</td>
+   </tr>
+   <tr >
+    <td>suite/p-16.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.47</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>suite/p-18.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.49</td>
+   </tr>
+   <tr >
+    <td>suite/p-19.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>1.20</td>
+    <td>QuickAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>0.72</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/p-19a.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>1.34</td>
+    <td>QuickAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>0.72</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/p-1a.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>1.27</td>
+    <td>QuickAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>0.72</td>
+   </tr>
+   <tr >
+    <td>suite/p-1b.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.49</td>
+   </tr>
+   <tr >
+    <td>suite/p-1c.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>1.26</td>
+    <td>QuickAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>0.77</td>
+   </tr>
+   <tr >
+    <td>suite/p-1d.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.54</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/p-20.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>1.38</td>
+    <td>QuickAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>0.72</td>
+   </tr>
+   <tr >
+    <td>suite/p-21.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.51</td>
+   </tr>
+   <tr >
+    <td>suite/p-22.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.52</td>
+   </tr>
+   <tr >
+    <td>suite/p-3.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.51</td>
+   </tr>
+   <tr >
+    <td>suite/p-32.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>1.03</td>
+    <td>QuickAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>0.72</td>
+   </tr>
+   <tr >
+    <td>suite/p-33.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>1.20</td>
+    <td>QuickAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>0.74</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/p-34.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>2.33</td>
+    <td>QuickAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>0.81</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/p-36.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATION UNKNOWN</td>
+    <td>11.92</td>
+    <td>QuickAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>1.19</td>
+   </tr>
+   <tr >
+    <td>suite/p-37.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.51</td>
+   </tr>
+   <tr >
+    <td>suite/p-38.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.36</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.36</td>
+   </tr>
+   <tr >
+    <td>suite/p-4.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>suite/p-40.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.52</td>
+   </tr>
+   <tr >
+    <td>suite/p-41.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.31</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.33</td>
+   </tr>
+   <tr >
+    <td>suite/p-42.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.51</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/p-43-terminate.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>14.53</td>
+    <td>QuickAlternation/suite/p-TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/p-43.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>5.09</td>
+    <td>QuickAlternation/suite/p-TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/p-44.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>suite/p-45.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.49</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/p-46.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATION UNKNOWN</td>
+    <td>15.97</td>
+    <td>QuickAlternation/suite/p-TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/p-49.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.51</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/p-5.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATION UNKNOWN</td>
+    <td>21.94</td>
+    <td>QuickAlternation/suite/p-TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/p-50.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.34</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.34</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/p-52.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>1.31</td>
+    <td>QuickAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>0.71</td>
+   </tr>
+   <tr >
+    <td>suite/p-53.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.34</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.36</td>
+   </tr>
+   <tr >
+    <td>suite/p-55.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.52</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.53</td>
+   </tr>
+   <tr >
+    <td>suite/p-56.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.51</td>
+   </tr>
+   <tr >
+    <td>suite/p-58.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.51</td>
+   </tr>
+   <tr >
+    <td>suite/p-6.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.51</td>
+   </tr>
+   <tr >
+    <td>suite/p-60.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>suite/p-61.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>suite/p-62.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.33</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.34</td>
+   </tr>
+   <tr >
+    <td>suite/p-63.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.88</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.84</td>
+   </tr>
+   <tr >
+    <td>suite/p-7.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.53</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.56</td>
+   </tr>
+   <tr >
+    <td>suite/p-7b.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/p-SAFE+TERMINATING</td>
+    <td>0.49</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/p-8.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>3.39</td>
+    <td>QuickAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>0.71</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/p-9.t2</td>
+    <td>SlowAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>1.22</td>
+    <td>QuickAlternation/suite/p-SAFE+NONTERMINATING</td>
+    <td>0.71</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/p.t2</td>
+    <td>SlowAlternation/suite/p.tError: No result</td>
+    <td>30.42</td>
+    <td>QuickAlternation/suite/p.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/p_armc.t2</td>
+    <td>SlowAlternation/suite/p_armc.tTIMEOUT</td>
+    <td>60.00</td>
+    <td>QuickAlternation/suite/p_armc.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/pearl-necklace.t2</td>
+    <td>SlowAlternation/suite/pearl-necklace.tSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/pearl-necklace.tSAFE+TERMINATING</td>
+    <td>0.54</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/pentagon.t2</td>
+    <td>SlowAlternation/suite/pentagon.tError: No result</td>
+    <td>52.72</td>
+    <td>QuickAlternation/suite/pentagon.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/pgarch-fail.t2</td>
+    <td>SlowAlternation/suite/pgarch-fail.tSAFE+NONTERMINATING</td>
+    <td>3.98</td>
+    <td>QuickAlternation/suite/pgarch-fail.tSAFE+NONTERMINATING</td>
+    <td>0.87</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/pgarch-succeed.t2</td>
+    <td>SlowAlternation/suite/pgarch-succeed.tSAFE+NONTERMINATING</td>
+    <td>1.88</td>
+    <td>QuickAlternation/suite/pgarch-succeed.tSAFE+NONTERMINATING</td>
+    <td>0.79</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/pgarch.t2</td>
+    <td>SlowAlternation/suite/pgarch.tSAFE+TERMINATION UNKNOWN</td>
+    <td>30.06</td>
+    <td>QuickAlternation/suite/pgarch.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/pldi.t2</td>
+    <td>SlowAlternation/suite/pldi.tSAFE+TERMINATING</td>
+    <td>0.58</td>
+    <td>QuickAlternation/suite/pldi.tSAFE+TERMINATING</td>
+    <td>0.53</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/polling.bug.t2</td>
+    <td>SlowAlternation/suite/polling.bug.tSAFE+NONTERMINATING</td>
+    <td>10.30</td>
+    <td>QuickAlternation/suite/polling.bug.tSAFE+NONTERMINATING</td>
+    <td>1.14</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/polling.t2</td>
+    <td>SlowAlternation/suite/polling.tSAFE+NONTERMINATING</td>
+    <td>9.45</td>
+    <td>QuickAlternation/suite/polling.tSAFE+NONTERMINATING</td>
+    <td>1.01</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/polyrank1.t2</td>
+    <td>SlowAlternation/suite/polyrankSAFE+TERMINATING</td>
+    <td>0.92</td>
+    <td>QuickAlternation/suite/polyrankTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/polyrank2.t2</td>
+    <td>SlowAlternation/suite/polyrankSAFE+TERMINATING</td>
+    <td>0.94</td>
+    <td>QuickAlternation/suite/polyrankTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/polyrank3.t2</td>
+    <td>SlowAlternation/suite/polyrankSAFE+TERMINATING</td>
+    <td>1.20</td>
+    <td>QuickAlternation/suite/polyrankTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/polyrank4.t2</td>
+    <td>SlowAlternation/suite/polyrankSAFE+TERMINATING</td>
+    <td>1.36</td>
+    <td>QuickAlternation/suite/polyrankTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/polyrank5.t2</td>
+    <td>SlowAlternation/suite/polyrankSAFE+TERMINATING</td>
+    <td>1.64</td>
+    <td>QuickAlternation/suite/polyrankTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/polyrank6.t2</td>
+    <td>SlowAlternation/suite/polyrankSAFE+TERMINATING</td>
+    <td>1.31</td>
+    <td>QuickAlternation/suite/polyrankTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/polyrank7.t2</td>
+    <td>SlowAlternation/suite/polyrankSAFE+NONTERMINATING</td>
+    <td>1.06</td>
+    <td>QuickAlternation/suite/polyrankSAFE+NONTERMINATING</td>
+    <td>0.83</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/popl07-fail.t2</td>
+    <td>SlowAlternation/suite/poplSAFE+NONTERMINATING</td>
+    <td>1.72</td>
+    <td>QuickAlternation/suite/poplSAFE+NONTERMINATING</td>
+    <td>0.78</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/popl07-succeed.t2</td>
+    <td>SlowAlternation/suite/poplSAFE+NONTERMINATING</td>
+    <td>1.73</td>
+    <td>QuickAlternation/suite/poplSAFE+NONTERMINATING</td>
+    <td>0.77</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/prime.t2</td>
+    <td>SlowAlternation/suite/prime.tSAFE+NONTERMINATING</td>
+    <td>4.95</td>
+    <td>QuickAlternation/suite/prime.tSAFE+NONTERMINATING</td>
+    <td>0.79</td>
+   </tr>
+   <tr >
+    <td>suite/print.t2</td>
+    <td>SlowAlternation/suite/print.tSAFE+TERMINATING</td>
+    <td>0.81</td>
+    <td>QuickAlternation/suite/print.tSAFE+TERMINATING</td>
+    <td>0.78</td>
+   </tr>
+   <tr >
+    <td>suite/qrdcmp.t2</td>
+    <td>SlowAlternation/suite/qrdcmp.tSAFE+TERMINATING</td>
+    <td>2.19</td>
+    <td>QuickAlternation/suite/qrdcmp.tSAFE+TERMINATING</td>
+    <td>2.24</td>
+   </tr>
+   <tr >
+    <td>suite/queens.t2</td>
+    <td>SlowAlternation/suite/queens.tSAFE+TERMINATING</td>
+    <td>0.92</td>
+    <td>QuickAlternation/suite/queens.tSAFE+TERMINATING</td>
+    <td>0.95</td>
+   </tr>
+   <tr >
+    <td>suite/queue_1.t2</td>
+    <td>SlowAlternation/suite/queue_SAFE+TERMINATING</td>
+    <td>0.55</td>
+    <td>QuickAlternation/suite/queue_SAFE+TERMINATING</td>
+    <td>0.56</td>
+   </tr>
+   <tr >
+    <td>suite/queue_10.t2</td>
+    <td>SlowAlternation/suite/queue_SAFE+TERMINATING</td>
+    <td>0.58</td>
+    <td>QuickAlternation/suite/queue_SAFE+TERMINATING</td>
+    <td>0.59</td>
+   </tr>
+   <tr >
+    <td>suite/queue_100.t2</td>
+    <td>SlowAlternation/suite/queue_SAFE+TERMINATING</td>
+    <td>0.58</td>
+    <td>QuickAlternation/suite/queue_SAFE+TERMINATING</td>
+    <td>0.59</td>
+   </tr>
+   <tr >
+    <td>suite/queue_1000.t2</td>
+    <td>SlowAlternation/suite/queue_SAFE+TERMINATING</td>
+    <td>0.58</td>
+    <td>QuickAlternation/suite/queue_SAFE+TERMINATING</td>
+    <td>0.61</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/randomwalk.t2</td>
+    <td>SlowAlternation/suite/randomwalk.tError: No result</td>
+    <td>3.25</td>
+    <td>QuickAlternation/suite/randomwalk.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/randomwalk_withassume.t2</td>
+    <td>SlowAlternation/suite/randomwalk_withassume.tError: No result</td>
+    <td>32.17</td>
+    <td>QuickAlternation/suite/randomwalk_withassume.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/refine_disj_problem.t2</td>
+    <td>SlowAlternation/suite/refine_disj_problem.tSAFE+TERMINATION UNKNOWN</td>
+    <td>11.20</td>
+    <td>QuickAlternation/suite/refine_disj_problem.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/rev_nt2.t2</td>
+    <td>SlowAlternation/suite/rev_ntSAFE+NONTERMINATING</td>
+    <td>3.69</td>
+    <td>QuickAlternation/suite/rev_ntSAFE+NONTERMINATING</td>
+    <td>0.94</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/rev_nt3.t2</td>
+    <td>SlowAlternation/suite/rev_ntSAFE+NONTERMINATING</td>
+    <td>5.92</td>
+    <td>QuickAlternation/suite/rev_ntSAFE+NONTERMINATING</td>
+    <td>0.89</td>
+   </tr>
+   <tr >
+    <td>suite/rev_nt4.t2</td>
+    <td>SlowAlternation/suite/rev_ntSAFE+TERMINATING</td>
+    <td>0.34</td>
+    <td>QuickAlternation/suite/rev_ntSAFE+TERMINATING</td>
+    <td>0.34</td>
+   </tr>
+   <tr >
+    <td>suite/reverse.t2</td>
+    <td>SlowAlternation/suite/reverse.tSAFE+TERMINATING</td>
+    <td>0.81</td>
+    <td>QuickAlternation/suite/reverse.tSAFE+TERMINATING</td>
+    <td>0.86</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/reverse_div4.t2</td>
+    <td>SlowAlternation/suite/reverse_divSAFE+TERMINATION UNKNOWN</td>
+    <td>48.05</td>
+    <td>QuickAlternation/suite/reverse_divTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/reverse_seg_cyclic.t2</td>
+    <td>SlowAlternation/suite/reverse_seg_cyclic.tSAFE+TERMINATING</td>
+    <td>0.75</td>
+    <td>QuickAlternation/suite/reverse_seg_cyclic.tSAFE+TERMINATING</td>
+    <td>0.70</td>
+   </tr>
+   <tr >
+    <td>suite/rewrite.t2</td>
+    <td>SlowAlternation/suite/rewrite.tSAFE+NONTERMINATING</td>
+    <td>0.95</td>
+    <td>QuickAlternation/suite/rewrite.tSAFE+NONTERMINATING</td>
+    <td>0.70</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/rlft3.t2</td>
+    <td>SlowAlternation/suite/rlftSAFE+TERMINATION UNKNOWN</td>
+    <td>45.50</td>
+    <td>QuickAlternation/suite/rlftTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/ruslan-benchmarks_misc_n-38.t2</td>
+    <td>SlowAlternation/suite/ruslan-benchmarks_misc_n-SAFE+TERMINATION UNKNOWN</td>
+    <td>12.30</td>
+    <td>QuickAlternation/suite/ruslan-benchmarks_misc_n-TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/s1-saved.t2</td>
+    <td>SlowAlternation/suite/sSAFE+TERMINATING</td>
+    <td>0.70</td>
+    <td>QuickAlternation/suite/sSAFE+TERMINATING</td>
+    <td>0.75</td>
+   </tr>
+   <tr >
+    <td>suite/s1-striped.t2</td>
+    <td>SlowAlternation/suite/sTIMEOUT</td>
+    <td>60.00</td>
+    <td>QuickAlternation/suite/sTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/s1.t2</td>
+    <td>SlowAlternation/suite/sTIMEOUT</td>
+    <td>60.00</td>
+    <td>QuickAlternation/suite/sTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/s2.t2</td>
+    <td>SlowAlternation/suite/sSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/sSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>suite/s3-work.t2</td>
+    <td>SlowAlternation/suite/sSAFE+TERMINATING</td>
+    <td>4.08</td>
+    <td>QuickAlternation/suite/sSAFE+TERMINATING</td>
+    <td>4.21</td>
+   </tr>
+   <tr >
+    <td>suite/s3.t2</td>
+    <td>SlowAlternation/suite/sError: No result</td>
+    <td>1.42</td>
+    <td>QuickAlternation/suite/sError: No result</td>
+    <td>1.50</td>
+   </tr>
+   <tr >
+    <td>suite/s4.t2</td>
+    <td>SlowAlternation/suite/sError: No result</td>
+    <td>0.94</td>
+    <td>QuickAlternation/suite/sError: No result</td>
+    <td>0.96</td>
+   </tr>
+   <tr >
+    <td>suite/sas07.cex.t2</td>
+    <td>SlowAlternation/suite/sasSAFE+TERMINATING</td>
+    <td>0.66</td>
+    <td>QuickAlternation/suite/sasSAFE+TERMINATING</td>
+    <td>0.61</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/sas1.t2</td>
+    <td>SlowAlternation/suite/sasSAFE+TERMINATING</td>
+    <td>11.23</td>
+    <td>QuickAlternation/suite/sasTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/sas2.t2</td>
+    <td>SlowAlternation/suite/sasTIMEOUT</td>
+    <td>60.00</td>
+    <td>QuickAlternation/suite/sasTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/select.t2</td>
+    <td>SlowAlternation/suite/select.tSAFE+NONTERMINATING</td>
+    <td>3.80</td>
+    <td>QuickAlternation/suite/select.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/selectSort.t2</td>
+    <td>SlowAlternation/suite/selectSort.tSAFE+TERMINATING</td>
+    <td>0.53</td>
+    <td>QuickAlternation/suite/selectSort.tSAFE+TERMINATING</td>
+    <td>0.54</td>
+   </tr>
+   <tr >
+    <td>suite/send-more-money.t2</td>
+    <td>SlowAlternation/suite/send-more-money.tSAFE+TERMINATING</td>
+    <td>0.52</td>
+    <td>QuickAlternation/suite/send-more-money.tSAFE+TERMINATING</td>
+    <td>0.53</td>
+   </tr>
+   <tr >
+    <td>suite/seq.t2</td>
+    <td>SlowAlternation/suite/seq.tSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/seq.tSAFE+TERMINATING</td>
+    <td>0.52</td>
+   </tr>
+   <tr >
+    <td>suite/seq2.t2</td>
+    <td>SlowAlternation/suite/seqSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/seqSAFE+TERMINATING</td>
+    <td>0.49</td>
+   </tr>
+   <tr >
+    <td>suite/sequential_swap.t2</td>
+    <td>SlowAlternation/suite/sequential_swap.tSAFE+TERMINATING</td>
+    <td>0.34</td>
+    <td>QuickAlternation/suite/sequential_swap.tSAFE+TERMINATING</td>
+    <td>0.34</td>
+   </tr>
+   <tr >
+    <td>suite/simple.t2</td>
+    <td>SlowAlternation/suite/simple.tSAFE+NONTERMINATING</td>
+    <td>0.91</td>
+    <td>QuickAlternation/suite/simple.tSAFE+NONTERMINATING</td>
+    <td>0.71</td>
+   </tr>
+   <tr >
+    <td>suite/simpleWhile.t2</td>
+    <td>SlowAlternation/suite/simpleWhile.tSAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/simpleWhile.tSAFE+TERMINATING</td>
+    <td>0.51</td>
+   </tr>
+   <tr >
+    <td>suite/simple_array_inversion.t2</td>
+    <td>SlowAlternation/suite/simple_array_inversion.tSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/simple_array_inversion.tSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>suite/simple_control_on_input.t2</td>
+    <td>SlowAlternation/suite/simple_control_on_input.tSAFE+TERMINATING</td>
+    <td>0.48</td>
+    <td>QuickAlternation/suite/simple_control_on_input.tSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>suite/simple_double_free.t2</td>
+    <td>SlowAlternation/suite/simple_double_free.tSAFE+TERMINATING</td>
+    <td>0.31</td>
+    <td>QuickAlternation/suite/simple_double_free.tSAFE+TERMINATING</td>
+    <td>0.33</td>
+   </tr>
+   <tr >
+    <td>suite/simple_fail.t2</td>
+    <td>SlowAlternation/suite/simple_fail.tSAFE+TERMINATING</td>
+    <td>0.33</td>
+    <td>QuickAlternation/suite/simple_fail.tSAFE+TERMINATING</td>
+    <td>0.34</td>
+   </tr>
+   <tr >
+    <td>suite/simple_pre.t2</td>
+    <td>SlowAlternation/suite/simple_pre.tSAFE+TERMINATING</td>
+    <td>0.33</td>
+    <td>QuickAlternation/suite/simple_pre.tSAFE+TERMINATING</td>
+    <td>0.34</td>
+   </tr>
+   <tr >
+    <td>suite/simple_pre1.t2</td>
+    <td>SlowAlternation/suite/simple_preSAFE+TERMINATING</td>
+    <td>0.34</td>
+    <td>QuickAlternation/suite/simple_preSAFE+TERMINATING</td>
+    <td>0.36</td>
+   </tr>
+   <tr >
+    <td>suite/simple_pre2.t2</td>
+    <td>SlowAlternation/suite/simple_preSAFE+TERMINATING</td>
+    <td>0.33</td>
+    <td>QuickAlternation/suite/simple_preSAFE+TERMINATING</td>
+    <td>0.34</td>
+   </tr>
+   <tr >
+    <td>suite/simple_pre3.t2</td>
+    <td>SlowAlternation/suite/simple_preSAFE+TERMINATING</td>
+    <td>0.36</td>
+    <td>QuickAlternation/suite/simple_preSAFE+TERMINATING</td>
+    <td>0.36</td>
+   </tr>
+   <tr >
+    <td>suite/simple_swap_call.t2</td>
+    <td>SlowAlternation/suite/simple_swap_call.tSAFE+TERMINATING</td>
+    <td>0.36</td>
+    <td>QuickAlternation/suite/simple_swap_call.tSAFE+TERMINATING</td>
+    <td>0.36</td>
+   </tr>
+   <tr >
+    <td>suite/slayer-1-filtered.t2</td>
+    <td>SlowAlternation/suite/slayer-SAFE+TERMINATING</td>
+    <td>0.53</td>
+    <td>QuickAlternation/suite/slayer-SAFE+TERMINATING</td>
+    <td>0.53</td>
+   </tr>
+   <tr >
+    <td>suite/slayer-1-rf.t2</td>
+    <td>SlowAlternation/suite/slayer-SAFE+TERMINATING</td>
+    <td>0.53</td>
+    <td>QuickAlternation/suite/slayer-SAFE+TERMINATING</td>
+    <td>0.53</td>
+   </tr>
+   <tr >
+    <td>suite/slayer-2-filtered.t2</td>
+    <td>SlowAlternation/suite/slayer-SAFE+TERMINATING</td>
+    <td>0.50</td>
+    <td>QuickAlternation/suite/slayer-SAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>suite/slayer-3-filtered.t2</td>
+    <td>SlowAlternation/suite/slayer-TIMEOUT</td>
+    <td>60.00</td>
+    <td>QuickAlternation/suite/slayer-TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/slayer-3-new.t2</td>
+    <td>SlowAlternation/suite/slayer-TIMEOUT</td>
+    <td>60.00</td>
+    <td>QuickAlternation/suite/slayer-TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/slayer-3.t2</td>
+    <td>SlowAlternation/suite/slayer-TIMEOUT</td>
+    <td>60.00</td>
+    <td>QuickAlternation/suite/slayer-TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/slayer-4-filtered.t2</td>
+    <td>SlowAlternation/suite/slayer-TIMEOUT</td>
+    <td>60.00</td>
+    <td>QuickAlternation/suite/slayer-TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/slayer-5-filtered.t2</td>
+    <td>SlowAlternation/suite/slayer-TIMEOUT</td>
+    <td>60.00</td>
+    <td>QuickAlternation/suite/slayer-TIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/slayer-n1-filtered.t2</td>
+    <td>SlowAlternation/suite/slayer-nSAFE+NONTERMINATING</td>
+    <td>2.48</td>
+    <td>QuickAlternation/suite/slayer-nSAFE+NONTERMINATING</td>
+    <td>0.80</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/slayer-n1.t2</td>
+    <td>SlowAlternation/suite/slayer-nSAFE+TERMINATION UNKNOWN</td>
+    <td>35.60</td>
+    <td>QuickAlternation/suite/slayer-nTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/slayer-n2-filtered.t2</td>
+    <td>SlowAlternation/suite/slayer-nSAFE+NONTERMINATING</td>
+    <td>1.24</td>
+    <td>QuickAlternation/suite/slayer-nSAFE+NONTERMINATING</td>
+    <td>0.74</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/slayer-n2.t2</td>
+    <td>SlowAlternation/suite/slayer-nSAFE+NONTERMINATING</td>
+    <td>1.27</td>
+    <td>QuickAlternation/suite/slayer-nSAFE+NONTERMINATING</td>
+    <td>0.71</td>
+   </tr>
+   <tr >
+    <td>suite/slayer-n3-filtered.t2</td>
+    <td>SlowAlternation/suite/slayer-nSAFE+TERMINATING</td>
+    <td>0.66</td>
+    <td>QuickAlternation/suite/slayer-nSAFE+TERMINATING</td>
+    <td>0.62</td>
+   </tr>
+   <tr >
+    <td>suite/slayer-n5-filtered.t2</td>
+    <td>SlowAlternation/suite/slayer-nTIMEOUT</td>
+    <td>60.00</td>
+    <td>QuickAlternation/suite/slayer-nTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/smagilla-fail.t2</td>
+    <td>SlowAlternation/suite/smagilla-fail.tSAFE+NONTERMINATING</td>
+    <td>1.51</td>
+    <td>QuickAlternation/suite/smagilla-fail.tSAFE+NONTERMINATING</td>
+    <td>0.87</td>
+   </tr>
+   <tr >
+    <td>suite/smagilla-succeed.t2</td>
+    <td>SlowAlternation/suite/smagilla-succeed.tError: No result</td>
+    <td>0.80</td>
+    <td>QuickAlternation/suite/smagilla-succeed.tError: No result</td>
+    <td>0.80</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/smagillb-succeed.t2</td>
+    <td>SlowAlternation/suite/smagillb-succeed.tSAFE+NONTERMINATING</td>
+    <td>1.51</td>
+    <td>QuickAlternation/suite/smagillb-succeed.tSAFE+NONTERMINATING</td>
+    <td>0.75</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/smagillc-fail.t2</td>
+    <td>SlowAlternation/suite/smagillc-fail.tSAFE+NONTERMINATING</td>
+    <td>1.40</td>
+    <td>QuickAlternation/suite/smagillc-fail.tSAFE+NONTERMINATING</td>
+    <td>0.80</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/smagillc-succeed.t2</td>
+    <td>SlowAlternation/suite/smagillc-succeed.tSAFE+NONTERMINATING</td>
+    <td>1.62</td>
+    <td>QuickAlternation/suite/smagillc-succeed.tSAFE+NONTERMINATING</td>
+    <td>0.91</td>
+   </tr>
+   <tr >
+    <td>suite/sort.t2</td>
+    <td>SlowAlternation/suite/sort.tSAFE+TERMINATING</td>
+    <td>0.72</td>
+    <td>QuickAlternation/suite/sort.tSAFE+TERMINATING</td>
+    <td>0.72</td>
+   </tr>
+   <tr >
+    <td>suite/spctrm.t2</td>
+    <td>SlowAlternation/suite/spctrm.tSAFE+TERMINATING</td>
+    <td>6.61</td>
+    <td>QuickAlternation/suite/spctrm.tSAFE+TERMINATING</td>
+    <td>6.72</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/spiral.t2</td>
+    <td>SlowAlternation/suite/spiral.tSAFE+TERMINATION UNKNOWN</td>
+    <td>37.17</td>
+    <td>QuickAlternation/suite/spiral.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/st88.bug.t2</td>
+    <td>SlowAlternation/suite/stSAFE+TERMINATION UNKNOWN</td>
+    <td>36.13</td>
+    <td>QuickAlternation/suite/stTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/st88.t2</td>
+    <td>SlowAlternation/suite/stSAFE+TERMINATION UNKNOWN</td>
+    <td>35.57</td>
+    <td>QuickAlternation/suite/stTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/st88b-fail.t2</td>
+    <td>SlowAlternation/suite/stError: No result</td>
+    <td>2.81</td>
+    <td>QuickAlternation/suite/stTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/st88b-succeed.t2</td>
+    <td>SlowAlternation/suite/stError: No result</td>
+    <td>2.77</td>
+    <td>QuickAlternation/suite/stTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/statemate.t2</td>
+    <td>SlowAlternation/suite/statemate.tTIMEOUT</td>
+    <td>60.00</td>
+    <td>QuickAlternation/suite/statemate.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/stored.t2</td>
+    <td>SlowAlternation/suite/stored.tSAFE+NONTERMINATING</td>
+    <td>3.61</td>
+    <td>QuickAlternation/suite/stored.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/streamserver-succeed.t2</td>
+    <td>SlowAlternation/suite/streamserver-succeed.tSAFE+NONTERMINATING</td>
+    <td>5.84</td>
+    <td>QuickAlternation/suite/streamserver-succeed.tSAFE+NONTERMINATING</td>
+    <td>2.44</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/streamserver.bug.t2</td>
+    <td>SlowAlternation/suite/streamserver.bug.tSAFE+NONTERMINATING</td>
+    <td>6.07</td>
+    <td>QuickAlternation/suite/streamserver.bug.tSAFE+NONTERMINATING</td>
+    <td>1.77</td>
+   </tr>
+   <tr >
+    <td>suite/subpoly_crash.t2</td>
+    <td>SlowAlternation/suite/subpoly_crash.tSAFE+NONTERMINATING</td>
+    <td>1.00</td>
+    <td>QuickAlternation/suite/subpoly_crash.tSAFE+NONTERMINATING</td>
+    <td>0.72</td>
+   </tr>
+   <tr >
+    <td>suite/sudoku.t2</td>
+    <td>SlowAlternation/suite/sudoku.tSAFE+TERMINATING</td>
+    <td>1.84</td>
+    <td>QuickAlternation/suite/sudoku.tSAFE+TERMINATING</td>
+    <td>1.83</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/sumit.t2</td>
+    <td>SlowAlternation/suite/sumit.tSAFE+TERMINATION UNKNOWN</td>
+    <td>21.18</td>
+    <td>QuickAlternation/suite/sumit.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/svdcmp.t2</td>
+    <td>SlowAlternation/suite/svdcmp.tSAFE+TERMINATING</td>
+    <td>21.33</td>
+    <td>QuickAlternation/suite/svdcmp.tSAFE+TERMINATING</td>
+    <td>25.89</td>
+   </tr>
+   <tr >
+    <td>suite/toeplz.t2</td>
+    <td>SlowAlternation/suite/toeplz.tSAFE+TERMINATING</td>
+    <td>0.93</td>
+    <td>QuickAlternation/suite/toeplz.tSAFE+TERMINATING</td>
+    <td>0.90</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/tqli.t2</td>
+    <td>SlowAlternation/suite/tqli.tTIMEOUT</td>
+    <td>60.00</td>
+    <td>QuickAlternation/suite/tqli.tSAFE+NONTERMINATING</td>
+    <td>4.90</td>
+   </tr>
+   <tr >
+    <td>suite/traverse.t2</td>
+    <td>SlowAlternation/suite/traverse.tSAFE+TERMINATING</td>
+    <td>0.73</td>
+    <td>QuickAlternation/suite/traverse.tSAFE+TERMINATING</td>
+    <td>0.75</td>
+   </tr>
+   <tr >
+    <td>suite/traverse2.t2</td>
+    <td>SlowAlternation/suite/traverseSAFE+TERMINATING</td>
+    <td>0.72</td>
+    <td>QuickAlternation/suite/traverseSAFE+TERMINATING</td>
+    <td>0.74</td>
+   </tr>
+   <tr >
+    <td>suite/traverse_seg.t2</td>
+    <td>SlowAlternation/suite/traverse_seg.tSAFE+TERMINATING</td>
+    <td>0.75</td>
+    <td>QuickAlternation/suite/traverse_seg.tSAFE+TERMINATING</td>
+    <td>0.75</td>
+   </tr>
+   <tr >
+    <td>suite/traverse_seg2.t2</td>
+    <td>SlowAlternation/suite/traverse_segSAFE+TERMINATING</td>
+    <td>0.73</td>
+    <td>QuickAlternation/suite/traverse_segSAFE+TERMINATING</td>
+    <td>0.74</td>
+   </tr>
+   <tr >
+    <td>suite/traverse_twice.t2</td>
+    <td>SlowAlternation/suite/traverse_twice.tSAFE+TERMINATING</td>
+    <td>0.86</td>
+    <td>QuickAlternation/suite/traverse_twice.tSAFE+TERMINATING</td>
+    <td>0.88</td>
+   </tr>
+   <tr >
+    <td>suite/two_arrays.t2</td>
+    <td>SlowAlternation/suite/two_arrays.tSAFE+TERMINATING</td>
+    <td>0.54</td>
+    <td>QuickAlternation/suite/two_arrays.tSAFE+TERMINATING</td>
+    <td>0.54</td>
+   </tr>
+   <tr >
+    <td>suite/two_arrays1.t2</td>
+    <td>SlowAlternation/suite/two_arraysSAFE+TERMINATING</td>
+    <td>0.55</td>
+    <td>QuickAlternation/suite/two_arraysSAFE+TERMINATING</td>
+    <td>0.55</td>
+   </tr>
+   <tr >
+    <td>suite/two_arrays2.t2</td>
+    <td>SlowAlternation/suite/two_arraysSAFE+TERMINATING</td>
+    <td>0.58</td>
+    <td>QuickAlternation/suite/two_arraysSAFE+TERMINATING</td>
+    <td>0.55</td>
+   </tr>
+   <tr >
+    <td>suite/two_arrays6.t2</td>
+    <td>SlowAlternation/suite/two_arraysSAFE+TERMINATING</td>
+    <td>0.54</td>
+    <td>QuickAlternation/suite/two_arraysSAFE+TERMINATING</td>
+    <td>0.55</td>
+   </tr>
+   <tr >
+    <td>suite/ud.t2</td>
+    <td>SlowAlternation/suite/ud.tSAFE+TERMINATING</td>
+    <td>0.83</td>
+    <td>QuickAlternation/suite/ud.tSAFE+TERMINATING</td>
+    <td>0.84</td>
+   </tr>
+   <tr >
+    <td>suite/unsat.t2</td>
+    <td>SlowAlternation/suite/unsat.tSAFE+TERMINATING</td>
+    <td>0.47</td>
+    <td>QuickAlternation/suite/unsat.tSAFE+TERMINATING</td>
+    <td>0.50</td>
+   </tr>
+   <tr >
+    <td>suite/vmcai_bytes.t2</td>
+    <td>SlowAlternation/suite/vmcai_bytes.tSAFE+TERMINATING</td>
+    <td>0.34</td>
+    <td>QuickAlternation/suite/vmcai_bytes.tSAFE+TERMINATING</td>
+    <td>0.34</td>
+   </tr>
+   <tr >
+    <td>suite/vmcai_struct.t2</td>
+    <td>SlowAlternation/suite/vmcai_struct.tSAFE+TERMINATING</td>
+    <td>0.33</td>
+    <td>QuickAlternation/suite/vmcai_struct.tSAFE+TERMINATING</td>
+    <td>0.36</td>
+   </tr>
+   <tr >
+    <td>suite/w1.t2</td>
+    <td>SlowAlternation/suite/wSAFE+NONTERMINATING</td>
+    <td>0.94</td>
+    <td>QuickAlternation/suite/wSAFE+NONTERMINATING</td>
+    <td>0.72</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/w2_nt.t2</td>
+    <td>SlowAlternation/suite/wSAFE+NONTERMINATING</td>
+    <td>5.15</td>
+    <td>QuickAlternation/suite/wSAFE+NONTERMINATING</td>
+    <td>0.91</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/w3_nt.t2</td>
+    <td>SlowAlternation/suite/wSAFE+NONTERMINATING</td>
+    <td>2.98</td>
+    <td>QuickAlternation/suite/wSAFE+NONTERMINATING</td>
+    <td>0.92</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/walk.t2</td>
+    <td>SlowAlternation/suite/walk.tSAFE+TERMINATION UNKNOWN</td>
+    <td>15.25</td>
+    <td>QuickAlternation/suite/walk.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/walk3_noterm.t2</td>
+    <td>SlowAlternation/suite/walkSAFE+NONTERMINATING</td>
+    <td>3.06</td>
+    <td>QuickAlternation/suite/walkSAFE+NONTERMINATING</td>
+    <td>0.94</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/whatwhat.t2</td>
+    <td>SlowAlternation/suite/whatwhat.tSAFE+TERMINATING</td>
+    <td>1.14</td>
+    <td>QuickAlternation/suite/whatwhat.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/working.t2</td>
+    <td>SlowAlternation/suite/working.tSAFE+TERMINATING</td>
+    <td>0.91</td>
+    <td>QuickAlternation/suite/working.tSAFE+TERMINATING</td>
+    <td>0.87</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/wrong_loop.t2</td>
+    <td>SlowAlternation/suite/wrong_loop.tSAFE+TERMINATION UNKNOWN</td>
+    <td>27.43</td>
+    <td>QuickAlternation/suite/wrong_loop.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr style="background-color:yellow">
+    <td>suite/wtf.t2</td>
+    <td>SlowAlternation/suite/wtf.tSAFE+TERMINATING</td>
+    <td>6.92</td>
+    <td>QuickAlternation/suite/wtf.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/zeroconf.t2</td>
+    <td>SlowAlternation/suite/zeroconf.tTIMEOUT</td>
+    <td>60.00</td>
+    <td>QuickAlternation/suite/zeroconf.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/zeroconf_withassume.t2</td>
+    <td>SlowAlternation/suite/zeroconf_withassume.tTIMEOUT</td>
+    <td>60.00</td>
+    <td>QuickAlternation/suite/zeroconf_withassume.tTIMEOUT</td>
+    <td>60.00</td>
+   </tr>
+   <tr >
+    <td>suite/zlib-crc32.c.t2</td>
+    <td>SlowAlternation/suite/zlib-crcSAFE+TERMINATING</td>
+    <td>0.51</td>
+    <td>QuickAlternation/suite/zlib-crcSAFE+TERMINATING</td>
+    <td>0.52</td>
+   </tr>
+  </table>
+  <h2>Aggregate numbers</h2>
+  <table border="
+   <tr>
+    <th></th>
+    <th>SlowAlternation</th>
+    <th>QuickAlternation</th>
+   </tr>
+   <tr>
+    <td>Number TERM</td>
+    <td>251</td>
+    <td>223</td>
+   </tr>
+   <tr>
+    <td>Avg. time TERM</td>
+    <td>1.78</td>
+    <td>1.21</td>
+   </tr>
+   <tr>
+    <td>Number NONTERM</td>
+    <td>93</td>
+    <td>90</td>
+   </tr>
+   <tr>
+    <td>Avg. time NONTERM</td>
+    <td>3.20</td>
+    <td>1.13</td>
+   </tr>
+   <tr>
+    <td>Avg. time total</td>
+    <td>8.42</td>
+    <td>17.36</td>
+   </tr>
+  </table>
+ </body>
+</html>
