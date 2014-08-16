@@ -1,6 +1,5 @@
 # Site settings
 title: Théo Zimmermann
-description: "Mostly a place to share ideas and thoughts."
 #Description will appear in your document head meta (for Google search results) and in your feed.xml site description.
 
 url: "http://www.theozimmermann.net"
@@ -16,12 +15,14 @@ permalink: pretty
 
 # Multilingual settings (origin: http://sylvain.durand.tf/site-multilingue-avec-jekyll/)
 t:
-  fr:
-    translation: "read in English"
   en:
+    baseurl: ""
+    description: "Mostly a place to share ideas and thoughts."
     translation: "lire en français"
-baseurl: ""
-baseurl-fr: "/accueil"
+  fr:
+    baseurl: "/accueil"
+    description: "Un endroit où partager des idées."
+    translation: "read in English"
 
 # Redirects function for short URLs
 gems:
