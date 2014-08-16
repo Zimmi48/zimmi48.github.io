@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="{{ site.description }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
+    {% if page.trans %}
+	<link
+	  rel="alternate" 
+	  hreflang="{% if page.lang != 'fr' %}fr{% else %}en{% endif %}"
+	  href="{{ page.trans }}" />
+	{% endif %}
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
