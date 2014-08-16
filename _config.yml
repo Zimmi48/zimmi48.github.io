@@ -19,10 +19,12 @@ t:
     baseurl: ""
     description: "Mostly a place to share ideas and thoughts."
     translation: "lire en français"
+    short: "Short URL:"
   fr:
     baseurl: "/accueil"
     description: "Un endroit où partager des idées."
     translation: "read in English"
+    short: "Lien abrégé :"
 
 # Redirects function for short URLs
 gems:
