@@ -16,7 +16,7 @@ permalink: pretty
 # Multilingual settings (origin: http://sylvain.durand.tf/site-multilingue-avec-jekyll/)
 t:
   en:
-    baseurl: ""
+    baseurl: "/"
     description: "Mostly a place to share ideas and thoughts."
     translation: "lire en français"
     short: "Short URL:"
