@@ -76,7 +76,7 @@ Past work
 	[[report, in French](/pdf/stage-LIF.pdf)].
 	* When in primary and middle school,
 	I invented a language called Enfantin.
-	This paper I wrote about it [[in French](/pdf/enfantin.pdf)]
+	This paper I wrote [[in French](/pdf/enfantin.pdf)]
 	explains everything you need to know about it.
 	On a side note, I've never spoken this language fluently
 	and I would have had no one to talk to anyways.
