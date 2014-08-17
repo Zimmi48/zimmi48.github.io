@@ -9,7 +9,7 @@ Qui suis-je ?
 
 Je n'aime pas enfermer les gens dans des catégories, mais c'est
 pourtant ce que je m'apprête à faire en ce qui me concerne.
-Cependant, plutôt que de me restreidre à un petit nombre de telles
+Cependant, plutôt que de me restreindre à un petit nombre de telles
 catégories, voici une liste plus longues de choses que je suis :
 
 amoureux, athée, chercheur, écologiste, étudiant, Européen, féministe,
@@ -17,7 +17,7 @@ Français, informaticien, jeune homme, [Marseillais](/marseille),
 militant politique, [normalien](http://www.ens.fr),
 [Parisien](/paris), [révolutionnaire](/changer-le-monde), scientifique
 
-Si vous voulez connaitre mon parcours,
+Si vous voulez connaître mon parcours,
 référez-vous à ma [page LinkedIn](https://fr.linkedin.com/in/theozim).
 
 Sujets actuels
@@ -46,14 +46,14 @@ Travaux passés
 	J'ai travaillé avec la Professeure Tandy Warnow pendant un semestre
 	(après avoir suivi son cours le premier semestre)
 	et je suis co-auteur de deux articles
-	à paraitre dans des conférences :
+	à paraître dans des conférences :
 		* "BBCA: Improving the scalability of *BEAST
 		using random binning",
-		T. Zimmermann, S. Mirarab, T. Warnow, à paraitre, RECOMB-CG 2014
+		T. Zimmermann, S. Mirarab, T. Warnow, à paraître, RECOMB-CG 2014
         * "ASTRAL: Genome-scale coalescent-based species tree
 		estimation", S. Mirarab, R. Reaz, M. Bayzid, T. Zimmermann,
 		M. Swenson, T. Warnow,
-        à paraitre, ECCB 2014
+        à paraître, ECCB 2014
 	* Quelques travaux réalisés pour le cours de Tandy Warnow :
 		* ["Boosting BAli-Phy with UPP"](/pdf/boosting-bali-phy.pdf),
 		C. Rottner, T. Zimmermann,
@@ -131,4 +131,28 @@ En particulier :
 	et je les recommanderais toutes.
 	* J'adore aussi les villes de [Londres](/londres), New York,
 	San Francisco, Barcelone et Dublin.
-	* Avec ma petite amie, 
+	* Avec ma petite amie, nous avons profité de notre année d'échange
+	à Austin pour faire beaucoup de tourisme, au Texas et aux États-Unis
+	en général.
+	Quelques unes des villes que j'ai le plus aimé :
+	Houston, [San Antonio](/san-antonio), La Nouvelle Orléans,
+	Memphis, Washington DC.
+	Je tiens aussi à recommander l'ensemble des Parcs Nationaux
+	(qui sont généralement fantastiques et très bien organisés aux
+	États-Unis). En particulier, si vous avez l'occasion, allez visiter
+	Big Bend National Park (au Texas), la Natchez Trace Parkway
+	(notamment au Mississippi) et Shenandoah National Park (en Virginie).
+	
+* Lecture
+	* Un de mes auteurs préférés est
+	[Isaac Asimov](http://fr.wikipedia.org/wiki/Isaac_Asimov)
+	et je recommande tout particulièrement le cycle des Robots,
+	dont un grand nombre de romans sont à la fois
+	des histoires policières et de science-fiction.
+	* J'ai lu récemment et adoré "L'Étudiant Étranger" de
+	[Philippe Labro](http://fr.wikipedia.org/wiki/Philippe_Labro).
+	J'avais acheté ce roman huit ans plus tôt mais j'ai finalement
+	choisi le moment parfait pour le lire, étant donné que le sujet
+	résonnait directement avec ma propre aventure américaine.
+	
+* [Politique](/changer-le-monde)

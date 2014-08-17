@@ -142,6 +142,7 @@ including:
 	* A book I read recently and liked a lot is "L'Étudiant Étranger"
 	by [Philippe Labro](http://en.wikipedia.org/wiki/Philippe_Labro).
 	I had purchased this book eight years
-	before but I think I picked the perfect time to read it because it echoed my own personal adventure in the US.
+	before but I think I picked the perfect time to read it because it
+	echoed my own personal adventure in the US.
 
 * [Politics](/world-changer)
