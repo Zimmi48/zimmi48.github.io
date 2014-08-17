@@ -27,28 +27,35 @@ comme des élèves de fin de CM2 qui ont utilisé TestM ?
 Télécharger
 -----------
 
-Test-Pedago est distribué gratuitement comme logiciel libre :
+Test-Pedago est distribué gratuitement comme logiciel libre.
 
 ###Pour Windows
 
-Télécharger l'installeur ici
+[Télécharger l'installeur ici.](telechargement/windows/Test-Pedago.exe)
 
-Télécharger la version 3 de TestM
+[Télécharger la version 3
+de TestM.](telechargement/windows/TestM-3.exe)
 
-Télécharger la version 1.0 de TestL Conjugaison
+[Télécharger la version 1.0
+de TestL Conjugaison.](telechargement/windows/TestL-1.zip)
 
 ###Pour Mac
 
-Une ancienne version de TestL Conjugaison est disponible.
+[Une ancienne version de TestL Conjugaison
+est disponible](telechargement/mac/TestL.zip),
+dans laquelle on ne peut s'entraîner que sur la conjugaison
+des auxiliaires être et avoir.
 
 Si vous voulez des versions mises à jour, trouvez quelqu'un
 qui sera capable de les compiler pour vous à partir des sources.
 
 ###Pour Linux
 
-Télécharger la version 3 de TestM
+[Télécharger la version 3
+de TestM.](telechargement/linux/TestM-3.zip)
 
-Télécharger la version 1.0 de TestL Conjugaison
+[Télécharger la version 1.0
+de TestL Conjugaison.](telechargement/linux/TestL-1.zip)
 
 ###Code source
 
