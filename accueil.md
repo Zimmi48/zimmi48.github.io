@@ -101,6 +101,9 @@ Travaux passés
 	[TIPE](/pdf/TIPE.pdf) que
 	j'ai présenté à mon cours d'admission à
 	l'[ENS](http://www.ens.fr) (École Normale Supérieure), Paris.
+	J'ai notamment étudié, de manière théorique et expérimentale,
+	la résistance à l'avancement en fonction du type de revêtement
+	de la chaussée, mais aussi de la pression des pneus.
 	
 * Quelques autres travaux en informatique
 	* Lors d'un stage à Microsoft Research Cambridge (Angleterre),
@@ -118,7 +121,10 @@ Travaux passés
 	ma recherche.
 	* Mon premier logiciel
 	(gagnant du Concours Innovez des Jeunes Inventeurs,
-	mars 2008) : [Test-Pedago](/test-pedago).
+	mars 2008) : [Test-Pedago](/test-pedago). Il s'agit d'un
+	logiciel éducatif ayant été utilisé par une institutrice
+	avec ses élèves. Certains élèves y ont même contribué en
+	créant une base de données sur la conjugaison des verbes.
 	
 Intérêts
 --------

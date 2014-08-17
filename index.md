@@ -28,7 +28,7 @@ Currently, my main interest is
 [crowdsourcing](http://en.wikipedia.org/wiki/Crowdsourcing).
 I am amazed at a few projects that have enable people,
 through online massive collaboration, to create knowledge
-in a way that would never have been possible in a pre-web area.
+in a way that would never have been possible in a pre-web era.
 I am convinced that the tremendous possibilities that the internet
 opens are far from being unveiled.
 In particular, communication and collaboration tools are required
@@ -77,7 +77,7 @@ Past work
 	* When in primary and middle school,
 	I invented a language called Enfantin.
 	This paper I wrote about it [[in French](/pdf/enfantin.pdf)]
-	explains everything you need to know on it.
+	explains everything you need to know about it.
 	On a side note, I've never spoken this language fluently
 	and I would have had no one to talk to anyways.
 	* I like languages in general. I have learned Latin,
@@ -95,6 +95,9 @@ Past work
 	I defended this report [[in French](/pdf/TIPE.pdf)]
 	for the competitive exams leading to my admission to
 	the [ENS](http://www.ens.fr) (École Normale Supérieure), Paris.
+	I have studied, both theoretically and experimentally, the
+	variation in running resistance with respect to the type of
+	road surface, but also to the tire pressure.
 	
 * Other computer science works
 	* During an internship at Microsoft Research Cambridge (England),
@@ -111,7 +114,10 @@ Past work
 	* My first programming project
 	(winner of the _Concours Innovez des Jeunes Inventeurs_,
 	March 2008): Test-Pedago
-	[[in French](/test-pedago)].
+	[[in French](/test-pedago)]. This is an educative software which
+	was used by a school teacher with her students. Some of them
+	directly contributed to it by creating a database for French
+	verbs conjugation.
 	
 Interests
 ---------
