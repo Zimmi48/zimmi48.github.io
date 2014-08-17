@@ -9,18 +9,25 @@ humains à prendre soin d'eux-mêmes
 et de leur planète et à changer le monde pour
 le meilleur.
 
+Après avoir été un jeune révolté, développant des idées politiques
+et construisant des utopies, j'en suis venu à comprendre qu'un enjeu
+crucial n'est pas seulement "Où veut-on aller ?" mais "Comment y
+parvient-on ?"
+
 Cependant, je ne suis pas sûr que la politique soit la voie la plus
-efficace pour cela aujourd'hui. Si je pensais que la politique était
+efficace aujourd'hui. Si je pensais que la politique était
 la solution, je n'hésiterais pas à me lancer en politique moi-même.
 
-La politique a cependant de l'importance, comme elle en a toujours eu
+Bien-sûr, la politique a de l'importance, comme elle en a toujours eu
 depuis l'invention de nos sociétés démocratiques.
 Mais aujourd'hui, les hommes et femmes politiques les plus volontaires
 ont beaucoup de difficultés non seulement à se faire élire mais surtout
 à réaliser ce qu'on attend d'eux une fois élus.
 
-Pour changer les choses plus vite, le travail des associations, ONG,
+Pour changer les choses plus vite, le travail des associations, des ONG,
 des entrepreneurs et des inventeurs a au moins autant d'importance.
+En particulier, la technologie apporte une nouvelle dimension
+à la démocratie.
 
 Des outils généralistes tels que le sont les réseaux et médias sociaux
 ne suffiront cependant pas. Des outils plus spécialisés sont nécessaires

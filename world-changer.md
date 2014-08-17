@@ -8,17 +8,23 @@ I am radically progressive and optimist about the ability
 of humans to take care of themselves and change the world
 for the better.
 
+After being an outraged teenager and spending years developping
+political ideas and building utopies, I finally understood that
+finding the means to get somewhere is almost as important as the end.
+
 However, I'm not so sure today about what good politics can
 bring. I would be a politician if I thought this was the best
 way to achieve improvements to everyone's and our planet's lives.
 
-I still think politics is as important and necessary as it has been
+I still think politics as important and necessary, as it has been
 since the beginning of our democratic systems.
 Yet, even progressive politicians have a lot of difficulties
 to implement what they are elected for (when they are elected).
 
 To bring change at a quicker pace, what the organizations,
 entrepreneurs and inventors do can matter as much.
+Among other things, technology is leading to a breakthrough for
+democracy.
 
 General tools like social media won't suffice though.
 More specialized tools like [Avaaz](https://www.avaaz.org)
@@ -26,7 +32,7 @@ as well as day-to-day
 activism are needed.
 
 Money is power too. Philanthropists can have a big impact
-and people with big money who do not use it rightfully
+and big money people who do not use it rightfully
 have a large share of responsibility in today's world state.
 
 That's why I'm thriving to invent new ways of having a progressive
