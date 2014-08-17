@@ -59,7 +59,8 @@ de TestL Conjugaison.](telechargement/linux/TestL-1.zip)
 
 ###Code source
 
-Il est librement accessible ici. Vous avez le droit de l'étudier,
+[Il est librement accessible ici](https://github.com/Zimmi48/Test-Pedago).
+Vous avez le droit de l'étudier,
 le modifier, le distribuer, suivant les termes de la licence GPL.
 
 TestM
