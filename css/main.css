@@ -123,6 +123,11 @@ img {
   width: calc(41.875%);
 }
 
+.footer-copyright {
+  clear: both;
+  margin-bottom: 15px;
+}
+
 .site-footer ul { list-style: none; }
 
 .site-footer li,
@@ -130,6 +135,10 @@ img {
   font-size: 15px;
   letter-spacing: -.3px;
   color: #828282;
+}
+
+.footer-copyright p {
+  font-size: 10px;
 }
 
 .linkedin-icon,
