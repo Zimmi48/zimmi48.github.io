@@ -68,6 +68,7 @@ Past work
 	
 * Linguistic
 	* I did an internship with Professor Paul Sabatier at LIF
+	(_Laboratoire d'Informatique Fondamentale_)
 	in Marseille
 	in the area of Natural Language Processing.
 	I developed an algorithm to infer syntactic transformation
@@ -96,7 +97,7 @@ Past work
 	the [ENS](http://www.ens.fr) (École Normale Supérieure), Paris.
 	
 * Other computer science works
-	* During an internship at Microsoft Research Cambridge,
+	* During an internship at Microsoft Research Cambridge (England),
 	I worked on non-termination proofs,
 	under the supervision of Byron Cook
 	[[report, in English](/pdf/internship-MSRC.pdf)].
@@ -107,7 +108,9 @@ Past work
 
 * Developing
 	* A number of school/research projects I'm not going to list here.
-	* My first programming project: Test-Pedago
+	* My first programming project
+	(winner of the _Concours Innovez des Jeunes Inventeurs_,
+	March 2008): Test-Pedago
 	[[in French](/test-pedago)].
 	
 Interests

@@ -61,16 +61,18 @@ Travaux passés
 		* [Presentation of CABOG](/pdf/presentation-CABOG.pdf),
 		un assembleur génomique.
 	* Au lycée, j'ai fait, avec deux camarades,
-	un [TPE](/pdf/TPE.pdf)
+	un [rapport (TPE)](/pdf/TPE.pdf)
 	sur l'adaptation des plantes à un nouvel environnement.
 	* J'ai effectué mon premier stage dans une unité de recherche
-	lorsque j'étais au collège. J'ai visité pendant une semaine un
+	lorsque j'étais au collège. J'ai observé pendant une semaine
+	le travail de l'équipe d'un
 	laboratoire de recherche en biologie/cancérologie
 	[[rapport de stage](/pdf/stage-IGC.pdf)].
 	
 * Linguistique
-	* J'ai fait un stage avec le Directeur de Recherche Paul Sabatier
-	au LIF, à Marseille, dans le domaine du traitement automatique
+	* J'ai fait un stage avec le Directeur de Recherche CNRS Paul Sabatier
+	au LIF (Laboratoire d'Informatique Fondamentale),
+	à Marseille, dans le domaine du traitement automatique
 	du langage naturel.
 	J'ai développé un algorithme pour inférer des transformations
 	syntaxiques d'une phrase à partir d'exemples, que j'ai implémenté
@@ -78,7 +80,7 @@ Travaux passés
 	* À l'époque où j'étais à l'école primaire puis au collège,
 	j'ai inventé un langage que j'ai appelé Enfantin.
 	J'ai écrit un [papier](/pdf/enfantin.pdf)
-	qui explique tout ce dont que vous avez
+	qui explique tout ce que vous avez
 	besoin de savoir à son sujet.
 	Notez bien que je n'ai jamais parlé ce langage de manière courante.
 	De toute façon, je n'aurais eu personne à qui parler !
@@ -101,7 +103,7 @@ Travaux passés
 	l'[ENS](http://www.ens.fr) (École Normale Supérieure), Paris.
 	
 * Quelques autres travaux en informatique
-	* Lors d'un stage à Microsoft Research Cambridge,
+	* Lors d'un stage à Microsoft Research Cambridge (Angleterre),
 	j'ai travaillé sur les preuves de non-terminaison de programmes,
 	sous la direction de Byron Cook
 	[[rapport, en anglais](/pdf/internship-MSRC.pdf)].
@@ -111,10 +113,12 @@ Travaux passés
 	[[en français](/pdf/planification-trajectoires.pdf)].
 	
 * Programmation logicielle 
-	* Je ne vais pas lister ici la liste de tous les projets de
+	* Je ne vais pas lister ici tous les projets de
 	programmation réalisés dans le cadre de mes études ou de
 	ma recherche.
-	* Mon premier logiciel : [Test-Pedago](/test-pedago).
+	* Mon premier logiciel
+	(gagnant du Concours Innovez des Jeunes Inventeurs,
+	mars 2008) : [Test-Pedago](/test-pedago).
 	
 Intérêts
 --------
@@ -134,7 +138,7 @@ En particulier :
 	* Avec ma petite amie, nous avons profité de notre année d'échange
 	à Austin pour faire beaucoup de tourisme, au Texas et aux États-Unis
 	en général.
-	Quelques unes des villes que j'ai le plus aimé :
+	Quelques unes des villes que j'ai le plus aimées :
 	Houston, [San Antonio](/san-antonio), La Nouvelle Orléans,
 	Memphis, Washington DC.
 	Je tiens aussi à recommander l'ensemble des Parcs Nationaux
