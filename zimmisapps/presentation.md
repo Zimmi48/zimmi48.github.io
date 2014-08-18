@@ -22,7 +22,7 @@ Une nouvelle expérience de jeu, fun et originale !
 
 ###Disponibilité
 
-Vous pouvez télécharger Touch Snake sur
+Vous pouvez télécharger gratuitement Touch Snake sur
 [Google Play](https://play.google.com/store/apps/details?id=com.zimmisapps.touchsnake).
 
 En revanche, Touch Snake n'est pas encore disponible pour iPhone

@@ -25,7 +25,7 @@ Enjoy this fun gaming experience!
 
 ###Availability
 
-Touch Snake is available on
+Touch Snake is available for free on
 [Google Play](https://play.google.com/store/apps/details?id=com.zimmisapps.touchsnake).
 
 It is not available yet on the Apple App Store

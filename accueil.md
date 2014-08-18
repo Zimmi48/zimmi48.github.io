@@ -135,7 +135,7 @@ En dehors de ceux que j'ai déjà cités, j'ai des intérêts éclectiques.
 En particulier :
 
 * Voyager
-	* J'ai été dans de nombreux pays d'Europe de l'ouest ainsi
+	* Je suis allé dans de nombreux pays d'Europe de l'ouest ainsi
 	qu'aux États-Unis et au Canada.
 	* J'ai vécu dans quatre villes différentes, dans trois pays
 	différents ([Marseille](/marseille), France; [Paris](/paris), France;
