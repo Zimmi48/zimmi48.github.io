@@ -31,10 +31,10 @@ En revanche, le droit d'auteur ne vous empêche pas de reproduire le logiciel à
 l'identique ou presque, si vous le re-codez de zéro.
 C'est une situation qui survient fréquemment et donne lieu à une concurrence
 effrénée entre plusieurs acteurs, sans que le premier à avoir eu l'idée ne tire
-de gros avantage, si ce n'est celui d'avoir commencé plus tôt.
+de gros avantages, si ce n'est celui d'avoir commencé plus tôt.
 
 * Certaines idées, à savoir les inventions et les procédés industriels, peuvent
-être brevetés, à condition d'avoir été décrits en suffisamment grands détails.
+être brevetées, à condition d'avoir été décrits en suffisamment grands détails.
 L'idée initiale à partir de laquelle va naître l'invention n'est pas brevetable
 en tant que telle.
 
@@ -47,7 +47,7 @@ dans [l'article de blog à l'origine du projet Polymath](http://gowers.wordpress
 > Suppose that the blog was pretty active and that the post was getting several interesting comments.
 > And suppose that you had an idea that you thought might be a good one.
 > Instead of the usual reaction of being afraid to share it in case someone else beat you to the solution,
-> you would be afraid *not* to share it in case someone beat you to that particular idea.
+> you would be afraid **not** to share it in case someone beat you to that particular idea.
 
 Cette même idée est derrière la raison pour laquelle il a lancé ce projet à ce moment particulier :
 
@@ -89,8 +89,6 @@ Il faut donc trouver rapidement une voie de la rendre publique,
 J'en profite pour rajouter que si vous êtes intéressé par cette idée, n'hésitez
 pas à laisser un commentaire : peut-être pourra-t-on la réaliser ensemble...
 
-[^1]: Ceci arrive couramment dans le monde de la recherche scientifique.
-Dans ce cas-là, il est de bon ton, même si pas toujours systématique,
-de citer les travaux des collègues qui ont eu une idée similaire au même moment.
+[^1]: Ceci arrive couramment dans le monde de la recherche scientifique. Dans ce cas-là, il est de bon ton, même si pas toujours systématique, de citer les travaux des collègues qui ont eu une idée similaire au même moment.
 
 [^2]: Voilà qui est maintenant chose faite.
