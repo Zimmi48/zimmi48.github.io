@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Snake</title>
+		<meta charset="UTF-8">
+		<style type="text/css">
+			@font-face {
+				font-family: 'SF Burlington Script Bold';
+				src: url('fonts/SF Burlington Script Bold.ttf');
+			}
+			* {
+				margin:0;
+				padding:0;
+			} /* to remove the top and left whitespace */
+
+			html, body {
+				width: 100%; /* just to be sure these are full screen*/
+				height: 100%;
+				touch-action: none; /* Disable touch behaviors, like pan and zoom */
+				background: #000;
+			}
+
+			canvas {
+				display: block;
+			} /* To remove the scrollbars */
+			#my_canvas {
+				position: relative;
+			}
+		</style>
+		<script type="text/javascript" src="js/events.js"></script>
+		<script type="text/javascript" src="js/language.js"></script>
+		<script type="text/javascript" src="js/load.js"></script>
+		<script type="text/javascript" src="js/animate.js"></script>
+		<script type="text/javascript" src="js/game.js"></script>
+		<script type="text/javascript" src="js/display.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body>
+        <canvas id="my_canvas">
+            Not compatible on your device!
+        </canvas>
+    </body>
+</html>

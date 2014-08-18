@@ -34,7 +34,7 @@ En particulier, de nouveaux outils de communication et de collaboration
 seront nécessaires.
 
 En parallèle, je me suis aussi lancé avec mon frère dans le
-développement d'applications mobiles.
+[développement d'applications mobiles](/zimmisapps/presentation).
 
 Travaux passés
 --------------

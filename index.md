@@ -34,7 +34,8 @@ opens are far from being unveiled.
 In particular, communication and collaboration tools are required
 and a lot of them are still to be invented.
 
-I am also developing mobile apps with my brother as a hobby.
+I am also [developing mobile apps](/zimmisapps/presentation-en)
+with my brother as a hobby.
 
 Past work
 ---------

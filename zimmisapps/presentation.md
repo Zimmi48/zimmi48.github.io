@@ -1,0 +1,40 @@
+---
+layout: page
+title: Zimmis' Apps
+lang: fr
+trans: /zimmisapps/presentation-en
+---
+
+Pour le moment, nous n'avons publié qu'une seule application mobile
+mais nous en développons d'autres.
+
+Touch Snake
+-----------
+
+Touch Snake propose une version moderne de l'indémodable jeu du snake,
+réimaginée spécialement pour le tactile.
+Touch Snake se différencie du snake classique grâce à une vue centrée
+sur la tête du serpent, ainsi vous ne voyez qu'une partie de la zone de jeu
+que vous devez explorer.
+Une nouvelle expérience de jeu, fun et originale !
+
+[**Jouez maintenant dans votre navigateur**](/zimmisapps/touchsnake)
+
+###Disponibilité
+
+Vous pouvez télécharger Touch Snake sur
+[Google Play](https://play.google.com/store/apps/details?id=com.zimmisapps.touchsnake).
+
+En revanche, Touch Snake n'est pas encore disponible pour iPhone
+parce que nous n'avons pas envie de payer 99$/an à Apple pour
+quelques utilisateurs de plus.
+Si vous êtes un programmeur d'application iPhone et que vous voudriez
+nous aidez, contactez nous.
+Sinon, vous pouvez aussi nous offrir un iPhone et 100$ supplémentaires
+et nous nous ferons un plaisir d'accéder à votre demande.
+
+Par ailleurs, vous pouvez jouer à Touch Snake directement depuis
+[votre navigateur](/zimmisapps/touchsnake).
+
+Vous pouvez consulter le code source sur
+[GitHub](https://github.com/Zimmi48/Touch-Snake).
