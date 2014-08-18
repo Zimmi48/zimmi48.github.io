@@ -17,11 +17,13 @@ comment convaincre les gens de partager leurs idées
 alors que ces dernières ne peuvent être protégées que par le secret ?
 
 En effet, il n'y a pas de propriété intellectuelle sur les idées en général :
+
 * Elles ne peuvent pas être protégées par le droit d'auteur.
 Seul l'écrit décrivant l'idée est protégé. Pas le contenu conceptuel.
 On peut accuser de plagiat celui qui décrirait de nouveau la même idée par la
 suite sans citer son auteur original. Mais on ne pourrait pas attaquer celui
 qui mettrait l'idée en oeuvre, par exemple en créant une entreprise.
+
 * Lorsqu'une idée est réalisée par la création d'un logiciel, ce dernier est aussi
 protégé par le droit d'auteur. C'est pourquoi vous n'avez pas le droit de copier
 le logiciel et de l'utiliser sans l'accord de son auteur.
@@ -30,6 +32,7 @@ l'identique ou presque, si vous le re-codez de zéro.
 C'est une situation qui survient fréquemment et donne lieu à une concurrence
 effrénée entre plusieurs acteurs, sans que le premier à avoir eu l'idée ne tire
 de gros avantage, si ce n'est celui d'avoir commencé plus tôt.
+
 * Certaines idées, à savoir les inventions et les procédés industriels, peuvent
 être brevetés, à condition d'avoir été décrits en suffisamment grands détails.
 L'idée initiale à partir de laquelle va naître l'invention n'est pas brevetable
@@ -37,6 +40,7 @@ en tant que telle.
 
 Peut-être que la solution réside dans un argument donné par Tim Gowers
 dans [l'article de blog à l'origine du projet Polymath](http://gowers.wordpress.com/2009/01/27/is-massively-collaborative-mathematics-possible/).
+
 > Here is where the beauty of blogs, wikis, forums etc. comes in:
 > they are completely public, as is their entire history.
 > To see what effect this might have, imagine that a problem was being solved via comments on a blog post.
@@ -46,6 +50,7 @@ dans [l'article de blog à l'origine du projet Polymath](http://gowers.wordpress
 > you would be afraid *not* to share it in case someone beat you to that particular idea.
 
 Cette même idée est derrière la raison pour laquelle il a lancé ce projet à ce moment particulier :
+
 > I’ve been thinking of doing this for a long time.
 > The reason I’ve suddenly decided to go ahead is
 > that I followed a couple of links from
@@ -87,4 +92,5 @@ pas à laisser un commentaire : peut-être pourra-t-on la réaliser ensemble...
 [^1]: Ceci arrive couramment dans le monde de la recherche scientifique.
 Dans ce cas-là, il est de bon ton, même si pas toujours systématique,
 de citer les travaux des collègues qui ont eu une idée similaire au même moment.
+
 [^2]: Voilà qui est maintenant chose faite.
