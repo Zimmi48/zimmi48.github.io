@@ -12,10 +12,12 @@ pourtant ce que je m'apprête à faire en ce qui me concerne.
 Cependant, plutôt que de me restreindre à un petit nombre de telles
 catégories, voici une liste plus longues de choses que je suis :
 
-amoureux, athée, chercheur, écologiste, étudiant, Européen, féministe,
+amoureux, athée, chercheur,
+[désireux de changer le monde](/changer-le-monde),
+écologiste, étudiant, Européen, féministe,
 Français, informaticien, jeune homme, [Marseillais](/marseille),
 militant politique, [normalien](http://www.ens.fr),
-[Parisien](/paris), [révolutionnaire](/changer-le-monde), scientifique
+[Parisien](/paris), scientifique
 
 Si vous voulez connaître mon parcours,
 référez-vous à ma [page LinkedIn](https://fr.linkedin.com/in/theozim).
