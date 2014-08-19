@@ -5,6 +5,8 @@ lang: en
 trans: /zimmisapps/presentation
 ---
 
+*[Jules Zimmermann](https://www.linkedin.com/pub/jules-zimmermann/98/7b5/4b0) and Théo Zimmermann*
+
 We have published only one mobile app so far but we're developping others.
 
 Touch Snake
