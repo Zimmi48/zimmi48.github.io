@@ -20,7 +20,7 @@ sur la tête du serpent, ainsi vous ne voyez qu'une partie de la zone de jeu
 que vous devez explorer.
 Une nouvelle expérience de jeu, fun et originale !
 
-[**Jouez maintenant dans votre navigateur**](/zimmisapps/touchsnake) --- vous pouvez utiliser le tactile, la souris ou les flèches droite et gauche.
+[**Jouez maintenant dans votre navigateur**](http://touchsnake.zimmisapps.com) --- vous pouvez utiliser le tactile, la souris ou les flèches droite et gauche.
 
 ###Disponibilité
 
@@ -36,7 +36,7 @@ Sinon, vous pouvez aussi nous offrir un iPhone et 100$ supplémentaires
 et nous nous ferons un plaisir d'accéder à votre demande.
 
 Par ailleurs, vous pouvez jouer à Touch Snake directement depuis
-[votre navigateur](/zimmisapps/touchsnake).
+[votre navigateur](http://touchsnake.zimmisapps.com).
 
 Vous pouvez consulter le code source sur
 [GitHub](https://github.com/Zimmi48/Touch-Snake).
