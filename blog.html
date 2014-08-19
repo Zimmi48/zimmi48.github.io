@@ -16,6 +16,7 @@ trans: /blog-en
         <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 		{{ post.excerpt }}
+		<a title="Lire la suite en suivant ce lien" href="{{ post.url | prepend: site.baseurl }}">[...]</a>
       </li>
     {% endfor %}
   </ul>

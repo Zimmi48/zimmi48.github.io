@@ -1,5 +1,6 @@
 ---
 layout: page
+link: Bio
 lang: en
 trans: /accueil
 ---

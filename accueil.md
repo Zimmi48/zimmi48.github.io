@@ -1,5 +1,6 @@
 ---
 layout: page
+link-fr: Bio
 lang: fr
 trans: /
 ---
