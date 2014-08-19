@@ -62,11 +62,11 @@ Cette même idée est derrière la raison pour laquelle il a lancé ce projet à
 > so I wanted to try it out when it was still fresh.
 
 La conclusion c'est que, dans le monde d'aujourd'hui,
-garder ses idées secrètes n'a plus grand sens,
-à moins que vous soyez très motivés par la réalisation de cette idée à *court terme*.
+garder une idée secrète n'a plus grand sens,
+à moins que vous soyez très motivés par sa réalisation à *court terme*.
 
-En effet, si vous ne réalisez pas cette idée vite,
-il est probable que vous ne serez plus le premier à avoir eu cette idée et
+En effet, si vous ne la concrétisez pas vite,
+il est probable que vous ne serez plus le premier à l'avoir eue et
 que vous ne serez pas du tout crédité pour elle.
 Tandis que si vous la partagez,
 même si vous n'en retirerez pas nécessairement tous les bénéfices,
@@ -77,7 +77,7 @@ qui auront, en fin de compte, réalisé votre idée ne pourront pas faire
 comme si vous n'existiez pas et seront tenues de donner des explications :
 soit votre idée les a inspirées,
 soit vous avez eu la même idée qu'eux (ou une idée similaire) de manière indépendante[^1].
-Quelque soit ce qu'elles affirment,
+Quel que soit ce qu'elles affirment,
 vous serez cité et ça aura certainement un impact sur votre réputation.
 
 Pour finir, il serait grandement stupide que cette idée-ci
