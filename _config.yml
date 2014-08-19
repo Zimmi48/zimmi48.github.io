@@ -32,9 +32,9 @@ t:
     short: "Lien abrégé :"
     contact: "E-mail :"
     copyright-texts: "Tous les écrits de Théo Zimmermann qui sont présentés pour la première fois sur cette page sont mis à disposition selon les termes de la licence"
-    copyright-documents: "Ceci ne concerne pas les documents (en particulier tout document PDF) accessibles par un lien sur cette page."
+    copyright-documents: "Ceci ne concerne pas les documents (en particulier tout document PDF) accessibles par un lien depuis cette page."
     copyright-code: "Tous les extraits de code dont l'auteur est Théo Zimmermann et qui sont présentés pour la première fois sur cette page sont dédiés au domaine public, suivant les termes de"
-    copyright-images: "Toute image apparaissant sur ce site reste pleinement protégée par le droit d'auteur et son auteur en conserve la propriété exclusive. Vous ne pouvez pas l'utiliser à moins cela ne soit explicitement précisé."
+    copyright-images: "Toute image apparaissant sur ce site reste pleinement protégée par le droit d'auteur et son auteur en conserve la propriété exclusive. Vous n'avez pas le droit de l'utiliser à moins cela ne soit explicitement précisé."
 
 # Redirects function for short URLs
 gems:
