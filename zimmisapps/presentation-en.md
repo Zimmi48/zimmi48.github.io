@@ -14,7 +14,7 @@ Touch Snake
 
 A modern and touch-friendly version of the classic game of snake.
 
-[**Play on the web now**](/zimmisapps/touchsnake)
+[**Play on the web now**](/zimmisapps/touchsnake) --- you can use the touch screen, mouse or left and right arrows.
 
 ###Full description
 

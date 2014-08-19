@@ -20,7 +20,7 @@ sur la tête du serpent, ainsi vous ne voyez qu'une partie de la zone de jeu
 que vous devez explorer.
 Une nouvelle expérience de jeu, fun et originale !
 
-[**Jouez maintenant dans votre navigateur**](/zimmisapps/touchsnake)
+[**Jouez maintenant dans votre navigateur**](/zimmisapps/touchsnake) --- vous pouvez utiliser le tactile, la souris ou les flèches droite et gauche.
 
 ###Disponibilité
 
