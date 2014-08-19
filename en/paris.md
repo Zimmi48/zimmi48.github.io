@@ -2,7 +2,7 @@
 layout: page
 title: Paris
 lang: en
-trans: /paris
+trans: /fr/paris
 ---
 
 Panthéon by night

@@ -16,7 +16,7 @@ permalink: pretty
 # Multilingual settings (origin: http://sylvain.durand.tf/site-multilingue-avec-jekyll/)
 t:
   en:
-    baseurl: "/"
+    baseurl: "/en"
     description: "Mostly a place to share ideas and thoughts."
     translation: "lire en français"
     short: "Short URL:"
@@ -26,7 +26,7 @@ t:
     copyright-code: "All code snippets by Théo Zimmermann appearing for the first time on this page are dedicated to the public domain following the terms of"
     copyright-images: "All images appearing on this website are fully copyrighted and remain the sole property of their respective authors. You may not use them unless stated otherwise."
   fr:
-    baseurl: "/accueil"
+    baseurl: "/fr"
     description: "Là où je partage quelques-unes de mes idées."
     translation: "read in English"
     short: "Lien abrégé :"

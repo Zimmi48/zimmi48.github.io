@@ -2,7 +2,7 @@
 layout: page
 title: San Antonio
 lang: en
-trans: /san-antonio
+trans: /fr/san-antonio
 ---
 
 ![San Antonio](/images/san-antonio.jpg)

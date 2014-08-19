@@ -2,7 +2,8 @@
 layout: page
 link: Bio
 lang: en
-trans: /accueil
+permalink: "/en/"
+trans: /fr
 ---
 
 Who am I?
@@ -15,9 +16,9 @@ here's a longer list of things I am:
 
 boyfriend, computer scientist, environmentalist, European,
 ex-Austinite,
-feminist, French, graduate student, [Parisian](/paris-en),
+feminist, French, graduate student, [Parisian](/en/paris),
 political activist,
-researcher, [wannabe world changer](/world-changer), young man
+researcher, [wannabe world changer](/en/world-changer), young man
 
 If you want to see my curriculum,
 please refer to my [LinkedIn page](https://fr.linkedin.com/in/theozim).
@@ -35,7 +36,7 @@ opens are far from being unveiled.
 In particular, communication and collaboration tools are required
 and a lot of them are still to be invented.
 
-I am also [developing mobile apps](/zimmisapps/presentation-en)
+I am also [developing mobile apps](/zimmisapps/en)
 with my brother as a hobby.
 
 Past work
@@ -131,15 +132,15 @@ including:
 	* I've been to a lot of western European countries
 	as well as to the US and Canada.
 	* I lived in four different cities/towns in three different countries
-	([Marseille](/marseille-en), France; [Paris](/paris-en), France;
-	[Cambridge](/cambridge-en), England; Austin, Texas)
+	([Marseille](/en/marseille), France; [Paris](/en/paris), France;
+	[Cambridge](/en/cambridge), England; Austin, Texas)
 	and I recommend all these places.
-	* I also love the cities of [London](/london),
+	* I also love the cities of [London](/en/london),
 	New York, San Francisco, Barcelona and Dublin.
 	* With my girlfriend, we took advantage of our year abroad to visit
 	a lot of places in Texas and in the US in general.
 	Some of the cities I liked most were Houston,
-	[San Antonio](/san-antonio-en), New Orleans, Memphis, Washington (DC).
+	[San Antonio](/en/san-antonio), New Orleans, Memphis, Washington (DC).
 	I would also like to recommend the fantastic National Park system,
 	in particular Big Bend National Park, the Natchez Trace Parkway,
 	the Blue Ridge Parkway and Shenandoah National Park.
@@ -156,4 +157,4 @@ including:
 	before but I think I picked the perfect time to read it because it
 	echoed my own personal adventure in the US.
 
-* [Politics](/world-changer)
+* [Politics](/en/world-changer)

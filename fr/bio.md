@@ -2,7 +2,8 @@
 layout: page
 link-fr: Bio
 lang: fr
-trans: /
+permalink: "/fr/"
+trans: /en
 ---
 
 Qui suis-je ?
@@ -14,11 +15,11 @@ Cependant, plutôt que de me restreindre à un petit nombre de telles
 catégories, voici une liste plus longues de choses que je suis :
 
 amoureux, athée, chercheur,
-[désireux de changer le monde](/changer-le-monde),
+[désireux de changer le monde](/fr/changer-le-monde),
 écologiste, étudiant, Européen, féministe,
-Français, informaticien, jeune homme, [Marseillais](/marseille),
+Français, informaticien, jeune homme, [Marseillais](/fr/marseille),
 militant politique, [normalien](http://www.ens.fr),
-[Parisien](/paris), scientifique
+[Parisien](/fr/paris), scientifique
 
 Si vous voulez connaître mon parcours,
 référez-vous à ma [page LinkedIn](https://fr.linkedin.com/in/theozim).
@@ -37,7 +38,7 @@ En particulier, de nouveaux outils de communication et de collaboration
 seront nécessaires.
 
 En parallèle, je me suis aussi lancé avec mon frère dans le
-[développement d'applications mobiles](/zimmisapps/presentation).
+[développement d'applications mobiles](/zimmisapps/fr).
 
 Travaux passés
 --------------
@@ -139,16 +140,16 @@ En particulier :
 	* Je suis allé dans de nombreux pays d'Europe de l'ouest ainsi
 	qu'aux États-Unis et au Canada.
 	* J'ai vécu dans quatre villes différentes, dans trois pays
-	différents ([Marseille](/marseille), France; [Paris](/paris), France;
-	[Cambridge](/cambridge), Angleterre; Austin, Texas)
+	différents ([Marseille](/fr/marseille), France; [Paris](/fr/paris), France;
+	[Cambridge](/fr/cambridge), Angleterre; Austin, Texas)
 	et je les recommanderais toutes.
-	* J'adore aussi les villes de [Londres](/londres), New York,
+	* J'adore aussi les villes de [Londres](/fr/londres), New York,
 	San Francisco, Barcelone et Dublin.
 	* Avec ma petite amie, nous avons profité de notre année d'échange
 	à Austin pour faire beaucoup de tourisme, au Texas et aux États-Unis
 	en général.
 	Quelques unes des villes que j'ai le plus aimées :
-	Houston, [San Antonio](/san-antonio), La Nouvelle Orléans,
+	Houston, [San Antonio](/fr/san-antonio), La Nouvelle Orléans,
 	Memphis, Washington DC.
 	Je tiens aussi à recommander l'ensemble des Parcs Nationaux
 	(qui sont généralement fantastiques et très bien organisés aux
@@ -168,4 +169,4 @@ En particulier :
 	choisi le moment parfait pour le lire, étant donné que le sujet
 	résonnait directement avec ma propre aventure américaine.
 	
-* [Politique](/changer-le-monde)
+* [Politique](/fr/changer-le-monde)

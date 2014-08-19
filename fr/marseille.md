@@ -2,7 +2,7 @@
 layout: page
 title: Marseille
 lang: fr
-trans: /marseille-en
+trans: /en/marseille
 ---
 
 Je sais je n'ai pas choisi la vision la plus typique de Marseille :

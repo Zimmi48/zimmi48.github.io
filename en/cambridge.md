@@ -2,7 +2,7 @@
 layout: page
 title: Cambridge
 lang: en
-trans: /cambridge
+trans: /fr/cambridge
 ---
 
 Every day on my way to work:

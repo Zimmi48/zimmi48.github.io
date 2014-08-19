@@ -1,7 +1,7 @@
 ---
 layout: page
 lang: fr
-trans: /world-changer
+trans: /en/world-changer
 ---
 
 Je suis progressiste, radical et optimiste sur la capacité des

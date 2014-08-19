@@ -1,7 +1,7 @@
 ---
 layout: page
 lang: en
-trans: /changer-le-monde
+trans: /fr/changer-le-monde
 ---
 
 I am radically progressive and optimist about the ability

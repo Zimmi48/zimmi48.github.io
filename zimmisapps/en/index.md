@@ -2,7 +2,7 @@
 layout: page
 title: Zimmis' Apps
 lang: en
-trans: /zimmisapps/presentation
+trans: /zimmisapps/fr
 ---
 
 *[Jules Zimmermann](https://www.linkedin.com/pub/jules-zimmermann/98/7b5/4b0) and Théo Zimmermann*

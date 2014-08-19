@@ -2,7 +2,7 @@
 layout: page
 title: Marseille
 lang: en
-trans: /marseille
+trans: /fr/marseille
 ---
 
 Beware, this is not the most typical view you can have in Marseille:
