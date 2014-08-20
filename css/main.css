@@ -74,13 +74,20 @@ img {
 
 .site-nav .page-link {
   margin-left: 20px;
-  color: #727272;
   letter-spacing: -.5px;
 }
+
+/*.site-nav .active-link {
+  color: #727272;
+}*/
 
 .inactive {
   /*font-weight: bold;*/
   color: #7F1917
+}
+
+.current-page {
+  color: #000;
 }
 
 /* Site footer */
