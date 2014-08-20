@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Redirection</title>
+	</head>
+	
+	<body>
+
+	<script type="text/javascript">
+		var language = window.navigator.userLanguage || window.navigator.language;
+
+		if (language.indexOf('fr') > -1) {
+			document.location.href = 'fr/blog';
+		}
+		else {
+			document.location.href = 'en/blog';
+		}
+	</script>
+
+	<noscript>
+		<meta http-equiv="refresh" content="0;url=en/blog">
+	</noscript>
+
+</body>
+</html> 
