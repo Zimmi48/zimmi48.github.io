@@ -269,6 +269,11 @@ img {
 .post ul,
 .post ol { margin-left: 1.35em; }
 
+.footnotes {
+    margin-top: 30px;
+    font-size: 12px;
+}
+
 .post pre code {
   border: 0;
   padding-right: 0;
