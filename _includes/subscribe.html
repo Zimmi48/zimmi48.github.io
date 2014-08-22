@@ -1,13 +1,13 @@
 <!-- Begin MailChimp Signup Form -->
 <div id="mc_embed_signup">
 <form action="//theozimmermann.us9.list-manage.com/subscribe/post?u=c56773705d0115f5cd251f731&amp;id=7d4a73800c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-	<h2>site.t[page.lang].subscribe-title</h2>
+	<h2>{{ site.t[page.lang].subscribe-title }}</h2>
 <div class="mc-field-group">
-	<label for="mce-EMAIL">site.t[page.lang].subscribe-email</label>
+	<label for="mce-EMAIL">{{ site.t[page.lang].subscribe-email }}</label>
 	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
 </div>
 <div class="mc-field-group input-group">
-    <strong>site.t[page.lang].subscribe-lang</strong>
+    <strong>{{ site.t[page.lang].subscribe-lang }}</strong>
     <ul><li><input type="radio" value="Articles en français uniquement" name="MMERGE1" id="mce-MMERGE1-0"><label for="mce-MMERGE1-0">Articles en français uniquement</label></li>
 <li><input type="radio" value="English posts only" name="MMERGE1" id="mce-MMERGE1-1"><label for="mce-MMERGE1-1">English posts only</label></li>
 <li><input type="radio" value="All posts / Tous les articles" name="MMERGE1" id="mce-MMERGE1-2"><label for="mce-MMERGE1-2">All posts / Tous les articles</label></li>
@@ -18,7 +18,7 @@
 		<div class="response" id="mce-success-response" style="display:none"></div>
 	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;"><input type="text" name="b_c56773705d0115f5cd251f731_7d4a73800c" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="site.t[page.lang].subscribe-button" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+    <div class="clear"><input type="submit" value="{{ site.t[page.lang].subscribe-button }}" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 </form>
 </div>
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='MMERGE1';ftypes[1]='radio';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
