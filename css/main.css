@@ -161,7 +161,7 @@ img {
 /* Subscribe form */
 #mc_embed_signup{
     background:#fff;
-    float:left;
+    float:right;
     font:14px Helvetica,Arial,sans-serif;
     width:200px;
 }
@@ -183,7 +183,6 @@ img {
 
 .posts {
     list-style-type: none;
-    
 }
 
 .posts li { margin-bottom: 30px; }
