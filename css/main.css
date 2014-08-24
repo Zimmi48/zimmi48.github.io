@@ -158,12 +158,18 @@ img {
   top: 3px;
 }
 
+.post {
+    width: 100%;
+    float: left;
+}
+
 /* Subscribe form */
-#mc_embed_signup{
+#mc_embed_signup {
+    margin-top: 200px;
+    margin-left: 850px;
+    position: fixed;
     background:#fff;
-    float:right;
     font:14px Helvetica,Arial,sans-serif;
-    width:200px;
 }
 
 
