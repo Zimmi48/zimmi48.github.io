@@ -173,7 +173,7 @@ img {
     font:14px Helvetica,Arial,sans-serif;
 }
 
-@media (max-width: 999px) {
+@media (max-width: 1199px) {
     #mc_embed_signup {
         margin: 0px;
         position: relative;
