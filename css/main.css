@@ -165,19 +165,16 @@ img {
 
 /* Subscribe form */
 #mc_embed_signup {
-    margin-top: 200px;
-    margin-left: 820px;
-    margin-right: 20px;
-    position: fixed;
     background:#fff;
     font:14px Helvetica,Arial,sans-serif;
 }
 
-@media (max-width: 1199px) {
+@media (min-width: 1200px) and (min-height: 600px) {
     #mc_embed_signup {
-        margin: 0px;
-        position: relative;
-        clear: both;
+        margin-top: 150px;
+        margin-left: 820px;
+        margin-right: 20px;
+        position: fixed;
     }
 }
 
