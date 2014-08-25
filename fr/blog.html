@@ -20,7 +20,15 @@ trans: /en/blog
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">Abonnement <a href="{{ "/feed.xml" | prepend: site.baseurl }}">par flux RSS</a></p>
+  
+  <div class="post-content">
+	<p id="rss-subscribe">Abonnez-vous via RSS:
+	  <ul>
+		<li><a href="{{ "/fr/feed.xml" | prepend: site.baseurl }}">Articles en français uniquement</a></li>
+		<li><a href="{{ "/en/feed.xml" | prepend: site.baseurl }}">English posts only</a></li>
+		<li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">All posts / Tous les articles</a></li>
+	  </ul>
+	</p>
+  </div>
 
 </div>
