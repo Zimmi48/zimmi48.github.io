@@ -190,8 +190,24 @@ img {
   background-color: #fff;
 }
 
+/* Bio style */
+/* --------------------------------------------------------- */
 
-/* Home styles */
+#profil {
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+}
+
+@media (min-width: 1160px) {
+	#profil {
+		position: absolute;
+		margin-top: 30px;
+		width: calc((100% - 800px)/2);
+	}
+}
+
+/* Blog styles */
 /* ----------------------------------------------------------*/
 
 .home h1 { margin-bottom: 25px; }

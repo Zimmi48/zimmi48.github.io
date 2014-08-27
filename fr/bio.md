@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: bio
 link-fr: Bio
 lang: fr
 permalink: "/fr/"

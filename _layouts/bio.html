@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+    <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+	
+	  <div id="profil">
+		<img src="/images/profil.svg" width="140px" height="201.20" title="{{ site.t[page.lang].profil-credits }}" />
+	  </div>
+	  
+      <div class="wrap">
+	  
+        <div class="post">
+
+		  <article class="post-content">
+		  {{ content }}
+		  </article>
+		  
+		</div>
+		
+      </div>
+	  
+    </div>
+
+    {% include footer.html %}
+
+    </body>
+</html>

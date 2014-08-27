@@ -29,6 +29,7 @@ t:
     subscribe-email: "E-mail address"
     subscribe-lang: "Language settings"
     subscribe-button: "Subscribe"
+    profil-credits: "Profile by Jules Zimmermann"
   fr:
     baseurl: "/fr"
     description: "Là où je partage quelques-unes de mes idées."
@@ -43,6 +44,7 @@ t:
     subscribe-email: "Adresse e-mail"
     subscribe-lang: "Paramètres linguistiques"
     subscribe-button: "S'abonner"
+    profil-credits: "Portrait par Jules Zimmermann"
 
 # Redirects function for short URLs
 gems:
