@@ -40,25 +40,53 @@ en tant que telle.
 Peut-être que la solution réside dans un argument donné par Tim Gowers
 dans [l'article de blog à l'origine du projet Polymath](http://gowers.wordpress.com/2009/01/27/is-massively-collaborative-mathematics-possible/).
 
-> Here is where the beauty of blogs, wikis, forums etc. comes in:
-> they are completely public, as is their entire history.
-> To see what effect this might have, imagine that a problem was being solved via comments on a blog post.
-> Suppose that the blog was pretty active and that the post was getting several interesting comments.
-> And suppose that you had an idea that you thought might be a good one.
-> Instead of the usual reaction of being afraid to share it in case someone else beat you to the solution,
-> you would be afraid **not** to share it in case someone beat you to that particular idea.
+> C'est ici qu'entre en jeu ce qui fait la beauté des blogs, des wikis, des forums, etc:
+> ils sont entièrement publics, de même que l'est leur historique complet.
+> Pour comprendre quel impact ça peut avoir, imaginez qu'un problème était résolu via les commentaires d'un article de blog.
+> Supposons que le blog était très actif et que l'article en question recevait plusieurs commentaires intéressants.
+> Et supposons que vous ayez une idée qui vous semble être potentiellement bonne.
+> Au lieu de la réaction habituelle qui consiste à avoir peur de partager votre idée au cas où quelqu'un trouve la
+> solution complète avant vous, vous auriez peur de **ne pas** la partager au cas où quelqu'un trouve cette idée
+> précise avant vous.
+
+<details>
+	<summary>Version originale en anglais</summary>
+	<blockquote><p>
+		Here is where the beauty of blogs, wikis, forums etc. comes in:
+		they are completely public, as is their entire history.
+		To see what effect this might have, imagine that a problem was being solved via comments on a blog post.
+		Suppose that the blog was pretty active and that the post was getting several interesting comments.
+		And suppose that you had an idea that you thought might be a good one.
+		Instead of the usual reaction of being afraid to share it in case someone else beat you to the solution,
+		you would be afraid <strong>not</strong> to share it in case someone beat you to that particular idea.
+	</p></blockquote>
+</details>
 
 Cette même idée est derrière la raison pour laquelle il a lancé ce projet à ce moment particulier :
 
-> I’ve been thinking of doing this for a long time.
-> The reason I’ve suddenly decided to go ahead is
-> that I followed a couple of links from
-> [this post on Michael Nielsen’s blog](http://michaelnielsen.org/blog/?p=545),
-> and discovered that, unsurprisingly, others have had similar ideas,
-> and some people are already doing research in public.
-> But the idea still seems pretty new,
-> particularly when applied to one single mathematics problem,
-> so I wanted to try it out when it was still fresh.
+> J'avais imaginé faire ça depuis longtemps.
+> La raison pour laquelle j'ai soudainement décidé de me lancer, c'est
+> que j'ai suivi quelques liens depuis
+> [cet article sur le blog de Michael Nielsen](http://michaelnielsen.org/blog/?p=545)
+> et que j'ai découvert que, sans surprise, d'autres ont eu des idées similaires,
+> et certaines personnes font déjà de la recherche en public.
+> Mais l'idée semble encore plutôt neuve, en particulier appliquée à un unique
+> problème de mathématiques, donc je voulais la tester tant qu'elle était encore fraîche.
+
+<details>
+	<summary>Version originale en anglais</summary>
+	<blockquote><p>
+		I’ve been thinking of doing this for a long time.
+		The reason I’ve suddenly decided to go ahead is
+		that I followed a couple of links from
+		<a href="http://michaelnielsen.org/blog/?p=545">this post on Michael Nielsen’s blog</a>,
+		and discovered that, unsurprisingly, others have had similar ideas,
+		and some people are already doing research in public.
+		But the idea still seems pretty new,
+		particularly when applied to one single mathematics problem,
+		so I wanted to try it out when it was still fresh.
+	</p></blockquote>
+</details>
 
 La conclusion c'est que, dans le monde d'aujourd'hui,
 garder une idée secrète n'a plus grand sens,
