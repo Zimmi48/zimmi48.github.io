@@ -169,4 +169,4 @@ En particulier :
 	choisi le moment parfait pour le lire, étant donné que le sujet
 	résonnait directement avec ma propre aventure américaine.
 	
-* [Politique](/fr/changer-le-monde)
+* Politique

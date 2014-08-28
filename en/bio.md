@@ -157,4 +157,4 @@ including:
 	before but I think I picked the perfect time to read it because it
 	echoed my own personal adventure in the US.
 
-* [Politics](/en/world-changer)
+* Politics
