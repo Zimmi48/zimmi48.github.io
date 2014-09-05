@@ -60,7 +60,7 @@ Travaux passés
         à paraître, ECCB 2014
 	* Quelques travaux réalisés pour le cours de Tandy Warnow :
 		* ["Boosting BAli-Phy with UPP"](/pdf/boosting-bali-phy.pdf),
-		C. Rottner, T. Zimmermann,
+		[C. Rottner](http://fr.linkedin.com/in/cecilerottner), T. Zimmermann,
 		avec l'aide de N. Nguyen et T. Warnow, rapport de projet.
 		* [Presentation of CABOG](/pdf/presentation-CABOG.pdf),
 		un assembleur génomique.

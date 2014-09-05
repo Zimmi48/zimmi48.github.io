@@ -58,7 +58,7 @@ Past work
         to appear in ECCB 2014.
 	* Some works done for Prof. Warnow's class:
 		* ["Boosting BAli-Phy with UPP"](/pdf/boosting-bali-phy.pdf),
-		C. Rottner, T. Zimmermann,
+		[C. Rottner](http://fr.linkedin.com/in/cecilerottner/en), T. Zimmermann,
 		with help of N. Nguyen and T. Warnow, class project paper.
 		* [Presentation of CABOG](/pdf/presentation-CABOG.pdf),
 		a genome assembler.
