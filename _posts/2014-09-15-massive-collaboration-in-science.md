@@ -96,15 +96,11 @@ Yet, there are many more than hundreds of people who have the knowledge and abil
 What about a proof that would involve thousands to millions of participants?
 At that scale, a new tool is required.
 
-[^1]: In this great [TED video](http://www.ted.com/talks/luis_von_ahn_massive_scale_online_collaboration),
-the inventor of Captcha and reCaptcha also presents a new massively collaborative project called Duolingo.
-
-[^2]: See for instance:
-Von Krogh, G., Haefliger, S., Spaeth, S., & Wallin, M. W. (2012).
-Carrots and rainbows: Motivation and social practice in open source software development.
-_Mis Quarterly_, 36(2), 649-676.
-
 **Comments:** please do not hesitate to leave a comment below.
 I would especially appreciate if you would take some of your time to share any information you have
 on any new and interesting collaborative projects you heard about
 or any pointers to scientific literature on the subject.
+
+[^1]: In this great [TED video](http://www.ted.com/talks/luis_von_ahn_massive_scale_online_collaboration), the inventor of Captcha and reCaptcha also presents a new massively collaborative project called Duolingo.
+
+[^2]: See for instance: Von Krogh, G., Haefliger, S., Spaeth, S., & Wallin, M. W. (2012). Carrots and rainbows: Motivation and social practice in open source software development. _Mis Quarterly_, 36(2), 649-676.
