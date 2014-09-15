@@ -5,8 +5,6 @@ date: 2014-09-15
 lang: en
 ---
 
-##Introduction
-
 There are many cases when
 [observable macro-phenomena appear from the combination of a large number of micro-phenomena](http://en.wikipedia.org/wiki/Emergence).
 This is true of the interaction of elementary particles which compose gas,
