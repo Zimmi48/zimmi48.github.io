@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What good can massive-scale collaboration bring to science?"
-date: 2014-09-15
+date: 2014-09-15 18:00:00
 lang: en
 excerpt: "There are many cases when observable macro-phenomena appear from the combination of a large number of micro-phenomena. This is true of the interaction of elementary particles which compose gas, but this has also been proven to be true of human-related phenomena."
 redirect_from: 6wCVVc
