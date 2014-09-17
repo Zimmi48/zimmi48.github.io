@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Partage d'idées"
-date: 2014-08-08 18:00:00
+date: 2014-08-08 18:00:00 +0200
 lang: fr
 redirect_from: 6scVWW
 ---
