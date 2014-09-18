@@ -51,7 +51,9 @@ and it requires a lot of thinking to transform a complex scientific problem into
 
 I'm more interested in finding ways to enable people with some minimal technical knowledge
 (even when this is self-taught knowledge) to take their part in the scientific journey.
-An example of this is people looking at photos of Hubble and annotating them.
+[Galaxy Zoo](http://www.galaxyzoo.org/), a website where people can contribute to astronomy
+by looking at images from telescopes like Hubble and annotating them, is a good example
+that you do not necessarily need to gamify science to make it attractive.
 
 Through education, people generally learn a lot on many subjects.
 Most of this accumulated knowledge, while helping them forging their own view of the world,
