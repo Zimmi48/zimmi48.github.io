@@ -138,6 +138,11 @@ Meanwhile, I think I’m going to try writing a post on Medium and see how it ge
 I would encourage anyone who likes writing to try it too and if you’re nice, you’ll let a comment about it here.
 In particular, the big question is "Did it help you reaching an audience?"
 
+*Update:* based on [this post](https://medium.com/the-story/what-the-hell-we-were-thinking-380bf329e275)
+and based on the comments it received, it looks like Medium.com
+is getting away from their initial goal and becoming more or less *yet another* social network and blogging platform.
+Also, spoiler, their editor is not that good: well maybe for non-tech journalists it is but I did not like it at all.
+
 [^Avaaz]: [About Us. _Avaaz_](http://avaaz.org/en/about.php)
 
 [^Duolingo]: [Ungerleider, N. (2014). How Duolingo Uses A/B Testing To Understand The Way You Learn. _Co.LABS_](http://www.fastcolabs.com/3029531/how-duolingo-uses-a-b-testing-to-understand-the-way-you-learn)
