@@ -40,3 +40,9 @@ Par ailleurs, vous pouvez jouer à Touch Snake directement depuis
 
 Vous pouvez consulter le code source sur
 [GitHub](https://github.com/Zimmi48/Touch-Snake).
+
+###Licence
+
+Ce logiciel est un **logiciel libre** distribué suivant les termes de la licence
+MPL 2.0 (Mozilla Public License 2.0). Si vous ne connaissez pas la licence MPL 2.0,
+nous vous recommandons de lire la FAQ officielle [[en anglais]](https://www.mozilla.org/MPL/2.0/FAQ.html).

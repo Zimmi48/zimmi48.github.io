@@ -41,3 +41,9 @@ Touch Snake is also available as a
 
 You can view the source code on our
 [GitHub repository](https://github.com/Zimmi48/Touch-Snake).
+
+###License
+
+This software is a **free software** available under the terms of the MPL 2.0 (Mozilla Public License 2.0).
+If you don't know what the MPL 2.0 is, then we recommend that you look at
+[official FAQ](https://www.mozilla.org/MPL/2.0/FAQ.html).
