@@ -44,7 +44,7 @@ This is also an example of a case when people can help out without any particula
 
 At an ACL2 seminar last year, I listened to a talk of
 Prof. Mike Ernst on how people can help science while playing games
-(he was trying to apply it to specific software verification problems but anyways).
+(he was trying to apply it to specific [software verification problems](http://www.verigames.com) but anyways).
 There is one well-known example of this: it is [FoldIt](http://fold.it).
 But this approach cannot be applied to any type of problems
 and it requires a lot of thinking to transform a complex scientific problem into a game.
