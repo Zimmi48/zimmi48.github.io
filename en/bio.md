@@ -29,9 +29,9 @@ Current topics
 
 Currently, my main interests are
 [crowdsourcing](http://en.wikipedia.org/wiki/Crowdsourcing), i.e.
-_mass collaboration_ using the Web,
-[_open science_](http://en.wikipedia.org/wiki/Open_science)
-and [_open research_](http://en.wikipedia.org/wiki/Open_research).
+mass collaboration using the Web,
+[open science](http://en.wikipedia.org/wiki/Open_science)
+and [open research](http://en.wikipedia.org/wiki/Open_research).
 I am amazed at a few projects that have enable people,
 through online mass collaboration, to create knowledge
 in a way that would never have been possible in a pre-web era.

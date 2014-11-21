@@ -30,8 +30,8 @@ Sujets actuels
 
 Je m'intéresse en ce moment principalement au
 [_crowdsourcing_](http://fr.wikipedia.org/wiki/Crowdsourcing), c'est-à-dire
-à la _collaboration de masse_ via internet ainsi qu'à la
-[_science ouverte_](http://fr.wikipedia.org/wiki/Science_ouverte)
+à la collaboration de masse via internet ainsi qu'à la
+[science ouverte](http://fr.wikipedia.org/wiki/Science_ouverte)
 et plus précisément la "recherche en public"
 [[_open research_, en anglais](http://en.wikipedia.org/wiki/Open_research)].
 J'ai été positivement impressionné par quelques projets qui ont
