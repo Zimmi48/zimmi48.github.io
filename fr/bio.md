@@ -134,6 +134,8 @@ Travaux passés
 	logiciel éducatif ayant été utilisé par une institutrice
 	avec ses élèves. Certains élèves y ont même contribué en
 	créant une base de données sur la conjugaison des verbes.
+	* [Un jeu du Snake innovant](/zimmisapps/fr). Vous pouvez
+	y jouer sous Android ou dans votre navigateur.
 	
 Intérêts
 --------

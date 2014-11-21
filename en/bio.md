@@ -126,6 +126,8 @@ Past work
 	was used by a school teacher with her students. Some of them
 	directly contributed to it by creating a database for French
 	verbs conjugation.
+	* [A modern version of the Snake game](/zimmisapps/en) that you
+	can play online or on an Andoid phone.
 	
 Interests
 ---------
