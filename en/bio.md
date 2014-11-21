@@ -22,22 +22,28 @@ researcher, [wannabe world changer](/en/world-changer), young man
 
 If you want to see my curriculum,
 please refer to my [LinkedIn page](https://fr.linkedin.com/in/theozim).
+My resume is also available upon request.
 
 Current topics
 --------------
 
-Currently, my main interest is
-[crowdsourcing](http://en.wikipedia.org/wiki/Crowdsourcing).
+Currently, my main interests are
+[crowdsourcing](http://en.wikipedia.org/wiki/Crowdsourcing), i.e.
+_mass collaboration_ using the Web,
+[_open science_](http://en.wikipedia.org/wiki/Open_science)
+and [_open research_](http://en.wikipedia.org/wiki/Open_research).
 I am amazed at a few projects that have enable people,
-through online massive collaboration, to create knowledge
+through online mass collaboration, to create knowledge
 in a way that would never have been possible in a pre-web era.
 I am convinced that the tremendous possibilities that the internet
 opens are far from being unveiled.
 In particular, communication and collaboration tools are required
 and a lot of them are still to be invented.
 
-I am also [developing mobile apps](/zimmisapps/en)
-with my brother as a hobby.
+I have a few mass collaboration projects that I want to achieve
+by developing [free software](https://github.com/Zimmi48).
+My [blog](/en/blog) is the place where I want to share the state
+of my research.
 
 Past work
 ---------
@@ -47,15 +53,14 @@ Past work
 	I discovered the field of bio-informatics and computational biology.
     I have been working with Professor Tandy Warnow for one semester
 	(after having followed her class during the first semester)
-	and I have co-authored two articles
-	which are about to appear in conferences:
-        * "BBCA: Improving the scalability of *BEAST
-		using random binning",
-		T. Zimmermann, S. Mirarab, T. Warnow, to appear in RECOMB-CG 2014.
-        * "ASTRAL: Genome-scale coalescent-based species tree
-		estimation", S. Mirarab, R. Reaz, M. Bayzid, T. Zimmermann,
-		M. Swenson, T. Warnow,
-        to appear in ECCB 2014.
+	and I have co-authored two conference papers:
+        * Zimmermann T., Mirarab S. and Warnow T.
+		[BBCA: Improving the scalability of *BEAST using random binning.](http://www.biomedcentral.com/1471-2164/15/S6/S11)
+		_BMC Genomics 15_, Suppl 6 (2014), S11.
+        * Mirarab S., Reaz R., Bayzid M. S., Zimmermann T.,
+		Swenson M. S. and Warnow T.
+		[ASTRAL: genome-scale coalescent-based species tree estimation.](http://bioinformatics.oxfordjournals.org/content/30/17/i541.long)
+		_Bioinformatics 30_, 17 (2014), i541–i548. 
 	* Some works done for Prof. Warnow's class:
 		* ["Boosting BAli-Phy with UPP"](/pdf/boosting-bali-phy.pdf),
 		[C. Rottner](http://fr.linkedin.com/in/cecilerottner/en), T. Zimmermann,
