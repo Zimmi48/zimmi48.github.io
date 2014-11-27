@@ -19,6 +19,8 @@ Ne l'utilisez pas si vous n'êtes pas d'accord avec cette philosophie&nbsp;!
 Si vous êtes d'accord avec cette philosophie, ayez conscience que l'usage de cette licence rend très compliquée
 l'utilisation de bibliothèques propriétaires (ou incompatibles avec la GPL) dans les programmes que vous développez[^bibliotheques-proprietaires].
 
+###Maintenir deux versions d'un logiciel
+
 Ce que je trouve stupide par dessus tout, ce sont les entreprises qui créent deux versions d'un logiciel&nbsp;:
 une version de base libre et gratuite sous licence GPL et une version améliorée, payante et non-libre (propriétaire).
 Pour pouvoir vendre ensuite la version fermée de leur programme et ne pas en dévoiler le code, ils ont besoin de posséder le copyright de l'ensemble.
@@ -49,6 +51,8 @@ Un autre exemple est celui de Canonical, l'entreprise qui édite Ubuntu, un syst
 Elle demandait par le passé que les contributeurs lui cèdent leur copyright
 mais l'accord qu'elle leur demande désormais est beaucoup plus respectueux de leurs droits
 et garantit que leur code ne sera pas utilisé dans des programmes fermés[^ubuntu].
+
+###Les alternatives à la licence GPL
 
 Moralement, les entreprises qui veulent développer deux versions (une libre, une fermée) de leur logiciel ne devraient pas utiliser la GPL.
 
