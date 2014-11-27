@@ -4,6 +4,7 @@ title: "Getting thousands to millions of people working on a single mathematical
 date: 2014-11-06 09:00:00 +0200
 lang: en
 excerpt: There are literally millions of people throughout the world who have a strong mathematical background. A part of them probably enjoyed doing math in class but are not using these skills so much anymore. I bet that if you told these people that they can have an impact on mathematical research through small technical contributions on a website during their leisure time, many would be interested. 
+redirect_from: 7R5Mg0
 ---
 
 There are literally millions of people throughout the world who have a strong mathematical background.
