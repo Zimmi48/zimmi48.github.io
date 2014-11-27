@@ -116,7 +116,7 @@ La licence MIT est similaire à la licence Apache mais cette dernière intègre 
 (problème qui ne nous touche pas encore en Europe mais ça pourrait arriver bientôt
 - l'Office Européen des Brevets a commencé à enregistrer des brevets logiciels - et si vous avez des ambitions,
 vous ne souhaitez probablement pas vous limiter à l'Europe pour toujours
-- aux États-Unis et dans la majorité du reste du monde le problème des brevets et réel).
+- aux États-Unis et dans la majorité du reste du monde le problème des brevets est réel).
 De telles mesures sont présentes dans toutes les grandes licences modernes (licence Apache, MPL 2.0, LGPL v3, GPL v3, AGPL v3).
 
 La licence LGPL est proche de la MPL 2.0 sur le plan pratique (quoiqu'un peu plus tordue[^lgpl]),
