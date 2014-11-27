@@ -37,7 +37,7 @@ soit vous accordez à cette dernière une licence définitive, gratuite et non-e
 Dans ce second cas, vous n'êtes plus propriétaire de votre code et
 c'est uniquement parce que l'entreprise qui en est désormais propriétaire l'a publié sous GPL que vous continuez à pouvoir l'utiliser.
 Si dans le futur, vous choisissez de réutiliser votre code dans un logiciel fermé ou sous une licence différente,
-vous enfreidrez les termes de la GPL et vous serez dans l'illégalité.
+vous enfreindrez les termes de la GPL et vous serez dans l'illégalité.
 C'est pourquoi je vous encourage à ne jamais accepter de céder purement et simplement votre copyright
 à moins que vous soyez certain que tous les logiciels que vous produirez dans le futur seront aussi sous la même licence.
 Méfiez-vous, à ce propos, des incompatibilités entre les versions des GPL[^incompatibilites].
@@ -131,7 +131,7 @@ Vous feriez donc bien d'envisager (tant qu'Apple maintient sa politique libertic
 d'utiliser des licences plus laxistes (pour une fois je trouve ce terme justifié)
 pour tous vos programmes pouvant être intégrés à des applications mobiles.
 
-**Remarque finale :** Il n'est pas du tout absurde pour une entreprise d'avoir un business model basé sur la GPL.
+**Remarque finale :** Il n'est pas du tout absurde pour une entreprise d'avoir un *business model* basé sur la GPL.
 Si vous souhaitez suivre cette voie, plutôt que de maintenir deux versions de votre logiciel,
 vous devriez tout publier sous GPL et suivre l'exemple de RedHat pour faire des profits.
 À savoir, faire payer à vos clients non pas le logiciel lui-même mais la garantie et l'assistance.
@@ -173,7 +173,7 @@ En revanche, elle n'est pas idéale en ce qu'elle souffre de la plupart des prob
 
 [^lgpl]: Discussion [[en anglais](http://programmers.stackexchange.com/questions/221365/mozilla-public-license-mpl-2-0-vs-lesser-gnu-general-public-license-lgpl-3-0)] sur les inconvénients de la licence LGPL comparée à la licence MPL 2.0 (point de vue subjectif bien entendu).
 
-[^bibliotheques]: [Recommendations de la Free Software Foundation](https://www.gnu.org/licenses/license-recommendations.html#libraries).
+[^bibliotheques]: [Recommandations de la Free Software Foundation](https://www.gnu.org/licenses/license-recommendations.html#libraries).
 
 [^javascript]: Par exemple, dans [la liste d'environ 65 bibliothèques Javascript les plus notables qu'on peut trouver sur Wikipédia](http://en.wikipedia.org/wiki/List_of_JavaScript_libraries), seule une n'est pas distribuée sous licence libre.
 
