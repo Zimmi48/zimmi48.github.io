@@ -141,9 +141,9 @@ Cette méthode consiste à maintenir une unique version du logiciel
 et à la distribuer à la fois sous licence GPL et sous licence propriétaire (pour des clients souhaitant éviter les contraintes de la GPL).
 En revanche, elle n'est pas idéale en ce qu'elle souffre de la plupart des problèmes que j'ai décrits dans cet article.
 
-[^licences]: La Free Software Foundation, qui est à l'origine de la définition de logiciel libre, maintient une [liste des licences libres](https://www.gnu.org/licenses/license-list.fr.html) et de leurs avantages et inconvénients respectifs. Notez que les descriptions sont évidemment partiales puisque la FSF défend une certaine philosophie du libre et ses propres licences.
+[^licences]: La Free Software Foundation, qui est à l'origine de la définition du logiciel libre, maintient une [liste des licences libres](https://www.gnu.org/licenses/license-list.fr.html) et de leurs avantages et inconvénients respectifs. Notez que les descriptions sont évidemment partiales puisque la FSF défend une certaine philosophie du libre et ses propres licences.
 
-[^preponderance]: Sur [cette page Wikipédia](http://fr.wikipedia.org/wiki/Licence_publique_g%C3%A9n%C3%A9rale_GNU#Principe_de_la_licence_GPL) figurent quelques statistiques d'utilisation de la licence GPL en 2004. Cet article [[en anglais](http://redmonk.com/dberkholz/2013/04/02/quantifying-the-shift-toward-permissive-licensing/)] décrit sur un temps plus long la répartition des usages entre les licences de copyleft (essentiellement la GPL) et les licences permissives. Autant l'une comme l'autre des références présentent cependant un biais qui est le choix d'une base de donnée de logiciels libres particulières. Or, selon les communautés, les usages peuvent changer.
+[^preponderance]: Sur [cette page Wikipédia](http://fr.wikipedia.org/wiki/Licence_publique_g%C3%A9n%C3%A9rale_GNU#Principe_de_la_licence_GPL) figurent quelques statistiques d'utilisation de la licence GPL en 2004. Cet article [[en anglais](http://redmonk.com/dberkholz/2013/04/02/quantifying-the-shift-toward-permissive-licensing/)] décrit sur un temps plus long la répartition des usages entre les licences de copyleft (essentiellement la GPL) et les licences permissives. Autant l'une comme l'autre des références présentent cependant un biais qui est le choix d'une base de donnée de logiciels libres particulière. Or, selon les communautés, les usages peuvent varier.
 
 [^philosophie]: La Free Software Foundation, qui est à l'origine des licences GPL, [explique sa philosophie sur cette page](https://www.gnu.org/philosophy/free-sw.html).
 
@@ -167,16 +167,16 @@ En revanche, elle n'est pas idéale en ce qu'elle souffre de la plupart des prob
 
 [^agpl]: [Avantages de la licence AGPL](http://www.gnu.org/licenses/why-affero-gpl.html) d'après ses créateurs.
 
-[^android]: Explications de Google sur le choix de la licence Apache [[en anglais](https://source.android.com/source/licenses.html#why-apache-software-license)].
+[^android]: Explications de Google sur le choix de la licence Apache pour Android [[en anglais](https://source.android.com/source/licenses.html#why-apache-software-license)].
 
 [^mpl]: Voir la FAQ de Mozilla sur la licence MPL 2.0 [[en anglais](https://www.mozilla.org/MPL/2.0/FAQ.html)] ainsi que [cet article de blog en français](http://blog.hugoroy.eu/2012/01/27/quelques-notes-sur-la-seconde-licence-publique-mozilla-mpl-2-0/).
 
 [^lgpl]: Discussion [[en anglais](http://programmers.stackexchange.com/questions/221365/mozilla-public-license-mpl-2-0-vs-lesser-gnu-general-public-license-lgpl-3-0)] sur les inconvénients de la licence LGPL comparée à la licence MPL 2.0 (point de vue subjectif bien entendu).
 
-[^bibliotheques]: [Recommandations de la Free Software Foundation](https://www.gnu.org/licenses/license-recommendations.html#libraries).
+[^bibliotheques]: [Recommandations de la Free Software Foundation](https://www.gnu.org/licenses/license-recommendations.html#libraries) sur le choix d'une licence pour une nouvelle bibliothèque logicielle.
 
 [^javascript]: Par exemple, dans [la liste d'environ 65 bibliothèques Javascript les plus notables qu'on peut trouver sur Wikipédia](http://en.wikipedia.org/wiki/List_of_JavaScript_libraries), seule une n'est pas distribuée sous licence libre.
 
-[^apple]: [Billet de blog de Framasoft](http://www.framablog.org/index.php/post/2011/01/15/vlc-gpl-app-store) donnant des explications détaillées.
+[^apple]: [Billet de blog de Framasoft](http://www.framablog.org/index.php/post/2011/01/15/vlc-gpl-app-store) donnant des explications détaillées sur les problèmes de l'Apple Store.
 
-[^exceptions]: [Richard Stallman explique pourquoi il approuve la pratique](http://www.gnu.org/philosophy/selling-exceptions.html).
+[^exceptions]: [Richard Stallman explique pourquoi il approuve la pratique de la vente d'exceptions](http://www.gnu.org/philosophy/selling-exceptions.html).
