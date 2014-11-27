@@ -50,7 +50,7 @@ ProofPeer[^obua] is a very promising research project by a team in Edinburgh.
 It was fun to discover than one of their inspiration was *Crowd Sourced Formal Veriﬁcation*[^xylem]
 which was also an inspiration to me
 (after I attended a seminar by Prof. Mike Ernst
-as I relate in a [previous post](http://www.theozimmermann.net/2014/09/15/massive-collaboration-in-science/)).
+as I relate in a [previous post]({% post_url 2014-09-15-massive-collaboration-in-science %}).
 
 However, I was surprised to read that they are going to rebuild a proof checker from scratch,
 although there are some really good such tools out there already.
@@ -100,4 +100,4 @@ Although I have ideas about that too, I am far from having a clear view of what 
 
 [^obua]: Obua, S., Fleuriot, J., Scott, P., & Aspinall, D. (2014). ProofPeer: Collaborative Theorem Proving. *arXiv preprint arXiv:1404.6186*.
 
-[^xylem]: Xylem: Crowd-Sourced Gaming for Formal Veriﬁcation. Available at http://www.sri.com/work/projects/xylem.
+[^xylem]: Xylem: Crowd-Sourced Gaming for Formal Veriﬁcation. Available at [http://www.sri.com/work/projects/xylem](http://www.sri.com/work/projects/xylem).
