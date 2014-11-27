@@ -19,7 +19,7 @@ Ne l'utilisez pas si vous n'êtes pas d'accord avec cette philosophie&nbsp;!
 Si vous êtes d'accord avec cette philosophie, ayez conscience que l'usage de cette licence rend très compliquée
 l'utilisation de bibliothèques propriétaires (ou incompatibles avec la GPL) dans les programmes que vous développez[^bibliotheques-proprietaires].
 
-Ce que je trouve stupide par dessus tout, ce sont les entreprises qui créent deux versions d'un logiciel :
+Ce que je trouve stupide par dessus tout, ce sont les entreprises qui créent deux versions d'un logiciel&nbsp;:
 une version de base libre et gratuite sous licence GPL et une version améliorée, payante et non-libre (propriétaire).
 Pour pouvoir vendre ensuite la version fermée de leur programme et ne pas en dévoiler le code, ils ont besoin de posséder le copyright de l'ensemble.
 En particulier, l'intégralité du code sous GPL doit leur appartenir, de sorte que la GPL ne s'applique pas à eux-mêmes.
