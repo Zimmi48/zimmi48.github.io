@@ -83,7 +83,7 @@ Je suis sûr que la plupart des entreprises qui fonctionnent sur ce modèle n'ef
 En pratique, la conséquence c'est que beaucoup de logiciels libres ou non libres enfreignent la loi de manière notable ou anecdotique[^infractions].
 Il ne faut pas encourager cela car cela met en danger le monde du logiciel libre dans son ensemble. 
 
-(Note : dans le cas d'un logiciel destiné à tourner sur des serveurs distants
+**Note :** dans le cas d'un logiciel destiné à tourner sur des serveurs distants
 et être utilisé via un navigateur plutôt que d'être installé sur des machines individuelles[^saas],
 la GPL n'a que peu d'intérêt.
 Tout ce que j'ai dit s'applique également à la licence AGPL[^agpl], plus adaptée à ce type d'usage.
