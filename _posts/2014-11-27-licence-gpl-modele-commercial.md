@@ -4,6 +4,7 @@ title: "La licence GPL est adaptée à un modèle commercial, certes, mais pas n
 date: 2014-11-27 16:00:00 +0200
 lang: fr
 excerpt: Dans le monde du logiciel libre, on trouve une foultitude de licences. Choisir la bonne, lorsqu'on commence un nouveau projet n'est pas une tâche évidente. La première recommandation est d'utiliser une licence largement connue et diffusée, car plus solide juridiquement. La licence la plus utilisée historiquement est la GPL. Cependant, cela ne veut pas nécessairement dire que ce soit le bon choix pour tout type de projet.
+redirect_from: 7fNJrJ
 ---
 
 Dans le monde du logiciel libre, on trouve une foultitude de licences[^licences].
