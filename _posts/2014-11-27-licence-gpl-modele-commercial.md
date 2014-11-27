@@ -124,7 +124,7 @@ mais très différente au point de vue philosophique.
 La licence LGPL a été conçue par et pour des gens qui pensent que tout logiciel devrait être libre
 mais qui avaient conscience que, pour gagner le combat, il serait préalablement intéressant de créer des bibliothèques
 que tout le monde utilise y compris les logiciels fermés[^bibliotheques].
-Ce pari est réussi car un grand nombre de bibliothèques standards sont aujourd'hui des bibliothèques libres
+Ce pari est réussi car un grand nombre de bibliothèques standard sont aujourd'hui des bibliothèques libres
 si bien qu'on peut affirmer sans crainte de se tromper que le logiciel libre est partout[^javascript].
 
 Vous devriez aussi savoir que les conditions d'utilisation de l'Apple Store contredisent
