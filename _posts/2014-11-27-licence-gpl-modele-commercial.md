@@ -14,7 +14,7 @@ La licence la plus utilisée historiquement est la GPL[^preponderance].
 Cependant, cela ne veut pas nécessairement dire que ce soit le bon choix pour tout type de projet.
 
 La licence GPL a été inventée par des gens et pour des gens qui pensent que tous les logiciels devraient être des logiciels libres[^philosophie].
-Ne l'utilisez pas si vous n'êtes pas d'accord avec cette philosophie !
+Ne l'utilisez pas si vous n'êtes pas d'accord avec cette philosophie&nbsp;!
 
 Si vous êtes d'accord avec cette philosophie, ayez conscience que l'usage de cette licence rend très compliquée
 l'utilisation de bibliothèques propriétaires (ou incompatibles avec la GPL) dans les programmes que vous développez[^bibliotheques-proprietaires].
