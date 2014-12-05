@@ -11,10 +11,6 @@ article {
 }
 
 #isso-thread {
-	position: fixed;
-	margin-left: 59%; /* in percent of the total width and not the wrapper width */
-	margin-right: 5%;
-	top: 5%;
-	bottom: 0;
-	overflow: auto;
+	width: 35%;
+	float: right;
 }
