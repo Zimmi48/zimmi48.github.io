@@ -1,0 +1,16 @@
+#wrapper {
+	width: 90%;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+article {
+	width: 60%;
+	float: left;
+}
+
+#isso-thread {
+	width: 35%;
+	float: right;
+}
