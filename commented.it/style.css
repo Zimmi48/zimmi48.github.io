@@ -10,7 +10,19 @@ article {
 	float: left;
 }
 
-#isso-thread {
+/*#isso-thread {
 	width: 35%;
 	float: right;
+}*/
+
+#isso-thread {
+	position: fixed;
+	left: 64%;
+	right: 5%;
+	top: 5%;
+	bottom: 0;
+}
+
+#isso-root {
+	overflow: auto;
 }
