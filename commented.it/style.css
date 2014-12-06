@@ -4,26 +4,3 @@
 	margin-left: auto;
 	margin-right: auto;
 }
-
-article {
-	width: 60%;
-	float: left;
-}
-
-/*#isso-thread {
-	width: 35%;
-	float: right;
-}*/
-
-#isso-thread {
-	position: fixed;
-	left: 64%;
-	right: 5%;
-	top: 5%;
-	bottom: 0;
-}
-
-#isso-root {
-	overflow: auto;
-	height: calc(100% - 250px);
-}
