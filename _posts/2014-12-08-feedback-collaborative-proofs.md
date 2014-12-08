@@ -102,7 +102,7 @@ This, more than anything, is the first and easiest step toward collaborative sci
 
 As a opening, here's a great talk about open science that I really encourage anyone to watch:
 
-<iframe width="560" height="315" style="margin:auto 0;" src="//www.youtube.com/embed/DnWocYKqvhw" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" style="margin:auto; display: block;" src="//www.youtube.com/embed/DnWocYKqvhw" frameborder="0" allowfullscreen></iframe>
 
 [^projects]: Apart from those that I have already cited, I guess most of the collaborative projects (at least in the formal proof world) involve building a shared library of proofs which others can use in their work. This is what [the QED Manifesto](http://en.wikipedia.org/wiki/QED_manifesto) was aiming at and what [the Archive of Formal Proofs](http://afp.sourceforge.net/), [the Mizar project](http://en.wikipedia.org/wiki/Mizar_system) and [Metamath](http://en.wikipedia.org/wiki/Metamath) are doing.
 
