@@ -11,7 +11,7 @@ github_username: Zimmi48
 
 # Build settings
 markdown: kramdown
-permalink: /:year/:month/:title/
+permalink: pretty
 
 # Multilingual settings (origin: http://sylvain.durand.tf/site-multilingue-avec-jekyll/)
 t:
