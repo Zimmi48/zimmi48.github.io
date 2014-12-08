@@ -12,7 +12,8 @@ layout: none
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}
+    {% for post in site.posts %}
+	  {% if not post.draft %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.excerpt | xml_escape }}</description>
@@ -27,6 +28,7 @@ layout: none
         {% endfor %}
 		<content:encoded><![CDATA[{{ post.content }}]]></content:encoded>
       </item>
+	  {% endif %}
     {% endfor %}
   </channel>
 </rss>
