@@ -5,14 +5,15 @@ lang: en
 draft: true
 ---
 
-Thanks to all the people who reacted, by various means, to my first blog post on collaborative proofs,
+Thanks to all the people who reacted, by various means, to
+[my first blog post on collaborative proofs]({% post_url 2014-11-06-collaborative-proofs %}),
 I have had a lot of insights on what is most likely to not work in my project.
 But I am also glad that I found that all these people were enthusiastic about the overall concept.
 
 The idea of getting amateurs involved in science seems quite convincing.
 This really looks like a trending research topic today and I think this is fantastic.
 When it comes to mathematics, there are not so many projects whose goal is to build tools for collaboration[^projects]
-but I am not the only one thinking that a lot of amateur mathematicians (students, engineers, self-trained hobbyist...)
+but I am not the only one thinking that a lot of amateur mathematicians (students, engineers, self-trained hobbyists...)
 would be happy to join a global effort of building-up mathematical research.
 
 However, many had their doubts about the technique I proposed for this aim.
@@ -27,12 +28,12 @@ And even a good mathematician might not be able to judge if a lemma is  correct 
 This might be a very important point to which I have no definite answer for now.
 Although I imagine a system where the importance of each goal or sub-goal would be evaluated.
 We could have, for instance, a system of bounties[^bounty] to give importance to an initial goal.
-As for the intermediate goals, those which would occur most frequently in the sketch proofs of the users
+As for the intermediate goals, those that would occur most frequently in the sketch proofs of the users
 and remain unsolved could be considered as more important.
 The most important sub-goals would be more likely to be meaningful or at least worth giving meaning to.
 The system would then distribute only the most important goals and sub-goals to the user community.
 
-Also, according to the commenters, there seem to be, on one hand, hard theorem which require original ideas
+Also, according to the commenters, there seem to be, on one hand, hard theorems which require original ideas
 and, on the other hand, uninteresting intermediate goals which can be proved in a matter of minutes by a trained mathematician.
 So why would mathematicians risk losing the credit for a proof which they could have done alone?
 And why would mathematicians waste their time describing the goals formally on an online tool?
@@ -54,24 +55,24 @@ that are the biggest challenges of one field.
 But it might for side results, that nobody really has time to tackle by themselves
 but which raise enough interest from a significant number of mathematicians.
 
-We need to make sure that there is no waste of time describing formally the goals in the online tool.
+We need to make sure that there is no waste of time in describing formally the goals in the online tool.
 Working directly on a proof online should be as simple as sketching a proof on draft paper,
 but with several advantages that come along for free.
 Word processors have been designed so well that most of the writers have stopped drafting on paper
 and have been working instead exclusively on their computers for some time already.
 Can we achieve the same for math? Yes, probably.
-Of course, the fact that current keyboards to not carry many keys for mathematical symbols does not help much.
+Of course, the fact that current keyboards to not carry many keys for mathematical symbols does not help.
 But with a fantastic user interface, we should be able to compensate for that.
 
-And what would be these free advantages that come along?
-Well, there is the big advantage that proofs are automatically checked.
+And what would be these free bonuses that come along?
+Well, there is the big bonus that proofs are automatically checked.
 There is the obvious advantage of generating a paper quickly from the draft.
 And lastly, mathematicians often use specific strategies (which are often specific to a particular domain):
 applying these strategies by a simple click on a button can possibly speed up the writing a little.
 
 So suppose that the interface of this system is so simple
 and so awesome that some mathematicians use it everyday to build up their proofs.
-Then, they would get an additional advantage which is:
+Then, they would get an additional bonus which is:
 while they were working on a stupid but necessary sub-goal,
 maybe all the other stupid but necessary sub-goals will have been solved by various contributors around the world.
 
@@ -88,21 +89,21 @@ I should dive into user interface so that I know I have a good one when I finall
 
 User interface in the case of an interactive theorem prover is much more than what the final user will see.
 It is also an interface in the sense that it links to worlds:
-indeed, the formal proofs the computer can understand are very different from what a mathematician is used too.
+indeed, the formal proofs the computer can understand are very different from what a mathematician is used to.
 
 Since there is so much to do to make this project happen,
-the next question is do I really want to run into such an enormous task now.
+the next question is: do I really want to run into such an enormous task now?
 Wouldn't it be more fun to do some other collaborative project for my PhD and maybe go back to this idea later?
 
 The idea of doing collaborative proofs emerged because I saw that as a first step to do collaborative science.
 But clearly, this is not the easiest step.
-What I'm doing with this blog, what other are doing is open science, research in public.
+What I'm doing with this blog, what others are doing is open science, research in public.
 This, more than anything, is the first and easiest step toward collaborative science.
 
 As a opening, here's a great talk about open science that I really encourage anyone to watch:
 
-<iframe width="560" height="315" src="//www.youtube.com/embed/DnWocYKqvhw" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" align="middle" src="//www.youtube.com/embed/DnWocYKqvhw" frameborder="0" allowfullscreen></iframe>
 
-[^projects]: Apart from those I have already cited, I guess most of the collaborative projects (at least in the formal proof world) involve building a shared library of proofs which others can use in their work. This is what [the QED Manifesto](http://en.wikipedia.org/wiki/QED_manifesto) was aiming at and what [the Archive of Formal Proofs](http://afp.sourceforge.net/), [the Mizar project](http://en.wikipedia.org/wiki/Mizar_system) and [Metamath](http://en.wikipedia.org/wiki/Metamath) are doing.
+[^projects]: Apart from those that I have already cited, I guess most of the collaborative projects (at least in the formal proof world) involve building a shared library of proofs which others can use in their work. This is what [the QED Manifesto](http://en.wikipedia.org/wiki/QED_manifesto) was aiming at and what [the Archive of Formal Proofs](http://afp.sourceforge.net/), [the Mizar project](http://en.wikipedia.org/wiki/Mizar_system) and [Metamath](http://en.wikipedia.org/wiki/Metamath) are doing.
 
-[^bounty]: On websites such as StackOverflow (and more generally in the StackExchange collection of websites), users earn *reputation* by having a constructive behavior (asking interesting, on-topic questions, giving useful answers…). Users who have a lot of reputation can "spend" some of it by setting a *bounty* for a useful answer to a specific question, thus encouraging more people to share their answer. The author of the accepted answer will then receive the reputation bonus.
+[^bounty]: On websites such as [StackOverflow](http://stackoverflow.com/) (and more generally in the [StackExchange](http://stackexchange.com/) collection of websites), users earn *reputation* by having a constructive behavior (asking interesting, on-topic questions, giving useful answers…). Users who have a lot of reputation can "spend" some of it by setting a *bounty* for a useful answer to a specific question, thus encouraging more people to share their answer. The author of the accepted answer will then receive the reputation bonus.
