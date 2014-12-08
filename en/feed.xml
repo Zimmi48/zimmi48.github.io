@@ -13,7 +13,7 @@ layout: none
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
     {% for post in site.posts limit:10 %}
-	  {% if post.lang == 'en' and post.draft != false %}
+	  {% if post.lang == 'en' and post.draft != true %}
         <item>
           <title>{{ post.title | xml_escape }}</title>
           <description>{{ post.excerpt | xml_escape }}</description>
