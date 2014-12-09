@@ -36,12 +36,12 @@ The most important sub-goals would be more likely to be meaningful or at least w
 The system would then distribute only the most important goals and sub-goals to the user community.
 
 But also, let's see how it goes on examples! I should (I am going to) start working on some actual
-mathematical proofs and see to what extent these intermediate results are hard to grasp out of context.
+mathematical proofs and see to what extent these intermediate results are hard to grasp if they are presented out of context.
 
 The second problem, according to the commenters, is that there are, on the one hand, hard theorems which require original ideas
 and, on the other hand, uninteresting intermediate goals which can be proved in a matter of minutes by a trained mathematician.
 So why would mathematicians risk losing the credit for a proof which they could have done alone?
-And why would mathematicians waste their time describing the goals formally on an online tool?
+And why would mathematicians waste their time describing the goals formally in an online tool?
 Let me try to answer these two questions.
 
 The way the scientific community attributes credit for a proof can evolve.
@@ -49,7 +49,7 @@ It seems logical that peers will give more credit to the authors of the most dif
 even if many other contributors are involved at the edges.
 If this is necessary, we can even imagine a system to measure the relative contribution of each author to a proof
 (and how difficult were the problems they solved - again *algorithm needed*).
-But even without that, it is already enough to make the entire proof history public.
+But even without that, it should be already enough to make the entire proof history public.
 As explained by Tim Gowers
 [when he presented Polymath for the first time](https://gowers.wordpress.com/2009/01/27/is-massively-collaborative-mathematics-possible/),
 people can go and see by themselves who contributed to what in the proof.
@@ -88,11 +88,11 @@ It cannot succeed without that!
 There is no point willing to work specifically on the "collaborative aspect".
 **All massively collaborative projects need great user interface**
 (because *massive* implies *lots of motivated users*
-but *bad interface* implies *unhappy users* implies *demotivated users*).
+but *bad interface* implies *unhappy users* which in turn implies *demotivated users*).
 And thus, it is most likely that, by willing to make massive collaboration tools my subject,
-I am going to spend a lot of time working on user interfaces. I should as well get used to the idea.
+I am going to spend a lot of time working on user interfaces[^interface]. I should as well get used to the idea.
 In the case of the collaborative proofs project, this means I should work with people
-who have built good web interfaces for interactive theorem provers.
+who have built good web interfaces for interactive theorem provers (if I can find them).
 I should join forces with them while postponing my collaborative ideas a little.
 I should dive into user interface so that I know I have a good one when I finally get to make the collaboration happen.
 
@@ -101,10 +101,10 @@ It is also an interface in the sense that it links to worlds:
 indeed, the formal proofs the computer can understand are very different from what a mathematician is used to.
 
 And quite frankly, for now, I don't have a clear vision of what the perfect interface will be.
-The reason why is that I'm quite fresh in the proof assitant world.
-Thus I need to practice and I need to know the domain better.
+The reason why is that I'm quite fresh in the proof assistant world.
+Thus, I need to practice and I need to know the domain better.
 This is also something that will probably be true of any collaborative project.
-Not suprisingly at all, a lot of successful projects (like Polymath or FoldIt) have been launched by people of the field
+Not suprisingly at all, a lot of successful projects (like Polymath or FoldIt) have been launched by people in the field
 (mathematicians, biologists...).
 I like to think that I, as a computer scientist, can be helpful.
 But for that, I need to know a little bit more about the domain I'm trying to help.
@@ -129,6 +129,8 @@ As a opening, here's a great talk about open science that I really encourage any
 
 [^bounty]: On websites such as [StackOverflow](http://stackoverflow.com/) (and more generally in the [StackExchange](http://stackexchange.com/) collection of websites), users earn *reputation* by having a constructive behavior (asking interesting, on-topic questions, giving useful answers…). Users who have a lot of reputation can "spend" some of it by setting a *bounty* for a useful answer to a specific question, thus encouraging more people to share their answer. The author of the accepted answer will then receive the reputation bonus.
 
-[^papers]: I agree that it is not so simple. Getting papers written is really important for scientist careers and the order of the co-authors list matters too. If this tool gets used for actual research, it will require a set of consensual guidelines on how the produced papers must be authored. Contrary to citizen projects were anyone can collaborate but the scientists who created the tool still get to sign the paper, here many of the contributors are expected to be scientists themselves. So their names has to be on the paper. There is the other option of referring back to the website for the individual contributions. Anyway, this will require special thinking eventually.
+[^papers]: I agree that it is not so simple. Getting papers written is really important for scientist careers and the order of the co-authors matters too. If this tool gets used for actual research, it will require a set of consensual guidelines on how the produced papers must be authored. Contrary to citizen projects were anonymous can collaborate but only the scientists who created the tool get to sign the paper, here many of the contributors are expected to be scientists themselves. So their names have to be on the paper. There is the other option of referring back to the website for the individual contributions. Anyway, this will require careful thinking eventually.
 
 [^tactics]: Have a look at the first paragraph of the introduction of [chapter 8 of the Coq manual](https://coq.inria.fr/distrib/current/refman/Reference-Manual010.html) about tactics.
+
+[^interface]: In fact, I have already been working on user interface a lot for another collaborative project that I hope to be able to present on this blog quite soon.
