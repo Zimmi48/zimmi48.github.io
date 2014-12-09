@@ -5,7 +5,7 @@ layout: default
 
 	<header class="post-header">
 		<h1>{{ page.title }}</h1>
-		<p class="meta">{{ page.date | date: "%Y-%m-%d" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}{% if page.redirect_from %} • {{ site.t[page.lang].short }} <a href="http://theoz.im/{{ page.redirect_from }}">theoz.im/{{ page.redirect_from }}</a>{% endif %}</p>
+		<p class="meta">{% if page.draft %}<em>Draft</em>{% else %}{{ page.date | date: "%Y-%m-%d" }}{% endif %}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}{% if page.redirect_from %} • {{ site.t[page.lang].short }} <a href="http://theoz.im/{{ page.redirect_from }}">theoz.im/{{ page.redirect_from }}</a>{% endif %}</p>
 	</header>
 
 	<article class="post-content">
