@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Feedback on collaborative proofs"
+title: "The key is a good interface for writing mathematical proofs"
 lang: en
 draft: true
 ---
