@@ -109,7 +109,13 @@ Not suprisingly at all, a lot of successful projects (like Polymath or FoldIt) h
 I like to think that I, as a computer scientist, can be helpful.
 But for that, I need to know a little bit more about the domain I'm trying to help.
 
-Still, there is *a lot* to do to make this project happen!
+Even if it's still blurry, I think a good interface for writing mathematics proof on a computer will give an important place
+to the so-called *tactics* or *strategies*[^tactics]. Thus, I need to work in a framework which has those (like [Coq](https://coq.inria.fr/)).
+Since tactics are so important, any mathematician should also be able to add one easily.
+But I haven't even written a single Coq tactic myself!
+Let's try to do that before imagining what good interface mathematicians will use to add their owns.
+
+As a conclusion, there is *a lot* to do to make this project happen!
 The idea of doing collaborative proofs emerged because I saw it as a first step to do collaborative science.
 But clearly, this is not the easiest step.
 What I'm doing with this blog, what others are doing is open science, research in public.
@@ -124,3 +130,5 @@ As a opening, here's a great talk about open science that I really encourage any
 [^bounty]: On websites such as [StackOverflow](http://stackoverflow.com/) (and more generally in the [StackExchange](http://stackexchange.com/) collection of websites), users earn *reputation* by having a constructive behavior (asking interesting, on-topic questions, giving useful answers…). Users who have a lot of reputation can "spend" some of it by setting a *bounty* for a useful answer to a specific question, thus encouraging more people to share their answer. The author of the accepted answer will then receive the reputation bonus.
 
 [^papers]: I agree that it is not so simple. Getting papers written is really important for scientist careers and the order of the co-authors list matters too. If this tool gets used for actual research, it will require a set of consensual guidelines on how the produced papers must be authored. Contrary to citizen projects were anyone can collaborate but the scientists who created the tool still get to sign the paper, here many of the contributors are expected to be scientists themselves. So their names has to be on the paper. There is the other option of referring back to the website for the individual contributions. Anyway, this will require special thinking eventually.
+
+[^tactics]: Have a look at the first paragraph of the introduction of [chapter 8 of the Coq manual](https://coq.inria.fr/distrib/current/refman/Reference-Manual010.html) about tactics.
