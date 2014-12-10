@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The key is a good interface for writing mathematical proofs"
+title: "A key to massively collaborative math is a good interface for writing proofs"
 lang: en
 draft: true
 ---
@@ -28,7 +28,7 @@ This was a concern for many as most of these intermediate goals probably aren't 
 And even a good mathematician might not be able to judge if a lemma is  correct or not if the so-called lemma has no apparent meaning.
 
 This might be a **very important point** to which I have no definite answer for now.
-Although I imagine a system where the importance of each goal or sub-goal would be evaluated.
+However I imagine a system where the importance of each goal or sub-goal would be evaluated.
 We could have, for instance, a system of bounties[^bounty] to give importance to an initial goal.
 As for the intermediate goals, those that would occur most frequently in the sketch proofs of the users
 and remain unsolved could be considered as more important (*algorithm needed*).
@@ -79,8 +79,8 @@ applying these strategies by a simple click on a button can possibly speed up th
 So suppose that the interface of this system is so simple
 and so awesome that some mathematicians use it everyday to build up their proofs.
 Then, they would get an additional bonus which is:
-while they were working on a stupid but necessary sub-goal,
-maybe all the other stupid but necessary sub-goals will have been solved by various contributors around the world.
+while they were working on a tedious but necessary sub-goal,
+maybe all the other tedious but necessary sub-goals will have been solved by various contributors around the world.
 
 It has been good having all that feedback.
 I have started to realize that my project is fundamentally useless without a perfect interface.
@@ -97,8 +97,8 @@ I should join forces with them while postponing my collaborative ideas a little.
 I should dive into user interface so that I know I have a good one when I finally get to make the collaboration happen.
 
 User interface in the case of an interactive theorem prover is much more than what the final user will see.
-It is also an interface in the sense that it links to worlds:
-indeed, the formal proofs the computer can understand are very different from what a mathematician is used to.
+It is also an interface in the sense that it links two worlds:
+indeed, the formal proofs a computer can understand are very different from what a mathematician is used to.
 
 And quite frankly, for now, I don't have a clear vision of what the perfect interface will be.
 The reason why is that I'm quite fresh in the proof assistant world.
@@ -109,7 +109,7 @@ Not suprisingly at all, a lot of successful projects (like Polymath or FoldIt) h
 I like to think that I, as a computer scientist, can be helpful.
 But for that, I need to know a little bit more about the domain I'm trying to help.
 
-Even if it's still blurry, I think a good interface for writing mathematics proof on a computer will give an important place
+Even if it's still blurry, I think a good interface for writing mathematical proofs on a computer will give an important place
 to the so-called *tactics* or *strategies*[^tactics]. Thus, I need to work in a framework which has those (like [Coq](https://coq.inria.fr/)).
 Since tactics are so important, any mathematician should also be able to add one easily.
 But I haven't even written a single Coq tactic myself!
@@ -118,7 +118,7 @@ Let's try to do that before imagining what good interface mathematicians will us
 As a conclusion, there is *a lot* to do to make this project happen!
 The idea of doing collaborative proofs emerged because I saw it as a first step to do collaborative science.
 But clearly, this is not the easiest step.
-What I'm doing with this blog, what others are doing is open science, research in public.
+What I'm doing with this blog and what others are doing is open science, research in public.
 This, more than anything, is the first and easiest step toward collaborative science.
 
 As a opening, here's a great talk about open science that I really encourage anyone to watch:
