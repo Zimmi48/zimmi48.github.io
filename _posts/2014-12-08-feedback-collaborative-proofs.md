@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "A key to massively collaborative math is a good interface for writing proofs"
+date: 2014-12-10 16:00:00 +0200
 lang: en
-draft: true
+excerpt: Thanks to all the people who reacted, by various means, to my first blog post on collaborative proofs, I have had a lot of insights on what is most likely to not work in my project. But I am also glad that I found that all these people were enthusiastic about the overall concept.
 ---
 
 Thanks to all the people who reacted, by various means, to
