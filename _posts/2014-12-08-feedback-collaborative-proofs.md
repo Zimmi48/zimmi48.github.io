@@ -119,7 +119,8 @@ Let's try to do that before imagining what good interface mathematicians will us
 As a conclusion, there is *a lot* to do to make this project happen!
 The idea of doing collaborative proofs emerged because I saw it as a first step to do collaborative science.
 But clearly, this is not the easiest step.
-What I'm doing with this blog and what others are doing is open science, research in public.
+What I'm doing with this blog and what others are doing is [open science](http://en.wikipedia.org/wiki/Open_science)
+and [open research](http://en.wikipedia.org/wiki/Open_research).
 This, more than anything, is the first and easiest step toward collaborative science.
 
 As a opening, here's a great talk about open science that I really encourage anyone to watch:
