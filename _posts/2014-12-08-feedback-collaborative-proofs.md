@@ -3,13 +3,13 @@ layout: post
 title: "A key to massively collaborative math is a good interface for writing proofs"
 date: 2014-12-10 16:00:00 +0200
 lang: en
-excerpt: Thanks to all the people who reacted, by various means, to my first blog post on collaborative proofs, I have had a lot of insights on what is most likely to not work in my project. But I am also glad that I found that all these people were enthusiastic about the overall concept.
+excerpt: Thanks to all the people who reacted, by various means, to my first blog post on collaborative proofs, I have had a lot of insights on what is most likely to not work in my project. But I am also glad that I found out that all these people were enthusiastic about the overall concept.
 ---
 
 Thanks to all the people who reacted, by various means, to
 [my first blog post on collaborative proofs]({% post_url 2014-11-06-collaborative-proofs %}),
 I have had a lot of insights on what is most likely to not work in my project.
-But I am also glad that I found that all these people were enthusiastic about the overall concept.
+But I am also glad that I found out that all these people were enthusiastic about the overall concept.
 
 The idea of getting amateurs involved in science seems quite convincing.
 This really looks like a trending research topic today (see all the fuss about *citizen science*)
