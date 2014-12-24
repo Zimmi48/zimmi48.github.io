@@ -69,7 +69,7 @@ but with several advantages that come along for free.
 Word processors have been designed so well that most of the writers have stopped drafting on paper
 and have been working instead exclusively on their computers for some time already.
 Can we achieve the same for math? Yes, probably.
-Of course, the fact that current keyboards to not carry many keys for mathematical symbols does not help.
+Of course, the fact that current keyboards do not carry many keys for mathematical symbols does not help.
 But with a fantastic user interface, we should be able to compensate for that.
 
 And what would be these free bonuses that come along?
