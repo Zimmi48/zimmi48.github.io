@@ -7,9 +7,9 @@ draft: true
 
 Parmi les nombreux domaines qu'Internet a ou est en train de révolutionner,
 je m'intéresse particulièrement à la collaboration massive, et notamment appliquée à la science
-(voir mon premier article sur le sujet [en anglais]).
+(voir mon premier article sur le sujet [[en anglais]({% post_url 2014-09-15-massive-collaboration-in-science %})]).
 J'ai donc été ravi de découvrir le livre <cite>Reinventing discovery</cite> de Michael Nielsen
-(voir aussi la vidéo de lui que j'avais partagée précédemment [en anglais]).
+(voir aussi la vidéo de lui que j'avais partagée précédemment [[en anglais](https://www.youtube.com/watch?v=DnWocYKqvhw)]).
 Je recommande vivement la lecture de ce livre à toutes les personnes intéressées
 mais je vais tâcher de vous en fournir ici un résumé critique.
 
@@ -20,7 +20,7 @@ science participative (*citizen science*), mise en réseau des connaissances (*d
 extraction automatique de significations nouvelles (*data mining*).
 Je vais m'étendre sur certains points plus que d'autres en fonction de l'intérêt personnel que j'y attache.
 
-Michael Nielsen est un physicien qui, impressionné par le succès du projet Polymath,
+Michael Nielsen est un physicien qui, impressionné par le succès du projet Polymath[^gowers],
 a décidé de se consacrer à l'étude de cette révolution silencieuse qu'Internet a déclenchée
 et qui est en train de redéfinir la manière dont la connaissance scientifique est produite.
 Dans son livre, il présente un certain nombre d'exemples concrets de projets[^exemples] ayant eu du succès (ou pas)
@@ -28,7 +28,8 @@ et analyse les éléments indispensables au succès d'un projet collaboratif.
 
 Cette révolution du partage scientifique est comparable à la première révolution du partage scientifique :
 l'invention des revues dans lesquelles tout-e scientifique se doit de publier les résultats de sa recherche.
-Cette première révolution, au XVIIème siècle, a eu un effet radical sur la manière dont la recherche scientifique
+Cette première révolution, [au XVIIème siècle](http://fr.wikipedia.org/wiki/Revue_scientifique#Histoire),
+a eu un effet radical sur la manière dont la recherche scientifique
 se pratique et influence plus encore la manière dont elle se pratique aujourd'hui.
 En effet, la conséquence positive de cette révolution est une première forme de collaboration,
 la création de nouvelles connaissances s'appuyant sur les connaissances précédemment acquises par d'autres scientifiques
@@ -276,7 +277,9 @@ que les agences de financement de la recherche peuvent alors faire appliquer.
 Un exemple est celui de l'accord des Bermudes en 1996 qui a édicté que toute donnée récoltée sur le génome humain
 doit être immédiatement rendue publique.
 
-[^exemples]: Parmi les exemples présentés les plus notables sont le projet Polymath, le match d'échecs Kasparov vs the World, la compétition MathWorks, Innocentive, GalaxyZoo, FoldIt, Wikipédia, Linux, le navigateur Firefox et the arXiV. Parmi les projets ayant échoués, Michael Nielsen évoque le QuWiki, A million penguins ou encore la tentative de Nature de produire un site de commentaires publics de chercheurs sur les articles d'autres chercheurs (*open reviews*).
+[^gowers]: Gowers, T., & Nielsen, M. (2009). Massively collaborative mathematics. Nature, 461(7266), 879-881.
+
+[^exemples]: Parmi les exemples présentés les plus notables sont, outre le projet Polymath, le match d'échecs Kasparov vs the World, la compétition MathWorks, Innocentive, GalaxyZoo, FoldIt, Wikipédia, Linux, le navigateur Firefox et the arXiV. Parmi les projets ayant échoués, Michael Nielsen évoque le QuWiki, A million penguins ou encore la tentative de Nature de produire un site de commentaires publics de chercheurs sur les articles d'autres chercheurs (*open reviews*).
 
 [^litterature]: L'auteur prend l'exemple de l'analyse littéraire de Shakespeare. Un consensus sur ce qui fait une bonne analyse ne sera jamais atteint et c'est d'ailleurs une bonne chose car la diversité des opinions est valorisée. D'après lui, cela s'explique par l'absence d'un langage élémentaire partagé par tous les analystes littéraires. Un autre exemple est celui de notre projet de roman collaboratif. Une critique évoquait le fait qu'il est très difficile de transmettre une idée littéraire, une grande partie de l'idée initiale pouvant être perdue lors de la tentative de l'expliquer. Nous croyons cependant que cette difficulté ne rend pas impossible la création d'un roman collaboratif. D'ailleurs Michael Nielsen semble le penser aussi puisque, lorsqu'il décrit l'échec du projet d'écriture d'un roman-wiki "A Million Penguins", il parie qu'on verra bientôt l'émergence d'une technologie de collaboration (sans doute pas si différente du wiki) qui sera plus adaptée à la réalisation d'un roman (les wikis ne le sont pas car les romans ne sont pas assez modulaires notamment).
 
