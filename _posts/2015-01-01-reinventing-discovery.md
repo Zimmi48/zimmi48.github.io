@@ -60,7 +60,8 @@ qui sortent carrément de leur domaine d'expertise (nouveaux concepts mathémati
 pour résoudre un problème de physique par exemple).
 Internet a déjà rendu beaucoup plus facile la tâche de trouver la bonne personne
 (autrement que par simple chance) mais des outils nouveaux émergent qui rendent cette tâche encore plus aisée.
-L'auteur utilise le terme de *designed serendipity* pour désigner le fait que cette connexion n'est plus le fait du hasard.
+L'auteur utilise le terme de *designed serendipity* pour désigner le fait que cette connexion nécessite de
+"forcer le hasard".
 
 ####L'émulation
 
