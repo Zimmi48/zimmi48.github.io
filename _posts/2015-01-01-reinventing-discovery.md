@@ -26,11 +26,11 @@ et qui est en train de redéfinir la manière dont la connaissance scientifique 
 Dans son livre, il présente un certain nombre d'exemples concrets de projets[^exemples] ayant eu du succès (ou pas)
 et analyse les éléments indispensables au succès d'un projet collaboratif.
 
-Cette révolution du partage scientifique est comparable à la première révolution du partage scientifique :
+Cette révolution du partage scientifique est comparable à la précédente telle révolution :
 l'invention des revues dans lesquelles tout-e scientifique se doit de publier les résultats de sa recherche.
 Cette première révolution, [au XVIIème siècle](http://fr.wikipedia.org/wiki/Revue_scientifique#Histoire),
-a eu un effet radical sur la manière dont la recherche scientifique
-se pratique et influence plus encore la manière dont elle se pratique aujourd'hui.
+eût un effet radical sur la manière dont la recherche scientifique
+se pratiquait et influence plus encore la manière dont elle se pratique aujourd'hui.
 En effet, la conséquence positive de cette révolution est une première forme de collaboration,
 la création de nouvelles connaissances s'appuyant sur les connaissances précédemment acquises par d'autres scientifiques
 et le principe de la citation permettant aux articles de se baser les uns sur les autres.
