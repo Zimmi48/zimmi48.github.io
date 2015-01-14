@@ -20,7 +20,8 @@ science participative (*citizen science*), mise en réseau des connaissances (*d
 extraction automatique de significations nouvelles (*data mining*).
 Je vais m'étendre sur certains points plus que d'autres en fonction de l'intérêt personnel que j'y attache.
 
-Michael Nielsen est un physicien qui, impressionné par le succès du projet Polymath[^gowers],
+[Michael Nielsen](http://michaelnielsen.org/blog/michael-a-nielsen/) est un physicien qui,
+impressionné par le succès du projet Polymath[^gowers],
 a décidé de se consacrer à l'étude de cette révolution silencieuse qu'Internet a déclenchée
 et qui est en train de redéfinir la manière dont la connaissance scientifique est produite.
 Dans son livre, il présente un certain nombre d'exemples concrets de projets[^exemples] ayant eu du succès (ou pas)
