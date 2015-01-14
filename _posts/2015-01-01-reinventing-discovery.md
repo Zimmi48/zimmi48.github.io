@@ -27,10 +27,10 @@ et qui est en train de redéfinir la manière dont la connaissance scientifique 
 Dans son livre, il présente un certain nombre d'exemples concrets de projets[^exemples] ayant eu du succès (ou pas)
 et analyse les éléments indispensables au succès d'un projet collaboratif.
 
-Cette révolution du partage scientifique est comparable à la précédente telle révolution :
+Cette révolution du partage scientifique est comparable à la précédente révolution du même type :
 l'invention des revues dans lesquelles tout-e scientifique se doit de publier les résultats de sa recherche.
 Cette première révolution, [au XVIIème siècle](http://fr.wikipedia.org/wiki/Revue_scientifique#Histoire),
-eût un effet radical sur la manière dont la recherche scientifique
+eut un effet radical sur la manière dont la recherche scientifique
 se pratiquait et influence plus encore la manière dont elle se pratique aujourd'hui.
 En effet, la conséquence positive de cette révolution est une première forme de collaboration,
 la création de nouvelles connaissances s'appuyant sur les connaissances précédemment acquises par d'autres scientifiques
@@ -50,7 +50,7 @@ Sans être aussi brillant, un autre individu peut avoir des connaissances spéci
 simplement parce qu'il y a déjà été confronté. Cette *micro-expertise* peut alors surpasser celle de tout autre personne.
 
 Par conséquent, nous pouvons "augmenter notre intelligence collective"
-(je dirais plutôt tirer partie au mieux de notre intelligence collective)
+(je dirais plutôt tirer parti au mieux de notre intelligence collective)
 si un système est capable de connecter adéquatement un problème à la personne ayant la meilleure micro-expertise
 pour le résoudre.
 
@@ -70,7 +70,7 @@ L'intervention au moment adéquat de la personne adéquate permet à la communau
 (tel qu'une démonstration) de ne pas être bloquée.
 S'en suit, si le nombre de collaborateurs/trices dépasse une taille critique, une sorte de réaction en chaîne des idées.
 Une personne peut apporter régulièrement des idées qui font progresser la résolution alors que, toute seule,
-elle aurait passée la plupart de son temps à essayer de se débloquer de situations dont elle n'était pas spécialiste.
+elle aurait passé la plupart de son temps à essayer de se débloquer de situations dont elle n'était pas spécialiste.
 
 ####Les caractéristiques du logiciel libre : modularité, réusabilité, micro-contributions
 
@@ -109,7 +109,7 @@ et permet de résoudre les problèmes que l'outil du wiki lui-même ne suffit pa
 
 ####Focaliser l'attention
 
-Lorsqu'un projet enregistre un grand nombre de contributions il devient impossible
+Lorsqu'un projet enregistre un grand nombre de contributions, il devient impossible
 pour une personne seule de les suivre et les analyser dans leur ensemble.
 Différents mécanismes peuvent être mis en place de manière à focaliser l'attention.
 
@@ -211,7 +211,7 @@ Enfin, lorsque même les amateurs/trices ne sont plus assez nombreux/euses pour 
 on peut se servir de leur travail pour entraîner des ordinateurs à reproduire leur "expertise".
 
 Un projet tel que Galaxy Zoo n'aurait pas été possible sans *open data*.
-Un projet comme Open Dinausaure n'aurait pas été possible sans *open access*.
+Un projet comme Open Dinosaure n'aurait pas été possible sans *open access*.
 Autant l'un que l'autre sont indispensables lorsque des personnes hors du milieu académique
 décident de s'attaquer à un problème scientifique.
 Outre l'histoire des "green peas", d'autres découvertes importantes ont récemment été le fait d'amateurs/trices.
@@ -251,7 +251,7 @@ documentent des programmes qu'ils/elles auraient programmés en vue de les parta
 
 Le second frein résulte de la crainte que le partage ne profite qu'aux autres et soit même contre-productifs
 pour les chercheurs/euses, par exemple si leurs concurrent-e-s tirent avant eux/elles des analyses des données
-qu'ils/elles ont rendu public.
+qu'ils/elles ont rendues publiques.
 
 Enfin, un dernier frein est dû à la volonté de commercialiser les résultats scientifiques,
 essentiellement sous la forme des brevets. Dans les domaines où des possibilités de brevets existent,
@@ -271,7 +271,7 @@ En s'assurant que citer les auteurs des données ou des outils utilisés pour un
 que de citer les articles sur lesquels le travail se base,
 et en mesurant le nombre de citations recueillies par un-e auteur-e pour tous ses travaux,
 et pas seulement pour ses articles publiés dans des revues, l'incitation à faire de la science ouverte sera alors évidente.
-D'ors et déjà, des outils permettent de mesurer le nombre de citations d'un article
+D'ores et déjà, des outils permettent de mesurer le nombre de citations d'un article
 (y compris d'un preprint et en comptant les citations par des preprints).
 
 D'autre part, les scientifiques peuvent mettre en place de nouvelles règles
@@ -281,7 +281,7 @@ doit être immédiatement rendue publique.
 
 [^gowers]: Gowers, T., & Nielsen, M. (2009). Massively collaborative mathematics. Nature, 461(7266), 879-881.
 
-[^exemples]: Parmi les exemples présentés les plus notables sont, outre le projet Polymath, le match d'échecs Kasparov vs the World (voir la page Wikipédia [[en anglais](http://en.wikipedia.org/wiki/Kasparov_versus_the_World)]), la compétition "MATLAB online programming contest" organisée par MathWorks (voir l'article explicatif de Ned Gulley [[en anglais](http://www.starchamber.com/gulley/pubs/tweaking/tweaking.html)]), [Innocentive](http://www.innocentive.com/), [GalaxyZoo](http://www.galaxyzoo.org/), [FoldIt](http://fold.it/portal/), le projet [Open Dinausaure](https://opendino.wordpress.com/faqs/), [Wikipédia](http://www.wikipedia.org/), [Linux](http://fr.wikipedia.org/wiki/Linux), le navigateur [Firefox](https://www.mozilla.org/fr/firefox/new/) et the [arXiv](http://arxiv.org/). Parmi les projets ayant échoués, Michael Nielsen évoque le QuWiki, "A million penguins" ou encore le test par la revue Nature d'un site d'*open peer review* (i.e. encourageant les chercheurs à publier des commentaires sur les articles d'autres chercheurs ; voir le rapport produit à la suite de cette expérience [[en anglais](http://www.nature.com/nature/peerreview/debate/nature05535.html)]).
+[^exemples]: Parmi les exemples présentés les plus notables sont, outre le projet Polymath, le match d'échecs Kasparov vs the World (voir la page Wikipédia [[en anglais](http://en.wikipedia.org/wiki/Kasparov_versus_the_World)]), la compétition "MATLAB online programming contest" organisée par MathWorks (voir l'article explicatif de Ned Gulley [[en anglais](http://www.starchamber.com/gulley/pubs/tweaking/tweaking.html)]), [Innocentive](http://www.innocentive.com/), [GalaxyZoo](http://www.galaxyzoo.org/), [FoldIt](http://fold.it/portal/), le projet [Open Dinosaure](https://opendino.wordpress.com/faqs/), [Wikipédia](http://www.wikipedia.org/), [Linux](http://fr.wikipedia.org/wiki/Linux), le navigateur [Firefox](https://www.mozilla.org/fr/firefox/new/) et the [arXiv](http://arxiv.org/). Parmi les projets ayant échoués, Michael Nielsen évoque le QuWiki, "A million penguins" ou encore le test par la revue Nature d'un site d'*open peer review* (i.e. encourageant les chercheurs à publier des commentaires sur les articles d'autres chercheurs ; voir le rapport produit à la suite de cette expérience [[en anglais](http://www.nature.com/nature/peerreview/debate/nature05535.html)]).
 
 [^litterature]: L'auteur prend l'exemple de l'analyse littéraire de Shakespeare. Un consensus sur ce qui fait une bonne analyse ne sera jamais atteint et c'est d'ailleurs une bonne chose car la diversité des opinions est valorisée. D'après lui, cela s'explique par l'absence d'un langage élémentaire partagé par tou-te-s les analystes littéraires. Un autre exemple est celui de [notre projet de roman collaboratif](http://unkilodeplumes.fr). Une critique évoquait le fait qu'il est très difficile de transmettre une idée littéraire, une grande partie de l'idée initiale pouvant être perdue lors de la tentative de l'expliquer. Nous croyons cependant que cette difficulté ne rend pas impossible la création d'un roman collaboratif. D'ailleurs Michael Nielsen semble le penser aussi puisque, lorsqu'il décrit l'échec du projet d'écriture d'un roman-wiki "A Million Penguins", il parie qu'on verra bientôt l'émergence d'une technologie de collaboration (sans doute pas si différente du wiki) qui sera plus adaptée à la réalisation d'un roman (les wikis ne le sont pas car les romans ne sont pas assez modulaires notamment).
 
