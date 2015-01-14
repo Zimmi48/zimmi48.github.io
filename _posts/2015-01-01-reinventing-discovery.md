@@ -11,7 +11,7 @@ je m'intéresse particulièrement à la collaboration massive, et notamment appl
 J'ai donc été ravi de découvrir le livre <cite>Reinventing discovery</cite> de Michael Nielsen
 (voir aussi la vidéo de lui que j'avais partagée précédemment [[en anglais](https://www.youtube.com/watch?v=DnWocYKqvhw)]).
 Je recommande vivement la lecture de ce livre à toutes les personnes intéressées
-mais je vais tâcher de vous en fournir ici un résumé critique.
+mais je vais tâcher de vous en fournir ici un résumé personnel.
 
 Le sujet abordé par ce livre est très vaste mais s'il fallait le réduire à quelques mots-clés,
 je listerais, par ordre d'importance : science ouverte (*open science*), collaboration, Internet,
@@ -280,7 +280,7 @@ doit être immédiatement rendue publique.
 
 [^gowers]: Gowers, T., & Nielsen, M. (2009). Massively collaborative mathematics. Nature, 461(7266), 879-881.
 
-[^exemples]: Parmi les exemples présentés les plus notables sont, outre le projet Polymath, le match d'échecs Kasparov vs the World, la compétition MathWorks, Innocentive, GalaxyZoo, FoldIt, Wikipédia, Linux, le navigateur Firefox et the arXiV. Parmi les projets ayant échoués, Michael Nielsen évoque le QuWiki, A million penguins ou encore la tentative de Nature de produire un site de commentaires publics de chercheurs sur les articles d'autres chercheurs (*open reviews*).
+[^exemples]: Parmi les exemples présentés les plus notables sont, outre le projet Polymath, le match d'échecs Kasparov vs the World (voir la page Wikipédia [[en anglais](http://en.wikipedia.org/wiki/Kasparov_versus_the_World)], la compétition MathWorks (voir l'article explicatif de Ned Gulley [[en anglais](http://www.starchamber.com/gulley/pubs/tweaking/tweaking.html)]), [Innocentive](http://www.innocentive.com/), [GalaxyZoo](http://www.galaxyzoo.org/), [FoldIt](http://fold.it/portal/), [Wikipédia](http://www.wikipedia.org/), [Linux](http://fr.wikipedia.org/wiki/Linux), le navigateur [Firefox](https://www.mozilla.org/fr/firefox/new/) et the [arXiv](http://arxiv.org/). Parmi les projets ayant échoués, Michael Nielsen évoque le QuWiki, A million penguins ou encore la tentative de la revue Nature de tester l'*open peer review* (i.e. d'encourager les commentaires publics de chercheurs sur les articles d'autres chercheurs ; voir le rapport produit à la suite de cette expérience [[en anglais](http://www.nature.com/nature/peerreview/debate/nature05535.html)]).
 
 [^litterature]: L'auteur prend l'exemple de l'analyse littéraire de Shakespeare. Un consensus sur ce qui fait une bonne analyse ne sera jamais atteint et c'est d'ailleurs une bonne chose car la diversité des opinions est valorisée. D'après lui, cela s'explique par l'absence d'un langage élémentaire partagé par tous les analystes littéraires. Un autre exemple est celui de notre projet de roman collaboratif. Une critique évoquait le fait qu'il est très difficile de transmettre une idée littéraire, une grande partie de l'idée initiale pouvant être perdue lors de la tentative de l'expliquer. Nous croyons cependant que cette difficulté ne rend pas impossible la création d'un roman collaboratif. D'ailleurs Michael Nielsen semble le penser aussi puisque, lorsqu'il décrit l'échec du projet d'écriture d'un roman-wiki "A Million Penguins", il parie qu'on verra bientôt l'émergence d'une technologie de collaboration (sans doute pas si différente du wiki) qui sera plus adaptée à la réalisation d'un roman (les wikis ne le sont pas car les romans ne sont pas assez modulaires notamment).
 
