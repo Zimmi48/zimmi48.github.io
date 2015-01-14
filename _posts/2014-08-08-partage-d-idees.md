@@ -105,7 +105,7 @@ Car la publicité d'internet fera que les personnes
 qui auront, en fin de compte, réalisé votre idée ne pourront pas faire
 comme si vous n'existiez pas et seront tenues de donner des explications :
 soit votre idée les a inspirées,
-soit vous avez eu la même idée qu'eux (ou une idée similaire) de manière indépendante[^1].
+soit vous avez eu la même idée qu'elles (ou une idée similaire) de manière indépendante[^1].
 Quel que soit ce qu'elles affirment,
 vous serez cité et ça aura certainement un impact sur votre réputation.
 

@@ -24,10 +24,10 @@ l'utilisation de bibliothèques propriétaires (ou incompatibles avec la GPL) da
 
 Ce que je trouve stupide par dessus tout, ce sont les entreprises qui créent deux versions d'un logiciel&nbsp;:
 une version de base libre et gratuite sous licence GPL et une version améliorée, payante et non-libre (propriétaire).
-Pour pouvoir vendre ensuite la version fermée de leur programme et ne pas en dévoiler le code, ils ont besoin de posséder le copyright de l'ensemble.
-En particulier, l'intégralité du code sous GPL doit leur appartenir, de sorte que la GPL ne s'applique pas à eux-mêmes.
+Pour pouvoir vendre ensuite la version fermée de leur programme et ne pas en dévoiler le code, elles ont besoin de posséder le copyright de l'ensemble.
+En particulier, l'intégralité du code sous GPL doit leur appartenir, de sorte que la GPL ne s'applique pas à elles-mêmes.
 
-Ces entreprises font donc signer des contrats (dits *contributor license agreement*) à tous les contributeurs dont ils intègrent les modifications.
+Ces entreprises font donc signer des contrats (dits *contributor license agreement*) à tou-te-s les contributeurs/trices dont elles intègrent les modifications.
 Il faut avoir conscience, lorsque vous contribuez à un logiciel sous GPL, géré par une entreprise qui exige que vous lui cédiez vos droits
 que vous êtes en train de briser vous aussi la philosophie selon laquelle tout logiciel devrait être libre[^cession-copyright].
 
@@ -37,7 +37,7 @@ Les associations qui choisissent de centraliser le copyright le font souvent afi
 Notez de plus que renoncer à ses droits d'auteur n'est pas une chose anodine.
 Selon le type de contrat que vous signez avec l'organisation gestionnaire du logiciel auquel vous contribuez,
 soit vous accordez à cette dernière une licence définitive, gratuite et non-exclusive d'utilisation et d'exploitation de votre code
-(pour qu'ils puissent le revendre au sein d'un logiciel fermé), soit vous leur cédez votre copyright.
+(pour qu'elle puisse le revendre au sein d'un logiciel fermé), soit vous lui cédez votre copyright.
 Dans ce second cas, vous n'êtes plus propriétaire de votre code et
 c'est uniquement parce que l'entreprise qui en est désormais propriétaire l'a publié sous GPL que vous continuez à pouvoir l'utiliser.
 Si dans le futur, vous choisissez de réutiliser votre code dans un logiciel fermé ou sous une licence différente,
@@ -46,10 +46,10 @@ C'est pourquoi je vous encourage à ne jamais accepter de céder purement et sim
 à moins que vous soyez certain que tous les logiciels que vous produirez dans le futur seront aussi sous la même licence.
 Méfiez-vous, à ce propos, des incompatibilités entre les versions des GPL[^incompatibilites].
 
-Heureusement, il semblerait que l'accord que demande la FSF à ses contributeurs inclue une clause stipulant
+Heureusement, il semblerait que l'accord que demande la FSF à ses contributeurs/trices inclue une clause stipulant
 que ceux-ci peuvent continuer à utiliser leur travail comme bon leur semble[^fsf-cla].
 Un autre exemple est celui de Canonical, l'entreprise qui édite Ubuntu, un système d'exploitation basé sur Linux.
-Elle demandait par le passé que les contributeurs lui cèdent leur copyright
+Elle demandait par le passé que les contributeurs/trices lui cèdent leur copyright
 mais l'accord qu'elle leur demande désormais est beaucoup plus respectueux de leurs droits
 et garantit que leur code ne sera pas utilisé dans des programmes fermés[^ubuntu].
 
@@ -66,7 +66,7 @@ C'est une crainte que n'ont que les petites entreprises
 ou alors, comme RedHat ou Canonical, ne produisent que des logiciels libres[^business]).
 Cependant, il faudrait que ces petites entreprises craintives réalisent les difficultés qu'elles se créent en s'engageant dans cette voie !
 
-D'abord le contrat qu'elles font signer à leurs contributeurs ne sera certainement pas aussi peaufiné que les licences libres les plus courantes
+D'abord le contrat qu'elles font signer à leurs contributeurs/trices ne sera certainement pas aussi peaufiné que les licences libres les plus courantes
 (et pourrait s'avérer caduque lors d'un procès).
 
 Deuxièmement, en utilisant la GPL, ces entreprises se compliquent la vie si elles souhaitent utiliser des bibliothèques propriétaires,
@@ -77,8 +77,8 @@ car celles-ci seraient incompatibles avec la version fermée de leur programme.
 
 Enfin mais surtout, ces entreprises doivent contrôler que les contributions extérieures sont effectivement complètement nouvelles
 et qu'elles n'embarquent pas du code sous licence libre GPL d'une autre source.
-En effet, dans ce cas-là, le contributeur ne possède pas le copyright sur ces lignes de code de source extérieure.
-Par conséquent, même en signant un accord quelconque, il ne peut pas légalement céder les droits dessus.
+En effet, dans ce cas-là, le/la contributeur/trice ne possède pas le copyright sur ces lignes de code de source extérieure.
+Par conséquent, même en signant un accord quelconque, il/elle ne peut pas légalement céder les droits dessus.
 Je suis sûr que la plupart des entreprises qui fonctionnent sur ce modèle n'effectuent jamais ces vérifications car elles n'en ont pas les moyens. 
 
 En pratique, la conséquence c'est que beaucoup de logiciels libres ou non libres enfreignent la loi de manière notable ou anecdotique[^infractions].
