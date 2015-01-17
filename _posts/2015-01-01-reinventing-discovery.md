@@ -3,6 +3,7 @@ layout: post
 title: 'Résumé personnel de "Reinventing discovery" de Michael Nielsen'
 lang: fr
 date: 2015-01-17 17:00:00 +0200
+redirect_from: 87mn1s
 ---
 
 Parmi les nombreux domaines qu'Internet a ou est en train de révolutionner,
