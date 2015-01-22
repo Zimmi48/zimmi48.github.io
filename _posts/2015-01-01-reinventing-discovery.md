@@ -1,8 +1,9 @@
 ---
 layout: post
-title: 'Résumé personnel de "Reinventing discovery" de Michael Nielsen'
+title: 'La révolution de la science ouverte'
 lang: fr
 date: 2015-01-17 17:00:00 +0200
+excerpt: Parmi les nombreux domaines qu'Internet a ou est en train de révolutionner, je m'intéresse particulièrement à la collaboration massive, et notamment appliquée à la science. J'ai donc été ravi de découvrir le livre <cite>Reinventing discovery</cite> de Michael Nielsen. Je recommande vivement la lecture de ce livre à toutes les personnes intéressées mais je vais tâcher de vous en fournir ici un résumé personnel.
 redirect_from: 87mn1s
 ---
 
