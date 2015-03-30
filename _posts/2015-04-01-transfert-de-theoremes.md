@@ -1,0 +1,192 @@
+---
+layout: post
+title: Transferts de théorèmes par des isomorphismes
+lang: fr
+draft: true
+---
+
+En mathématiques, c'est une pratique très courante que d'identifier deux objets à isomorphisme près.
+Par exemple, les matrices sont des tableaux de n × m cases
+(i.e. des fonctions dont l'ensemble de départ est {1,…,n}×{1,…,m}
+et l'ensemble d'arrivée est un corps K)
+mais on les identifie à des applications[^application] linéaires de l'espace vectoriel K<sup>n</sup>
+vers K<sup>m</sup>.
+La principale justification en est que le produit de matrices correspond
+à la compositions d'applications linéaires.
+Et c'est très pratique en effet, mais comment justifie-t-on la chose rigoureusement ? 
+
+##Qu'est-ce qu'un isomorphisme ? 
+
+La (courte) [page de la Wikipédia francophone](https://fr.wikipedia.org/wiki/Isomorphisme)
+traitant du sujet nous rappelle la définition usuelle[^definition] : 
+
+<blockquote>Un isomorphisme entre deux ensembles structurés est une application bijective
+qui préserve la structure et dont la réciproque préserve aussi la structure.</blockquote> 
+
+En pratique, cette notion nous était généralement présentée en cours de mathématiques sur des exemples.
+Un isomorphisme de groupe par exemple est un morphisme bijectif
+(où dans ce cas précis [morphisme](https://fr.wikipedia.org/wiki/Morphisme_de_groupes)
+signifie une application envoyant l'élément neutre sur l'élément neutre
+et le "produit" de deux éléments sur le "produit" de leurs images). 
+
+La notion admet une définition générale grâce à la notion sous-jacente de
+[structure mathématique](https://fr.wikipedia.org/wiki/Structure_%28math%C3%A9matiques%29),
+c'est-à-dire un ensemble muni d'un certain nombre de relations
+et d'axiomes décrivant les propriétés de ces relations (cette notion s'apparente à celle de théorie).
+On dispose alors d'une structure concrète (ou modèle) lorsque l'on connait l'ensemble sous-jacent,
+l'on est capable de définir les relations et de démontrer les axiomes. 
+
+On peut voir le rapport avec le besoin d'abstraction en programmation.
+La notion de signature en OCaml (ou d'interface en Java) correspond à celle de structure
+et son implémentation en termes de modules (respectivement en classes) correspond à la concrétisation. 
+
+##À quoi sert ce genre d'abstraction ? 
+
+L'un de l'intérêt de l'abstraction est de simplifier et généraliser les raisonnements.
+On voit aussi qu'il peut exister plusieurs modèles pour une même structure.
+On pourra ainsi démontrer un théorème portant sur les groupes, en toute généralité,
+i.e. en ne se servant que des axiomes.
+Quel est alors l'intérêt de transférer des théorèmes d'une structure concrète à l'autre
+(ce qui est une technique différente) ? 
+
+Parfois, on peut préférer une structure concrète à une autre
+car ses propriétés spécifiques rendent les raisonnements plus faciles.
+Pour reprendre l'exemple des matrices,
+il est drôlement plus facile de faire un produit de matrices plutôt que
+de composer "à la main" les applications linéaires correspondant.
+Les démonstrations de certains théorèmes se font donc non pas sur la base des axiomes uniquement
+mais sur la base des connaissances supplémentaires dont on dispose. 
+
+Deux ensembles ayant la même structure ne sont pas nécessairement isomorphes.
+Il existe par exemple toutes sortes de groupes : certains finis, d'autres infinis ;
+pour certain l'opération commute (groupe Abéliens), pour d'autres non.
+Montrer alors un théorème pour un de ces ensembles ne permet pas nécessairement
+de le transférer à tous les autres.
+On pourra le faire si on peut identifier les deux structures à l'aide d'un isomorphisme. 
+
+Le (la) mathématicien-ne va donc s'employer à chercher un isomorphisme.
+Lorsqu'il (elle) l'a trouvé et l'a démontré, il (elle) prend alors un air solennel et déclare
+"nous pouvons identifier les deux structures
+donc les théorèmes que nous avions démontré pour l'une sont valables pour l'autre". 
+
+##Qu'est-ce que ça veut dire ? 
+
+C'est la justification de cette déclaration qui m'intéresse ici
+car mon but et de pouvoir la justifier auprès d'un ordinateur.
+Les ordinateurs n'apprécient guère les déclarations solennelles. 
+
+Wikipédia ne m'aidera pas dans ma quête. En effet, voici ce qu'on y lit : 
+
+<blockquote><p>Savoir que deux objets sont isomorphes présente un grand intérêt
+car cela permet de transposer des résultats et propriétés démontrés de l'un à l'autre.</p>
+
+<p>Selon certains points de vue, deux objets isomorphes peuvent être considérés comme identiques,
+ou du moins indiscernables.
+En effet, bien souvent, les propriétés intéressantes d'un objet seront partagées
+par tous les objets isomorphes de la catégorie.
+Ainsi on parle souvent d'unicité ou d'identité « à isomorphisme près ».</p></blockquote> 
+
+Ce dont j'ai besoin c'est d'une sorte de théorème méta-mathématique, autrement dit logique qui exprime cela.
+Je pense qu'une expression approximative en serait :
+_Si une formule logique dont les atomes ne font intervenir que les éléments - de manière abstraite -
+et les relations de la structure est vraie alors elle est aussi vraie pour toute structure isomorphe._ 
+
+Je ne vous fournirai pas de démonstration de ce théorème car je l'ai exprimé de manière intuitive.
+Mais je serais curieux d'en lire une démonstration rigoureuse (il y a sûrement des gens qui l'ont faite). 
+
+Les questions subséquentes sont alors de s'interroger sur la minimalité des hypothèses de ce théorème.
+A-t-on vraiment besoin d'un isomorphisme ? A-t-on besoin de la notion de "structure" ? 
+
+###Nous n'avons pas toujours besoin d'isomorphisme. 
+
+Prenons deux ensembles E (respectivement E') munis d'une relation R (respectivement R').
+Supposons que nous disposions d'un théorème ayant la forme suivante : 
+
+∀ x<sub>1</sub>, …, x<sub>n</sub> ∈ E, F(R,x<sub>1</sub>,…,x<sub>n</sub>) 
+
+Où F(R,x<sub>1</sub>,…,x<sub>n</sub>) est une formule logique sans quantificateurs
+dont les atomes sont de la forme R(x<sub>i<sub>1</sub></sub>,…,x<sub>i<sub>k</sub></sub>). 
+
+Alors pour avoir aussi : 
+
+∀ x<sub>1</sub>, …, x<sub>n</sub> ∈ E', F(R',x<sub>1</sub>,...,x<sub>n</sub>) 
+
+il suffit de disposer d'une fonction f : E → E' 
+
+* surjective : ∀ y ∈ E', ∃ x ∈ E, f(x) = y 
+* et telle que : ∀ x<sub>1</sub>, …, x<sub>k</sub> ∈ E,
+R(x<sub>1</sub>, …, x<sub>k</sub>) ↔ R'(f(x<sub>1</sub>), …, f(x<sub>k</sub>)) 
+
+Dans ce cas particulier, je peux vous fournir une démonstration : 
+
+Soit x<sub>1</sub>, …, x<sub>n</sub> ∈ E'.
+D'après la surjectivité de f, on peut trouver x'<sub>1</sub>, …, x'<sub>n</sub> ∈ E tels que
+x<sub>i</sub> = f(x'<sub>i</sub>) pour tout i.
+Alors nous savons que F(R,x'<sub>1</sub>,…,x'<sub>n</sub>) est vraie.
+Soient les formules atomiques R(x'<sub>i<sub>1</sub></sub>,…,x'<sub>i<sub>k</sub></sub>)
+vraies d'une part et fausses d'autres part,
+alors les formules atomiques correspondantes R(x<sub>i<sub>1</sub></sub>,…,x<sub>i<sub>k</sub></sub>)
+sont vraies (respectivement fausses) d'après la deuxième propriété de f.
+Par conséquent, la formule dans son ensemble F(R',x<sub>1</sub>,…,x<sub>n</sub>) est vraie à son tour. 
+
+Si F est une formule positive (pas de négation ¬ ni d'implication →,
+seulement des conjonctions ∧ et des disjonctions ∨),
+la seconde condition sur f peut être encore plus restreinte : 
+
+∀ x<sub>1</sub>, …, x<sub>k</sub> ∈ E,
+R(x<sub>1</sub>, …, x<sub>k</sub>) → R'(f(x<sub>1</sub>), …, f(x<sub>k</sub>)) 
+
+En effet, pour que F(R',x<sub>1</sub>,…,x<sub>n</sub>) soit vraie il suffit que les formules atomiques
+qui étaient vraies dans F(R,x'<sub>1</sub>,…,x'<sub>n</sub>) le soient aussi.
+Ce n'est pas grave si d'autres formules atomiques qui étaient fausses dans F(R,x'<sub>1</sub>,…,x'<sub>n</sub>)
+deviennent vraies dans F(R',x<sub>1</sub>,…,x<sub>n</sub>).
+
+###Nous avons besoin d'un isomorphisme si nous rajoutons l'égalité 
+
+Plus précisément, dès lors que nous autorisons les formules atomiques à être des égalités
+x<sub>i</sub> = x<sub>j</sub>
+et pas seulement des relations R(x<sub>i<sub>1</sub></sub>,…,x<sub>i<sub>k</sub></sub>),
+alors on peut exprimer la taille de l'ensemble pour tout ensemble fini.
+Une bijection est alors nécessaire pour qu'une telle propriété se transmette
+(une surjection entre deux ensembles finis de même taille est une bijection). 
+
+###Nous avons besoin d'un isomorphisme si nous rajoutons le quantificateur existentiel 
+
+?? 
+
+###Nous avons besoin d'un isomorphisme si nous considérons des formules d'ordre supérieur 
+
+?? 
+
+###Nous n'avons pas besoin des axiomes de la structure 
+
+Il est bien connu qu'un morphisme de monoïde transfert les propriétés de groupe et de groupe Abélien.
+La raison est la même que pour tous les autres théorèmes que nous pouvons vouloir transférer.
+Par conséquent, tous ces axiomes structurels sont superflus :
+si on peut transférer les relations, on peut transférer les axiomes. 
+
+###Que se passe-t-il lorsque nous avons des éléments distingués et des opérations ? 
+
+Des opérations (i.e. des applications à plusieurs arguments, à valeurs de départ et d'arrivée dans la structure) 
+peuvent être représentées par des relations bien particulières. 
+
+De même, des éléments distingués (comme l'élément neutre d'un groupe)
+peuvent n'être distingués que par une relation spéciale à un seul argument, toujours fausse, 
+sauf pour l'élément concerné. 
+
+Cependant, il pourra être utile, en encodant cela,
+de traiter les opérations et les éléments distingués de manière spécifique,
+notamment pour des raisons d'efficacité et d'utilisabilité. 
+
+##Conclusion 
+
+J'ai essayé de faire une présentation assez pédagogique, au moins pour le début.
+En revanche, je pose de vraies questions, qui m'intéressent pour mon travail
+et sur lesquelles je ne suis pas nécessairement spécialiste.
+Je serais ravi d'avoir des retours de mes amis mathématiciens ou catégoriciens
+(ce mot n'existe pas, j'en ai conscience). 
+
+[^application]: Dans tout cet article, on emploiera le terme d'application qui est synonyme de fonction (totale). 
+
+[^definition]: La [page de la Wikipédia anglophone](https://en.wikipedia.org/wiki/Isomorphism) donne pour sa part une définition plus tordue quoique d'après moi logiquement équivalente. Elle laisse entendre qu'un isomorphisme ne serait pas nécessairement une bijection ce qui est faux. Je laisse cependant le soin de faire des corrections à quelqu'un de plus spécialiste que moi.
+
