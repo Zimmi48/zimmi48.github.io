@@ -151,12 +151,21 @@ Le cas avec ∧ est similaire.
 
 C'est là qu'on utilise la seconde propriété de f et c'est alors immédiat.
 
-QED
+**QED**
 
-On peut généraliser facilement à tout théorème du premier ordre ne portant que sur R (mais incluant
-des négations ¬ et des implications →) en renforçant un petit peu la seconde hypothèse sur f :
+On peut généraliser facilement à des formules comportant aussi des négations ¬ et des implications →
+à condition :
+
+1. Qu'aucun quantificateur n'apparaissent sous ces deux connecteurs logiques ;
+2. Qu'on renforçe un petit peu la seconde hypothèse sur f :
 ∀ x<sub>1</sub>, …, x<sub>k</sub> ∈ E,
-R(x<sub>1</sub>, …, x<sub>k</sub>) ↔ R'(f(x<sub>1</sub>), …, f(x<sub>k</sub>)) 
+R(x<sub>1</sub>, …, x<sub>k</sub>) ↔ R'(f(x<sub>1</sub>), …, f(x<sub>k</sub>))
+
+Pour le voir il faudra renforcer l'hypothèse de récurrence sur toutes les sous-formules sans quantificateurs,
+dans l'esprit avec lequel on a renforcé l'hypothèse sur f.
+
+En revanche, nous avons besoin d'un isomorphisme pour considérer les théorèmes quelconques du premier ordre
+mixant allègrement les quantificateurs et les négations.
 
 ###Nous avons besoin d'un isomorphisme si nous rajoutons l'égalité 
 
@@ -165,11 +174,7 @@ x<sub>i</sub> = x<sub>j</sub>
 et pas seulement des relations R(x<sub>i<sub>1</sub></sub>,…,x<sub>i<sub>k</sub></sub>),
 alors on peut exprimer la taille de l'ensemble pour tout ensemble fini.
 Une bijection est alors nécessaire pour qu'une telle propriété se transmette
-(une surjection entre deux ensembles finis de même taille est une bijection). 
-
-###Nous avons besoin d'un isomorphisme si nous considérons des formules d'ordre supérieur 
-
-?? 
+(une surjection entre deux ensembles finis de même taille est une bijection).
 
 ###Nous n'avons pas besoin des axiomes de la structure 
 
