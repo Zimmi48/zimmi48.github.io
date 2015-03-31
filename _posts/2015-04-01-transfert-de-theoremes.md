@@ -100,46 +100,63 @@ A-t-on vraiment besoin d'un isomorphisme ? A-t-on besoin de la notion de "struct
 ###Nous n'avons pas toujours besoin d'isomorphisme. 
 
 Prenons deux ensembles E (respectivement E') munis d'une relation R (respectivement R').
-Supposons que nous disposions d'un théorème ayant la forme suivante : 
 
-∀ x<sub>1</sub>, …, x<sub>n</sub> ∈ E, F(R,x<sub>1</sub>,…,x<sub>n</sub>) 
+Soit F(E, R, x<sub>1</sub>, …, x<sub>n</sub>) une formule du premier ordre positive[^premier-ordre]
+dont les variables libres[^variable-libre] sont x<sub>1</sub>, …, x<sub>n</sub> ∈ E
+et les atomes sont de la forme R(y<sub>1</sub>, …, y<sub>k</sub>).
 
-Où F(R,x<sub>1</sub>,…,x<sub>n</sub>) est une formule logique sans quantificateurs
-dont les atomes sont de la forme R(x<sub>i<sub>1</sub></sub>,…,x<sub>i<sub>k</sub></sub>). 
-
-Alors pour avoir aussi : 
-
-∀ x<sub>1</sub>, …, x<sub>n</sub> ∈ E', F(R',x<sub>1</sub>,...,x<sub>n</sub>) 
-
-il suffit de disposer d'une fonction f : E → E' 
+Supposons qu'on dispose d'une fonction f : E → E' 
 
 * surjective : ∀ y ∈ E', ∃ x ∈ E, f(x) = y 
-* et telle que : ∀ x<sub>1</sub>, …, x<sub>k</sub> ∈ E,
-R(x<sub>1</sub>, …, x<sub>k</sub>) ↔ R'(f(x<sub>1</sub>), …, f(x<sub>k</sub>)) 
-
-Dans ce cas particulier, je peux vous fournir une démonstration : 
-
-Soit x<sub>1</sub>, …, x<sub>n</sub> ∈ E'.
-D'après la surjectivité de f, on peut trouver x'<sub>1</sub>, …, x'<sub>n</sub> ∈ E tels que
-x<sub>i</sub> = f(x'<sub>i</sub>) pour tout i.
-Alors nous savons que F(R,x'<sub>1</sub>,…,x'<sub>n</sub>) est vraie.
-Soient les formules atomiques R(x'<sub>i<sub>1</sub></sub>,…,x'<sub>i<sub>k</sub></sub>)
-vraies d'une part et fausses d'autres part,
-alors les formules atomiques correspondantes R(x<sub>i<sub>1</sub></sub>,…,x<sub>i<sub>k</sub></sub>)
-sont vraies (respectivement fausses) d'après la deuxième propriété de f.
-Par conséquent, la formule dans son ensemble F(R',x<sub>1</sub>,…,x<sub>n</sub>) est vraie à son tour. 
-
-Si F est une formule positive (pas de négation ¬ ni d'implication →,
-seulement des conjonctions ∧ et des disjonctions ∨),
-la seconde condition sur f peut être encore plus restreinte : 
-
-∀ x<sub>1</sub>, …, x<sub>k</sub> ∈ E,
+* avec une propriété de transfert de R : ∀ x<sub>1</sub>, …, x<sub>k</sub> ∈ E,
 R(x<sub>1</sub>, …, x<sub>k</sub>) → R'(f(x<sub>1</sub>), …, f(x<sub>k</sub>)) 
 
-En effet, pour que F(R',x<sub>1</sub>,…,x<sub>n</sub>) soit vraie il suffit que les formules atomiques
-qui étaient vraies dans F(R,x'<sub>1</sub>,…,x'<sub>n</sub>) le soient aussi.
-Ce n'est pas grave si d'autres formules atomiques qui étaient fausses dans F(R,x'<sub>1</sub>,…,x'<sub>n</sub>)
-deviennent vraies dans F(R',x<sub>1</sub>,…,x<sub>n</sub>).
+Alors si F(E, R, x<sub>1</sub>, …, x<sub>n</sub>) est vraie,
+F(E', R', f(x<sub>1</sub>), …, f(x<sub>n</sub>)) aussi.
+
+Le cas particulier où il n'y a pas de variable libre nous montre que tout théorème
+positif du premier ordre ne portant que sur R se transfère de E à E'.
+
+Effectuons la démonstration par récurrence structurelle sur F :
+
+####Cas F = ∀ x ∈ E, F'(E, R, x<sub>1</sub>, …, x<sub>n</sub>, x)
+
+Soit x ∈ E', d'après la surjectivité de f, on peut trouver x' ∈ E tel que x = f(x').
+Alors on applique F à x' pour obtenir F(E, R, x<sub>1</sub>, …, x<sub>n</sub>, x').
+
+Du coup, par hypothèse de récurrence,
+F(E', R', f(x<sub>1</sub>), …, f(x<sub>n</sub>), f(x')) est vraie, i.e.
+F(E', R', f(x<sub>1</sub>), …, f(x<sub>n</sub>), x) est vraie.
+
+Ainsi on conclut que ∀ x ∈ E', F'(E', R', f(x<sub>1</sub>), …, f(x<sub>n</sub>), x).
+
+####Cas F = ∃ x ∈ E, F'(E, R, x<sub>1</sub>, …, x<sub>n</sub>, x)
+
+Soit un témoin x rendant la formule F'(E, R, x<sub>1</sub>, …, x<sub>n</sub>, x) vraie.
+Alors par hypothèse de récurrence, F'(E, R, f(x<sub>1</sub>), …, f(x<sub>n</sub>), f(x)).
+D'où f(x) est un témoin rendant la formule
+∃ x ∈ E', F'(E', R', f(x<sub>1</sub>), …, f(x<sub>n</sub>), x) vraie.
+
+####Cas F = F'(E, R, x<sub>1</sub>, …, x<sub>n</sub>) ∨ F''(E, R, x<sub>1</sub>, …, x<sub>n</sub>)
+
+L'une au moins de ces deux sous-formules F' et F'' est vraie. Supposons par exemple que ce soit F'.
+Alors par hypothèse de récurrence, F'(E', R', f(x<sub>1</sub>), …, f(x<sub>n</sub>)) est vraie
+ce qui suffit à conclure que
+F'(E, R, f(x<sub>1</sub>), …, f(x<sub>n</sub>)) ∨ F''(E, R, f(x<sub>1</sub>), …, f(x<sub>n</sub>))
+est vraie aussi.
+
+Le cas avec ∧ est similaire.
+
+####Cas de base F = R(y<sub>1</sub>, …, y<sub>k</sub>)
+
+C'est là qu'on utilise la seconde propriété de f et c'est alors immédiat.
+
+QED
+
+On peut généraliser facilement à tout théorème du premier ordre ne portant que sur R (mais incluant
+des négations ¬ et des implications →) en renforçant un petit peu la seconde hypothèse sur f :
+∀ x<sub>1</sub>, …, x<sub>k</sub> ∈ E,
+R(x<sub>1</sub>, …, x<sub>k</sub>) ↔ R'(f(x<sub>1</sub>), …, f(x<sub>k</sub>)) 
 
 ###Nous avons besoin d'un isomorphisme si nous rajoutons l'égalité 
 
@@ -149,10 +166,6 @@ et pas seulement des relations R(x<sub>i<sub>1</sub></sub>,…,x<sub>i<sub>k</su
 alors on peut exprimer la taille de l'ensemble pour tout ensemble fini.
 Une bijection est alors nécessaire pour qu'une telle propriété se transmette
 (une surjection entre deux ensembles finis de même taille est une bijection). 
-
-###Nous avons besoin d'un isomorphisme si nous rajoutons le quantificateur existentiel 
-
-?? 
 
 ###Nous avons besoin d'un isomorphisme si nous considérons des formules d'ordre supérieur 
 
@@ -190,3 +203,6 @@ Je serais ravi d'avoir des retours de mes amis mathématiciens ou catégoriciens
 
 [^definition]: La [page de la Wikipédia anglophone](https://en.wikipedia.org/wiki/Isomorphism) donne pour sa part une définition plus tordue quoique d'après moi logiquement équivalente. Elle laisse entendre qu'un isomorphisme ne serait pas nécessairement une bijection ce qui est faux. Je laisse cependant le soin de faire des corrections à quelqu'un de plus spécialiste que moi.
 
+[^premier-ordre]: Dans une formule du premier ordre positive, on peut avoir des connecteurs logiques comme la conjonction ∧ et la disjonction ∨, des quantificateurs ∀ et ∃ mais toutes les variables quantifiées le sont dans E et on ne peut pas avoir de connecteurs comme la négation ¬ et l'implication →.
+
+[^variable-libre]: Les variables libres sont celles sur lesquelles il n'y a pas de quantification dans la formule.
