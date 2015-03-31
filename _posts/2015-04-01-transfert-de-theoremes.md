@@ -94,7 +94,7 @@ et les relations de la structure est vraie alors elle est aussi vraie pour toute
 Je ne vous fournirai pas de démonstration de ce théorème car je l'ai exprimé de manière intuitive.
 Mais je serais curieux d'en lire une formulation et une démonstration rigoureuse
 (il y a sûrement des gens qui l'ont faite). Dans la suite, je vous montrerai une démonstration
-d'un cas particulier de ce théorème.
+d'un cas particulier.
 
 Les questions subséquentes sont alors de s'interroger sur la minimalité des hypothèses de ce théorème.
 A-t-on vraiment besoin d'un isomorphisme ? A-t-on besoin de la notion de "structure" ? 
@@ -201,7 +201,7 @@ notamment pour des raisons d'efficacité et d'utilisabilité.
 ##Conclusion 
 
 J'ai essayé de faire une présentation assez pédagogique, au moins pour le début.
-En revanche, ma présentation d'un sujet dont je ne suis pas spécialiste est assez naïve alors
+En revanche, elle est aussi assez naïve, comme je ne suis pas spécialiste du sujet, alors
 que les questions soulevées m'intéressent vraiment pour mon travail.
 Je serais donc ravi d'avoir des retours de mes amis mathématiciens ou catégoriciens
 (ce mot n'existe pas, j'en ai conscience). 
