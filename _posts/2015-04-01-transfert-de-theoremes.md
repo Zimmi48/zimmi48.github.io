@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Transferts de théorèmes par des isomorphismes
+title: Transfert de théorèmes par des isomorphismes
 lang: fr
 draft: true
 ---
 
 En mathématiques, c'est une pratique très courante que d'identifier deux objets à isomorphisme près.
 Par exemple, les matrices sont des tableaux de n × m cases
-(i.e. des fonctions dont l'ensemble de départ est {1,…,n}×{1,…,m}
+(i.e. des fonctions dont l'ensemble de départ est {1, …, n}×{1, …, m}
 et l'ensemble d'arrivée est un corps K)
 mais on les identifie à des applications[^application] linéaires de l'espace vectoriel K<sup>n</sup>
 vers K<sup>m</sup>.
 La principale justification en est que le produit de matrices correspond
-à la compositions d'applications linéaires.
+à la composition d'applications linéaires.
 Et c'est très pratique en effet, mais comment justifie-t-on la chose rigoureusement ? 
 
 ##Qu'est-ce qu'un isomorphisme ? 
@@ -59,7 +59,7 @@ mais sur la base des connaissances supplémentaires dont on dispose.
 
 Deux ensembles ayant la même structure ne sont pas nécessairement isomorphes.
 Il existe par exemple toutes sortes de groupes : certains finis, d'autres infinis ;
-pour certain l'opération commute (groupe Abéliens), pour d'autres non.
+pour certains l'opération commute (groupe Abéliens), pour d'autres non.
 Montrer alors un théorème pour un de ces ensembles ne permet pas nécessairement
 de le transférer à tous les autres.
 On pourra le faire si on peut identifier les deux structures à l'aide d'un isomorphisme. 
@@ -72,7 +72,7 @@ donc les théorèmes que nous avions démontré pour l'une sont valables pour l'
 ##Qu'est-ce que ça veut dire ? 
 
 C'est la justification de cette déclaration qui m'intéresse ici
-car mon but et de pouvoir la justifier auprès d'un ordinateur.
+car mon but et de pouvoir la donner à un ordinateur.
 Les ordinateurs n'apprécient guère les déclarations solennelles. 
 
 Wikipédia ne m'aidera pas dans ma quête. En effet, voici ce qu'on y lit : 
@@ -92,7 +92,9 @@ _Si une formule logique dont les atomes ne font intervenir que les éléments - 
 et les relations de la structure est vraie alors elle est aussi vraie pour toute structure isomorphe._ 
 
 Je ne vous fournirai pas de démonstration de ce théorème car je l'ai exprimé de manière intuitive.
-Mais je serais curieux d'en lire une démonstration rigoureuse (il y a sûrement des gens qui l'ont faite). 
+Mais je serais curieux d'en lire une formulation et une démonstration rigoureuse
+(il y a sûrement des gens qui l'ont faite). Dans la suite, je vous montrerai une démonstration
+d'un cas particulier de ce théorème.
 
 Les questions subséquentes sont alors de s'interroger sur la minimalité des hypothèses de ce théorème.
 A-t-on vraiment besoin d'un isomorphisme ? A-t-on besoin de la notion de "structure" ? 
@@ -142,7 +144,7 @@ D'où f(x) est un témoin rendant la formule
 L'une au moins de ces deux sous-formules F' et F'' est vraie. Supposons par exemple que ce soit F'.
 Alors par hypothèse de récurrence, F'(E', R', f(x<sub>1</sub>), …, f(x<sub>n</sub>)) est vraie
 ce qui suffit à conclure que
-F'(E, R, f(x<sub>1</sub>), …, f(x<sub>n</sub>)) ∨ F''(E, R, f(x<sub>1</sub>), …, f(x<sub>n</sub>))
+F'(E', R', f(x<sub>1</sub>), …, f(x<sub>n</sub>)) ∨ F''(E', R', f(x<sub>1</sub>), …, f(x<sub>n</sub>))
 est vraie aussi.
 
 Le cas avec ∧ est similaire.
@@ -156,10 +158,10 @@ C'est là qu'on utilise la seconde propriété de f et c'est alors immédiat.
 On peut généraliser facilement à des formules comportant aussi des négations ¬ et des implications →
 à condition :
 
-1. Qu'aucun quantificateur n'apparaissent sous ces deux connecteurs logiques ;
+1. Qu'aucun quantificateur n'apparaisse sous ces deux connecteurs logiques ;
 2. Qu'on renforçe un petit peu la seconde hypothèse sur f :
 ∀ x<sub>1</sub>, …, x<sub>k</sub> ∈ E,
-R(x<sub>1</sub>, …, x<sub>k</sub>) ↔ R'(f(x<sub>1</sub>), …, f(x<sub>k</sub>))
+R(x<sub>1</sub>, …, x<sub>k</sub>) ↔ R'(f(x<sub>1</sub>), …, f(x<sub>k</sub>)).
 
 Pour le voir il faudra renforcer l'hypothèse de récurrence sur toutes les sous-formules sans quantificateurs,
 dans l'esprit avec lequel on a renforcé l'hypothèse sur f.
@@ -170,15 +172,15 @@ mixant allègrement les quantificateurs et les négations.
 ###Nous avons besoin d'un isomorphisme si nous rajoutons l'égalité 
 
 Plus précisément, dès lors que nous autorisons les formules atomiques à être des égalités
-x<sub>i</sub> = x<sub>j</sub>
-et pas seulement des relations R(x<sub>i<sub>1</sub></sub>,…,x<sub>i<sub>k</sub></sub>),
+x = y
+et pas seulement des relations R(y<sub>1</sub>,…,y<sub>k</sub>),
 alors on peut exprimer la taille de l'ensemble pour tout ensemble fini.
 Une bijection est alors nécessaire pour qu'une telle propriété se transmette
 (une surjection entre deux ensembles finis de même taille est une bijection).
 
 ###Nous n'avons pas besoin des axiomes de la structure 
 
-Il est bien connu qu'un morphisme de monoïde transfert les propriétés de groupe et de groupe Abélien.
+Il est bien connu qu'un morphisme de monoïde transfère les propriétés de groupe et de groupe Abélien.
 La raison est la même que pour tous les autres théorèmes que nous pouvons vouloir transférer.
 Par conséquent, tous ces axiomes structurels sont superflus :
 si on peut transférer les relations, on peut transférer les axiomes. 
@@ -199,9 +201,9 @@ notamment pour des raisons d'efficacité et d'utilisabilité.
 ##Conclusion 
 
 J'ai essayé de faire une présentation assez pédagogique, au moins pour le début.
-En revanche, je pose de vraies questions, qui m'intéressent pour mon travail
-et sur lesquelles je ne suis pas nécessairement spécialiste.
-Je serais ravi d'avoir des retours de mes amis mathématiciens ou catégoriciens
+En revanche, ma présentation d'un sujet dont je ne suis pas spécialiste est assez naïve alors
+que les questions soulevées m'intéressent vraiment pour mon travail.
+Je serais donc ravi d'avoir des retours de mes amis mathématiciens ou catégoriciens
 (ce mot n'existe pas, j'en ai conscience). 
 
 [^application]: Dans tout cet article, on emploiera le terme d'application qui est synonyme de fonction (totale). 
