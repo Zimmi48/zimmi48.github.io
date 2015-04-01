@@ -17,8 +17,8 @@ Et c'est très pratique en effet, mais comment justifie-t-on la chose rigoureuse
 
 ##Qu'est-ce qu'un isomorphisme ? 
 
-La (courte) [page de la Wikipédia francophone](https://fr.wikipedia.org/wiki/Isomorphisme)
-traitant du sujet nous rappelle la définition usuelle[^definition] : 
+La (courte) [page Wikipédia](https://fr.wikipedia.org/wiki/Isomorphisme)
+traitant du sujet nous rappelle la définition usuelle : 
 
 <blockquote>Un isomorphisme entre deux ensembles structurés est une application bijective
 qui préserve la structure et dont la réciproque préserve aussi la structure.</blockquote> 
@@ -207,9 +207,6 @@ Je serais donc ravi d'avoir des retours de mes amis mathématiciens ou catégori
 (ce mot n'existe pas, j'en ai conscience). 
 
 [^application]: Dans tout cet article, on emploiera le terme d'application qui est synonyme de fonction (totale). 
-
-[^definition]: La [page de la Wikipédia anglophone](https://en.wikipedia.org/wiki/Isomorphism) donne pour sa part une définition plus tordue quoique d'après moi logiquement équivalente. Elle laisse entendre qu'un isomorphisme ne serait pas nécessairement une bijection ce qui est faux. Je laisse cependant le soin de faire des corrections à quelqu'un de plus spécialiste que moi.
-
 [^premier-ordre]: Dans une formule du premier ordre positive, on peut avoir des connecteurs logiques comme la conjonction ∧ et la disjonction ∨, des quantificateurs ∀ et ∃ mais toutes les variables quantifiées le sont dans E et on ne peut pas avoir de connecteurs comme la négation ¬ et l'implication →.
 
 [^variable-libre]: Les variables libres sont celles sur lesquelles il n'y a pas de quantification dans la formule.
