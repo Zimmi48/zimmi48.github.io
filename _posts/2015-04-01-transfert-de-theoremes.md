@@ -74,7 +74,7 @@ donc les théorèmes que nous avions démontré pour l'une sont valables pour l'
 ##Qu'est-ce que ça veut dire ? 
 
 C'est la justification de cette déclaration qui m'intéresse ici
-car mon but et de pouvoir la donner à un ordinateur.
+car mon but est de pouvoir la donner à un ordinateur.
 Les ordinateurs n'apprécient guère les déclarations solennelles. 
 
 Wikipédia ne m'aidera pas dans ma quête. En effet, voici ce qu'on y lit : 
