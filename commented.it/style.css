@@ -1,5 +1,5 @@
 #page {
-	text-align: left;
+	text-align: justify;
 	width: 54%;
 	margin: auto 0;
 }
@@ -12,6 +12,7 @@
 	float: right;
 	font-size: 0.7em;
 	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 h2 {
