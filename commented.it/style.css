@@ -1,7 +1,9 @@
 #page {
 	text-align: justify;
-	width: 54%;
-	margin: auto 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 14pt;
+	width: 90%;
+	margin: 0 auto;
 }
 
 .align-left {
