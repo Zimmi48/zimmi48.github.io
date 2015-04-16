@@ -1,8 +1,9 @@
 #page {
 	text-align: justify;
-    font-family: Tahoma, Geneva, sans-serif;
-    font-size: 14pt;
-	width: 45%;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14pt;
+	width: 600px;
+	max-width: 45%;
 	margin: 0 auto;
 }
 
