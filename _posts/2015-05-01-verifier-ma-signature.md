@@ -8,8 +8,8 @@ draft: true
 Le mail est un système de communication qui [existait déjà aux tout débuts
 d'Internet](https://fr.wikipedia.org/wiki/Courrier_%C3%A9lectronique#Origines)
 et qui est massivement utilisé. Cependant, il est beaucoup moins sûr que les
-messages privés sur Facebook, dans le chat de Google, ou encore ceux
-envoyés avec des applications telles que What's app. Heureusement, on peut
+messages privés sur Facebook, le chat de Google, ou encore 
+les applications telles que What's app. Heureusement, on peut
 prendre des mesures pour en améliorer la sécurité.
 
 La plus grande vulnérabilité est [l'absence de garantie que l'expéditeur est bien
