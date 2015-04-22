@@ -9,7 +9,7 @@ Le mail est un système de communication qui [existait déjà aux tout débuts
 d'Internet](https://fr.wikipedia.org/wiki/Courrier_%C3%A9lectronique#Origines)
 et qui est massivement utilisé. Cependant, il est beaucoup moins sûr que les
 messages privés sur Facebook, le chat de Google, ou encore 
-les applications telles que What's app. Heureusement, on peut
+les applications telles que What's app[^chats]. Heureusement, on peut
 prendre des mesures pour en améliorer la sécurité.
 
 La plus grande vulnérabilité est [l'absence de garantie que l'expéditeur est bien
@@ -70,7 +70,7 @@ jointe. Mailvelope ne supporte que le premier type car il ne peut pas ouvrir
 vos pièces jointes. Or le second type est assez répandu. Dans mon cas, je fais
 attention d'envoyer des signatures du premier type le plus souvent possible.
 
-Mais pour pouvoir signer des pièces jointes, seule la seconde solution
+Mais pour pouvoir signer des pièces jointes[^jointe], seule la seconde solution
 fonctionne. Dans ce cas, vous ne pourrez pas vérifier la signature avec
 Mailvelope. 
 
@@ -111,4 +111,43 @@ d'écrire une suite à ce billet pour vous expliquer comment procéder.
 
 ##En coulisses
 
-TODO
+La signature d'un message ne vous garantit pas seulement l'origine du destinataire.
+C'est un cachet qui vous assure que le message que vous lisez n'a pas été modifié.
+
+Pour garantir qu'un document n'a pas été modifié, on utilise des [_fonctions à sens
+unique_](http://fr.wikipedia.org/wiki/Fonction_%C3%A0_sens_unique)
+qui sont des fonctions mathématiques compliquées associant à tout texte de
+départ une courte "empreinte" (quasiment) unique. Il est concrètement impossible de
+reconstruire un texte à partir de son empreinte, le calcul ne peut se faire que
+dans l'autre sens : c'est pour ça que ces fonctions sont "à sens unique".
+
+Ces fonctions sont bien utiles pour d'autres applications : par exemple établir
+une antériorité. Vous publiez uniquement l'empreinte d'un texte détaillant votre
+découverte. Le jour où vous avez besoin de prouver que vous aviez fait cette
+découverte à telle date, vous révélez le contenu du texte et tout le monde peut
+alors calculer à nouveau son empreinte et constater qu'il s'agit bien de la même.
+En revanche, si vous ne changez ne serait-ce qu'une virgule au texte de départ,
+l'empreinte n'aura plus aucun rapport.
+
+Dans le cas qui nous intéresse en revanche, ça ne suffit pas. Comment transmettre
+l'empreinte du message de façon sûre et en garantir l'origine ?
+
+La solution repose sur la cryptographie dite
+[asymétrique](http://fr.wikipedia.org/wiki/Cryptographie_asym%C3%A9trique) :
+l'expéditeur/trice dispose de deux clés qui
+sont liées entre elles : l'une est dite privée et seul-e l'expéditeur/trice en
+dispose. L'autre est dite publique et est distribuée le plus largement possible.
+
+La clé privée permet de traduire l'empreinte du message en signature (le texte
+incompréhensible que vous voyez en bas du message). Quant à la clé publique,
+elle permet de traduire la signature en empreinte. Vérifier une signature consiste
+alors à comparer l'empreinte du message (facilement calculable)
+avec le résultat obtenu en déchiffrant la signature.
+Les deux doivent se correspondre exactement pour que la signature soit vérifiée.
+
+Pour en savoir plus :
+["Signature numérique" sur Wikipédia](https://fr.wikipedia.org/wiki/Signature_num%C3%A9rique).
+
+[^chat]: Ces services contrôlent le transit du message d'un bout à l'autre de la chaîne. Ils sont donc en mesure de garantir l'origine d'un message et sont les seuls à pouvoir lire son contenu.
+
+[^jointe]: Pourquoi signer aussi les pièces jointes? Tout simplement pour se garantir contre le cas (très improbable) où quelqu'un intercepterait le message et remplacerait les pièces jointes. Imaginez par exemple qu'un pirate remplace votre RIB par le sien ! Si on ne souhaite pas signer les pièces jointes mais seulement le corps du message, la solution consiste à écrire les informations les plus importantes directement dans le message dont l'intégrité sera garantie quant à elle.
