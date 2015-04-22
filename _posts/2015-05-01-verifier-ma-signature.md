@@ -38,7 +38,8 @@ bien à l'origine du message.
 - Une fois l'installation terminée, une icône de cadenas est apparue dans votre
 navigateur. Cliquez dessus puis sur Options.
 - Cliquez sur Importer les clés.
-- Téléchargez [ce fichier] qui contient ma clé publique puis sélectionnez la
+- Téléchargez [ce fichier](/zimmermann.asc)
+qui contient ma clé publique puis sélectionnez la
 depuis l'interface de Mailvelope et validez en cliquant sur Importer. 
 - Ouvrez votre webmail. Si c'est autre chose que Gmail, Live ou Yahoo, il vous
 faudra probablement commencer par dire à Mailvelope de le reconnaître

@@ -5,6 +5,7 @@ title: Théo Zimmermann
 url: "http://www.theozimmermann.net"
 timezone: "Europe/Paris"
 email: "theo.zimmermann [...] ens.fr"
+publickey: "/zimmermann.asc"
 linkedin_username: theozim
 twitter_username: Zimm_i48
 github_username: Zimmi48
@@ -21,6 +22,7 @@ t:
     translation: "lire en français"
     short: "Short URL:"
     contact: "E-mail:"
+    gpg: "My GPG key"
     copyright-texts: "All texts by Théo Zimmermann appearing for the first time on this page are licensed under"
     copyright-documents: "This does not apply to any document (in particular PDF document) linked from this page."
     copyright-code: "All code snippets by Théo Zimmermann appearing for the first time on this page are dedicated to the public domain following the terms of"
@@ -36,6 +38,7 @@ t:
     translation: "read in English"
     short: "Lien abrégé :"
     contact: "E-mail :"
+    gpg: "Ma clé GPG"
     copyright-texts: "Tous les écrits de Théo Zimmermann qui sont présentés pour la première fois sur cette page sont mis à disposition selon les termes de la licence"
     copyright-documents: "Ceci ne concerne pas les documents (en particulier tout document PDF) accessibles par un lien depuis cette page."
     copyright-code: "Tous les extraits de code dont l'auteur est Théo Zimmermann et qui sont présentés pour la première fois sur cette page sont dédiés au domaine public, suivant les termes de"
