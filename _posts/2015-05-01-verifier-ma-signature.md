@@ -97,7 +97,29 @@ mais tout le monde ne fait pas comme moi.
 
 ##Instructions si vous utilisez Thunderbird
 
-TODO
+Vous avez déjà fait la moitié du chemin et tout va être plus simple pour vous.
+
+- Dans le menu de Thunderbird, cliquez sur Modules complémentaires.
+- Dans la barre de recherche tapez "enigmail" et installez le module correspondant.
+- Redémarrez Thunderbird comme suggéré.
+- Au redémarrage, l'assistant de configuration d'Enigmail se lance. Cliquez sur
+Annuler puis Fermer.
+On n'aura pas besoin de lui, tout est déjà configuré comme on veut.
+- Cherchez un vieux mail signé que je vous ai envoyé. Vous reconnaitrez facilement
+les mails signés : un bandeau "Enigmail" apparait en haut de ces derniers.
+
+Au début, le bandeau devrait être jaune et indiquer "Signature non vérifiée".
+Par ailleurs, il devrait comporter un bouton Importer la clé. Cliquez sur ce
+bouton puis sur OK (deux fois). Le bandeau est devenu bleu-vert et indique
+désormais "Signature correcte de ..." probablement précédé de "NON CERTIFIÉE".
+
+Je vous expliquerai ce que veut dire "NON CERTIFIÉE" un autre jour. L'important
+est que la signature soit correcte. Vous pouvez d'ailleurs la vérifier en un clin
+d'oeil car si elle n'était pas correcte, le bandeau serait rouge.
+
+Vous n'aurez plus jamais besoin d'importer ma clé. En revanche, vous pourrez
+importer aussi facilement la clé de la plupart de vos autres contacts qui signent
+eux-aussi leurs messages.
 
 ##Aller plus loin
 
