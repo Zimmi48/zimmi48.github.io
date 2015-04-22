@@ -97,7 +97,7 @@ Travaux passés
 	l'espagnol et de l'anglais pendant de nombreuses années.
 	Aujourd'hui, je parle couramment l'anglais et le français et
 	j'adore ces deux langues.
-	Au contraire, il me faudrait consacrer un peu de temps à reprendre
+	Il me faudrait consacrer un peu de temps à reprendre
 	l'espagnol. Par ailleurs, si je trouve le temps, j'aimerais
 	apprendre encore d'autres langues.
 	
