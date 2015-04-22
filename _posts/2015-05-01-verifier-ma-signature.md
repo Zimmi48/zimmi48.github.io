@@ -33,6 +33,8 @@ bien à l'origine du message.
 
 ##Instructions si vous utilisez un webmail
 
+(Sauter directement à la section [Instructions si vous utilisez Thunderbird](#instructions-si-vous-utilisez-thunderbird).)
+
 - Installez l'extension Mailvelope depuis
 [le site officiel](https://www.mailvelope.com/).
 - Une fois l'installation terminée, une icône de cadenas est apparue dans votre
@@ -96,6 +98,8 @@ les messages précédents dans mes réponses pour ne pas créer ces problèmes
 mais tout le monde ne fait pas comme moi.
 
 ##Instructions si vous utilisez Thunderbird
+
+([Sauter cette section](#aller-plus-loin))
 
 Vous avez déjà fait la moitié du chemin et tout va être plus simple pour vous.
 
