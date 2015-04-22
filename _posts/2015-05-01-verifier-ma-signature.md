@@ -148,6 +148,6 @@ Les deux doivent se correspondre exactement pour que la signature soit vérifié
 Pour en savoir plus :
 ["Signature numérique" sur Wikipédia](https://fr.wikipedia.org/wiki/Signature_num%C3%A9rique).
 
-[^chat]: Ces services contrôlent le transit du message d'un bout à l'autre de la chaîne. Ils sont donc en mesure de garantir l'origine d'un message et sont les seuls à pouvoir lire son contenu.
+[^chats]: Ces services contrôlent le transit du message d'un bout à l'autre de la chaîne. Ils sont donc en mesure de garantir l'origine d'un message et sont les seuls à pouvoir lire son contenu.
 
 [^jointe]: Pourquoi signer aussi les pièces jointes? Tout simplement pour se garantir contre le cas (très improbable) où quelqu'un intercepterait le message et remplacerait les pièces jointes. Imaginez par exemple qu'un pirate remplace votre RIB par le sien ! Si on ne souhaite pas signer les pièces jointes mais seulement le corps du message, la solution consiste à écrire les informations les plus importantes directement dans le message dont l'intégrité sera garantie quant à elle.
