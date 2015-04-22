@@ -108,7 +108,7 @@ Travaux passés
 	de l'éco-Marathon Shell).
 	Il s'agit du
 	[TIPE](/pdf/TIPE.pdf) que
-	j'ai présenté à mon cours d'admission à
+	j'ai présenté à mon concours d'admission à
 	l'[ENS](http://www.ens.fr) (École Normale Supérieure), Paris.
 	J'ai notamment étudié, de manière théorique et expérimentale,
 	la résistance à l'avancement en fonction du type de revêtement
