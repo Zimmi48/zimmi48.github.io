@@ -12,8 +12,8 @@ messages privés sur Facebook, le chat de Google, ou encore
 les applications telles que What's app[^chats]. Heureusement, on peut
 prendre des mesures pour en améliorer la sécurité.
 
-La plus grande vulnérabilité est [l'absence de garantie que l'expéditeur est bien
-celui indiqué](https://en.wikipedia.org/wiki/Email_spoofing). Exactement comme
+La plus grande vulnérabilité est [l'absence de garantie que l'expéditeur/trice est bien
+celui/celle indiqué-e](https://en.wikipedia.org/wiki/Email_spoofing). Exactement comme
 quand vous recevez une lettre par la Poste d'ailleurs, à moins que vous ne
 reconnaissiez l'écriture. La seconde vulnérabilité c'est que les mails sont a priori
 visibles par les acteurs qui les transmettent comme les cartes postales peuvent
@@ -39,7 +39,7 @@ bien à l'origine du message.
 navigateur. Cliquez dessus puis sur Options.
 - Cliquez sur Importer les clés.
 - Téléchargez [ce fichier](/zimmermann.asc)
-qui contient ma clé publique puis sélectionnez la
+qui contient ma clé publique puis sélectionnez-la
 depuis l'interface de Mailvelope et validez en cliquant sur Importer. 
 - Ouvrez votre webmail. Si c'est autre chose que Gmail, Live ou Yahoo, il vous
 faudra probablement commencer par dire à Mailvelope de le reconnaître
@@ -77,7 +77,7 @@ Mailvelope.
 ####Des webmails trop malins
 
 Lorsque vous incluez le texte des messages précédents dans votre réponse
-(ce qui est le comportement de la plupart des utilisateurs), certains webmails
+(ce qui est le comportement de la plupart des utilisateurs/trices), certains webmails
 tels que Gmail décident de masquer cette partie du mail. Le problème c'est que
 ce texte faisait intégralement partie du message et le masquer peut mener
 Mailvelope à être incapable de vérifier la signature, voire à penser que cette
