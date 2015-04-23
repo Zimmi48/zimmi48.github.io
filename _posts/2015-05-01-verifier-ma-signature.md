@@ -60,7 +60,7 @@ identifiables car ils commencent par la ligne :
 Normalement, la seconde partie du message (la signature) est désormais
 recouverte d'un cachet. En cliquant dessus, la signature est vérifiée !
 
-![La signature est recouverte d'un cachet.](/images/cachet.png)
+![La signature est recouverte d'un cachet.](/images/cachet.png){: .center-image}
 
 Désormais, vous pourrez facilement vérifier la signature des nouveaux mails
 que je vous envoie :)
