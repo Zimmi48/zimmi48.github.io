@@ -99,7 +99,7 @@ mais tout le monde ne fait pas comme moi.
 
 ##Instructions si vous utilisez Thunderbird
 
-(Si vous n'utilisez pas Thunderbird, [sautez cette section](#aller-plus-loin).)
+(Si vous n'utilisez pas Thunderbird, [sautez cette section](#instructions-si-vous-avez-saut-les-deux-sections-prcdentes).)
 
 Vous utilisez Thunderbird ? C'est bien :) La procédure d'installation va être un
 chouïa plus compliquée mais dans le futur, votre vie s'en trouvera simplifiée...
