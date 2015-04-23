@@ -33,8 +33,7 @@ bien à l'origine du message.
 
 ##Instructions si vous utilisez un webmail
 
-(Si vous n'utilisez pas un webmail, sautez directement à la section
-[Instructions si vous utilisez Thunderbird](#instructions-si-vous-utilisez-thunderbird).)
+(Si vous n'utilisez pas un webmail, [sautez cette section](#instructions-si-vous-utilisez-thunderbird).)
 
 - Installez l'extension Mailvelope depuis
 [le site officiel](https://www.mailvelope.com/).
