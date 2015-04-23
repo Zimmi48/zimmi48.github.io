@@ -37,6 +37,9 @@ bien à l'origine du message.
 
 - Installez l'extension Mailvelope depuis
 [le site officiel](https://www.mailvelope.com/).
+
+![L'icône de Mailvelope](/images/mailvelope.png)
+
 - Une fois l'installation terminée, une icône de cadenas est apparue dans votre
 navigateur. Cliquez dessus puis sur Options.
 - Cliquez sur Importer les clés.
@@ -56,6 +59,8 @@ identifiables car ils commencent par la ligne :
 
 Normalement, la seconde partie du message (la signature) est désormais
 recouverte d'un cachet. En cliquant dessus, la signature est vérifiée !
+
+![La signature est recouverte d'un cachet.](/images/cachet.png)
 
 Désormais, vous pourrez facilement vérifier la signature des nouveaux mails
 que je vous envoie :)
@@ -109,6 +114,9 @@ et pour Linux, vous n'avez probablement rien à faire car le logiciel a de grand
 chances d'être déjà installé.
 - Dans le menu de Thunderbird, cliquez sur Modules complémentaires (peut se cacher
 dans le menu Outils dans certaines versions de Thunderbird).
+
+![Le bouton pour accéder au menu de Thunderbird](/images/thunderbird.png)
+
 - Dans la barre de recherche tapez "enigmail" et installez le module correspondant.
 - Redémarrez Thunderbird comme suggéré.
 - Au redémarrage, l'assistant de configuration d'Enigmail se lance. Cliquez sur
@@ -121,6 +129,8 @@ Au début, le bandeau devrait être jaune et indiquer "Signature non vérifiée"
 Par ailleurs, il devrait comporter un bouton Importer la clé. Cliquez sur ce
 bouton puis sur OK (deux fois). Le bandeau est devenu bleu-vert et indique
 désormais "Signature correcte de ..." probablement précédé de "NON CERTIFIÉE".
+
+![Le bandeau "signature correcte" d'Enigmail](/images/enigmail.png)
 
 Je vous expliquerai ce que veut dire "NON CERTIFIÉE" un autre jour. L'important
 est que la signature soit correcte. Vous pouvez d'ailleurs la vérifier en un clin
