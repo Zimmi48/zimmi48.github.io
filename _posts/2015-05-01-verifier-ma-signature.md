@@ -25,7 +25,7 @@ que les mails eux-mêmes mais elles deviennent de plus en plus simples à
 mettre en place.
 
 Dans ce billet, je vous propose de commencer très doucement : vous allez
-apprendre à vérifier que les mails que je vous envoie ont bien été écrit par moi.
+apprendre à vérifier que les mails que je vous envoie ont bien été écrits par moi.
 Ainsi, si un jour vous recevez un mail de moi vous disant que je suis coincé en
 Grèce et qu'il faut que vous me fassiez un virement sur un compte à l'étranger
 pour m'aider, il vous sera alors très simple de contrôler si oui ou non, je suis
@@ -33,7 +33,8 @@ bien à l'origine du message.
 
 ##Instructions si vous utilisez un webmail
 
-(Sauter directement à la section [Instructions si vous utilisez Thunderbird](#instructions-si-vous-utilisez-thunderbird).)
+(Si vous n'utilisez pas un webmail, sautez directement à la section
+[Instructions si vous utilisez Thunderbird](#instructions-si-vous-utilisez-thunderbird).)
 
 - Installez l'extension Mailvelope depuis
 [le site officiel](https://www.mailvelope.com/).
@@ -99,11 +100,16 @@ mais tout le monde ne fait pas comme moi.
 
 ##Instructions si vous utilisez Thunderbird
 
-([Sauter cette section](#aller-plus-loin))
+(Si vous n'utilisez pas Thunderbird, [sautez cette section](#aller-plus-loin).)
 
-Vous avez déjà fait la moitié du chemin et tout va être plus simple pour vous.
+Vous utilisez Thunderbird ? C'est bien :) La procédure d'installation va être un
+chouïa plus compliquée mais dans le futur, votre vie s'en trouvera simplifiée...
 
-- Dans le menu de Thunderbird, cliquez sur Modules complémentaires.
+- Commencez par installer GPG. Pour Windows, c'est [ici](http://www.gpg4win.org/download.html)
+et pour Linux, vous n'avez probablement rien à faire car le logiciel a de grandes
+chances d'être déjà installé.
+- Dans le menu de Thunderbird, cliquez sur Modules complémentaires (peut se cacher
+dans le menu Outils dans certaines versions de Thunderbird).
 - Dans la barre de recherche tapez "enigmail" et installez le module correspondant.
 - Redémarrez Thunderbird comme suggéré.
 - Au redémarrage, l'assistant de configuration d'Enigmail se lance. Cliquez sur
