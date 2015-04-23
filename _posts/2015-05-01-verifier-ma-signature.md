@@ -40,7 +40,7 @@ bien à l'origine du message.
 - Une fois l'installation terminée, une icône de cadenas est apparue dans votre
 navigateur. Cliquez dessus puis sur Options.
 
-->![L'icône de Mailvelope](/images/mailvelope.png)<-
+![L'icône de Mailvelope](/images/mailvelope.png){: .center-image }
 
 - Cliquez sur Importer les clés.
 - Téléchargez [ce fichier](/zimmermann.asc)
@@ -115,7 +115,7 @@ chances d'être déjà installé.
 - Dans le menu de Thunderbird, cliquez sur Modules complémentaires (peut se cacher
 dans le menu Outils dans certaines versions de Thunderbird).
 
-->![Le bouton pour accéder au menu de Thunderbird](/images/thunderbird.png)<-
+![Le bouton pour accéder au menu de Thunderbird](/images/thunderbird.png){: .center-image }
 
 - Dans la barre de recherche tapez "enigmail" et installez le module correspondant.
 - Redémarrez Thunderbird comme suggéré.
