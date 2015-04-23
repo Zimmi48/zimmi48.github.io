@@ -37,11 +37,11 @@ bien à l'origine du message.
 
 - Installez l'extension Mailvelope depuis
 [le site officiel](https://www.mailvelope.com/).
-
-![L'icône de Mailvelope](/images/mailvelope.png)
-
 - Une fois l'installation terminée, une icône de cadenas est apparue dans votre
 navigateur. Cliquez dessus puis sur Options.
+
+->![L'icône de Mailvelope](/images/mailvelope.png)<-
+
 - Cliquez sur Importer les clés.
 - Téléchargez [ce fichier](/zimmermann.asc)
 qui contient ma clé publique puis sélectionnez-la
@@ -115,7 +115,7 @@ chances d'être déjà installé.
 - Dans le menu de Thunderbird, cliquez sur Modules complémentaires (peut se cacher
 dans le menu Outils dans certaines versions de Thunderbird).
 
-![Le bouton pour accéder au menu de Thunderbird](/images/thunderbird.png)
+->![Le bouton pour accéder au menu de Thunderbird](/images/thunderbird.png)<-
 
 - Dans la barre de recherche tapez "enigmail" et installez le module correspondant.
 - Redémarrez Thunderbird comme suggéré.
