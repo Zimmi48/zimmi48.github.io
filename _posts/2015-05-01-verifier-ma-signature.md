@@ -130,6 +130,13 @@ Vous n'aurez plus jamais besoin d'importer ma clé. En revanche, vous pourrez
 importer aussi facilement la clé de la plupart de vos autres contacts qui signent
 eux-aussi leurs messages.
 
+##Instructions si vous avez sauté les deux sections précédentes
+
+Si vous n'utilisez ni Thunderbird, ni un webmail, vous avez deux solutions :
+
+1. Débrouillez-vous.
+2. Installez Thunderbird et [recommencez](#instructions-si-vous-utilisez-thunderbird).
+
 ##Aller plus loin
 
 Si vous avez lu ce post jusqu'au bout, vous êtes désormais capables de vérifier
