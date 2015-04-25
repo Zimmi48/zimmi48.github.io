@@ -109,7 +109,8 @@ mais tout le monde ne fait pas comme moi.
 Vous utilisez Thunderbird ? C'est bien :) La procédure d'installation va être un
 chouïa plus compliquée mais dans le futur, votre vie s'en trouvera simplifiée...
 
-- Commencez par installer GPG. Pour Windows, c'est [ici](http://www.gpg4win.org/download.html)
+- Commencez par installer GPG[^gpg]. Pour Windows, c'est [ici](http://www.gpg4win.org/download.html)
+(la version la plus légère Gpg4win-Vanilla suffit)
 et pour Linux, vous n'avez probablement rien à faire car le logiciel a de grandes
 chances d'être déjà installé.
 - Dans le menu de Thunderbird, cliquez sur Modules complémentaires (peut se cacher
@@ -199,3 +200,5 @@ Pour en savoir plus :
 [^chats]: Ces services contrôlent le transit du message d'un bout à l'autre de la chaîne. Ils sont donc en mesure de garantir l'origine d'un message et sont les seuls à pouvoir lire son contenu.
 
 [^jointe]: Pourquoi signer aussi les pièces jointes? Tout simplement pour se garantir contre le cas (très improbable) où quelqu'un intercepterait le message et remplacerait les pièces jointes. Imaginez par exemple qu'un pirate remplace votre RIB par le sien ! Si on ne souhaite pas signer les pièces jointes mais seulement le corps du message, la solution consiste à écrire les informations les plus importantes directement dans le message dont l'intégrité sera garantie quant à elle.
+
+[^gpg]: GPG est le logiciel libre qui crée les signatures et les vérifie et qui est aussi capable de chiffrer et déchiffrer un fichier. C'est un programme qui s'utilise normalement en ligne de commande, c'est pourquoi on aura besoin d'installer une extension pour Thunderbird qui se chargera de communiquer avec lui et nous rendra la vie plus facile.
