@@ -197,6 +197,25 @@ Les deux doivent se correspondre exactement pour que la signature soit vérifié
 Pour en savoir plus :
 ["Signature numérique" sur Wikipédia](https://fr.wikipedia.org/wiki/Signature_num%C3%A9rique).
 
+##Diffuser l'information
+
+Si comme moi, vous signiez déjà vos mails, il est probable que très peu de vos
+contacts vérifiaient vos signatures. Or, dans ce billet, j'ai cherché à montrer
+que vérifier les mails signés est très simple, suffisamment simple pour que tout
+le monde le fasse.
+
+Le problème actuel c'est que les explications sur les techniques de signature et
+de chiffrement vont toujours beaucoup trop loin, ce qui démotive la plupart des gens.
+Les signatures perdent cependant tout leur intérêt si personne ne les vérifie.
+Faisons donc en sorte que tous nos contacts se mettent à vérifier nos signatures.
+Par ailleurs, certains pourraient finir par avoir envie de signer leurs mails
+à leur tour et nous répandrons ainsi cette pratique.
+
+N'hésitez donc pas à adapter et reblogger ce billet (en particulier, en mettant un
+lien vers votre propre clé publique à la place de la mienne).
+Comme d'habitude, il est sous licence CC-BY et c'est aussi le cas des captures
+d'écran qui l'accompagnent.
+
 [^chats]: Ces services contrôlent le transit du message d'un bout à l'autre de la chaîne. Ils sont donc en mesure de garantir l'origine d'un message et sont les seuls à pouvoir lire son contenu.
 
 [^jointe]: Pourquoi signer aussi les pièces jointes? Tout simplement pour se garantir contre le cas (très improbable) où quelqu'un intercepterait le message et remplacerait les pièces jointes. Imaginez par exemple qu'un pirate remplace votre RIB par le sien ! Si on ne souhaite pas signer les pièces jointes mais seulement le corps du message, la solution consiste à écrire les informations les plus importantes directement dans le message dont l'intégrité sera garantie quant à elle.
