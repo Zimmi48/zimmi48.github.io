@@ -4,7 +4,7 @@ title: "A key to massively collaborative math is a good interface for writing pr
 date: 2014-12-10 16:00:00 +0100
 lang: en
 excerpt: Thanks to all the people who reacted, by various means, to my first blog post on collaborative proofs, I have had a lot of insights on what is most likely to not work in my project. But I am also glad that I found out that all these people were enthusiastic about the overall concept.
-redirect_from: 7n8yC8
+redirect_from: 7n8yC8/
 ---
 
 Thanks to all the people who reacted, by various means, to

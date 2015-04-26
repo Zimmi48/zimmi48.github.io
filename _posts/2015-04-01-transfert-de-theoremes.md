@@ -4,7 +4,7 @@ title: Transfert de théorèmes par des isomorphismes
 lang: fr
 date: 2015-04-01 11:00:00 +0200
 excerpt: En mathématiques, c'est une pratique très courante que d'identifier deux objets à isomorphisme près. Par exemple, les matrices sont des tableaux de n × m cases (i.e. des fonctions dont l'ensemble de départ est {1, …, n}×{1, …, m} et l'ensemble d'arrivée est un corps K) mais on les identifie à des applications linéaires de l'espace vectoriel K<sup>n</sup> vers K<sup>m</sup>. La principale justification en est que le produit de matrices correspond à la composition d'applications linéaires. Et c'est très pratique en effet, mais comment justifie-t-on la chose rigoureusement ? 
-redirect_from: 9CDsyY
+redirect_from: 9CDsyY/
 ---
 
 En mathématiques, c'est une pratique très courante que d'identifier deux objets à isomorphisme près.

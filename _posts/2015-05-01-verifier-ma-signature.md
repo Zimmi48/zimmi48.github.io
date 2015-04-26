@@ -3,6 +3,7 @@ layout: post
 title: "Un premier pas vers la sécurité : vérifiez ma signature"
 lang: fr
 draft: true
+redirect_from: sign/
 ---
 
 Le mail est un système de communication qui [existait déjà aux tout débuts

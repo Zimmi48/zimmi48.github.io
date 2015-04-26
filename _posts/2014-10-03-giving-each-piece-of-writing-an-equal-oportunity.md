@@ -4,7 +4,7 @@ title: "Giving each piece of writing an equal opportunity"
 date: 2014-10-03 11:00:00 +0200
 lang: en
 excerpt: Many times, a thought crossed your mind that would be worth sharing with others. Sometimes, you started writing something about it and then it remained in your notebook forever. If you feel you have well described your idea / problem / rant / whatever, you may decide to share it with your Facebook friends, or on your blog if you have one. But what about sharing it with "everybody". Maybe it’s worth it but in any case, it is not easy to reach an audience and you’re not necessarily prepared to spend the time it requires.
-redirect_from: 75J67J
+redirect_from: 75J67J/
 permalink: /2014/10/03/giving-each-piece-of-writing-an-equal-oportunity/
 ---
 
