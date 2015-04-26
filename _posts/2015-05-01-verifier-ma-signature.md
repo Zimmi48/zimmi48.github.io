@@ -45,7 +45,7 @@ navigateur. Cliquez dessus puis sur Options.
 
 - Cliquez sur Importer les clés.
 - Téléchargez [ce fichier](/zimmermann.asc)
-qui contient ma clé publique puis sélectionnez-la
+qui contient ma clé publique puis sélectionnez-le
 depuis l'interface de Mailvelope et validez en cliquant sur Importer. 
 - Ouvrez votre webmail. Si c'est autre chose que Gmail, Live ou Yahoo, il vous
 faudra probablement commencer par dire à Mailvelope de le reconnaître
@@ -107,9 +107,6 @@ mais tout le monde ne fait pas comme moi.
 
 (Si vous n'utilisez pas Thunderbird, [sautez cette section](#instructions-si-vous-avez-saut-les-deux-sections-prcdentes).)
 
-Vous utilisez Thunderbird ? C'est bien :) La procédure d'installation va être un
-chouïa plus compliquée mais dans le futur, votre vie s'en trouvera simplifiée...
-
 - Commencez par installer GPG[^gpg]. Pour Windows, c'est [ici](http://www.gpg4win.org/download.html)
 (la version la plus légère Gpg4win-Vanilla suffit)
 et pour Linux, vous n'avez probablement rien à faire car le logiciel a de grandes
@@ -121,16 +118,20 @@ dans le menu Outils dans certaines versions de Thunderbird).
 
 - Dans la barre de recherche tapez "enigmail" et installez le module correspondant.
 - Redémarrez Thunderbird comme suggéré.
-- Au redémarrage, l'assistant de configuration d'Enigmail se lance. Cliquez sur
-Annuler puis Fermer.
-On n'aura pas besoin de lui, tout est déjà configuré comme on veut.
+- Au redémarrage, l'assistant de configuration d'Enigmail se lance.
+Il vous demande de choisir entre trois modes de configuration (débutant, avancé, expert).
+Sélectionnez expert (ne vous inquiétez pas, je vous guide).
+- Sur l'écran suivant, cliquez sur le bouton Gestion de clefs
+(vous pourrez ensuite fermer l'assistant de configuration en cliquant sur Terminer).
+- Téléchargez [ce fichier](/zimmermann.asc) qui contient ma clé publique
+puis sélectionnez-le depuis la fenêtre "Gestion de clef Enigmail" qui s'est ouverte
+(menu Fichier/Importer des clefs depuis un fichier).
 - Cherchez un vieux mail signé que je vous ai envoyé. Vous reconnaitrez facilement
 les mails signés : un bandeau "Enigmail" apparait en haut de ces derniers.
 
-Au début, le bandeau devrait être jaune et indiquer "Signature non vérifiée".
-Par ailleurs, il devrait comporter un bouton Importer la clé. Cliquez sur ce
-bouton puis sur OK (deux fois). Le bandeau est devenu bleu-vert et indique
-désormais "Signature correcte de ..." probablement précédé de "NON CERTIFIÉE".
+Si vous avez correctement effectué l'étape précédente, le bandeau devrait être
+bleu-vert et indiquer
+"Signature correcte de ..." probablement précédé de "NON CERTIFIÉE".
 
 ![Le bandeau "signature correcte" d'Enigmail](/images/enigmail.png)
 
@@ -138,9 +139,11 @@ Je vous expliquerai ce que veut dire "NON CERTIFIÉE" un autre jour. L'important
 est que la signature soit correcte. Vous pouvez d'ailleurs la vérifier en un clin
 d'oeil car si elle n'était pas correcte, le bandeau serait rouge.
 
-Vous n'aurez plus jamais besoin d'importer ma clé. En revanche, vous pourrez
-importer aussi facilement la clé de la plupart de vos autres contacts qui signent
-eux-aussi leurs messages.
+Vous n'aurez plus jamais besoin d'importer ma clé. En revanche, si un autre de
+vos contacts décide de chiffrer ses mails et vous envoie sa clef, vous pourrez
+l'importer très facilement en ouvrant à nouveau la fenêtre "Gestion de clefs
+Enigmail". Vous pouvez accéder à cette fenêtre à tout moment en ouvrant le menu
+de Thunderbird (sous-menu Enigmail/Gestion de clefs).
 
 ##Instructions si vous avez sauté les deux sections précédentes
 
