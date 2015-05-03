@@ -2,7 +2,8 @@
 layout: post
 title: "Un premier pas vers la sécurité : vérifiez ma signature"
 lang: fr
-draft: true
+date: 2015-05-03 14:00:00 +0200
+excerpt: Le mail est un système de communication qui existait déjà aux tout débuts d'Internet et qui est massivement utilisé. Cependant, il est beaucoup moins sûr que les messages privés sur Facebook, le chat de Google, ou encore les applications telles que What's app. Heureusement, on peut prendre des mesures pour en améliorer la sécurité.
 redirect_from: sign/
 ---
 
