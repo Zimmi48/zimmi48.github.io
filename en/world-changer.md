@@ -26,6 +26,15 @@ entrepreneurs and inventors do can matter as much.
 Among other things, technology is leading to a breakthrough for
 democracy.
 
+Internet has already started to mutate the way in which citizens
+handle political matters. If there are examples when we can say
+Internet helped start a revolution, it is mostly a new and
+uncontrolled media. For instance, social networks have played a strong
+role in the current movement against racist and violent
+policemen in the US. Given the importance of Internet, it is
+very disturbing that countries such as the UK and France are
+now trying to control it.
+
 General tools like social media won't suffice though.
 More specialized tools like [Avaaz](https://www.avaaz.org)
 as well as day-to-day

@@ -29,6 +29,14 @@ des entrepreneurs et des inventeurs a au moins autant d'importance.
 En particulier, la technologie apporte une nouvelle dimension
 à la démocratie.
 
+Internet a déjà commencé à révolutionner le rapport des citoyens à la
+politique. Déclencheur de révolutions, c'est surtout un vecteur
+d'information hors de tout contrôle. Les réseaux sociaux jouent ainsi
+par exemple une large part dans la critique des violences policières
+racistes aujourd'hui aux États-Unis. Vu l'importance d'Internet, il
+est d'ailleurs préoccupant que des pays comme le Royaume-Uni et la
+France cherchent désormais à le contrôler.
+
 Des outils généralistes tels que le sont les réseaux et médias sociaux
 ne suffiront cependant pas. Des outils plus spécialisés sont nécessaires
 et un exemple préliminaire de cela serait le site web de l'organisation
