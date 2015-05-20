@@ -16,18 +16,38 @@ here's a longer list of things I am:
 
 boyfriend, computer scientist, environmentalist, European,
 ex-Austinite,
-feminist, French, graduate student, [Parisian](/en/paris),
+feminist, French, graduate student,
+LG*B*T, [Parisian](/en/paris),
 political activist,
 researcher, [wannabe world changer](/en/world-changer), young man
 
 If you want to see my curriculum,
 please refer to my [LinkedIn page](https://fr.linkedin.com/in/theozim).
-My resume is also available upon request.
+A PDF resume is also available upon request.
 
 Current topics
 --------------
 
-Currently, my main interests are
+I am currently a research intern at the
+[PPS laboratory](http://www.pps.univ-paris-diderot.fr/)
+of the Paris-Diderot University.
+I am working with Professor
+[Hugo Herbelin](http://pauillac.inria.fr/~herbelin/) on the automatic
+and transparent transfer of theorems along isomorphisms.
+On this subject, I have written a blog post
+[[in French]({% post_url 2015-04-01-transfert-de-theoremes %})]
+and a working paper:
+
+* Zimmermann T. and Herbelin H.
+[Automatic and Transparent Transfer of Theorems along Isomorphisms in the Coq Proof Assistant.](http://arxiv.org/abs/1505.05028)
+Submitted (2015).
+
+This project is part of a general effort to make the use of
+proof assistants easier. See also my two blog posts on collaborative
+proofs [here]({% post_url 2014-11-06-collaborative-proofs %})
+and [there]({% post_url 2014-12-10-feedback-collaborative-proofs %}).
+
+Besides, my main interests are
 [crowdsourcing](http://en.wikipedia.org/wiki/Crowdsourcing), i.e.
 mass collaboration using the Web,
 [open science](http://en.wikipedia.org/wiki/Open_science)
@@ -35,15 +55,22 @@ and [open research](http://en.wikipedia.org/wiki/Open_research).
 I am amazed at a few projects that have enable people,
 through online mass collaboration, to create knowledge
 in a way that would never have been possible in a pre-web era.
-I am convinced that the tremendous possibilities that the internet
+I am convinced that the tremendous possibilities that the Internet
 opens are far from being unveiled.
 In particular, communication and collaboration tools are required
 and a lot of them are still to be invented.
 
+I thrive to make my research as public as possible my publishing
+as often and as soon as possible on public archives and/or
+through this [blog](/en/blog).
+
 I have a few mass collaboration projects that I want to achieve
 by developing [free software](https://github.com/Zimmi48).
-My [blog](/en/blog) is the place where I want to share the state
-of my research.
+In particular, see unkilodeplumes
+[[in French](http://unkilodeplumes.fr)].
+
+Finally, I am also involved in an
+[online magazine project](http://kinea.media).
 
 Past work
 ---------
@@ -51,7 +78,8 @@ Past work
 * Biology
     * During my year in Texas,
 	I discovered the field of bio-informatics and computational biology.
-    I have been working with Professor Tandy Warnow for one semester
+    I have been working with Professor
+    [Tandy Warnow](http://en.wikipedia.org/wiki/Tandy_Warnow) for one semester
 	(after having followed her class during the first semester)
 	and I have co-authored two conference papers:
         * Zimmermann T., Mirarab S. and Warnow T.
@@ -110,7 +138,8 @@ Past work
 * Other computer science works
 	* During an internship at Microsoft Research Cambridge (England),
 	I worked on non-termination proofs,
-	under the supervision of Byron Cook
+	under the supervision of
+    [Byron Cook](http://en.wikipedia.org/wiki/Byron_Cook_%28computer_scientist%29)
 	[[report, in English](/pdf/internship-MSRC.pdf)].
 	* I have read and commented many computer science research papers.
 	I'm including here a link to one of the first comment I did,
@@ -136,8 +165,8 @@ Apart from what I've said already, I have a broad range of interests,
 including:
 
 * Travels
-	* I've been to a lot of western European countries
-	as well as to the US and Canada.
+	* I've been to a lot of western European countries, to the US and
+    to Canada.
 	* I lived in four different cities/towns in three different countries
 	([Marseille](/en/marseille), France; [Paris](/en/paris), France;
 	[Cambridge](/en/cambridge), England; Austin, Texas)
@@ -158,10 +187,20 @@ including:
 	and I particularly recommend the Robots series
 	(most stories are at the crossroad
 	between science-fiction and detective stories).
-	* A book I read recently and liked a lot is "L'Étudiant Étranger"
-	by [Philippe Labro](http://en.wikipedia.org/wiki/Philippe_Labro).
+    I have now also finished the Foundation series.
+	* In 2014, I read "L'Étudiant Étranger"
+	by [Philippe Labro](http://en.wikipedia.org/wiki/Philippe_Labro)
+	and liked it a lot.
 	I had purchased this book eight years
 	before but I think I picked the perfect time to read it because it
 	echoed my own personal adventure in the US.
-
+    Still, "L'Étudiant Étranger" describes a very different world
+    as it takes place during segregation.
+    * In a similar vein, I strongly recommend
+    ["To Kill a Mockingbird"](http://en.wikipedia.org/wiki/To_Kill_a_Mockingbird)
+    by Harper Lee that I had the pleasure to *listen* too.
+    * I am now completing my American history culture with
+    ["A People's History of the United States"](http://en.wikipedia.org/wiki/A_People%27s_History_of_the_United_States)
+    by Howard Zinn.
+    
 * Politics

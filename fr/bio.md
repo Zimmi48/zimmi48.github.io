@@ -17,34 +17,62 @@ catégories, voici une liste plus longues de choses que je suis :
 amoureux, athée, chercheur,
 [désireux de changer le monde](/fr/changer-le-monde),
 écologiste, étudiant, Européen, féministe,
-Français, informaticien, jeune homme, [Marseillais](/fr/marseille),
+Français, informaticien, jeune homme,
+LG*B*T, [Marseillais](/fr/marseille),
 militant politique, [normalien](http://www.ens.fr),
 [Parisien](/fr/paris), scientifique
 
 Si vous voulez connaître mon parcours,
 référez-vous à ma [page LinkedIn](https://fr.linkedin.com/in/theozim).
-Mon CV est aussi disponible sur demande.
+Une version PDF de mon CV est aussi disponible sur demande.
 
 Sujets actuels
 --------------
 
-Je m'intéresse en ce moment principalement au
+Je suis actuellement en stage au
+[laboratoire PPS](http://www.pps.univ-paris-diderot.fr/)
+de l'Université Paris-Diderot.
+Je travaille avec [Hugo Herbelin](http://pauillac.inria.fr/~herbelin/)
+sur le transfert automatique et transparent de théorèmes par
+des isomorphismes. J'ai écrit un
+[billet de blog]({% post_url 2015-04-01-transfert-de-theoremes %})
+sur le sujet ainsi qu'un document de travail :
+
+* Zimmermann T. and Herbelin H.
+[Automatic and Transparent Transfer of Theorems along Isomorphisms in the Coq Proof Assistant.](https://hal.archives-ouvertes.fr/hal-01152588)
+Submitted (2015).
+
+Ce projet s'inscrit dans le cadre d'un effort de simplification
+de l'utilisation des assistants de preuve. Voyez aussi mes deux
+billets de blog sur les preuves collaboratives :
+[ici]({% post_url 2014-11-06-collaborative-proofs %})
+et [là]({% post_url 2014-12-10-feedback-collaborative-proofs %})
+[en anglais].
+
+Je m'intéresse également au
 [_crowdsourcing_](http://fr.wikipedia.org/wiki/Crowdsourcing), c'est-à-dire
-à la collaboration de masse via internet ainsi qu'à la
+à la collaboration de masse via Internet ainsi qu'à la
 [science ouverte](http://fr.wikipedia.org/wiki/Science_ouverte)
 et plus précisément la "recherche en public"
 [[_open research_, en anglais](http://en.wikipedia.org/wiki/Open_research)].
 J'ai été positivement impressionné par quelques projets qui ont
 permis, à travers une collaboration massive en ligne, de créer
-de la connaissance d'une manière inimaginable dans une ère pré-internet.
-Je suis convaincu qu'internet ouvre des possibilités extraordinaires qui
+de la connaissance d'une manière inimaginable dans une ère pré-Internet.
+Je suis convaincu qu'Internet ouvre des possibilités extraordinaires qui
 sont loin d'avoir été entièrement dévoilées.
 En particulier, de nouveaux outils de communication et de collaboration
 seront nécessaires.
 
 Dans ce cadre, j'ai un certain nombre de projets que je cherche à réaliser
-par [des logiciels libres](https://github.com/Zimmi48). Mon [blog](/fr/blog)
-est le lieu sur lequel je souhaite partager l'état de mes recherches.
+par [des logiciels libres](https://github.com/Zimmi48).
+L'un d'entre eux est [unkilodeplumes](http://unkilodeplumes.fr).
+
+Par ailleurs, je souhaite faire de ma recherche une activité aussi ouverte
+que possible en publiant fréquemment et rapidement sur des archives ouvertes
+ainsi qu'à travers mon [blog](/fr/blog).
+
+Enfin, je suis aussi impliqué dans un projet de
+[magazine en ligne](http://kinea.media).
 
 Travaux passés
 --------------
@@ -53,7 +81,7 @@ Travaux passés
 	* Pendant mon année d'études au Texas,
 	j'ai découvert le domaine de la bio-informatique et de la
 	biologie computationnelle.
-	J'ai travaillé avec la Professeure Tandy Warnow pendant un semestre
+	J'ai travaillé avec Tandy Warnow pendant un semestre
 	(après avoir suivi son cours le premier semestre)
 	et je suis co-auteur de deux articles :
 		* Zimmermann T., Mirarab S. and Warnow T.
@@ -79,7 +107,7 @@ Travaux passés
 	[[rapport de stage](/pdf/stage-IGC.pdf)].
 	
 * Linguistique
-	* J'ai fait un stage avec le Directeur de Recherche CNRS Paul Sabatier
+	* J'ai fait un stage avec Paul Sabatier
 	au LIF (Laboratoire d'Informatique Fondamentale),
 	à Marseille, dans le domaine du traitement automatique
 	du langage naturel.
@@ -170,10 +198,19 @@ En particulier :
 	et je recommande tout particulièrement le cycle des Robots,
 	dont un grand nombre de romans sont à la fois
 	des histoires policières et de science-fiction.
-	* J'ai lu récemment et adoré "L'Étudiant Étranger" de
+    J'ai également terminé le cycle de Fondation.
+	* En 2014, j'ai lu et adoré "L'Étudiant Étranger" de
 	[Philippe Labro](http://fr.wikipedia.org/wiki/Philippe_Labro).
 	J'avais acheté ce roman huit ans plus tôt mais j'ai finalement
 	choisi le moment parfait pour le lire, étant donné que le sujet
 	résonnait directement avec ma propre aventure américaine.
+    "L'Étudiant Étranger" décrivait pour autant un monde bien
+    différent puisqu'il se déroule sous la ségrégation.
+    * Dans une optique proche, je recommande fortement le livre
+    ["To Kill a Mockingbird"](http://fr.wikipedia.org/wiki/Ne_tirez_pas_sur_l%27oiseau_moqueur)
+    de Harper Lee, que j'ai eu le plaisir d'*écouter* récemment.
+    * Je parachève désormais ma culture de l'histoire américaine
+    avec "A People's History of the United States" de
+    [Howard Zinn](http://fr.wikipedia.org/wiki/Howard_Zinn).
 	
 * Politique
