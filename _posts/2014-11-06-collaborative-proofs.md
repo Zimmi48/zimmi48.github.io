@@ -98,6 +98,9 @@ There are many more questions that remain. Many I have think of, many I have not
 I did not explain how to make it easy for any mathematician to use the tool.
 Although I have ideas about that too, I am far from having a clear view of what the final system will look like.
 
+This post has a sequel:
+[A key to massively collaborative math is a good interface for writing proofs]({% post_url 2014-12-10-feedback-collaborative-proofs %}).
+
 [^gowers]: Gowers, T., & Nielsen, M. (2009). Massively collaborative mathematics. *Nature*, 461(7266), 879-881.
 
 [^obua]: Obua, S., Fleuriot, J., Scott, P., & Aspinall, D. (2014). ProofPeer: Collaborative Theorem Proving. *arXiv preprint arXiv:1404.6186*.

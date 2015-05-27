@@ -208,6 +208,8 @@ que les questions soulevées m'intéressent vraiment pour mon travail.
 Je serais donc ravi d'avoir des retours de mes amis mathématiciens ou catégoriciens
 (ce mot n'existe pas, j'en ai conscience). 
 
+Si vous voulez en savoir plus, lisez l'article que j'ai écrit sur le sujet depuis [[en anglais](http://www.sjscience.org/article?id=254)].
+
 [^application]: Dans tout cet article, on emploiera le terme d'application qui est synonyme de fonction (totale). 
 [^premier-ordre]: Dans une formule du premier ordre positive, on peut avoir des connecteurs logiques comme la conjonction ∧ et la disjonction ∨, des quantificateurs ∀ et ∃ mais toutes les variables quantifiées le sont dans E et on ne peut pas avoir de connecteurs comme la négation ¬ et l'implication →.
 

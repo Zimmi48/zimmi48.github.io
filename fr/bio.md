@@ -39,8 +39,11 @@ des isomorphismes. J'ai écrit un
 sur le sujet ainsi qu'un document de travail :
 
 * Zimmermann T. and Herbelin H.
-[Automatic and Transparent Transfer of Theorems along Isomorphisms in the Coq Proof Assistant.](https://hal.archives-ouvertes.fr/hal-01152588)
-Submitted (2015).
+Automatic and Transparent Transfer of Theorems along Isomorphisms in the Coq Proof Assistant.
+En cours de soumission (2015).
+Lisez-le sur [SJS](http://www.sjscience.org/article?id=254),
+sur [HAL](https://hal.archives-ouvertes.fr/hal-01152588)
+ou sur [arXiv](http://arxiv.org/abs/1505.05028).
 
 Ce projet s'inscrit dans le cadre d'un effort de simplification
 de l'utilisation des assistants de preuve. Voyez aussi mes deux
