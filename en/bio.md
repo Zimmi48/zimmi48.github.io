@@ -39,8 +39,8 @@ On this subject, I have written a blog post
 and a working paper:
 
 * Zimmermann T. and Herbelin H.
-Automatic and Transparent Transfer of Theorems along Isomorphisms in the Coq Proof Assistant.
-Submitted (2015).
+*Automatic and Transparent Transfer of Theorems along Isomorphisms in the Coq Proof Assistant.*
+Accepted for presentation at CICM 2015 (work-in-progress track).
 Read it on [SJS](http://www.sjscience.org/article?id=254),
 on [HAL](https://hal.archives-ouvertes.fr/hal-01152588)
 or on the [arXiv](http://arxiv.org/abs/1505.05028).

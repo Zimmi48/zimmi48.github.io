@@ -36,11 +36,11 @@ Je travaille avec [Hugo Herbelin](http://pauillac.inria.fr/~herbelin/)
 sur le transfert automatique et transparent de théorèmes par
 des isomorphismes. J'ai écrit un
 [billet de blog]({% post_url 2015-04-01-transfert-de-theoremes %})
-sur le sujet ainsi qu'un document de travail :
+sur le sujet ainsi qu'un rapport technique :
 
 * Zimmermann T. and Herbelin H.
-Automatic and Transparent Transfer of Theorems along Isomorphisms in the Coq Proof Assistant.
-En cours de soumission (2015).
+*Automatic and Transparent Transfer of Theorems along Isomorphisms in the Coq Proof Assistant.*
+Accepté pour présentation à CICM 2015 (work-in-progress track).
 Lisez-le sur [SJS](http://www.sjscience.org/article?id=254),
 sur [HAL](https://hal.archives-ouvertes.fr/hal-01152588)
 ou sur [arXiv](http://arxiv.org/abs/1505.05028).
