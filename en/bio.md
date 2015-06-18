@@ -17,7 +17,7 @@ here's a longer list of things I am:
 boyfriend, computer scientist, environmentalist, European,
 ex-Austinite,
 feminist, French, graduate student,
-LG*B*T, [Parisian](/en/paris),
+lgBt, [Parisian](/en/paris),
 political activist,
 researcher, [wannabe world changer](/en/world-changer), young man
 

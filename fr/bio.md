@@ -18,7 +18,7 @@ amoureux, athée, chercheur,
 [désireux de changer le monde](/fr/changer-le-monde),
 écologiste, étudiant, Européen, féministe,
 Français, informaticien, jeune homme,
-LG*B*T, [Marseillais](/fr/marseille),
+lgBt, [Marseillais](/fr/marseille),
 militant politique, [normalien](http://www.ens.fr),
 [Parisien](/fr/paris), scientifique
 
