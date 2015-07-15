@@ -3,7 +3,7 @@ layout: bio
 link-fr: Bio
 lang: fr
 permalink: "/fr/"
-trans: /en
+trans: /en/
 ---
 
 Qui suis-je ?
