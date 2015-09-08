@@ -40,13 +40,13 @@ proposées et en discuter (c'est certainement la clé du succès de cette platef
 principe de l'équipe cœur et des patchs lui étant antérieur).
 
 L'autre modèle à succès de la collaboration massive, c'est celui de Wikipédia. Le principe
-du wiki est le plus simple qui soit : quiconque peut, à son loisir, modifier une quelconque
-page de l'encyclopédie. Cependant, la clé du succès de ce modèle de collaboration réside
+du wiki est le plus simple qui soit : quiconque peut, à loisir, modifier une page quelconque
+de l'encyclopédie. Cependant, la clé du succès de ce modèle de collaboration réside
 dans le fait que l'historique des modifications est sauvegardé et que toute modification
 est réversible en un clic si elle s'avère inappropriée. Des modérat.eur/rice.s exercent donc un
 contrôle a posteriori, à l'aide d'outils spécialisés leur permettant de voir les modifications
 en temps réel. À cela on ajoutera que les pages les plus fréquemment vandalisées sont davantage
-protégées en y restreignant les droits de modifications aux utilisateurs enregistrés, tout
+protégées en y restreignant les droits de modifications aux utilisat.eur/rice.s enregistré.e.s, tout
 simplement.
 
 Devant ces deux grands succès, on peut penser que l'une ou l'autre des solutions
@@ -63,7 +63,7 @@ Un seul projet sur douze est un roman mais quand on observe [la page des contrib
 on découvre le motif reconnaissable des projets reposant sur un seul homme :
 le premier contributeur (c'est-à-dire l'auteur) a écrit 100 000 lignes. Le second
 contributeur le plus prolifique a proposé deux modifications seulement, modifiant
-dix lignes en tout.
+10 lignes en tout.
 
 On peut se dire que le modèle est le bon mais que l'outil est trop compliqué à utiliser
 pour des écrivains non-programmeurs (ce qui expliquerait pourquoi tous les tutoriels
@@ -74,17 +74,17 @@ d'avoir donné lieu à une grande créativité, la dernière fois que j'ai regar
 Wikipédia étant un exemple réussi d'écriture collaborative, pourquoi ne pas faire un "wikiroman" ?
 Nombreux sont ceux qui y ont pensé. Le plus médiatique exemple a été celui lancé avec des
 roulements de tambours par la maison d'édition Penguins. Le projet, appelé "One million penguins",
-a été confié à un groupe d'étudiant.e.s chargés de le superviser. Hélas, la communication autour
+a été confié à un groupe d'étudiant.e.s chargé.e.s de le superviser. Hélas, la communication autour
 de ce projet a provoqué sa perte : les étudiant.e.s-édit.eur/rice.s ont été débordé.e.s par le
-nombre de participants. De plus, en choisissant d'activer une modération "a priori", l'équipe a
-tué l'idée géniale du wiki et c'est retrouvée avec le modèle précédent (celui du logiciel libre)
+nombre de participant.e.s. De plus, en choisissant d'activer une modération "a priori", l'équipe a
+tué l'idée géniale du wiki et s'est retrouvée avec le modèle précédent (celui du logiciel libre)
 dans un outil inadapté.
 
 ##Solutions pour une collaboration restreinte
 
 De l'autre côté du spectre des outils dits "collaboratifs" il y a Google Docs.
 Google Docs est un outil génial lorsque l'on veut collaborer sur un document avec relativement
-peu de monde. Il comporte deux modes principaux d'éditions.
+peu de monde. Il comporte deux modes principaux d'édition.
 
 - Le mode Édition fonctionne sur le même principe que le wiki. On peut simplement
 faire ses modifications dans le corps du texte. Comme ce n'est pas prévu pour une collaboration
@@ -97,8 +97,8 @@ d'une suggestion de modification.
 
 Cette discussion en marge de la page, qui n'est rien d'autre que la note griffonnée depuis
 toujours dans un livre rendue sociale, est un concept qui a aussi pris récemment son essor.
-On la retrouve notamment chez Medium.com (chez qui les commentaires sont remplacées par
-des "notes" qui flottent à côté de chaque paragraphe [^medium]). Cette fonctionnalité est
+On la retrouve notamment chez Medium.com (chez qui les commentaires sont remplacés par
+des "notes" qui flottent à côté de chaque paragraphe[^medium]). Cette fonctionnalité est
 d'ailleurs mise en avant comme "le mécanisme central de collaboration sur Medium".
 
 ##Solution pour une collaboration massive (littéraire)
