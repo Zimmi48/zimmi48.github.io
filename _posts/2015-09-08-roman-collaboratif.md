@@ -16,8 +16,8 @@ Cependant on voit fleurir des initiatives s'engageant résolument dans cette dir
 
 Avec Jules Zimmermann, nous nous sommes posés la question, voilà maintenant un an, de savoir
 s'il était possible de créer un roman de manière entièrement collaborative (en excluant la
-collaboration à petite échelle de deux ou trois auteurs ou encore la collaboration limitée,
-où chacun écrit un chapitre).
+collaboration à petite échelle de deux ou trois aut.eur/rice.s ou encore la collaboration limitée,
+où chacun.e écrit un chapitre).
 Nous n'avons pas encore la réponse.
 
 Nous ne sommes pas les premiers à nous poser cette question, ce qui laisse penser que si
@@ -54,8 +54,8 @@ se transposera bien au cas de la création littéraire. Aucune modification ne d
 être nécessaire, les deux permettant de travailler sur du texte (qu'est-ce qu'un code source
 sinon du texte). Voyons ce que ça a donné.
 
-Dans le cas du modèle de Github, il a bien été appliqué à l'écriture collaborative.
-À l'heure où j'écris ces lignes, [12 tels projets sont mis en avant par Github](https://github.com/showcases/writing).
+Le cas modèle de Github a bien été appliqué à l'écriture collaborative.
+À l'heure où j'écris ces lignes, [12 projets en rapport avec l'écriture sont mis en avant par Github](https://github.com/showcases/writing).
 Sur ces projets, la plupart sont des tutoriels ou des manuels. Il s'avère que nous avons
 donc là un bon modèle, non seulement pour collaborer sur du code, mais aussi sur des tutoriels
 (de programmation soit dit en passant).
@@ -66,18 +66,18 @@ contributeur le plus prolifique a proposé deux modifications seulement, modifia
 10 lignes en tout.
 
 On peut se dire que le modèle est le bon mais que l'outil est trop compliqué à utiliser
-pour des écrivains non-programmeurs (ce qui expliquerait pourquoi tous les tutoriels
+pour des écrivain.e.s non-programmeu.r/se.s (ce qui expliquerait pourquoi tous les tutoriels
 ainsi écrits parlent de programmation). C'est le pari de [Penflip](https://www.penflip.com/),
-une copie de Github destinée aux écrivains. Ça a l'air plutôt réussi mais ça n'a pas l'air
-d'avoir donné lieu à une grande créativité, la dernière fois que j'ai regardé.
+une copie de Github destinée aux écrivain.e.s. Ça a l'air plutôt réussi mais ça n'a pas l'air
+d'avoir donné lieu à une grande créativité jusqu'à présent.
 
 Wikipédia étant un exemple réussi d'écriture collaborative, pourquoi ne pas faire un "wikiroman" ?
-Nombreux sont ceux qui y ont pensé. Le plus médiatique exemple a été celui lancé avec des
+Nombreu.x/ses sont ce.ux/lles qui y ont pensé. Le plus médiatique exemple a été celui lancé avec des
 roulements de tambours par la maison d'édition Penguins. Le projet, appelé "One million penguins",
 a été confié à un groupe d'étudiant.e.s chargé.e.s de le superviser. Hélas, la communication autour
 de ce projet a provoqué sa perte : les étudiant.e.s-édit.eur/rice.s ont été débordé.e.s par le
 nombre de participant.e.s. De plus, en choisissant d'activer une modération "a priori", l'équipe a
-tué l'idée géniale du wiki et s'est retrouvée avec le modèle précédent (celui du logiciel libre)
+tué l'idée géniale du wiki et s'est retrouvée avec le modèle précédent (celui de Github)
 dans un outil inadapté.
 
 ##Solutions pour une collaboration restreinte
