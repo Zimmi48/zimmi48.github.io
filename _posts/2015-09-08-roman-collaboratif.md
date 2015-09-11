@@ -14,7 +14,7 @@ Peut-on tout créer de manière collaborative ?
 Quand il s'agit de création artistique on est en droit d'en douter.
 Cependant on voit fleurir des initiatives s'engageant résolument dans cette direction.
 
-Avec Jules Zimmermann, nous nous sommes posés la question, voilà maintenant un an, de savoir
+Avec [Jules Zimmermann](https://fr.linkedin.com/pub/jules-zimmermann/98/7b5/4b0), nous nous sommes posés la question, voilà maintenant un an, de savoir
 s'il était possible de créer un roman de manière entièrement collaborative (en excluant la
 collaboration à petite échelle de deux ou trois aut.eur/rice.s ou encore la collaboration limitée,
 où chacun.e écrit un chapitre).
@@ -107,7 +107,9 @@ Il n'y a plus qu'un pas à faire pour proposer un outil, s'inspirant de tous ces
 collaboration mais différent, qui soit adapté à une collaboration massive sur un texte
 littéraire (mais pas que).
 
-On décrira très succinctement cet outil auquel on a donné le nom de commented.it. Il
+On décrira très succinctement cet outil auquel on a donné le nom de commented.it (et dont
+une version simplifiée se trouve sur la page de présentation du projet
+[unkilodeplumes](http://unkilodeplumes.fr)). Il
 consiste à faire figurer en parallèle le texte et une colonne de commentaires. Ces
 commentaires peuvent être associés à des propositions de modification (pendant des pull
 request de Github). Comme dans Google Docs, ces modifications sont clairement marquées
