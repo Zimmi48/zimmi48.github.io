@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Un roman collaboratif du nom d'unkilodeplumes
+title: Pistes pour un roman collaboratif
 lang: fr
-draft: true
+date: 2015-09-21 13:00:00 +0200
 redirect_from: roman/
+excerpt: Aujourd'hui les "solutions collaboratives" sont à la mode ainsi que "l'innovation ouverte" (et plus généralement ce qui est "ouvert"). Peut-on tout créer de manière collaborative ? Quand il s'agit de création artistique on est en droit d'en douter. Cependant on voit fleurir des initiatives s'engageant résolument dans cette direction.
 ---
 
 ![@Zimm_i48: Il est parfois frustrant de ne pas pouvoir contribuer à améliorer un roman comme on contribue à améliorer Wikipédia. @jjvie: Fais une pull request !](/images/pullrequest.png)
@@ -54,7 +55,7 @@ se transposera bien au cas de la création littéraire. Aucune modification ne d
 être nécessaire, les deux permettant de travailler sur du texte (qu'est-ce qu'un code source
 sinon du texte). Voyons ce que ça a donné.
 
-Le cas modèle de Github a bien été appliqué à l'écriture collaborative.
+Le modèle de Github a bien été appliqué à l'écriture collaborative.
 À l'heure où j'écris ces lignes, [12 projets en rapport avec l'écriture sont mis en avant par Github](https://github.com/showcases/writing).
 Sur ces projets, la plupart sont des tutoriels ou des manuels. Il s'avère que nous avons
 donc là un bon modèle, non seulement pour collaborer sur du code, mais aussi sur des tutoriels
