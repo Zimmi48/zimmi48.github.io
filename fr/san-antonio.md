@@ -6,5 +6,3 @@ trans: /en/san-antonio
 ---
 
 ![San Antonio](/images/san-antonio.jpg)
-
-Crédits: Cécile Rottner et/ou Théo Zimmermann
