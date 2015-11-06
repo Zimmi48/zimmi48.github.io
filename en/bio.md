@@ -28,6 +28,10 @@ A PDF resume is also available upon request.
 Current topics
 --------------
 
+I am one of the main editors of Kinea, a new plurilingual
+[online magazine](http://kinea.media) which provides alternative political
+and economical analyses as well as science popularization.
+
 I just finished a research internship at the
 [PPS laboratory](http://www.pps.univ-paris-diderot.fr/)
 of the Paris-Diderot University, under the supervision
@@ -73,9 +77,6 @@ I have a few mass collaboration projects that I want to achieve
 by developing [free software](https://github.com/Zimmi48).
 In particular, see unkilodeplumes
 [[in French](http://unkilodeplumes.fr)].
-
-Finally, I am also involved in an
-[online magazine project](http://kinea.media).
 
 Past work
 ---------
