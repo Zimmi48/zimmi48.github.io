@@ -29,6 +29,10 @@ Une version PDF de mon CV est aussi disponible sur demande.
 Sujets actuels
 --------------
 
+Je suis un des principaux éditeurs de Kinea, un nouveau
+[magazine en ligne](http://kinea.media) plurilingue d'analyses politiques
+et économiques et de vulgarisation scientifique.
+
 Je viens de terminer un stage au
 [laboratoire PPS](http://www.pps.univ-paris-diderot.fr/)
 de l'Université Paris-Diderot,
@@ -75,8 +79,6 @@ Par ailleurs, je souhaite faire de ma recherche une activité aussi ouverte
 que possible en publiant fréquemment et rapidement sur des archives ouvertes
 ainsi qu'à travers mon [blog](/fr/blog).
 
-Enfin, je suis aussi impliqué dans un projet de
-[magazine en ligne](http://kinea.media).
 
 Travaux passés
 --------------
