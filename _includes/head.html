@@ -11,6 +11,8 @@
 	  hreflang="{% if page.lang != 'fr' %}fr{% else %}en{% endif %}"
 	  href="{{ page.trans | prepend: site.url }}" />
 	{% endif %}
+    <!-- Custom fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,700">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/post.css" | prepend: site.baseurl }}">
