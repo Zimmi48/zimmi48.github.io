@@ -25,7 +25,7 @@ sont bien différents d'un pays à l'autre. Qu'est-ce qui a changé
 partout à la fois pour provoquer cette crise généralisée ?
 L'une des nouveautés est l'apparition et la démocratisation d'internet,
 du web plus précisément,
-et à travers ce biais d'une multiplicités des sources d'information.
+et, à travers ce biais, d'une multiplicité des sources d'information.
 Nos représentant.e.s ne sont peut-être pas moins bon.ne.s qu'avant mais
 ils/elles le paraissent car nous avons plus de moyens de nous informer
 sur leurs travers et le mécontentement se répand plus facilement. 
@@ -52,7 +52,7 @@ la plate-forme [Parlement & Citoyens](https://www.parlement-et-citoyens.fr/)
 a déjà attiré l'attention d'un grand nombre de parlementaires ;
 et pour la première fois en France,
 un projet de loi a été soumis aux amendements populaires
-avant son examen en conseil des ministres (loi sur la
+avant son examen en Conseil des Ministres (loi sur la
 [République Numérique](https://www.republique-numerique.fr/)).
 
 Dans ce contexte, ce foisonnement d'idées,
@@ -176,7 +176,7 @@ Un bon système démocratique laisserait débattre pour chaque sujet
 les milliers de vrai.e.s spécialistes qu'on peut trouver dans le pays,
 ensuite de quoi le peuple serait l'arbitre. Il y a, à mon avis,
 beaucoup à inventer pour organiser des débats sérieux,
-pendant lesquels les spécialistes ne se cracheraient pas dessus
+pendant lesquels les spécialistes ne s'écharperaient pas
 comme on le fait trop souvent en politique et ne chercheraient pas non plus
 à embobiner le public. Il y a un modèle à inventer pour que
 les contributions à haute valeur ajoutée aient de l'impact et
@@ -188,15 +188,14 @@ La Constitution et la loi sont une chose
 mais beaucoup se décide également au niveau des décrets d'application,
 des ordonnances, des arrêtés locaux, de la réglementation européenne,
 des accords de branche, des traités internationaux.
-Tous les textes nous impactant méritent le même coup de projecteur
-même s'il est clair que certains sont plus faciles
+Tous les textes nous impactant méritent le même coup de projecteur,
+même s'il est clair que certains seront plus faciles
 à modifier que d'autres[^traites]. 
 
 [^legifrance]:  D'après [Stéphane Cottin](http://www.servicedoc.info/spip.php?page=plan), Légifrance serait né dans la mouvance [*open law*](http://www.dila.premier-ministre.gouv.fr/activites/experimentations/open-law-europa-2015) dans laquelle ce que je propose s'inscrit d'ailleurs très bien.
 
-[^association]: Oui, il faut que ce soit une association et pas une entreprise. Pour la même raison, il faut soutenir des mouvements comme Avaaz et rejeter l'entreprise "sociale" Change.org, qui cherche à créer un business model sur le principe de la mobilisation citoyenne d'où une tentative d'extorquer les pétitionnaires et, bien-sûr, une priorité donnée à ceux qui ont les moyens financiers de soutenir leur pétition ! 
+[^association]: Oui, il faut que ce soit une association et pas une entreprise. Pour la même raison, il faut soutenir des mouvements comme Avaaz et rejeter l'entreprise "sociale" Change.org. Cette dernière cherche à construire un business model en fournissant des outils de mobilisation citoyenne : c'est déjà douteux sur le principe car le risque est de donner la priorité à ceux/celles qui ont les moyens financiers de soutenir leur pétition. En pratique, on constate que c'est exactement ce qui se passe : désormais les pétitionnaires sont sollicité.e.s après avoir signé une pétition, on leur affirme que leur argent servira à montrer la pétition à plus de monde. Or ce n'est pas un service à valeur ajoutée que fournit Change.org mais une hiérarchisation des pétitions sur leur site en fonction de l'argent que chacune d'entre elles leur aura rapporté. Les pétitions riches sont donc portées par le site au détriment des pétitions pauvres et l'argent redevient roi ! Et c'est comme ça qu'on prétend défendre la mobilisation citoyenne ?
 
-[^traites]: Le point positif, c'est qu'il y a sans doute moins de ménage à faire dans les textes les plus durs à modifier (il n'y a ainsi sans doute pas grand-chose à redire à la Déclaration Universelle des Droits de l'Homme). Le point négatif, c'est que si on laisse passer de mauvais traités, comme
-[TAFTA/TTIP](https://fr.wikipedia.org/wiki/Partenariat_transatlantique_de_commerce_et_d%27investissement),
+[^traites]: Le point positif, c'est qu'il y a sans doute moins de ménage à faire dans les textes les plus durs à modifier (il n'y a ainsi sans doute pas grand-chose à redire à la Déclaration Universelle des Droits de l'Homme). Le point négatif, c'est que si on laisse passer de mauvais traités, comme [TAFTA/TTIP](https://fr.wikipedia.org/wiki/Partenariat_transatlantique_de_commerce_et_d%27investissement),
 on peut s'en mordre les doigts pendant longtemps après.
 
