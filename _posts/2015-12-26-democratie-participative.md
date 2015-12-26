@@ -2,15 +2,16 @@
 layout: post
 title: L'internet au service d'une meilleure démocratie ?
 lang: fr
-draft: true
+date: 2015-12-26 21:00:00 -0800
 redirect_from: demop/
+excerpt: "Nos systèmes démocratiques sont en crise, si différents soient-ils les uns des autres, certains plus que d'autres nul doute. S'il n'est pas évident de connaître les raisons profondes de cette crise ou de ces crises (ce sera aux historiens du futur de les trouver), les symptômes sont en revanche assez manifestes. Le premier d'entre eux est la perte de confiance dans les élites politiques, qui nous représentent et nous gouvernent. Cette crise de confiance, qui peut trouver sa justification ici dans la déconnexion manifeste des élites avec la réalité, là dans les promesses brisées, là-bas dans la corruption généralisée, a des conséquences politiques bien différentes d'un pays à l'autre."
 ---
 
 Nos systèmes démocratiques sont en crise,
 si différents soient-ils les uns des autres,
 certains plus que d'autres nul doute.
 S'il n'est pas évident de connaître les raisons profondes de cette crise
-ou ces crises (ce sera aux historiens du futur de les trouver),
+ou de ces crises (ce sera aux historiens du futur de les trouver),
 les symptômes sont en revanche assez manifestes.
 Le premier d'entre eux est la perte de confiance dans les élites politiques,
 qui nous représentent et nous gouvernent. Cette crise de confiance,
@@ -20,7 +21,7 @@ là-bas dans la corruption généralisée,
 a des conséquences politiques bien différentes d'un pays à l'autre. 
 
 On peut tout de même faire des hypothèses sur les raisons de cette crise
-et je me permettrai dans faire une. Les régimes démocratiques et les contextes
+et je me permettrai d'en faire une. Les régimes démocratiques et les contextes
 sont bien différents d'un pays à l'autre. Qu'est-ce qui a changé
 partout à la fois pour provoquer cette crise généralisée ?
 L'une des nouveautés est l'apparition et la démocratisation d'internet,
