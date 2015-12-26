@@ -79,7 +79,7 @@ c'est que nous soyons tous en mesure de comprendre la loi,
 au moins les textes qui nous concernent.
 Nombre de services de conseil juridique fleurissent sur le web.
 Certains sont très bien faits. Certains sont proposés par des associations,
-certains mêmes le sont par l'État
+certains même le sont par l'État
 ([Service-Public.fr](https://www.service-public.fr/)).
 Cependant plutôt que de nous aider à comprendre la loi,
 ils nous aident à comprendre ce qu'il faut faire, ne pas faire,
@@ -192,9 +192,11 @@ Tous les textes nous impactant méritent le même coup de projecteur
 même s'il est clair que certains sont plus faciles
 à modifier que d'autres[^traites]. 
 
-[^legifrance]:  D'après [Stéphane Cottin](http://www.servicedoc.info), Légifrance serait né dans la mouvance [*open law*](http://www.dila.premier-ministre.gouv.fr/activites/experimentations/open-law-europa-2015) dans laquelle ce que je propose s'inscrit d'ailleurs très bien.
+[^legifrance]:  D'après [Stéphane Cottin](http://www.servicedoc.info/spip.php?page=plan), Légifrance serait né dans la mouvance [*open law*](http://www.dila.premier-ministre.gouv.fr/activites/experimentations/open-law-europa-2015) dans laquelle ce que je propose s'inscrit d'ailleurs très bien.
 
 [^association]: Oui, il faut que ce soit une association et pas une entreprise. Pour la même raison, il faut soutenir des mouvements comme Avaaz et rejeter l'entreprise "sociale" Change.org, qui cherche à créer un business model sur le principe de la mobilisation citoyenne d'où une tentative d'extorquer les pétitionnaires et, bien-sûr, une priorité donnée à ceux qui ont les moyens financiers de soutenir leur pétition ! 
 
-[^traites]: Le point positif, c'est qu'il y a sans doute moins de ménage à faire dans les textes les plus durs à modifier (il n'y a ainsi sans doute pas grand-chose à redire à la Déclaration Universelle des Droits de l'Homme). Le point négatif, c'est que si on laisse passer de mauvais traités, comme TAFTA/TTIP, on peut s'en mordre les doigts pendant longtemps après.
+[^traites]: Le point positif, c'est qu'il y a sans doute moins de ménage à faire dans les textes les plus durs à modifier (il n'y a ainsi sans doute pas grand-chose à redire à la Déclaration Universelle des Droits de l'Homme). Le point négatif, c'est que si on laisse passer de mauvais traités, comme
+[TAFTA/TTIP](https://fr.wikipedia.org/wiki/Partenariat_transatlantique_de_commerce_et_d%27investissement),
+on peut s'en mordre les doigts pendant longtemps après.
 
