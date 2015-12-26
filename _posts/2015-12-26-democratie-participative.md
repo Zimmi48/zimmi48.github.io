@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: post
 title: L'internet au service d'une meilleure démocratie ?
 lang: fr
 draft: true
-redirect_from: demop
+redirect_from: demop/
 ---
 
 Nos systèmes démocratiques sont en crise,
