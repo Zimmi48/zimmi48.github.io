@@ -12,7 +12,7 @@ Many times, a thought crossed your mind that would be worth sharing with others.
 Sometimes, you started writing something about it and then it remained in your notebook forever.
 If you feel you have well described your idea / problem / rant / whatever,
 you may decide to share it with your Facebook friends, or on your blog if you have one.
-But what about sharing it with "everybody".
+But what about sharing it with "everybody"?
 Maybe it’s worth it but in any case, it is not easy to reach an audience
 and you’re not necessarily prepared to spend the time it requires.
 
@@ -52,7 +52,7 @@ Then, when a reader decides to read an article (any article), once he/she reache
 your system will strongly encourage him/her to give an appreciation
 (the way in which this would be done can be discussed).
 
-So you would have feedback. Based on that feedback, the algorithm simply gives a popularity score to the piece.
+So you will have feedback. Based on that feedback, the algorithm simply gives a popularity score to the piece.
 The more popular, the more often it would reach the front page.
 At some point, the most popular pieces of work will have gone viral and will display on everyone’s front page.
 
