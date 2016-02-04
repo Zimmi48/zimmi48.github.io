@@ -14,7 +14,7 @@ A modern and touch-friendly version of the classic game of snake.
 
 [**Play on the web now**](/zimmisapps/touchsnake) --- you can use the touch screen, mouse or left and right arrows.
 
-###Full description
+### Full description
 
 Touch Snake offers a modern and touch-friendly
 version of the classic game of snake.
@@ -23,7 +23,7 @@ comes from a head-centered view.
 You have to explore a non-fully-displayed map.
 Enjoy this fun gaming experience!
 
-###Availability
+### Availability
 
 Touch Snake is available for free on
 [Google Play](https://play.google.com/store/apps/details?id=com.zimmisapps.touchsnake).
@@ -40,7 +40,7 @@ Touch Snake is also available as a
 You can view the source code on our
 [GitHub repository](https://github.com/Zimmi48/Touch-Snake).
 
-###License
+### License
 
 This software is a **free software** available under the terms of the MPL 2.0 (Mozilla Public License 2.0).
 If you don't know what the MPL 2.0 is, then we recommend that you look at

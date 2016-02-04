@@ -29,7 +29,7 @@ Télécharger
 
 Test-Pedago est distribué gratuitement comme logiciel libre.
 
-###Pour Windows
+### Pour Windows
 
 [Télécharger l'installeur ici.](telechargement/windows/Test-Pedago.exe)
 
@@ -39,7 +39,7 @@ de TestM.](telechargement/windows/TestM-3.exe)
 [Télécharger la version 1.0
 de TestL Conjugaison.](telechargement/windows/TestL-1.zip)
 
-###Pour Mac
+### Pour Mac
 
 [Une ancienne version de TestL Conjugaison
 est disponible](telechargement/mac/TestL.zip),
@@ -49,7 +49,7 @@ des auxiliaires être et avoir.
 Si vous voulez des versions mises à jour, trouvez quelqu'un
 qui sera capable de les compiler pour vous à partir des sources.
 
-###Pour Linux
+### Pour Linux
 
 [Télécharger la version 3
 de TestM.](telechargement/linux/TestM-3.zip)
@@ -57,7 +57,7 @@ de TestM.](telechargement/linux/TestM-3.zip)
 [Télécharger la version 1.0
 de TestL Conjugaison.](telechargement/linux/TestL-1.zip)
 
-###Code source
+### Code source
 
 [Il est librement accessible ici](https://github.com/Zimmi48/Test-Pedago).
 Vous avez le droit de l'étudier,
@@ -69,7 +69,7 @@ TestM
 TestM est un logiciel permettant de s'entraîner
 sur les tables de multiplication.
 
-###Historique
+### Historique
 
 Créé début 2005, ce logiciel est sorti dès avril de la même année
 dans sa version 2.
@@ -84,7 +84,7 @@ J'ai finalement gagné ce concours
 ([Sciences et Vie Junior, Concours Innovez des Jeunes Inventeurs,
 mars 2008](SVJ-2008.pdf)).
 
-###Fonctionnement de la version 2
+### Fonctionnement de la version 2
 
 Voilà justement la description que j'ai faite de mon logiciel
 pour ce concours :
@@ -113,7 +113,7 @@ la question elle-même et la réponse attendue.
 A la fin d'un test, on donne à l'utilisateur la possibilité d'en
 recommencer un nouveau en choisissant à nouveau ses options.
 
-###Version 3
+### Version 3
 
 Vous pouvez désormais :
 
@@ -129,7 +129,7 @@ Ex: vous pouvez écrire -5 au lieu de 3-5.
 * passer sans attendre à la question suivante en tapant sur la
 touche Entrée.
 
-###Utilisation possible en classe
+### Utilisation possible en classe
 
 Il suffit d'un ordinateur en fond de classe.
 Les élèves y vont par deux en autonomie.
@@ -156,7 +156,7 @@ TestL Conjugaison
 TestL Conjugaison est un logiciel permettant de s'entraîner
 sur les conjugaisons.
 
-###Historique
+### Historique
 
 Parallèlement, fin 2007, j'ai commencé à programmer ce logiciel
 fonctionnant sur le même modèle mais pour s'entraîner

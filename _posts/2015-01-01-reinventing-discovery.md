@@ -38,9 +38,9 @@ En effet, la conséquence positive de cette révolution est une première forme 
 la création de nouvelles connaissances s'appuyant sur les connaissances précédemment acquises par d'autres scientifiques
 et le principe de citation permettant aux articles de se baser les uns sur les autres.
 
-###Les clés du succès d'un projet collaboratif
+## Les clés du succès d'un projet collaboratif
 
-####Le concept de micro-expertise
+### Le concept de micro-expertise
 
 La connaissance scientifique est devenue si vaste qu'il est aujourd'hui impossible d'être un-e expert-e sur tout
 (alors que c'était quasiment possible à son époque pour un génie comme Léonard de Vinci).
@@ -56,7 +56,7 @@ Par conséquent, nous pouvons "augmenter notre intelligence collective"
 si un système est capable de connecter adéquatement un problème à la personne ayant la meilleure micro-expertise
 pour le résoudre.
 
-####Faire collaborer les bonnes personnes
+### Faire collaborer les bonnes personnes
 
 De manière plus générale, des scientifiques peuvent être confrontés à des problèmes
 qui sortent carrément de leur domaine d'expertise (nouveaux concepts mathématiques
@@ -66,7 +66,7 @@ Internet a déjà rendu beaucoup plus facile la tâche de trouver la bonne perso
 L'auteur utilise le terme de *designed serendipity* pour désigner le fait que cette connexion nécessite de
 "forcer le hasard".
 
-####L'émulation
+### L'émulation
 
 L'intervention au moment adéquat de la personne adéquate permet à la communauté cherchant à résoudre un problème plus général
 (tel qu'une démonstration) de ne pas être bloquée.
@@ -74,7 +74,7 @@ S'en suit, si le nombre de collaborateurs/trices dépasse une taille critique, u
 Une personne peut apporter régulièrement des idées qui font progresser la résolution alors que, toute seule,
 elle aurait passé la plupart de son temps à essayer de se débloquer de situations dont elle n'était pas spécialiste.
 
-####Les caractéristiques du logiciel libre : modularité, réusabilité, micro-contributions
+### Les caractéristiques du logiciel libre : modularité, réusabilité, micro-contributions
 
 Un modèle collaboratif ayant eu beaucoup de succès est celui des logiciels libres.
 Souvent les équipes développant de tels logiciels font un réel effort pour rendre le développement le plus modulaire possible.
@@ -99,7 +99,7 @@ et suivent le projet avec le même degré d'attention.
 C'est une des raisons pour lesquelles le succès de Polymath a été limité à quelques dizaines de personnes
 et certainement pas quelques milliers.
 
-####Permettre les discussions et créer un esprit de communauté
+### Permettre les discussions et créer un esprit de communauté
 
 La plupart des projets ayant eu du succès possédaient des espaces permettant la discussion et le débat
 mais aussi de forger un esprit d'appartenance à une communauté.
@@ -109,7 +109,7 @@ le fait d'avoir un espace de débats préalables permet d'orienter les votes ver
 Et sur Wikipédia, l'existence de pages de discussion et de communauté fidélise les contributeurs
 et permet de résoudre les problèmes que l'outil du wiki lui-même ne suffit pas à combler.
 
-####Focaliser l'attention
+### Focaliser l'attention
 
 Lorsqu'un projet enregistre un grand nombre de contributions, il devient impossible
 pour une personne seule de les suivre et les analyser dans leur ensemble.
@@ -145,14 +145,14 @@ un système de tags permet de savoir si un bug vient d'être rapporté ou s'il a
 si le type de problème qu'il soulève a déjà été identifié,
 et enfin si une personne spécialiste a été chargée de sa résolution.
 
-###L'extension des communs
+## L'extension des communs
 
 La deuxième partie du livre (chapitre 6 et suivants) ne traite plus de projets collaboratifs en particulier
 mais plus généralement de la révolution du partage scientifique en cours.
 Par rapport à la première révolution suite à laquelle le partage scientifique se faisait uniquement
 par le biais de publications dans des revues, deux nouveautés essentielles sont l'*open access* et l'*open data*.
 
-####Les nouvelles formes de partage
+### Les nouvelles formes de partage
 
 L'*open access* est le fait de rendre librement (et gratuitement donc) accessibles les résultats de la recherche.
 De manière plus concrète, les articles scientifiques sont alors rendus publics sur des sites web
@@ -199,7 +199,7 @@ de sorte qu'il serait possible d'en tirer de nouvelles significations de manièr
 une telle application nécessite l'utilisation de formats de données standardisés,
 aidant alors l'ordinateur à parcourir automatiquement la gigantesque base de données mondiale.
 
-####L'implication des citoyen-ne-s rendue possible
+### L'implication des citoyen-ne-s rendue possible
 
 Les sciences citoyennes ne sont pas un phénomène nouveau
 (par exemple, ce sont souvent des amateurs/trices qui découvraient de nouvelles comètes)
@@ -239,7 +239,7 @@ les médias mettent en danger leur réputation à chaque fois qu'ils publient un
 qu'ils doivent démentir par la suite et vont donc rapidement acquérir des pratiques visant à éviter
 que ce genre de situation ne se produise trop souvent.
 
-####Les freins au partage
+### Les freins au partage
 
 Une des thèses importantes de ce livre est que le partage est globalement une bonne chance pour la science
 et que celui-ci doit être encouragé. Cependant, alors que chaque scientifique a intérêt à ce que la communauté partage plus,

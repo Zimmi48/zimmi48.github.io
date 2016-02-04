@@ -35,7 +35,7 @@ One tool, namely wiki, has made possible mass collaboration toward the creation 
 Knowledge being necessary to intelligence,
 I would like to call this a first step toward the creation of a global intelligence.
 
-##Collaborative science
+## Collaborative science
 
 A lot of tools have been developed to enable
 [mass collaboration](http://en.wikipedia.org/wiki/Mass_collaboration).
@@ -76,7 +76,7 @@ And everybody has a responsibility to spread this new culture.
 A lot of tools already exists. For open-source software, a lot has been thought and done already.
 This is not surprising: developers are helping themselves. It's time to help other communities too.
 
-##From collaboration to mass collaboration
+## From collaboration to mass collaboration
 
 There is no definite limit when a collaborative project becomes massively collaborative.
 Given the project, the critical threshold can vary. But for all projects, the more people are involved,

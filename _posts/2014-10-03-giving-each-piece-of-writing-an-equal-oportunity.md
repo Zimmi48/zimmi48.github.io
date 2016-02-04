@@ -21,7 +21,7 @@ Suppose we found a way to encourage them to do so and to post their work.
 Now, we’ve got tons of small pieces, each one of them may be interesting or not.
 How do we give every piece of writing an equal access to readers?
 
-##A statistical testing approach
+## A statistical testing approach
 
 The concept I’m about to describe is not new.
 Yet, I believe it could be used more often and I’m definitely interested in applying it in many of my future projects.
@@ -60,7 +60,7 @@ Of course, many questions remain. What kind of feedback do you ask readers for? 
 What to do with controversial pieces (articles which would get a lot of positive and a lot of negative feedback)?
 This just means that this algorithm is not as simple as I said. But it is only a matter of parametrization.
 
-###This sort of testing is already widely used
+### This sort of testing is already widely used
 
 Of course it is. Statistical testing is everywhere, particularly in scientific research.
 Now, I also believe that it is used by a lot of social media already (but inside messy and complicated algorithms).
@@ -117,7 +117,7 @@ So, why do we call it "**Bloc**"?
 Bloc represents also the block design we had imagined for it.
 Each block would link to an article, I mean, a Bloc (that would be the name we would give to posts).
 
-##Medium.com is similar but yet different
+## Medium.com is similar but yet different
 
 Evan Williams, one of the founders of Blogger and Twitter, strikes back!
 I won’t give a full description of "What is Medium" here:

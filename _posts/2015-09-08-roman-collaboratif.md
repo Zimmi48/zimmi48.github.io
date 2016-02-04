@@ -24,7 +24,7 @@ Nous n'avons pas encore la réponse.
 Nous ne sommes pas les premiers à nous poser cette question, ce qui laisse penser que si
 une solution existe, elle n'est pas simple.
 
-##Solutions pour une collaboration massive (non littéraire)
+## Solutions pour une collaboration massive (non littéraire)
 
 Lorsqu'on observe le monde de la création collaborative, via internet, on rencontre deux
 modèles à succès. Tout d'abord il y a le logiciel libre, premier avatar dans l'histoire
@@ -81,7 +81,7 @@ nombre de participant.e.s. De plus, en choisissant d'activer une modération "a 
 tué l'idée géniale du wiki et s'est retrouvée avec le modèle précédent (celui de Github)
 dans un outil inadapté.
 
-##Solutions pour une collaboration restreinte
+## Solutions pour une collaboration restreinte
 
 De l'autre côté du spectre des outils dits "collaboratifs" il y a Google Docs.
 Google Docs est un outil génial lorsque l'on veut collaborer sur un document avec relativement
@@ -102,7 +102,7 @@ On la retrouve notamment chez Medium.com (chez qui les commentaires sont remplac
 des "notes" qui flottent à côté de chaque paragraphe[^medium]). Cette fonctionnalité est
 d'ailleurs mise en avant comme "le mécanisme central de collaboration sur Medium".
 
-##Solution pour une collaboration massive (littéraire)
+## Solution pour une collaboration massive (littéraire)
 
 Il n'y a plus qu'un pas à faire pour proposer un outil, s'inspirant de tous ces modes de
 collaboration mais différent, qui soit adapté à une collaboration massive sur un texte
@@ -124,7 +124,7 @@ Enfin, on peut voter en faveur d'une modification.
 Un.e adminstrat.eur/rice de la page peut ensuite "valider" les propositions les plus
 populaires en les intégrant au texte.
 
-##De là à l'écriture collaborative d'un roman...
+## De là à l'écriture collaborative d'un roman...
 
 C'était là notre défi initial et nous n'y sommes pas encore. Si nous pensons que notre
 concept peut être utile dans ce but, il faudra noter que commented.it (que vous pouvez

@@ -33,7 +33,7 @@ Grèce et qu'il faut que vous me fassiez un virement sur un compte à l'étrange
 pour m'aider, il vous sera alors très simple de contrôler si oui ou non, je suis
 bien à l'origine du message. 
 
-##Instructions si vous utilisez un webmail
+## Instructions si vous utilisez un webmail
 
 (Si vous n'utilisez pas un webmail, [sautez cette section](#instructions-si-vous-utilisez-thunderbird).)
 
@@ -67,12 +67,12 @@ recouverte d'un cachet. En cliquant dessus, la signature est vérifiée !
 Désormais, vous pourrez facilement vérifier la signature des nouveaux mails
 que je vous envoie :)
 
-###Les cas problématiques
+### Les cas problématiques
 
 Mailvelope a été conçu pour rendre facile l'utilisation d'une technologie
 complexe. Hélas, les webmails ne lui rendent pas toujours la tâche facile.
 
-####Le problème PGP/MIME
+#### Le problème PGP/MIME
 
 Il existe deux types de signatures : dans le corps du message ou en pièce
 jointe. Mailvelope ne supporte que le premier type car il ne peut pas ouvrir
@@ -83,7 +83,7 @@ Mais pour pouvoir signer des pièces jointes[^jointe], seule la seconde solution
 fonctionne. Dans ce cas, vous ne pourrez pas vérifier la signature avec
 Mailvelope. 
 
-####Des webmails trop malins
+#### Des webmails trop malins
 
 Lorsque vous incluez le texte des messages précédents dans votre réponse
 (ce qui est le comportement de la plupart des utilisateurs/trices), certains webmails
@@ -104,7 +104,7 @@ Dans mon cas, je fais attention à envoyer du texte non formaté et ne pas inclu
 les messages précédents dans mes réponses pour ne pas créer ces problèmes
 mais tout le monde ne fait pas comme moi.
 
-##Instructions si vous utilisez Thunderbird
+## Instructions si vous utilisez Thunderbird
 
 (Si vous n'utilisez pas Thunderbird, [sautez cette section](#instructions-si-vous-avez-saut-les-deux-sections-prcdentes).)
 
@@ -146,14 +146,14 @@ l'importer très facilement en ouvrant à nouveau la fenêtre "Gestion de clefs
 Enigmail". Vous pouvez accéder à cette fenêtre à tout moment en ouvrant le menu
 de Thunderbird (sous-menu Enigmail/Gestion de clefs).
 
-##Instructions si vous avez sauté les deux sections précédentes
+## Instructions si vous avez sauté les deux sections précédentes
 
 Si vous n'utilisez ni Thunderbird, ni un webmail, vous avez deux solutions :
 
 1. Débrouillez-vous.
 2. Installez Thunderbird et [recommencez](#instructions-si-vous-utilisez-thunderbird).
 
-##Aller plus loin
+## Aller plus loin
 
 Si vous avez lu ce post jusqu'au bout, vous êtes désormais capables de vérifier
 la signature des mails que je vous envoie. Vous pourrez aussi facilement
@@ -163,7 +163,7 @@ leurs mails) en leur demandant leur clé publique.
 Si vous souhaitez à votre tour signer vos mails, dites-le moi et je serai ravi
 d'écrire une suite à ce billet pour vous expliquer comment procéder.
 
-##En coulisses
+## En coulisses
 
 La signature d'un message ne vous garantit pas seulement l'origine du destinataire.
 C'est un cachet qui vous assure que le message que vous lisez n'a pas été modifié.
@@ -202,7 +202,7 @@ Les deux doivent se correspondre exactement pour que la signature soit vérifié
 Pour en savoir plus :
 ["Signature numérique" sur Wikipédia](https://fr.wikipedia.org/wiki/Signature_num%C3%A9rique).
 
-##Diffuser l'information
+## Diffuser l'information
 
 Si comme moi, vous signiez déjà vos mails, il est probable que très peu de vos
 contacts vérifiaient vos signatures. Or, dans ce billet, j'ai cherché à montrer

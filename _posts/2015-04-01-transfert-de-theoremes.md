@@ -17,7 +17,7 @@ La principale justification en est que le produit de matrices correspond
 à la composition d'applications linéaires.
 Et c'est très pratique en effet, mais comment justifie-t-on la chose rigoureusement ? 
 
-##Qu'est-ce qu'un isomorphisme ? 
+## Qu'est-ce qu'un isomorphisme ? 
 
 La (courte) [page Wikipédia](https://fr.wikipedia.org/wiki/Isomorphisme)
 traitant du sujet nous rappelle la définition usuelle : 
@@ -42,7 +42,7 @@ On peut voir le rapport avec le besoin d'abstraction en programmation.
 La notion de signature en OCaml (ou d'interface en Java) correspond à celle de structure
 et son implémentation en termes de modules (respectivement en classes) correspond à la concrétisation. 
 
-##À quoi sert ce genre d'abstraction ? 
+## À quoi sert ce genre d'abstraction ? 
 
 L'un de l'intérêt de l'abstraction est de simplifier et généraliser les raisonnements.
 On voit aussi qu'il peut exister plusieurs modèles pour une même structure.
@@ -71,7 +71,7 @@ Lorsqu'il (elle) l'a trouvé et l'a démontré, il (elle) prend alors un air sol
 "nous pouvons identifier les deux structures
 donc les théorèmes que nous avions démontré pour l'une sont valables pour l'autre". 
 
-##Qu'est-ce que ça veut dire ? 
+## Qu'est-ce que ça veut dire ? 
 
 C'est la justification de cette déclaration qui m'intéresse ici
 car mon but est de pouvoir la donner à un ordinateur.
@@ -101,7 +101,7 @@ d'un cas particulier.
 Les questions subséquentes sont alors de s'interroger sur la minimalité des hypothèses de ce théorème.
 A-t-on vraiment besoin d'un isomorphisme ? A-t-on besoin de la notion de "structure" ? 
 
-###Nous n'avons pas toujours besoin d'isomorphisme. 
+### Nous n'avons pas toujours besoin d'isomorphisme. 
 
 Prenons deux ensembles E (respectivement E') munis d'une relation R (respectivement R').
 
@@ -123,7 +123,7 @@ positif du premier ordre ne portant que sur R se transfère de E à E'.
 
 Effectuons la démonstration par récurrence structurelle sur F :
 
-####Cas F = ∀ x ∈ E, F'(E, R, x<sub>1</sub>, …, x<sub>n</sub>, x)
+#### Cas F = ∀ x ∈ E, F'(E, R, x<sub>1</sub>, …, x<sub>n</sub>, x)
 
 Soit x ∈ E', d'après la surjectivité de f, on peut trouver x' ∈ E tel que x = f(x').
 Alors on applique F à x' pour obtenir F(E, R, x<sub>1</sub>, …, x<sub>n</sub>, x').
@@ -134,14 +134,14 @@ F(E', R', f(x<sub>1</sub>), …, f(x<sub>n</sub>), x) est vraie.
 
 Ainsi on conclut que ∀ x ∈ E', F'(E', R', f(x<sub>1</sub>), …, f(x<sub>n</sub>), x).
 
-####Cas F = ∃ x ∈ E, F'(E, R, x<sub>1</sub>, …, x<sub>n</sub>, x)
+#### Cas F = ∃ x ∈ E, F'(E, R, x<sub>1</sub>, …, x<sub>n</sub>, x)
 
 Soit un témoin x rendant la formule F'(E, R, x<sub>1</sub>, …, x<sub>n</sub>, x) vraie.
 Alors par hypothèse de récurrence, F'(E, R, f(x<sub>1</sub>), …, f(x<sub>n</sub>), f(x)).
 D'où f(x) est un témoin rendant la formule
 ∃ x ∈ E', F'(E', R', f(x<sub>1</sub>), …, f(x<sub>n</sub>), x) vraie.
 
-####Cas F = F'(E, R, x<sub>1</sub>, …, x<sub>n</sub>) ∨ F''(E, R, x<sub>1</sub>, …, x<sub>n</sub>)
+#### Cas F = F'(E, R, x<sub>1</sub>, …, x<sub>n</sub>) ∨ F''(E, R, x<sub>1</sub>, …, x<sub>n</sub>)
 
 L'une au moins de ces deux sous-formules F' et F'' est vraie. Supposons par exemple que ce soit F'.
 Alors par hypothèse de récurrence, F'(E', R', f(x<sub>1</sub>), …, f(x<sub>n</sub>)) est vraie
@@ -151,7 +151,7 @@ est vraie aussi.
 
 Le cas avec ∧ est similaire.
 
-####Cas de base F = R(y<sub>1</sub>, …, y<sub>k</sub>)
+#### Cas de base F = R(y<sub>1</sub>, …, y<sub>k</sub>)
 
 C'est là qu'on utilise la seconde propriété de f et c'est alors immédiat.
 
@@ -171,7 +171,7 @@ dans l'esprit avec lequel on a renforcé l'hypothèse sur f.
 En revanche, nous avons besoin d'un isomorphisme pour considérer les théorèmes quelconques du premier ordre
 mixant allègrement les quantificateurs et les négations.
 
-###Nous avons besoin d'un isomorphisme si nous rajoutons l'égalité 
+### Nous avons besoin d'un isomorphisme si nous rajoutons l'égalité 
 
 Plus précisément, dès lors que nous autorisons les formules atomiques à être des égalités
 x = y
@@ -180,14 +180,14 @@ alors on peut exprimer la taille de l'ensemble pour tout ensemble fini.
 Une bijection est alors nécessaire pour qu'une telle propriété se transmette
 (une surjection entre deux ensembles finis de même taille est une bijection).
 
-###Nous n'avons pas besoin des axiomes de la structure 
+### Nous n'avons pas besoin des axiomes de la structure 
 
 Il est bien connu qu'un morphisme de monoïde transfère les propriétés de groupe et de groupe Abélien.
 La raison est la même que pour tous les autres théorèmes que nous pouvons vouloir transférer.
 Par conséquent, tous ces axiomes structurels sont superflus :
 si on peut transférer les relations, on peut transférer les axiomes. 
 
-###Que se passe-t-il lorsque nous avons des éléments distingués et des opérations ? 
+### Que se passe-t-il lorsque nous avons des éléments distingués et des opérations ? 
 
 Des opérations (i.e. des applications à plusieurs arguments, à valeurs de départ et d'arrivée dans la structure) 
 peuvent être représentées par des relations bien particulières. 
@@ -200,7 +200,7 @@ Cependant, il pourra être utile, en encodant cela,
 de traiter les opérations et les éléments distingués de manière spécifique,
 notamment pour des raisons d'efficacité et d'utilisabilité. 
 
-##Conclusion 
+## Conclusion 
 
 J'ai essayé de faire une présentation assez pédagogique, au moins pour le début.
 En revanche, elle est aussi assez naïve, comme je ne suis pas spécialiste du sujet, alors
@@ -208,7 +208,7 @@ que les questions soulevées m'intéressent vraiment pour mon travail.
 Je serais donc ravi d'avoir des retours de mes amis mathématiciens ou catégoriciens
 (ce mot n'existe pas, j'en ai conscience). 
 
-Si vous voulez en savoir plus, lisez l'article que j'ai écrit sur le sujet depuis [[en anglais](http://www.sjscience.org/article?id=254)].
+Si vous voulez en savoir plus, lisez l'article que j'ai écrit sur le sujet depuis [[en anglais](https://hal.archives-ouvertes.fr/hal-01152588)].
 
 [^application]: Dans tout cet article, on emploiera le terme d'application qui est synonyme de fonction (totale). 
 [^premier-ordre]: Dans une formule du premier ordre positive, on peut avoir des connecteurs logiques comme la conjonction ∧ et la disjonction ∨, des quantificateurs ∀ et ∃ mais toutes les variables quantifiées le sont dans E et on ne peut pas avoir de connecteurs comme la négation ¬ et l'implication →.

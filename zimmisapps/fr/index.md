@@ -19,7 +19,7 @@ Une nouvelle expérience de jeu, fun et originale !
 
 [**Jouez maintenant dans votre navigateur**](/zimmisapps/touchsnake) --- vous pouvez utiliser le tactile, la souris ou les flèches droite et gauche.
 
-###Disponibilité
+### Disponibilité
 
 Vous pouvez télécharger gratuitement Touch Snake sur
 [Google Play](https://play.google.com/store/apps/details?id=com.zimmisapps.touchsnake).
@@ -38,7 +38,7 @@ Par ailleurs, vous pouvez jouer à Touch Snake directement depuis
 Vous pouvez consulter le code source sur
 [GitHub](https://github.com/Zimmi48/Touch-Snake).
 
-###Licence
+### Licence
 
 Ce logiciel est un **logiciel libre** distribué suivant les termes de la licence
 MPL 2.0 (Mozilla Public License 2.0). Si vous ne connaissez pas la licence MPL 2.0,
