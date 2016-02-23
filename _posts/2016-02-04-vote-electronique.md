@@ -2,11 +2,12 @@
 layout: post
 title: Le vote électronique discrédite-t-il la démocratie ?
 lang: fr
-draft: true
-redirect_from: evote/
+trans: /2016/02/electronic-voting/
+date: 2016-02-23 17:00:00 +0100
+excerpt: Si vous interrogez des personnes au hasard dans le monde de l'informatique, il y a de bonnes chances que celles-ci n'aient pas une bonne opinion du vote électronique. En effet, cette population plus informée que la moyenne a conscience qu'il n'existe quasiment aucun système informatique sans failles, que celles-ci proviennent de bugs, d'erreurs de conception, ou d'insertion volontaire de "portes dérobées". Par ailleurs, la plupart des systèmes de vote électronique utilisés aujourd'hui supposent de donner les clés des urnes à un "tiers de confiance", sans contrôle possible sur le bon déroulement du scrutin, d'où une méfiance légitime, d'autant plus importante que l'enjeu de l'élection est grand.
 ---
 
-Si vous interrogez des personnes au hasard dans le monde de l'informatique, il y a de bonnes chances que celles-ci n'aient pas une bonne opinion du vote électronique. En effet, cette population plus informée que la moyenne a conscience qu'il n'existe quasiment aucun système informatique sans failles, que celles-ci proviennent de [bugs](https://fr.wikipedia.org/wiki/Bug_%28informatique%29), d'erreurs de conception, ou d'insertion volontaire de "[portes dérobées](https://fr.wikipedia.org/wiki/Porte_d%C3%A9rob%C3%A9e)". Par ailleurs, la plupart des systèmes de vote électronique utilisés aujourd'hui supposent de donner les clés des urnes à un “tiers de confiance”, sans contrôle possible sur le bon déroulement du scrutin, d'où une méfiance légitime, d'autant plus importante que l'enjeu de l'élection est grand.
+Si vous interrogez des personnes au hasard dans le monde de l'informatique, il y a de bonnes chances que celles-ci n'aient pas une bonne opinion du vote électronique. En effet, cette population plus informée que la moyenne a conscience qu'il n'existe quasiment aucun système informatique sans failles, que celles-ci proviennent de [bugs](https://fr.wikipedia.org/wiki/Bug_%28informatique%29), d'erreurs de conception, ou d'insertion volontaire de "[portes dérobées](https://fr.wikipedia.org/wiki/Porte_d%C3%A9rob%C3%A9e)". Par ailleurs, la plupart des systèmes de vote électronique utilisés aujourd'hui supposent de donner les clés des urnes à un "tiers de confiance", sans contrôle possible sur le bon déroulement du scrutin, d'où une méfiance légitime, d'autant plus importante que l'enjeu de l'élection est grand.
 
 <figure>
  <img src="http://kinea.media/static/vote-electronique/klifton.jpg">

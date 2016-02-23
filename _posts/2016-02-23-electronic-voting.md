@@ -3,7 +3,8 @@ layout: post
 title: Does electronic voting undermine democracy?
 lang: en
 trans: /2016/02/vote-electronique/
-draft: true
+date: 2016-02-23 17:00:00 +0100
+excerpt: If you ask a random person in the world of computing, there are good chances they will not have a good opinion on electronic voting. Indeed, this population, more informed than average, knows that there is no information system without flaws, whether they come from bugs, design errors, or intensional insertion of "backdoors". Moreover, the majority of the electronic voting systems in use today require to give the keys of the voting boxes to a "trusted third party", without any possible check on the correct conduct of the ballot, from which a legitimate distrust arises, all the more important when the stakes of an election are great.
 ---
 
 If you ask a random person in the world of computing, there are good chances they will not have a good opinion on electronic voting. Indeed, this population, more informed than average, knows that there is no information system without flaws, whether they come from [bugs](https://en.wikipedia.org/wiki/Software_bug), design errors, or intensional insertion of "[backdoors](https://en.wikipedia.org/wiki/Backdoor_%28computing%29)". Moreover, the majority of the electronic voting systems in use today require to give the keys of the voting boxes to a "trusted third party", without any possible check on the correct conduct of the ballot, from which a legitimate distrust arises, all the more important when the stakes of an election are great.
