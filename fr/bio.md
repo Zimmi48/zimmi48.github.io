@@ -29,10 +29,6 @@ Une version PDF de mon CV est aussi disponible sur demande.
 Sujets actuels
 --------------
 
-Je suis un des principaux éditeurs de Kinea, un nouveau
-[magazine en ligne](http://kinea.media) plurilingue d'analyses politiques
-et économiques et de vulgarisation scientifique.
-
 Je viens de terminer un stage au
 [laboratoire PPS](http://www.pps.univ-paris-diderot.fr/)
 de l'Université Paris-Diderot,
@@ -71,9 +67,12 @@ sont loin d'avoir été entièrement dévoilées.
 En particulier, de nouveaux outils de communication et de collaboration
 seront nécessaires.
 
-Dans ce cadre, j'ai un certain nombre de projets que je cherche à réaliser
-par [des logiciels libres](https://github.com/Zimmi48).
-L'un d'entre eux est [unkilodeplumes](http://unkilodeplumes.fr).
+Je contribue fréquemment à différents projets _open source_ et je publie
+mes propres logiciels libres sur [Github](https://github.com/Zimmi48).
+
+En tant qu'éditeur, j'ai contribué à la création de Kinea, un nouveau
+[magazine en ligne](http://kinea.media) plurilingue d'analyses politiques
+et économiques et de vulgarisation scientifique.
 
 Par ailleurs, je souhaite faire de ma recherche une activité aussi ouverte
 que possible en publiant fréquemment et rapidement sur des archives ouvertes
@@ -132,7 +131,7 @@ Travaux passés
 	Aujourd'hui, je parle couramment l'anglais et le français et
 	j'adore ces deux langues.
 	J'essaye actuellement de consacrer un peu de temps à reprendre
-	l'espagnol grâce à [Duolingo](https://fr.duolingo.com/). J'aimerais d'ailleurs
+	l'espagnol. J'aimerais d'ailleurs
 	apprendre encore d'autres langues.
 	
 * Physique
@@ -158,10 +157,7 @@ Travaux passés
 	fait, pour un cours de planification du mouvement en robotique
 	[[en français](/pdf/planification-trajectoires.pdf)].
 	
-* Programmation logicielle 
-	* Je ne vais pas lister ici tous les projets de
-	programmation réalisés dans le cadre de mes études ou de
-	ma recherche.
+* Programmation logicielle
 	* Mon premier logiciel
 	(gagnant du Concours Innovez des Jeunes Inventeurs,
 	mars 2008) : [Test-Pedago](/test-pedago). Il s'agit d'un
@@ -170,6 +166,8 @@ Travaux passés
 	créant une base de données sur la conjugaison des verbes.
 	* [Un jeu du Snake innovant](/zimmisapps/fr). Vous pouvez
 	y jouer sous Android ou dans votre navigateur.
+	* Un projet de création collaborative d'un roman :
+	[unkilodeplumes](http://unkilodeplumes.fr/).
 	
 Intérêts
 --------

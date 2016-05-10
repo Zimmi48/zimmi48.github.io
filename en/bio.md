@@ -28,10 +28,6 @@ A PDF resume is also available upon request.
 Current topics
 --------------
 
-I am one of the main editors of Kinea, a new plurilingual
-[online magazine](http://kinea.media) which provides alternative political
-and economical analyses as well as science popularization.
-
 I just finished a research internship at the
 [PPS laboratory](http://www.pps.univ-paris-diderot.fr/)
 of the Paris-Diderot University, under the supervision
@@ -73,10 +69,12 @@ I thrive to make my research as public as possible my publishing
 as often and as soon as possible on public archives and/or
 through this [blog](/en/blog).
 
-I have a few mass collaboration projects that I want to achieve
-by developing [free software](https://github.com/Zimmi48).
-In particular, see unkilodeplumes
-[[in French](http://unkilodeplumes.fr)].
+As an editor, I contributed to the creation of Kinea, a new plurilingual
+[online magazine](http://kinea.media) which provides alternative political
+and economical analyses as well as science popularization.
+
+I frequently contribute to _open source_ projects and publish my own
+programs as [free software](https://github.com/Zimmi48).
 
 Past work
 ---------
@@ -125,7 +123,7 @@ Past work
 	* I like languages in general. I have learned Latin,
 	Spanish and English for many years.
 	I speak English and French fluently and I love them both.
-	I am currently working on getting better at Spanish on [Duolingo](https://en.duolingo.com/)
+	I am currently working on getting better at Spanish
 	and I will love to learn new foreign languages if I have time.
 	
 * Physics
@@ -163,6 +161,8 @@ Past work
 	verbs conjugation.
 	* [A modern version of the Snake game](/zimmisapps/en) that you
 	can play online or on an Andoid phone.
+	* A mass-collaboration novel writing project: unkilodeplumes
+	[[in French](http://unkilodeplumes.fr)].
 	
 Interests
 ---------
