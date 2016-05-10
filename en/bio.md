@@ -28,7 +28,7 @@ A PDF resume is also available upon request.
 Current topics
 --------------
 
-I just finished a research internship at the
+I recently finished a research internship at the
 [PPS laboratory](http://www.pps.univ-paris-diderot.fr/)
 of the Paris-Diderot University, under the supervision
 of Professor
@@ -57,7 +57,7 @@ Besides, my main interests are
 mass collaboration using the Web,
 [open science](http://en.wikipedia.org/wiki/Open_science)
 and [open research](http://en.wikipedia.org/wiki/Open_research).
-I am amazed at a few projects that have enable people,
+I am amazed at a few projects that have enabled people,
 through online mass collaboration, to create knowledge
 in a way that would never have been possible in a pre-web era.
 I am convinced that the tremendous possibilities that the Internet
