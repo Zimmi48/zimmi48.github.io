@@ -201,7 +201,7 @@ including:
 	before but I think I picked the perfect time to read it because it
 	echoed my own personal adventure in the US.
     Still, "L'Étudiant Étranger" describes a very different world
-    as it takes place during segregation.
+    as it takes place during the segregation.
     * In a similar vein, I strongly recommend
     ["To Kill a Mockingbird"](http://en.wikipedia.org/wiki/To_Kill_a_Mockingbird)
     by Harper Lee that I had the pleasure to *listen* too.
