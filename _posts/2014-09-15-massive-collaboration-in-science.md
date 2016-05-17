@@ -59,7 +59,7 @@ that you do not necessarily need to gamify science to make it attractive.
 Through education, people generally learn a lot on many subjects.
 Most of this accumulated knowledge, while helping them forging their own view of the world,
 will have no future usefulness for them at all.
-Sometimes, people can be genuinely interested by one subject and remember a lot of what they learnt,
+Sometimes, people can be genuinely interested in one subject and remember a lot of what they learnt,
 but they won't necessarily use any of it in their future work.
 I am sure than some of them would be happy, if given the opportunity,
 to contribute to projects where this knowledge can be useful.
@@ -78,9 +78,9 @@ This is not surprising: developers are helping themselves. It's time to help oth
 
 ## From collaboration to mass collaboration
 
-There is no definite limit when a collaborative project becomes massively collaborative.
+There is no clear limit when a collaborative project becomes massively collaborative.
 Given the project, the critical threshold can vary. But for all projects, the more people are involved,
-the more necessary are specific tools for the community.
+the more necessary specific tools are for the community.
 There are also lots of examples of projects that are both massive and not:
 a lot of open-source software rely on a small community of developers
 but have a much larger community of testers
@@ -99,7 +99,7 @@ People have discussed math and created proofs together for a very long time
 but Polymath is using the internet to invent proofs with tens to hundreds of participants.
 Yet, there are many more than hundreds of people who have the knowledge and ability to help with a proof.
 What about a proof that would involve thousands to millions of participants?
-At that scale, a new tool is required.
+At that scale, a new tool is required[^3].
 
 **Comments:** please do not hesitate to leave a comment below.
 I would especially appreciate if you would take some of your time to share any information you have
@@ -109,3 +109,5 @@ or any pointers to scientific literature on the subject.
 [^1]: In this great [TED video](http://www.ted.com/talks/luis_von_ahn_massive_scale_online_collaboration), the inventor of Captcha and reCaptcha also presents a new massively collaborative project called Duolingo. It seems however that [Duolingo is now moving away from crowdsourced translation](http://duolingo.wikia.com/wiki/Immersion), not because the idea was a bad one but because the company has decided that it wants to be an education company and not to devote its resources to becoming a better translation provider.
 
 [^2]: See for instance: Von Krogh, G., Haefliger, S., Spaeth, S., & Wallin, M. W. (2012). Carrots and rainbows: Motivation and social practice in open source software development. _Mis Quarterly_, 36(2), 649-676.
+
+[^3]: See my subsequent posts on the subject [here](http://www.theozimmermann.net/2014/11/06/collaborative-proofs/) and [there](http://www.theozimmermann.net/2014/12/feedback-collaborative-proofs/).
