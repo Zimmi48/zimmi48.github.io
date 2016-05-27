@@ -16,7 +16,7 @@ here's a longer list of things I am:
 
 boyfriend, computer scientist, environmentalist, European,
 ex-Austinite,
-feminist, French, graduate student,
+feminist, French, PhD student,
 lgBt, [Parisian](/en/paris),
 political activist,
 researcher, [wannabe world changer](/en/world-changer), young man
@@ -28,29 +28,13 @@ A PDF resume is also available upon request.
 Current topics
 --------------
 
-I recently finished a research internship at the
-[PPS laboratory](http://www.pps.univ-paris-diderot.fr/)
-of the Paris-Diderot University, under the supervision
-of Professor
-[Hugo Herbelin](http://pauillac.inria.fr/~herbelin/) on the automatic
-and transparent transfer of theorems along isomorphisms.
-On this subject, I have written a blog post
-[[in French]({% post_url 2015-04-01-transfert-de-theoremes %})]
-and a working paper:
-
-* Zimmermann T. and Herbelin H.
-*Automatic and Transparent Transfer of Theorems along Isomorphisms in the Coq Proof Assistant.*
-Presented at CICM 2015 (work-in-progress track).
-Read it
-on [HAL](https://hal.archives-ouvertes.fr/hal-01152588)
-or on the [arXiv](http://arxiv.org/abs/1505.05028).
-
-You can also read my [internship report](/pdf/internship-PPS.pdf) (more complete).
-
-This project is part of a general effort to make the use of
-proof assistants easier. See also my two blog posts on collaborative
-proofs [here]({% post_url 2014-11-06-collaborative-proofs %})
-and [there]({% post_url 2014-12-10-feedback-collaborative-proofs %}).
+I am currently a PhD student in the π r² / PPS teams of the
+[IRIF laboratory](https://www.irif.univ-paris-diderot.fr/en/)
+of the Paris-Diderot University. My supervisor is Professor
+[Hugo Herbelin](http://pauillac.inria.fr/~herbelin/).
+My subject is titled "Design and development of a
+tool based on Coq to write and format mathematical proofs"
+[[in French](/pdf/sujet-these.pdf)].
 
 Besides, my main interests are
 [crowdsourcing](http://en.wikipedia.org/wiki/Crowdsourcing), and more generally
@@ -78,6 +62,18 @@ programs as [free software](https://github.com/Zimmi48).
 
 Past work
 ---------
+
+* Formal maths
+    * Before my PhD, I worked with Hugo Herbelin on the automatic
+    and transparent transfer of theorems along isomorphisms.
+    On this subject, I have written a blog post
+    [[in French]({% post_url 2015-04-01-transfert-de-theoremes %})]
+    and a working paper:
+        * Zimmermann T. and Herbelin H. *Automatic and Transparent Transfer of Theorems along Isomorphisms in the Coq Proof Assistant.*
+        Presented at CICM 2015 (work-in-progress track).
+        Read it
+        on [HAL](https://hal.archives-ouvertes.fr/hal-01152588)
+        or on the [arXiv](http://arxiv.org/abs/1505.05028).
 
 * Biology
     * During my year in Texas,

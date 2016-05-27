@@ -20,7 +20,8 @@ amoureux, athée, chercheur,
 Français, informaticien, jeune homme,
 lgBt, [Marseillais](/fr/marseille),
 militant politique, [normalien](http://www.ens.fr),
-[Parisien](/fr/paris), scientifique
+[Parisien](/fr/paris), scientifique,
+thésard
 
 Si vous voulez connaître mon parcours,
 référez-vous à ma [page LinkedIn](https://fr.linkedin.com/in/theozim).
@@ -29,29 +30,14 @@ Une version PDF de mon CV est aussi disponible sur demande.
 Sujets actuels
 --------------
 
-Je viens de terminer un stage au
-[laboratoire PPS](http://www.pps.univ-paris-diderot.fr/)
-de l'Université Paris-Diderot,
-avec [Hugo Herbelin](http://pauillac.inria.fr/~herbelin/)
-sur le transfert automatique et transparent de théorèmes par
-des isomorphismes. J'ai écrit un
-[billet de blog]({% post_url 2015-04-01-transfert-de-theoremes %})
-sur le sujet ainsi qu'un rapport technique :
-
-* Zimmermann T. and Herbelin H.
-*Automatic and Transparent Transfer of Theorems along Isomorphisms in the Coq Proof Assistant.*
-Présenté à CICM 2015 (work-in-progress track).
-Lisez-le sur [HAL](https://hal.archives-ouvertes.fr/hal-01152588)
-ou sur [arXiv](http://arxiv.org/abs/1505.05028).
-
-Vous pouvez également lire mon rapport de stage (plus complet) [[en anglais](/pdf/internship-PPS.pdf)].
-
-Ce projet s'inscrit dans le cadre d'un effort de simplification
-de l'utilisation des assistants de preuve. Voyez aussi mes deux
-billets de blog sur les preuves collaboratives :
-[ici]({% post_url 2014-11-06-collaborative-proofs %})
-et [là]({% post_url 2014-12-10-feedback-collaborative-proofs %})
-[en anglais].
+Je suis actuellement en thèse dans les équipes π r² / PPS du
+[laboratoire IRIF](https://www.irif.univ-paris-diderot.fr/)
+de l'Université Paris-Diderot.
+Mon directeur de thèse est
+[Hugo Herbelin](http://pauillac.inria.fr/~herbelin/).
+[Mon sujet](/pdf/sujet-these.pdf) a pour titre
+"Conception et développement d’un outil d’aide à la
+rédaction de démonstrations mathématiques reposant sur Coq".
 
 Je m'intéresse également au
 [_crowdsourcing_](http://fr.wikipedia.org/wiki/Crowdsourcing), et plus généralement
@@ -82,6 +68,17 @@ ainsi qu'à travers mon [blog](/fr/blog).
 Travaux passés
 --------------
 
+* Mathématiques formelles
+	* Préalablement à ma thèse, j'ai travaillé avec Hugo Herbelin
+	sur le transfert automatique et transparent de théorèmes par
+	des isomorphismes. J'ai écrit un
+	[billet de blog]({% post_url 2015-04-01-transfert-de-theoremes %})
+	sur le sujet ainsi qu'un rapport technique :
+		* Zimmermann T. and Herbelin H. *Automatic and Transparent Transfer of Theorems along Isomorphisms in the Coq Proof Assistant.*
+		Présenté à CICM 2015 (work-in-progress track).
+		Lisez-le sur [HAL](https://hal.archives-ouvertes.fr/hal-01152588)
+		ou sur [arXiv](http://arxiv.org/abs/1505.05028).
+
 * Biologie
 	* Pendant mon année d'études au Texas,
 	j'ai découvert le domaine de la bio-informatique et de la
@@ -92,7 +89,7 @@ Travaux passés
 		* Zimmermann T., Mirarab S. and Warnow T.
 		[BBCA: Improving the scalability of *BEAST using random binning.](http://www.biomedcentral.com/1471-2164/15/S6/S11)
 		_BMC Genomics 15_, Suppl 6 (2014), S11.
-        * Mirarab S., Reaz R., Bayzid M. S., Zimmermann T.,
+		* Mirarab S., Reaz R., Bayzid M. S., Zimmermann T.,
 		Swenson M. S. and Warnow T.
 		[ASTRAL: genome-scale coalescent-based species tree estimation.](http://bioinformatics.oxfordjournals.org/content/30/17/i541.long)
 		_Bioinformatics 30_, 17 (2014), i541–i548. 
