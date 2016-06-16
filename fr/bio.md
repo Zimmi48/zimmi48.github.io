@@ -29,10 +29,10 @@ Une version PDF de mon CV est aussi disponible sur demande.
 Sujets actuels
 --------------
 
-Je suis actuellement en stage au
+Je viens de terminer un stage au
 [laboratoire PPS](http://www.pps.univ-paris-diderot.fr/)
-de l'Université Paris-Diderot.
-Je travaille avec [Hugo Herbelin](http://pauillac.inria.fr/~herbelin/)
+de l'Université Paris-Diderot,
+avec [Hugo Herbelin](http://pauillac.inria.fr/~herbelin/)
 sur le transfert automatique et transparent de théorèmes par
 des isomorphismes. J'ai écrit un
 [billet de blog]({% post_url 2015-04-01-transfert-de-theoremes %})
@@ -40,10 +40,11 @@ sur le sujet ainsi qu'un rapport technique :
 
 * Zimmermann T. and Herbelin H.
 *Automatic and Transparent Transfer of Theorems along Isomorphisms in the Coq Proof Assistant.*
-Accepté pour présentation à CICM 2015 (work-in-progress track).
-Lisez-le sur [SJS](http://www.sjscience.org/article?id=254),
-sur [HAL](https://hal.archives-ouvertes.fr/hal-01152588)
+Présenté à CICM 2015 (work-in-progress track).
+Lisez-le sur [HAL](https://hal.archives-ouvertes.fr/hal-01152588)
 ou sur [arXiv](http://arxiv.org/abs/1505.05028).
+
+Vous pouvez également lire mon rapport de stage (plus complet) [[en anglais](/pdf/internship-PPS.pdf)].
 
 Ce projet s'inscrit dans le cadre d'un effort de simplification
 de l'utilisation des assistants de preuve. Voyez aussi mes deux
@@ -53,7 +54,7 @@ et [là]({% post_url 2014-12-10-feedback-collaborative-proofs %})
 [en anglais].
 
 Je m'intéresse également au
-[_crowdsourcing_](http://fr.wikipedia.org/wiki/Crowdsourcing), c'est-à-dire
+[_crowdsourcing_](http://fr.wikipedia.org/wiki/Crowdsourcing), et plus généralement
 à la collaboration de masse via Internet ainsi qu'à la
 [science ouverte](http://fr.wikipedia.org/wiki/Science_ouverte)
 et plus précisément la "recherche en public"
@@ -128,8 +129,8 @@ Travaux passés
 	l'espagnol et de l'anglais pendant de nombreuses années.
 	Aujourd'hui, je parle couramment l'anglais et le français et
 	j'adore ces deux langues.
-	Il me faudrait consacrer un peu de temps à reprendre
-	l'espagnol. Par ailleurs, si je trouve le temps, j'aimerais
+	J'essaye actuellement de consacrer un peu de temps à reprendre
+	l'espagnol grâce à [Duolingo](https://fr.duolingo.com/). J'aimerais d'ailleurs
 	apprendre encore d'autres langues.
 	
 * Physique
@@ -212,7 +213,7 @@ En particulier :
     * Dans une optique proche, je recommande fortement le livre
     ["To Kill a Mockingbird"](http://fr.wikipedia.org/wiki/Ne_tirez_pas_sur_l%27oiseau_moqueur)
     de Harper Lee, que j'ai eu le plaisir d'*écouter* récemment.
-    * Je parachève désormais ma culture de l'histoire américaine
+    * J'ai pu compléter ma culture de l'histoire américaine
     avec "A People's History of the United States" de
     [Howard Zinn](http://fr.wikipedia.org/wiki/Howard_Zinn).
 	

@@ -28,10 +28,10 @@ A PDF resume is also available upon request.
 Current topics
 --------------
 
-I am currently a research intern at the
+I just finished a research internship at the
 [PPS laboratory](http://www.pps.univ-paris-diderot.fr/)
-of the Paris-Diderot University.
-I am working with Professor
+of the Paris-Diderot University, under the supervision
+of Professor
 [Hugo Herbelin](http://pauillac.inria.fr/~herbelin/) on the automatic
 and transparent transfer of theorems along isomorphisms.
 On this subject, I have written a blog post
@@ -40,10 +40,12 @@ and a working paper:
 
 * Zimmermann T. and Herbelin H.
 *Automatic and Transparent Transfer of Theorems along Isomorphisms in the Coq Proof Assistant.*
-Accepted for presentation at CICM 2015 (work-in-progress track).
-Read it on [SJS](http://www.sjscience.org/article?id=254),
+Presented at CICM 2015 (work-in-progress track).
+Read it
 on [HAL](https://hal.archives-ouvertes.fr/hal-01152588)
 or on the [arXiv](http://arxiv.org/abs/1505.05028).
+
+You can also read my [internship report](/pdf/internship-PPS.pdf) (more complete).
 
 This project is part of a general effort to make the use of
 proof assistants easier. See also my two blog posts on collaborative
@@ -51,7 +53,7 @@ proofs [here]({% post_url 2014-11-06-collaborative-proofs %})
 and [there]({% post_url 2014-12-10-feedback-collaborative-proofs %}).
 
 Besides, my main interests are
-[crowdsourcing](http://en.wikipedia.org/wiki/Crowdsourcing), i.e.
+[crowdsourcing](http://en.wikipedia.org/wiki/Crowdsourcing), and more generally
 mass collaboration using the Web,
 [open science](http://en.wikipedia.org/wiki/Open_science)
 and [open research](http://en.wikipedia.org/wiki/Open_research).
@@ -122,7 +124,7 @@ Past work
 	* I like languages in general. I have learned Latin,
 	Spanish and English for many years.
 	I speak English and French fluently and I love them both.
-	I would need to spend some time getting better at Spanish
+	I am currently working on getting better at Spanish on [Duolingo](https://en.duolingo.com/)
 	and I will love to learn new foreign languages if I have time.
 	
 * Physics
@@ -202,7 +204,7 @@ including:
     * In a similar vein, I strongly recommend
     ["To Kill a Mockingbird"](http://en.wikipedia.org/wiki/To_Kill_a_Mockingbird)
     by Harper Lee that I had the pleasure to *listen* too.
-    * I am now completing my American history culture with
+    * I was able to further my American history culture with
     ["A People's History of the United States"](http://en.wikipedia.org/wiki/A_People%27s_History_of_the_United_States)
     by Howard Zinn.
     
