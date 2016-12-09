@@ -16,7 +16,8 @@ catégories, voici une liste plus longues de choses que je suis :
 
 amoureux, athée, chercheur,
 [désireux de changer le monde](/fr/changer-le-monde),
-écologiste, étudiant, Européen, féministe,
+écologiste, enseignant,
+étudiant, Européen, féministe,
 Français, informaticien, jeune homme,
 lgBt, [Marseillais](/fr/marseille),
 militant politique, [normalien](http://www.ens.fr),
@@ -56,14 +57,12 @@ seront nécessaires.
 Je contribue fréquemment à différents projets _open source_ et je publie
 mes propres logiciels libres sur [Github](https://github.com/Zimmi48).
 
-En tant qu'éditeur, j'ai contribué à la création de Kinea, un nouveau
-[magazine en ligne](http://kinea.media) plurilingue d'analyses politiques
-et économiques et de vulgarisation scientifique.
-
 Par ailleurs, je souhaite faire de ma recherche une activité aussi ouverte
 que possible en publiant fréquemment et rapidement sur des archives ouvertes
 ainsi qu'à travers mon [blog](/fr/blog).
 
+Depuis octobre 2016, je suis aussi chargé de TP/TD.
+Vous pouvez lire ce que mes étudiants pensent de moi [ici](/fr/enseignement).
 
 Travaux passés
 --------------
@@ -165,7 +164,11 @@ Travaux passés
 	y jouer sous Android ou dans votre navigateur.
 	* Un projet de création collaborative d'un roman :
 	[unkilodeplumes](http://unkilodeplumes.fr/).
-	
+
+* En tant qu'éditeur, j'ai contribué à la création de Kinea, un nouveau
+[magazine en ligne](http://kinea.media) plurilingue d'analyses politiques
+et économiques et de vulgarisation scientifique.
+
 Intérêts
 --------
 
