@@ -59,9 +59,8 @@ programs as [free software](https://github.com/Zimmi48).
 I also answer questions about FLOSS on
 [Open Source SE](http://opensource.stackexchange.com/users/5858/zimm-i48).
 
-Since october 2016 I am also teaching.
-You can see what my students read what my students think of me
-[[in French](/fr/enseignement)].
+I have been teaching since october 2016.
+You can read what my students think of me [[in French](/fr/enseignement)].
 
 Past work
 ---------
