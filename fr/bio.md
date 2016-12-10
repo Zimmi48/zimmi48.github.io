@@ -56,7 +56,7 @@ seront nécessaires.
 
 Je contribue fréquemment à différents projets _open source_ et je publie
 mes propres logiciels libres sur [Github](https://github.com/Zimmi48).
-Je répond également à des questions sur le logiciel libre sur
+Je répond également à des questions autour du logiciel libre sur
 [Open Source SE](http://opensource.stackexchange.com/users/5858/zimm-i48).
 
 Par ailleurs, je souhaite faire de ma recherche une activité aussi ouverte
