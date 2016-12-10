@@ -1,4 +1,8 @@
-# Enseignement
+---
+layout: page
+lang: fr
+title: Enseignement
+---
 
 D'octobre à décembre 2015, j'ai été chargé de TD pour un cours de L2 intitulé "Langages et applications",
 abordant principalement les notions d'automates finis et langages rationnels mais également les grammaires
