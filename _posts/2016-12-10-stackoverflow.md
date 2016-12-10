@@ -5,7 +5,7 @@ lang: en
 draft: true
 ---
 
-# Introducing Stack Overflow
+## Introducing Stack Overflow
 
 Like every programmer, I have known the [Stack Overflow](http://stackoverflow.com/) Q&A website for a long time now.
 For our community, it probably was one of the most important innovations of the recent years
@@ -71,7 +71,7 @@ I can reduce drastically the number of questions I see by
 This year, I started following the Coq tag for the same reason I follow the Coq-Club mailing list:
 to know what the questions of beginners are, and to learn from the answers that other people give.
 
-# The adventure of crowd-sourced documentation
+## The adventure of crowd-sourced documentation
 
 In August of this year, Stack Overflow introduced Documentation in public beta.
 They got my attention immediately as I want to see how they can apply their reputation-based methodology
@@ -106,7 +106,7 @@ I was a bit disappointed by the current result and stopped participating
 Still, I think this will be interesting to see what this Documentation feature gives
 after a longer period of gradual improvements.
 
-# The Stack Exchange galaxy
+## The Stack Exchange galaxy
 
 As Stack Overflow kicked off right from the start,
 [new Q&A sites](http://stackexchange.com/sites?expand=true#oldest) were added by the team
