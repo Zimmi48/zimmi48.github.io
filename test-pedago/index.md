@@ -31,18 +31,18 @@ Test-Pedago est distribué gratuitement comme logiciel libre.
 
 ### Pour Windows
 
-[Télécharger l'installeur ici.](telechargement/windows/Test-Pedago.exe)
+[Télécharger l'installeur ici.](https://github.com/Zimmi48/Test-Pedago/releases/download/v3.0/Windows-Test-Pedago.exe)
 
 [Télécharger la version 3
-de TestM.](telechargement/windows/TestM-3.exe)
+de TestM.](https://github.com/Zimmi48/Test-Pedago/releases/download/v3.0/Windows-TestM-3.exe)
 
 [Télécharger la version 1.0
-de TestL Conjugaison.](telechargement/windows/TestL-1.zip)
+de TestL Conjugaison.](https://github.com/Zimmi48/Test-Pedago/releases/download/v3.0/Windows-TestL-1.zip)
 
 ### Pour Mac
 
 [Une ancienne version de TestL Conjugaison
-est disponible](telechargement/mac/TestL.zip),
+est disponible](https://github.com/Zimmi48/Test-Pedago/releases/download/v3.0/MacOS-TestL.zip),
 dans laquelle on ne peut s'entraîner que sur la conjugaison
 des auxiliaires être et avoir.
 
@@ -52,10 +52,10 @@ qui sera capable de les compiler pour vous à partir des sources.
 ### Pour Linux
 
 [Télécharger la version 3
-de TestM.](telechargement/linux/TestM-3.zip)
+de TestM.](https://github.com/Zimmi48/Test-Pedago/releases/download/v3.0/Linux-TestM-3.zip)
 
 [Télécharger la version 1.0
-de TestL Conjugaison.](telechargement/linux/TestL-1.zip)
+de TestL Conjugaison.](https://github.com/Zimmi48/Test-Pedago/releases/download/v3.0/Linux-TestL-1.zip)
 
 ### Code source
 
