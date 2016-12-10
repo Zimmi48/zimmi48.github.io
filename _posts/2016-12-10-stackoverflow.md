@@ -50,14 +50,9 @@ because you are most likely to not fully understand the website requirements[^ne
 Thus people may down-vote your question. It can feel a bit harsh.
 But then if you are wise, you edit or delete your question and learn from the experience[^deleting].
 
-[^newbie]: The website tries very hard to discourage you from posting your question though.
-It displays the rules, tries to automatically identify bad questions (too much code is one criterion),
-proposes you similar questions that might contain an answer.
-The problem is that people on the Internet are used to not reading the rules
-and feel like they are always in a hurry. This is something that people on Stack Overflow do not tolerate.
+[^newbie]: The website tries very hard to discourage you from posting your question though. It displays the rules, tries to automatically identify bad questions (too much code is one criterion), proposes you similar questions that might contain an answer. The problem is that people on the Internet are used to not reading the rules and feel like they are always in a hurry. This is something that people on Stack Overflow do not tolerate.
 
-[^deleting]: There is even a "peer-pressure" badge for deleting a question that was down-voted.
-That was my very first badge!
+[^deleting]: There is even a "peer-pressure" badge for deleting a question that was down-voted. That was my very first badge!
 
 Questions should show research: don't ask what is obvious.
 Questions are supposed to serve as a canonical documentation for later viewers: duplicates are banned.
@@ -96,9 +91,7 @@ Although several positive reviews are necessary to approve an edit,
 there have still been problems with bad edits being approved too often[^audits].
 While reverts ("rollbacks") are possible, they are not supposed to be part of the standard workflow.
 
-[^audits]: Stack Overflow had to introduce "audits" in
-[an update of the Documentation feature](http://meta.stackoverflow.com/questions/336627/documentation-update-october-20th)
-to spot and ban automatically the reviewers who approve anything, like blatant vandalism for instance.
+[^audits]: Stack Overflow had to introduce "audits" in [an update of the Documentation feature](http://meta.stackoverflow.com/questions/336627/documentation-update-october-20th) to spot and ban automatically the reviewers who approve anything, like blatant vandalism for instance.
 
 After being curious at the beginning and even contributing some documentation about Elm (a programming language),
 I was a bit disappointed by the current result and stopped participating
@@ -120,8 +113,7 @@ There is a series of steps to go through, and a special site dedicated to the cr
 This is somewhat comforting me a little from the fact that the software is not open source[^free].
 You cannot run your own instance, but at least if you gain enough momentum you can start a new site on a new topic.
 
-[^free]: But it looks like they thought about open sourcing it:
-http://meta.stackexchange.com/questions/3086/will-open-sourcing-stack-overflow-destroy-our-business-model
+[^free]: But it looks like they thought about open sourcing it: http://meta.stackexchange.com/questions/3086/will-open-sourcing-stack-overflow-destroy-our-business-model
 
 Among the sites that were added lately
 (only one year ago actually, so it is seven years younger than Stack Overflow) is
