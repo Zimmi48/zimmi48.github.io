@@ -19,7 +19,8 @@ ex-Austinite,
 feminist, French, PhD student,
 lgBt, [Parisian](/en/paris),
 political activist,
-researcher, [wannabe world changer](/en/world-changer), young man
+researcher, teacher,
+[wannabe world changer](/en/world-changer), young man
 
 If you want to see my curriculum,
 please refer to my [LinkedIn page](https://fr.linkedin.com/in/theozim).
@@ -53,12 +54,13 @@ I thrive to make my research as public as possible my publishing
 as often and as soon as possible on public archives and/or
 through this [blog](/en/blog).
 
-As an editor, I contributed to the creation of Kinea, a new plurilingual
-[online magazine](http://kinea.media) which provides alternative political
-and economical analyses as well as science popularization.
-
 I frequently contribute to _open source_ projects and publish my own
 programs as [free software](https://github.com/Zimmi48).
+I also answer questions about FLOSS on
+[Open Source SE](http://opensource.stackexchange.com/users/5858/zimm-i48).
+
+I have been teaching since october 2016.
+You can read what my students think of me [[in French](/fr/enseignement)].
 
 Past work
 ---------
@@ -159,7 +161,11 @@ Past work
 	can play online or on an Andoid phone.
 	* A mass-collaboration novel writing project: unkilodeplumes
 	[[in French](http://unkilodeplumes.fr)].
-	
+
+* As an editor, I contributed to the creation of Kinea, a new plurilingual
+[online magazine](http://kinea.media) which provides alternative political
+and economical analyses as well as science popularization.
+
 Interests
 ---------
 
