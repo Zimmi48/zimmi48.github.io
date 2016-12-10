@@ -113,7 +113,7 @@ There is a series of steps to go through, and a special site dedicated to the cr
 This is somewhat comforting me a little from the fact that the software is not open source[^free].
 You cannot run your own instance, but at least if you gain enough momentum you can start a new site on a new topic.
 
-[^free]: But it looks like they thought about open sourcing it: [http://meta.stackexchange.com/questions/3086/will-open-sourcing-stack-overflow-destroy-our-business-model](http://meta.stackexchange.com/questions/3086/will-open-sourcing-stack-overflow-destroy-our-business-model)
+[^free]: But it looks like they thought about open sourcing it: [http://meta.stackexchange.com/questions/3086/will-open-sourcing-stack-overflow-destroy-our-business-model](http://meta.stackexchange.com/questions/3086/will-open-sourcing-stack-overflow-destroy-our-business-model).
 
 Among the sites that were added lately
 (only one year ago actually, so it is seven years younger than Stack Overflow) is
