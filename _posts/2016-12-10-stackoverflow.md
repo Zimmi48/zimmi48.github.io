@@ -28,7 +28,7 @@ which used to require signing up just to view a single question
 
 The second and the most known component of the platform formula is to award "reputation".
 Users earn reputation points by asking good questions and giving good answers and being up-voted by other users.
-Reputation has a inherent value for some programmers because it can help demonstrate to future employers
+Reputation has an inherent value for some programmers because it can help demonstrate to future employers
 that you possess expert skills which have been recognized by others.
 The same teacher who encouraged the students in my class to create a blog and a LinkedIn account
 also told us about earning reputation on Stack Overflow.
@@ -60,7 +60,7 @@ While it is generally not recommended to dig up an old thread on a traditional f
 it is very much encouraged to add your answer or a comment or your vote to an old question.
 
 StackOverflow is organized with tags, and this is very useful given the number of questions the site receives.
-Given that I am not into mainstream technologies,
+Given that I am not too much into mainstream technologies,
 I can reduce drastically the number of questions I see by
 [following only the tags which I am interested in](http://stackexchange.com/filters/252631/open-source-elm-coq-nix).
 This year, I started following the Coq tag for the same reason I follow the Coq-Club mailing list:
@@ -85,17 +85,17 @@ you will first have to demonstrate your skills by getting up-votes for an answer
 According to Michael Nielsen in *Reinventing discovery*, the wiki-novel "A Million Penguins"
 was a failure mainly because moderation was done by a limited group of persons (students in fact)
 who could not keep up with all the contributions which arrived due to the publicity around the project.
-Stack Overflow does not do that mistake by having a large body of reviewers
+Stack Overflow does not do this mistake by having a large body of reviewers
 (anyone above a certain level of reputation).
 Although several positive reviews are necessary to approve an edit,
 there have still been problems with bad edits being approved too often[^audits].
 While reverts ("rollbacks") are possible, they are not supposed to be part of the standard workflow.
 
-[^audits]: Stack Overflow had to introduce "audits" in [an update of the Documentation feature](http://meta.stackoverflow.com/questions/336627/documentation-update-october-20th) to spot and ban automatically the reviewers who approve anything, like blatant vandalism for instance.
+[^audits]: Stack Overflow had to introduce "audits" in [an update of the Documentation feature](http://meta.stackoverflow.com/questions/336627/documentation-update-october-20th) to automatically spot and ban the reviewers who approve anything, like blatant vandalism for instance.
 
-After being curious at the beginning and even contributing some documentation about Elm (a programming language),
+After being curious at the beginning and even contributing some documentation about Elm (a programming language I recently got interested in),
 I was a bit disappointed by the current result and stopped participating
-(this was also the beginning of my PhD so I had topics with higher priority).
+(this was also the beginning of my PhD so I had other topics with higher priority).
 Still, I think this will be interesting to see what this Documentation feature gives
 after a longer period of gradual improvements.
 
@@ -116,9 +116,9 @@ You cannot run your own instance, but at least if you gain enough momentum you c
 [^free]: But it looks like they thought about open sourcing it: [http://meta.stackexchange.com/questions/3086/will-open-sourcing-stack-overflow-destroy-our-business-model](http://meta.stackexchange.com/questions/3086/will-open-sourcing-stack-overflow-destroy-our-business-model).
 
 Among the sites that were added lately
-(only one year ago actually, so it is seven years younger than Stack Overflow) is
+(only one and a half year ago actually, so it is seven years younger than Stack Overflow) is
 [a beta site on free and open source software](http://opensource.stackexchange.com/).
-I registered to answer [a question](http://opensource.stackexchange.com/questions/4254/)
+I registered four months ago to answer [a question](http://opensource.stackexchange.com/questions/4254/)
 which was on the verge of being closed because people thought it was not answerable objectively.
 Since then, I've answered 46 more questions, always happy to spread the good word
 and to help out people who struggle to understand the complicated world of copyright and licenses
