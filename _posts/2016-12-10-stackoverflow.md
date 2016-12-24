@@ -2,7 +2,8 @@
 layout: post
 title: Exploring the Stack Exchange way
 lang: en
-draft: true
+date: 2016-12-24 12:00:00 +0100
+excerpt: Like every programmer, I have known the Stack Overflow Q&A website for a long time now. For our community, it probably was one of the most important innovations of the recent years and it is now a routinely used tool. Have a question on programming? You google it, and you are most likely to find, among the first results, one or several questions on Stack Overflow with good answers to your problem. A little bit like when googling for a general notion, one of the first results should probably be a Wikipedia page.
 ---
 
 ## Introducing Stack Overflow
