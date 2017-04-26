@@ -12,7 +12,7 @@ Qui suis-je ?
 Je n'aime pas enfermer les gens dans des catégories, mais c'est
 pourtant ce que je m'apprête à faire en ce qui me concerne.
 Cependant, plutôt que de me restreindre à un petit nombre de telles
-catégories, voici une liste plus longues de choses que je suis :
+catégories, voici une liste plus longue de choses que je suis :
 
 amoureux, athée, chercheur,
 [désireux de changer le monde](/fr/changer-le-monde),
@@ -56,7 +56,7 @@ seront nécessaires.
 
 Je contribue fréquemment à différents projets _open source_ et je publie
 mes propres logiciels libres sur [Github](https://github.com/Zimmi48).
-Je répond également à des questions autour du logiciel libre sur
+Je réponds également à des questions autour du logiciel libre sur
 [Open Source SE](http://opensource.stackexchange.com/users/5858/zimm-i48).
 
 Par ailleurs, je souhaite faire de ma recherche une activité aussi ouverte
