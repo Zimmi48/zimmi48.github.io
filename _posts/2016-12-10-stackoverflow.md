@@ -101,6 +101,9 @@ I was a bit disappointed by the current result and stopped participating
 Still, I think this will be interesting to see what this Documentation feature gives
 after a longer period of gradual improvements.
 
+*Update:* As of August 2017, Stack Overflow has decided to shutdown the documentation,
+showing once again how hard organizing collaborative writing is.
+
 ## The Stack Exchange galaxy
 
 As Stack Overflow kicked off right from the start,
