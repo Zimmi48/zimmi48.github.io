@@ -160,7 +160,7 @@ Past work
 	* [A modern version of the Snake game](/zimmisapps/en) that you
 	can play online or on an Andoid phone.
 	* A mass-collaboration novel writing project: unkilodeplumes
-	[[in French](http://unkilodeplumes.fr)].
+	[[in French](https://unkilodeplumes.github.io)].
 
 * As an editor, I contributed to the creation of Kinea, a new plurilingual
 [online magazine](http://kinea.media) which provides alternative political

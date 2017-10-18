@@ -165,7 +165,7 @@ Travaux passés
 	* [Un jeu du Snake innovant](/zimmisapps/fr). Vous pouvez
 	y jouer sous Android ou dans votre navigateur.
 	* Un projet de création collaborative d'un roman :
-	[unkilodeplumes](http://unkilodeplumes.fr/).
+	[unkilodeplumes](https://unkilodeplumes.github.io/).
 
 * En tant qu'éditeur, j'ai contribué à la création de Kinea, un nouveau
 [magazine en ligne](http://kinea.media) plurilingue d'analyses politiques

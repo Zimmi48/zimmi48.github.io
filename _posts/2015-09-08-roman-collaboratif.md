@@ -110,10 +110,10 @@ littéraire (mais pas que).
 
 On décrira très succinctement cet outil auquel on a donné le nom de commented.it (et dont
 une version simplifiée se trouve sur la page de présentation du projet
-[unkilodeplumes](http://unkilodeplumes.fr)). Il
+[unkilodeplumes](https://unkilodeplumes.github.io)). Il
 consiste à faire figurer en parallèle le texte et une colonne de commentaires. Ces
 commentaires peuvent être associés à des propositions de modification (pendant des pull
-request de Github). Comme dans Google Docs, ces modifications sont clairement marquées
+requests de Github). Comme dans Google Docs, ces modifications sont clairement marquées
 (suppressions barrées et surlignées de rouge, ajouts soulignés et surlignés de vert).
 Mais contrairement à Google Docs où ces modifications apparaissent directement dans le
 texte, il faut là cliquer pour les afficher. Ce choix permet la collaboration massive,
