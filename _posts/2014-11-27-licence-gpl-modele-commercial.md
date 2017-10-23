@@ -79,10 +79,10 @@ Enfin mais surtout, ces entreprises doivent contrôler que les contributions ext
 et qu'elles n'embarquent pas du code sous licence libre GPL d'une autre source.
 En effet, dans ce cas-là, le/la contributeur/trice ne possède pas le copyright sur ces lignes de code de source extérieure.
 Par conséquent, même en signant un accord quelconque, il/elle ne peut pas légalement céder les droits dessus.
-Je suis sûr que la plupart des entreprises qui fonctionnent sur ce modèle n'effectuent jamais ces vérifications car elles n'en ont pas les moyens. 
+Je suis sûr que la plupart des entreprises qui fonctionnent sur ce modèle n'effectuent jamais ces vérifications car elles n'en ont pas les moyens.
 
 En pratique, la conséquence c'est que beaucoup de logiciels libres ou non libres enfreignent la loi de manière notable ou anecdotique[^infractions].
-Il ne faut pas encourager cela car cela met en danger le monde du logiciel libre dans son ensemble. 
+Il ne faut pas encourager cela car cela met en danger le monde du logiciel libre dans son ensemble.
 
 **Note :** dans le cas d'un logiciel destiné à tourner sur des serveurs distants
 et être utilisé via un navigateur plutôt que d'être installé sur des machines individuelles[^saas],

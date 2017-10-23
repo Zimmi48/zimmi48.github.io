@@ -9,15 +9,15 @@
 var key = (function() {
 
 	// PRIVATE VARIABLES
-	
-	// these variables are used to make sure a key has been up before firing again	
+
+	// these variables are used to make sure a key has been up before firing again
 	var activeRight = 1;
 	var activeLeft = 1;
-	
+
 	return {
-		
+
 		// PUBLIC FUNCTIONS
-		
+
 		down : function(e) {
 			// Right pressed
 			if (e.keyCode == 39 && activeRight) {
@@ -30,7 +30,7 @@ var key = (function() {
 				activeLeft = 0;
 			}
 		},
-		
+
 		up : function(e) {
 			if (e.keyCode == 39) {
 				activeRight = 1;
@@ -45,12 +45,12 @@ var key = (function() {
 var touch = (function() {
 
 	// PRIVATE VARIABLES
-	
+
 	// this variable is used to make sure a finger has been up before firing again
 	var active = 1;
-	
+
 	return {
-		
+
 		// PUBLIC FUNCTIONS
 		start : function(e) {
 			e.preventDefault();
@@ -61,7 +61,7 @@ var touch = (function() {
 				display.action(touch_x, touch_y);
 			}
 		},
-		
+
 		end : function(e) {
 			e.preventDefault();
 			active = 1;
@@ -72,12 +72,12 @@ var touch = (function() {
 var mouse = (function() {
 
 	// PRIVATE VARIABLES
-	
+
 	// this variable is used to make sure the mouse has been up before firing again
 	var active = 1;
-	
+
 	return {
-		
+
 		// PUBLIC FUNCTIONS
 		down : function(e) {
 			if (active) {
@@ -87,7 +87,7 @@ var mouse = (function() {
 				display.action(click_x, click_y);
 			}
 		},
-		
+
 		up : function() {
 			active = 1;
 		}

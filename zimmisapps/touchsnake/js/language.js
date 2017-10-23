@@ -12,9 +12,9 @@
 var language = (function() {
 
 	var language = {};
-	
+
 	// PRIVATE VARIABLES
-	
+
 	var current = "unloaded";
 	var content = {
 		english: {
@@ -40,9 +40,9 @@ var language = (function() {
 			best_scores: "MEILLEURS SCORES:"
 		}
 	};
-	
+
 	// PUBLIC GETTERS
-	
+
 	language.get = function(name) {
 		if (current == "unloaded") {
 			loadLanguage();
@@ -54,32 +54,32 @@ var language = (function() {
 			return content[current][name];
 		}
 	};
-	
+
 	// PUBLIC SETTERS
-	
+
 	language.set = function(lang) {
 		current = lang;
 		window.localStorage.language = lang;
-	}		
-	
-	// PUBLIC FUNCTIONS	
-	
+	}
+
+	// PUBLIC FUNCTIONS
+
 	language.isSet = function() {
 		if (current == "unloaded") {
 			loadLanguage();
 		}
 		return current != "unset";
 	};
-	
+
 	// PRIVATE FUNCTIONS
-	
+
 	function loadLanguage() {
 		current = window.localStorage.language;
 		if (typeof(current) == "undefined") {
 			current = "unset";
 		}
 	}
-	
+
 	// return the object containing the public functions
 	return language;
 })();

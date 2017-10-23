@@ -18,7 +18,7 @@ qui nous représentent et nous gouvernent. Cette crise de confiance,
 qui peut trouver sa justification ici dans la déconnexion manifeste des élites
 avec la réalité, là dans les promesses brisées,
 là-bas dans la corruption généralisée,
-a des conséquences politiques bien différentes d'un pays à l'autre. 
+a des conséquences politiques bien différentes d'un pays à l'autre.
 
 On peut tout de même faire des hypothèses sur les raisons de cette crise
 et je me permettrai d'en faire une. Les régimes démocratiques et les contextes
@@ -29,13 +29,13 @@ du web plus précisément,
 et, à travers ce biais, d'une multiplicité des sources d'information.
 Nos représentant.e.s ne sont peut-être pas moins bon.ne.s qu'avant mais
 ils/elles le paraissent car nous avons plus de moyens de nous informer
-sur leurs travers et le mécontentement se répand plus facilement. 
+sur leurs travers et le mécontentement se répand plus facilement.
 
 Nous pouvons donc aujourd'hui prendre la mesure des limites de nos systèmes
 de démocratie représentative et c'est une raison bien suffisante
 pour souhaiter les rendre meilleurs.
 Peut-être l'outil qui aura permis de percer à jour les limites du système
-sera-t-il également utile pour en proposer un nouveau ? 
+sera-t-il également utile pour en proposer un nouveau ?
 
 C'est ce que pensent aujourd'hui beaucoup de gens :
 ceux/celles qui défendent la mobilisation citoyenne en ligne
@@ -58,7 +58,7 @@ avant son examen en Conseil des Ministres (loi sur la
 
 Dans ce contexte, ce foisonnement d'idées,
 j'aurais tort de garder les miennes pour moi.
-Voici un projet qui me tourne dans la tête depuis déjà plus d'un an. 
+Voici un projet qui me tourne dans la tête depuis déjà plus d'un an.
 
 "Nul n'est censé ignorer la loi."
 Ce principe de base, essentiel pour que la justice puisse fonctionner,
@@ -73,7 +73,7 @@ et c'est ce qui le distingue d'autres, plus courants,
 dont le but est d'inclure le/la citoyen.ne
 dans la préparation de nouvelles lois (toujours de nouvelles lois !).
 
-## Réapproprions-nous la loi ! 
+## Réapproprions-nous la loi !
 
 La première étape, essentielle,
 c'est que nous soyons tous en mesure de comprendre la loi,
@@ -102,7 +102,7 @@ les questions/réponses qui y ont été associées.
 Et qui permette, si un passage de la loi n'est pas clair
 et que rien n'y est encore associé, de le commenter…
 
-## Dépoussiérons la loi ! 
+## Dépoussiérons la loi !
 
 La suite vient d'elle-même.
 Si on s'amuse à parcourir la loi grâce à un outil bien fait,
@@ -114,7 +114,7 @@ En effet, l'entretien n'a jamais été le fort des législat.eur/rice.s.
 On préfère s'assurer d'avoir une loi à son nom
 plutôt que d'abroger les lois datées.
 C'est donc aux citoyen.ne.s de s'emparer de cette tâche.
-Un outil bien pensé peut le permettre. 
+Un outil bien pensé peut le permettre.
 
 À la manière d'un wiki, on commencerait par rendre la loi "éditable".
 Mais il est bien évidemment plus  sensible de changer la loi
@@ -127,9 +127,9 @@ générer automatiquement une proposition de loi
 correspondant à la modification (les propositions de loi ne sont jamais que
 des patchs, c'est-à-dire des descriptifs à apporter au code
 – code civil ou code source – pour passer de la version actuelle
-à la version proposée). 
+à la version proposée).
 
-## Promouvons les changements ! 
+## Promouvons les changements !
 
 La première étape est rendue possible par la plate-forme et
 repose sur des initiatives individuelles,
@@ -138,13 +138,13 @@ La seconde étape, plus délicate, consiste à vérifier
 si les propositions énoncées sont plébiscitées et éventuellement
 à les améliorer suite aux retours d'autres citoyen.ne.s,
 d'expert.e.s de la question traitée, et d'expert.e.s juridiques.
-À partir de là, plusieurs voies sont possibles. 
+À partir de là, plusieurs voies sont possibles.
 
 Les voies du consensus sont les plus faciles à emprunter et
 pourraient être la priorité de la plate-forme :
 si la proposition est massivement rejetée, elle est enterrée ;
 si elle est massivement plébiscitée par les citoyen.ne.s
-utilisant la plate-forme, elle prend son envol. 
+utilisant la plate-forme, elle prend son envol.
 
 C'est alors le rôle de l'association[^association]
 soutenant la plate-forme que de lancer des enquêtes d'opinion
@@ -158,13 +158,13 @@ pour faire inscrire la proposition de loi (toute prête) à l'agenda législatif
 et pour la faire voter.
 Cette étape ne sera sans doute pas la plus difficile :
 les grandes ONG sont déjà spécialistes de ce genre de choses et
-les parlementaires sont sensibles aux enquêtes d'opinion. 
+les parlementaires sont sensibles aux enquêtes d'opinion.
 
-## Organisons le débat 
+## Organisons le débat
 
 Il serait pour autant mesquin de se borner à traiter les propositions
 consensuelles (même si celles-ci doivent recevoir la priorité).
-Lorsqu'une proposition ne fait pas consensus, elle mérite un débat. 
+Lorsqu'une proposition ne fait pas consensus, elle mérite un débat.
 
 On dit que la démocratie directe ne marcherait pas
 parce que les sujets discutés au Parlement sont trop compliqués et
@@ -181,9 +181,9 @@ pendant lesquels les spécialistes ne s'écharperaient pas
 comme on le fait trop souvent en politique et ne chercheraient pas non plus
 à embobiner le public. Il y a un modèle à inventer pour que
 les contributions à haute valeur ajoutée aient de l'impact et
-que les mensonges et faux-arguments se retournent contre leurs auteur.e.s. 
+que les mensonges et faux-arguments se retournent contre leurs auteur.e.s.
 
-## Ne passons pas à côté de la moitié des textes 
+## Ne passons pas à côté de la moitié des textes
 
 La Constitution et la loi sont une chose
 mais beaucoup se décide également au niveau des décrets d'application,
@@ -191,7 +191,7 @@ des ordonnances, des arrêtés locaux, de la réglementation européenne,
 des accords de branche, des traités internationaux.
 Tous les textes nous impactant méritent le même coup de projecteur,
 même s'il est clair que certains seront plus faciles
-à modifier que d'autres[^traites]. 
+à modifier que d'autres[^traites].
 
 [^legifrance]:  D'après [Stéphane Cottin](http://www.servicedoc.info/spip.php?page=plan), Légifrance serait né dans la mouvance [*open law*](http://www.dila.premier-ministre.gouv.fr/activites/experimentations/open-law-europa-2015) dans laquelle ce que je propose s'inscrit d'ailleurs très bien.
 

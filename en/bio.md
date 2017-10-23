@@ -90,7 +90,7 @@ Past work
         * Mirarab S., Reaz R., Bayzid M. S., Zimmermann T.,
 		Swenson M. S. and Warnow T.
 		[ASTRAL: genome-scale coalescent-based species tree estimation.](http://bioinformatics.oxfordjournals.org/content/30/17/i541.long)
-		_Bioinformatics 30_, 17 (2014), i541–i548. 
+		_Bioinformatics 30_, 17 (2014), i541–i548.
 	* Some works done for Prof. Warnow's class:
 		* ["Boosting BAli-Phy with UPP"](/pdf/boosting-bali-phy.pdf),
 		[C. Rottner](http://fr.linkedin.com/in/cecilerottner/en), T. Zimmermann,
@@ -103,7 +103,7 @@ Past work
 	* My first internship in a research unit was in middle school
 	when I visited a biology/cancer research lab for one week
 	[[report, in French](/pdf/stage-IGC.pdf)].
-	
+
 * Linguistic
 	* I did an internship with Professor Paul Sabatier at LIF
 	(_Laboratoire d'Informatique Fondamentale_)
@@ -123,7 +123,7 @@ Past work
 	I speak English and French fluently and I love them both.
 	I am currently working on getting better at Spanish
 	and I will love to learn new foreign languages if I have time.
-	
+
 * Physics
 	* In second year of college studies
 	(_maths spé_ at Lycée Thiers, Marseille),
@@ -136,7 +136,7 @@ Past work
 	I have studied, both theoretically and experimentally, the
 	variation in running resistance with respect to the type of
 	road surface, but also to the tire pressure.
-	
+
 * Other computer science works
 	* During an internship at Microsoft Research Cambridge (England),
 	I worked on non-termination proofs,
@@ -210,5 +210,5 @@ including:
     * I was able to further my American history culture with
     ["A People's History of the United States"](http://en.wikipedia.org/wiki/A_People%27s_History_of_the_United_States)
     by Howard Zinn.
-    
+
 * Politics

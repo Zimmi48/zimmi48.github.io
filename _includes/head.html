@@ -7,7 +7,7 @@
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | replace:'.html','' | prepend: site.baseurl | prepend: site.url }}">
     {% if page.trans %}
 	<link
-	  rel="alternate" 
+	  rel="alternate"
 	  hreflang="{% if page.lang != 'fr' %}fr{% else %}en{% endif %}"
 	  href="{{ page.trans | prepend: site.url }}" />
 	{% endif %}
@@ -16,7 +16,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ "/css/post.css" | prepend: site.baseurl }}">
-	
+
     {% if page.date %}
 	<!-- MailChimp CSS -->
     <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">

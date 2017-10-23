@@ -93,7 +93,7 @@ Travaux passés
 		* Mirarab S., Reaz R., Bayzid M. S., Zimmermann T.,
 		Swenson M. S. and Warnow T.
 		[ASTRAL: genome-scale coalescent-based species tree estimation.](http://bioinformatics.oxfordjournals.org/content/30/17/i541.long)
-		_Bioinformatics 30_, 17 (2014), i541–i548. 
+		_Bioinformatics 30_, 17 (2014), i541–i548.
 	* Quelques travaux réalisés pour le cours de Tandy Warnow :
 		* ["Boosting BAli-Phy with UPP"](/pdf/boosting-bali-phy.pdf),
 		[C. Rottner](http://fr.linkedin.com/in/cecilerottner), T. Zimmermann,
@@ -108,7 +108,7 @@ Travaux passés
 	le travail de l'équipe d'un
 	laboratoire de recherche en biologie/cancérologie
 	[[rapport de stage](/pdf/stage-IGC.pdf)].
-	
+
 * Linguistique
 	* J'ai fait un stage avec Paul Sabatier
 	au LIF (Laboratoire d'Informatique Fondamentale),
@@ -131,7 +131,7 @@ Travaux passés
 	J'essaye actuellement de consacrer un peu de temps à reprendre
 	l'espagnol. J'aimerais d'ailleurs
 	apprendre encore d'autres langues.
-	
+
 * Physique
 	* En maths spé au Lycée Thiers (Marseille), j'ai réalisé mon
 	premier véritable travail de recherche, sur l'adaptation
@@ -144,7 +144,7 @@ Travaux passés
 	J'ai notamment étudié, de manière théorique et expérimentale,
 	la résistance à l'avancement en fonction du type de revêtement
 	de la chaussée, mais aussi de la pression des pneus.
-	
+
 * Quelques autres travaux en informatique
 	* Lors d'un stage à Microsoft Research Cambridge (Angleterre),
 	j'ai travaillé sur les preuves de non-terminaison de programmes,
@@ -154,7 +154,7 @@ Travaux passés
 	informatique. Voici un des tous premiers commentaires que j'ai
 	fait, pour un cours de planification du mouvement en robotique
 	[[en français](/pdf/planification-trajectoires.pdf)].
-	
+
 * Programmation logicielle
 	* Mon premier logiciel
 	(gagnant du Concours Innovez des Jeunes Inventeurs,
@@ -197,7 +197,7 @@ En particulier :
 	États-Unis). En particulier, si vous avez l'occasion, allez visiter
 	Big Bend National Park (au Texas), la Natchez Trace Parkway
 	(notamment au Mississippi) et Shenandoah National Park (en Virginie).
-	
+
 * Lecture
 	* Un de mes auteurs préférés est
 	[Isaac Asimov](http://fr.wikipedia.org/wiki/Isaac_Asimov)
@@ -218,5 +218,5 @@ En particulier :
     * J'ai pu compléter ma culture de l'histoire américaine
     avec "A People's History of the United States" de
     [Howard Zinn](http://fr.wikipedia.org/wiki/Howard_Zinn).
-	
+
 * Politique
