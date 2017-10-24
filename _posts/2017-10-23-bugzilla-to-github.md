@@ -79,3 +79,25 @@ bug trackers in parallel, the need to keep bug numbers as much as possible
 was expressed and a script was found[^4] which was designed for that purpose.
 
 [^4]: By Guillaume Melquiond, <https://sympa.inria.fr/sympa/arc/coqdev/2017-08/msg00042.html>
+
+## The migration script ##
+
+The migration script that was found in a Python 2 script which takes an export
+from Bugzilla to XML as input and uses the GitHub API to create new issues
+for every bug reports. It inserts first the bug reports whose number it can keep[^5]
+and only when this is done it inserts bug reports that need to be renumbered.
+
+[^5]: On GitHub issue reports and pull requests share a common set of identifiers. Given that about 1100 pull requests were opened on the Coq GitHub repository before the start of the migration, that was as many numbers that couldn't be used for bug reports.
+
+Because issue numbers are attributed by GitHub at creation time and are not
+chosen by the issue author, it is not possible to skip some non-existent bug
+number. That's why the script contained an initial check that the input bug
+numbers are contiguous. This was not the case for the Coq Bugzilla: many bugs
+had been deleted, especially in the early years. Thus the first modification
+that I did to this script was to use postponed bug reports to fill the holes
+(missing bug numbers) so as to recreate continuity in the result. This worked
+because the number of pull requests was already higher than the number of holes.
+
+To increase the predictability of new issue numbers, it was important that no
+issue or pull request be opened during the few hours that the migration took
+to complete.
