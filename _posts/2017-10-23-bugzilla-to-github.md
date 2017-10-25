@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Successfully migrating 4900 bug reports from Bugzilla to GitHub issues
+title: Notes on successfully migrating 4900 bug reports from Bugzilla to GitHub issues
 lang: en
 draft: true
 redirect_from: bugzilla
@@ -89,7 +89,7 @@ because the number of pull requests was already higher than the number of holes.
 
 To increase the predictability of new issue numbers, it was important that no
 issue or pull request be opened during the few hours that the migration took
-to complete. This was achieved thanks to the "cool down" feature that GitHub
+to complete. This was achieved thanks to the "cool-down" feature that GitHub
 provides.
 
 ![Temporary interaction limit settings](/images/cool-down-github.png)
@@ -103,7 +103,7 @@ same thing as anyone else given that this is a public repository).
 
 ![Team and collaborator settings](/images/teams-github.png)
 
-Another critical issue with the script was that GitHub API was limiting issue
+Another critical issue with the script was that the GitHub API was limiting issue
 creation to 300, after what it refused any new posting for the next 30 minutes
 (not just through the API by the way, I was also prevented from manually
 posting comments during this delay). While I initially implemented a
