@@ -48,8 +48,8 @@ significant impact on the developers, who tended to prefer slightly off-topic
 discussions and disgressions in a pull request thread, rather than discussing
 each specific issue in a separate thread on Bugzilla.
 
-In April, I opened a wiki page
-<https://github.com/coq/coq/wiki/BugzillaVsOtherTools> to discuss the possible
+In April 2017, I opened a [wiki page](https://github.com/coq/coq/wiki/BugzillaVsOtherTools)
+to discuss the possible
 alternatives. Having a strong preference for gathering all our tools on GitHub,
 I documented this one (and no one really documented any other alternative,
 even if they existed).
@@ -69,12 +69,14 @@ was expressed and a script was found[^4] which was designed for that purpose.
 
 ## The migration script ##
 
-The migration script that was found in a Python 2 script which takes an export
+The migration script that was found is a Python 2 script[^5] which takes an export
 from Bugzilla to XML as input and uses the GitHub API to create new issues
-for every bug reports. It inserts first the bug reports whose number it can keep[^5]
+for every bug reports. It inserts first the bug reports whose number it can keep[^6]
 and only when this is done it inserts bug reports that need to be renumbered.
 
-[^5]: On GitHub issue reports and pull requests share a common set of identifiers. Given that about 1100 pull requests were opened on the Coq GitHub repository before the start of the migration, that was as many numbers that couldn't be used for bug reports.
+[^5]: Here it is: https://github.com/semihalf-berestovskyy-andriy/tools/blob/master/bugzilla2github
+
+[^6]: On GitHub issue reports and pull requests share a common set of identifiers. Given that about 1100 pull requests were opened on the Coq GitHub repository before the start of the migration, that was as many numbers that couldn't be used for issue reports.
 
 Because issue numbers are attributed by GitHub at creation time and are not
 chosen by the issue author, it is not possible to skip some non-existent bug
@@ -87,4 +89,48 @@ because the number of pull requests was already higher than the number of holes.
 
 To increase the predictability of new issue numbers, it was important that no
 issue or pull request be opened during the few hours that the migration took
-to complete.
+to complete. This was achieved thanks to the "cool down" feature that GitHub
+provides.
+
+![Temporary interaction limit settings](/images/cool-down-github.png)
+
+We wanted to limit interaction permissions as much as possible during the
+migration, but removing contributors also meant losing the ability to assign
+issues to them. The solution that was found was to add all the people who had
+bug reports assigned to them to the External team of the Coq organization,
+then temporary restrict the permissions of this team to "Read" (basically the
+same thing as anyone else given that this is a public repository).
+
+![Team and collaborator settings](/images/teams-github.png)
+
+Another critical issue with the script was that GitHub API was limiting issue
+creation to 300, after what it refused any new posting for the next 30 minutes
+(not just through the API by the way, I was also prevented from manually
+posting comments during this delay). While I initially implemented a
+wait-period, this limitation was going to make the migration unbearingly long.
+Fortunately, after reaching out to GitHub support, they explained that this
+limitation was imposed on any interaction that emitted notifications but that
+they also provided a
+[beta API specifically dedicated to issue import](https://gist.github.com/jonmagic/5282384165e0f86ef105) that had many notable advantages, one of them being that new issues created
+through this API did not emit notifications, and thus were not submitted to
+the same rate limits.
+
+There are many more advantages to this API: you can create at once an issue and
+many comments, set creation dates for each of them, assign someone, set a
+milestone and some labels, etc. Adapting the script to this API was easy: the
+main difference is that the API is asynchronous. To ensure that issue numbers
+are predictable, you must make it synchronous by sending GET requests to check
+whether an issue has been created before sending the next one. On the advice
+of GitHub support, I implemented a back-off approach: first wait 1 second
+before sending the GET request, if still pending wait for twice that time
+before sending another request, if still pending wait for twice the previous
+time, etc. The 1 second delay meant that we could not import more than 3600
+issues per hour in theory (in practice the migration almost took 4 hours so
+it was clearly much less).
+
+On the other hand, the API still has some limitations: you can't recreate the
+complete history of closing/re-opening and assignments, the labels and the
+assignees are put at issue import time. On the other hand, you can set the
+closing date. I regret not having set the update date: I did not see what
+purpose it served: in fact it is useful when you sort issues by "Recently
+updated" (then GitHub displays the update date).
