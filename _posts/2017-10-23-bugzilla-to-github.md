@@ -19,19 +19,6 @@ have changed dramatically since then.
 
 [^1]: As can be seen on the graphic, pull requests started being opened much before (in August, 2011) but the Coding Sprint marked (to my knowledge) the time when the Coq development team started to encourage contributors to open them.
 
-The data for the above graphic was obtained using the following very simple
-script (adapt the upper bound to your own repository: `I * 30` should be a
-number that is larger than the total number of pull requests):
-
-```bash
-#!/usr/bin/env bash
-
-for I in {1..40}; do
-  curl "https://api.github.com/repos/coq/coq/pulls?state=all&direction=asc&page=${I}" \
-  | grep '^    "created_at' | cut -f 4 -d '"' | cut -f 1 -d 'T' >> dates
-done
-```
-
 Pull requests are now used routinely to review other developers' patches before
 integrating them; continuous integration was introduced to automatically test
 whether a proposed change breaks a number of tracked external developments
