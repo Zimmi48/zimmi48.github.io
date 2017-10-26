@@ -121,16 +121,38 @@ milestone and some labels, etc. Adapting the script to this API was easy: the
 main difference is that the API is asynchronous. To ensure that issue numbers
 are predictable, you must make it synchronous by sending GET requests to check
 whether an issue has been created before sending the next one. On the advice
-of GitHub support, I implemented a back-off approach: first wait 1 second
+of GitHub support, I implemented a back-off approach: first wait one second
 before sending the GET request, if still pending wait for twice that time
 before sending another request, if still pending wait for twice the previous
-time, etc. The 1 second delay meant that we could not import more than 3600
-issues per hour in theory (in practice the migration almost took 4 hours so
-it was clearly much less).
+time, etc. The one-second delay meant that we could not import more than 3600
+issues per hour in theory (in practice the migration almost took four hours,
+which indicates that many times it took more than one second to import an
+issue, I did not keep collected this information, unfortunately).
 
 On the other hand, the API still has some limitations: you can't recreate the
 complete history of closing/re-opening and assignments, the labels and the
 assignees are put at issue import time. On the other hand, you can set the
-closing date. I regret not having set the update date: I did not see what
+closing date. I regret not having set the last-update date: I did not see what
 purpose it served: in fact it is useful when you sort issues by "Recently
-updated" (then GitHub displays the update date).
+updated" (then GitHub displays the last-update date).
+
+This API does not allow you to choose the author of an issue / a comment
+either and requires API requests to be authenticated with a repository
+administrator API token. That's why our bot account
+[@coqbot](https://github.com/coqbot) appears as the author of all imported
+issues and comments.
+
+Some other improvements of the script included saving a trace of imported
+bug reports with the Bugzilla / GitHub ID correspondence, and using this
+to safely recover from possible crashes, fixing most references to other
+bug reports, and some very Coq specific stuff like not displaying comment
+authors for the first 1657 comments because these were imported from
+JitterBug to Bugzilla ten years ago and the migration attributed all the
+comments in a given bug report to the initial reporter.
+
+The [resulting script](https://gist.github.com/Zimmi48/d923e52f64fe17c72852d9c148bfcdc6)
+is, I believe, largely improved over the original but also not as generic.
+If you wish to use it for your own use, feel free to do so and don't forget
+to remove the Coq-specific material first. If you want to share the result,
+especially if it is more generic, and thus a better basis for future users,
+I will be happy to add the link from this post.
