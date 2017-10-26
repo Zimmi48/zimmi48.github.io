@@ -98,15 +98,15 @@ We wanted to limit interaction permissions as much as possible during the
 migration, but removing contributors also meant losing the ability to assign
 issues to them. The solution that was found was to add all the people who had
 bug reports assigned to them to the External team of the Coq organization,
-then temporary restrict the permissions of this team to "Read" (basically the
+then temporarily restrict the permissions of this team to "Read" (basically the
 same thing as anyone else given that this is a public repository).
 
 ![Team and collaborator settings](/images/teams-github.png)
 
 Another critical issue with the script was that the GitHub API was limiting issue
 creation to 300, after what it refused any new posting for the next 30 minutes
-(not just through the API by the way, I was also prevented from manually
-posting comments during this delay). While I initially implemented a
+(not just through the API by the way, during my tests I was also prevented from
+manually posting comments during this delay). While I initially implemented a
 wait-period, this limitation was going to make the migration unbearingly long.
 Fortunately, after reaching out to GitHub support, they explained that this
 limitation was imposed on any interaction that emitted notifications but that
@@ -127,16 +127,16 @@ before sending another request, if still pending wait for twice the previous
 time, etc. The one-second delay meant that we could not import more than 3600
 issues per hour in theory (in practice the migration almost took four hours,
 which indicates that many times it took more than one second to import an
-issue, I did not keep collected this information, unfortunately).
+issue; I did not collected this information, unfortunately).
 
 On the other hand, the API still has some limitations: you can't recreate the
 complete history of closing/re-opening and assignments, the labels and the
 assignees are put at issue import time. On the other hand, you can set the
-closing date. I regret not having set the last-update date: I did not see what
-purpose it served: in fact it is useful when you sort issues by "Recently
-updated" (then GitHub displays the last-update date).
+closing date. I regret not having set the `updated_at` field: I did not see
+what purpose it served: in fact it is useful when you sort issues by "Recently
+updated" (then GitHub displays the date of the last update).
 
-This API does not allow you to choose the author of an issue / a comment
+This API does not allow you to choose the author of an issue / comment
 either and requires API requests to be authenticated with a repository
 administrator API token. That's why our bot account
 [@coqbot](https://github.com/coqbot) appears as the author of all imported
@@ -151,8 +151,29 @@ JitterBug to Bugzilla ten years ago and the migration attributed all the
 comments in a given bug report to the initial reporter.
 
 The [resulting script](https://gist.github.com/Zimmi48/d923e52f64fe17c72852d9c148bfcdc6)
-is, I believe, largely improved over the original but also not as generic.
-If you wish to use it for your own use, feel free to do so and don't forget
-to remove the Coq-specific material first. If you want to share the result,
-especially if it is more generic, and thus a better basis for future users,
-I will be happy to add the link from this post.
+is, I believe, largely improved over the original one but also not as generic.
+If you wish to use it for your own migration, feel free to do so and don't
+forget to remove the Coq-specific material first. If you want to share the
+result, especially if it is more generic, and thus a better basis for future
+users, I will be happy to add the link from this post.
+
+## Epilogue ##
+
+The migration was formally approved at the Working Group on Oct 3-4th, 2017,
+and was conducted right after the 8.7.0 release, on the morning of October
+18th. It was preceded by a series of e-mails to announce it and
+the fact that both bug trackers (the old and the new one) would be read-only
+for the duration of the migration.
+
+While the migration went smoothly, only time will tell how effective the
+change was on the development organization. I plan to fiddle with the GitHub
+API some more to get interesting statistics of issue creation before and
+after the migration (with the cool advantage that dates have been preserved
+for bug reports from before the migration), how long it takes to solve a
+bug on average, the growth of unsolved issues, etc. If you know of some
+service or scripts that already provides such statistics, I would be happy
+to know about it.
+
+In other news, Pierre Letouzey has
+[migrated our wiki to GitHub](https://github.com/coq/coq/wiki/WikiMigration)
+as well :)
