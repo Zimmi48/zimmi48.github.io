@@ -74,9 +74,9 @@ from Bugzilla to XML as input and uses the GitHub API to create new issues
 for every bug reports. It inserts first the bug reports whose number it can keep[^6]
 and only when this is done it inserts bug reports that need to be renumbered.
 
-[^5]: Here it is: https://github.com/semihalf-berestovskyy-andriy/tools/blob/master/bugzilla2github
+[^5]: Here it is: <https://github.com/semihalf-berestovskyy-andriy/tools/blob/master/bugzilla2github>
 
-[^6]: On GitHub issue reports and pull requests share a common set of identifiers. Given that about 1100 pull requests were opened on the Coq GitHub repository before the start of the migration, that was as many numbers that couldn't be used for issue reports.
+[^6]: On GitHub, issue reports and pull requests share a common set of identifiers. Given that about 1100 pull requests were opened on the Coq GitHub repository before the start of the migration, that was as many numbers that couldn't be used for issue reports.
 
 Because issue numbers are attributed by GitHub at creation time and are not
 chosen by the issue author, it is not possible to skip some non-existent bug
@@ -131,12 +131,12 @@ issue; I did not collected this information, unfortunately).
 
 On the other hand, the API still has some limitations: you can't recreate the
 complete history of closing/re-opening and assignments, the labels and the
-assignees are put at issue import time. On the other hand, you can set the
+assignees are put at issue import time, whereas you can set the
 closing date. I regret not having set the `updated_at` field: I did not see
 what purpose it served: in fact it is useful when you sort issues by "Recently
 updated" (then GitHub displays the date of the last update).
 
-This API does not allow you to choose the author of an issue / comment
+This API does not allow you to choose the author of issues / comments
 either and requires API requests to be authenticated with a repository
 administrator API token. That's why our bot account
 [@coqbot](https://github.com/coqbot) appears as the author of all imported
@@ -159,7 +159,7 @@ users, I will be happy to add the link from this post.
 
 ## Epilogue ##
 
-The migration was formally approved at the Working Group on Oct 3-4th, 2017,
+The migration was formally approved at the Coq Working Group on Oct 3-4th, 2017,
 and was conducted right after the 8.7.0 release, on the morning of October
 18th. It was preceded by a series of e-mails to announce it and
 the fact that both bug trackers (the old and the new one) would be read-only
@@ -171,7 +171,7 @@ API some more to get interesting statistics of issue creation before and
 after the migration (with the cool advantage that dates have been preserved
 for bug reports from before the migration), how long it takes to solve a
 bug on average, the growth of unsolved issues, etc. If you know of some
-service or scripts that already provides such statistics, I would be happy
+services or scripts that already provides such statistics, I would be happy
 to know about it.
 
 In other news, Pierre Letouzey has
