@@ -150,7 +150,7 @@ authors for the first 1657 comments because these were imported from
 JitterBug to Bugzilla ten years ago and the migration attributed all the
 comments in a given bug report to the initial reporter.
 
-The [resulting script](https://gist.github.com/Zimmi48/d923e52f64fe17c72852d9c148bfcdc6)
+The [resulting script](https://gist.github.com/Zimmi48/d923e52f64fe17c72852d9c148bfcdc6#file-bugzilla2github)
 is, I believe, largely improved over the original one but also not as generic.
 If you wish to use it for your own migration, feel free to do so and don't
 forget to remove the Coq-specific material first. If you want to share the
@@ -164,6 +164,11 @@ and was conducted right after the 8.7.0 release, on the morning of October
 18th. It was preceded by a series of e-mails to announce it and
 the fact that both bug trackers (the old and the new one) would be read-only
 for the duration of the migration.
+
+All the bugs with a number below 1154 had to be renumbered, you can find
+a nice correspondence table with a search bar
+[here](https://gist.github.com/Zimmi48/d923e52f64fe17c72852d9c148bfcdc6#file-bugzilla2github_stripped-csv).
+All the other bugs kept their number.
 
 While the migration went smoothly, only time will tell how effective the
 change was on the development organization. I plan to fiddle with the GitHub
