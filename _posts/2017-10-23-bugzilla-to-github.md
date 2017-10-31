@@ -2,8 +2,9 @@
 layout: post
 title: Notes on successfully migrating 4900 bug reports from Bugzilla to GitHub issues
 lang: en
-draft: true
+date: 2017-10-31 15:00:00 +0100
 redirect_from: bugzilla
+excerpt: "I started contributing to Coq in 2015. This year, the Coq development team was organizing the first Coding Sprint (later renamed into the Coq Implementors Workshop) and was accepting pull requests on the GitHub repository to get patches from external contributors. Back in these days, almost none of the development was carried out through pull requests (I opened PR #68). Things have changed dramatically since then."
 ---
 
 ## Prelude ##
@@ -145,7 +146,7 @@ issues and comments.
 Some other improvements of the script included saving a trace of imported
 bug reports with the Bugzilla / GitHub ID correspondence, and using this
 to safely recover from possible crashes, fixing most references to other
-bug reports, and some very Coq specific stuff like not displaying comment
+bug reports, and some very Coq-specific stuff like not displaying comment
 authors for the first 1657 comments because these were imported from
 JitterBug to Bugzilla ten years ago and the migration attributed all the
 comments in a given bug report to the initial reporter.
@@ -177,8 +178,8 @@ after the migration (with the cool advantage that dates have been preserved
 for bug reports from before the migration), how long it takes to solve a
 bug on average, the growth of unsolved issues, etc. If you know of some
 services or scripts that already provides such statistics, I would be happy
-to know about it.
+to know about them.
 
 In other news, Pierre Letouzey has
-[migrated our wiki to GitHub](https://github.com/coq/coq/wiki/WikiMigration)
-as well :)
+[migrated the Coq wiki to GitHub](https://github.com/coq/coq/wiki/WikiMigration)
+as well :) which means that the Coq website is fully static now.
