@@ -3,13 +3,13 @@ layout: post
 title: "What good can massive-scale collaboration bring to science?"
 date: 2014-09-15 18:00:00 +0200
 lang: en
-excerpt: "There are many cases when observable macro-phenomena appear from the combination of a large number of micro-phenomena. This is true of the interaction of elementary particles which compose gas, but this has also been proven to be true of human-related phenomena."
+excerpt: "There are many cases when observable macro-phenomena appear from the combination of many micro-phenomena. This is true of the interaction of elementary particles which compose gas, but this has also been proven to be true of human-related phenomena."
 redirect_from: 6wCVVc/
 permalink: /2014/09/15/massive-collaboration-in-science/
 ---
 
 There are many cases when
-[observable macro-phenomena appear from the combination of a large number of micro-phenomena](http://en.wikipedia.org/wiki/Emergence).
+[observable macro-phenomena appear from the combination of many micro-phenomena](http://en.wikipedia.org/wiki/Emergence).
 This is true of the interaction of elementary particles which compose gas,
 but this has also been proven to be true of human-related phenomena.
 The so-called micro and macro-economic theories describe just that, in one particular domain.
@@ -57,11 +57,11 @@ by looking at images from telescopes like Hubble and annotating them, is a good 
 that you do not necessarily need to gamify science to make it attractive.
 
 Through education, people generally learn a lot on many subjects.
-Most of this accumulated knowledge, while helping them forging their own view of the world,
+Most of this accumulated knowledge, while helping them to forge their own view of the world,
 will have no future usefulness for them at all.
-Sometimes, people can be genuinely interested in one subject and remember a lot of what they learnt,
+Sometimes, people can be genuinely interested in one subject and remember a lot of what they learned,
 but they won't necessarily use any of it in their future work.
-I am sure than some of them would be happy, if given the opportunity,
+I am sure that some of them would be happy, if given the opportunity,
 to contribute to projects where this knowledge can be useful.
 That could mean contributing during their leisure time and for free.
 In fact, there are already lots of examples for what I am talking about.
