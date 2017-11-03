@@ -168,7 +168,7 @@ for the duration of the migration.
 
 All the bugs with a number below 1154 had to be renumbered, you can find
 a nice correspondence table with a search bar
-[here](https://gist.github.com/Zimmi48/d923e52f64fe17c72852d9c148bfcdc6#file-bugzilla2github_stripped-csv).
+[here](https://github.com/coq/coq/blob/master/dev/bugzilla2github_stripped.csv).
 All the other bugs kept their number.
 
 While the migration went smoothly, only time will tell how effective the
