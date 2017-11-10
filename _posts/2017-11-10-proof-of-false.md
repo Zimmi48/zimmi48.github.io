@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Leaving room for proofs of false in an adverserial context
+title: Leaving room for proofs of false in an adversarial context
 lang: en
 draft: true
 redirect_from: false/
@@ -8,11 +8,16 @@ redirect_from: false/
 
 Imagine a crypto-currency-based market for mechanically verifiable proofs
 of theorems and for programs with proofs that they meet their specifications.
+Simply described, people can attach bounties to mathematical statements and
+other people can try to come up with a proof. If they manage to do so, they
+submit a formalized version that will be checked automatically and they will
+receive the reward.
 
-In this market where one is paid for doing proofs, we can imagine how
-disruptive a proof of False may be: someone who is able to prove a falsity
-can prove any theorem and they are thus able to claim payment for proofs
-that they did not actually produce. They can also produce programs that
+In this market where the trust is based on automatic proof checkers, we can
+imagine how disruptive a proof of False may be: someone who is able to
+make the checker believe that they can prove False can actually
+prove any theorem and therefore is able to claim payment for proofs
+that they did not really produce. They can also produce programs that
 do not actually meet the specifications they claim to meet.
 
 Until we can have absolute certainty that a proof checker, such as the
@@ -20,21 +25,22 @@ kernel of a proof assistant, does not make it possible to prove False[^1],
 we need to leave room for this possibility and take measures so that it does
 not break havoc[^2].
 
-[^1]: Actually we won't ever reach this level of certainty given that there can be implementation bugs, but there can be also inconsistencies in the mathematical theory that is used itself. We can never be fully safe of such inconsistencies because of Gödel second incompleteness theorem.
+[^1]: Actually we won't ever reach this level of certainty: even if we could guarantee that there are no implementation bugs left, there could still be inconsistencies in the mathematical theory that is used itself. We can never be fully sure such inconsistency is not present because of Gödel second incompleteness theorem.
 
 [^2]: This echoes [Vladimir Voevodsky proposal](https://www.youtube.com/watch?v=O45LaFsaqMA) of getting ready to work on mathematical proofs in inconsistent settings.
 
 To prevent a large disruptive effect, we need to have counter-measures for
-when a proof of false is found, and as soon as we acknowledge this, it becomes
+when a proof of False is found, and as soon as we acknowledge this, it becomes
 clear that we need to incentivize people to prove False and to share their
-proofs, by paying them for such a proof[^3].
+proofs, by paying them for such a proof[^3] (in order to trigger said
+counter-measures).
 
 [^3]: The idea of paying for a formal proof of a theorem and in particular for a proof of False is not novel, cf. <https://www.reddit.com/r/Bitcoin/comments/1u6oza/proof_market_submit_proof_get_paid_with_bitcoin/ceffmdl/>.
 
-## What can counter-measures be? ##
+## What would counter-measures be like? ##
 
-Well, that's rather simple: as soon as a proof of False has been found, freeze
-the entire market for the time it takes for the developers of the proof
+The basic idea is rather simple: as soon as a proof of False has been found,
+freeze the entire market for the time it takes for the developers of the proof
 checker to release a new version where the bug has been fixed. Once such a
 version is released, check all existing proofs and put transactions that are
 linked to a proof that does not check anymore on hold. If a proof was relying
@@ -48,7 +54,7 @@ This looks like transaction history rewriting, like the hard fork of Ethereum
 blockchain after
 [the DAO event](https://en.wikipedia.org/wiki/Ethereum#The_DAO_event) but this
 is different because here the reverting of such transactions is part of the
-pre-defined protocol so there is no debating to do on the legitimacy of such
+predefined protocol so there is no debating to do on the legitimacy of such
 an action.
 
 ## How to make sure that people share their proof of False rather than taking advantage of them to steal other people's money? ##
