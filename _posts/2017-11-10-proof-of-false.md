@@ -8,12 +8,12 @@ redirect_from: false/
 
 Imagine a crypto-currency-based market for mechanically verifiable proofs
 of theorems and for programs with proofs that they meet their specifications.
-Simply described, people can attach bounties to mathematical statements and
+Simply described, people can attach bounties to mathematical conjectures and
 other people can try to come up with a proof. If they manage to do so, they
 submit a formalized version that will be checked automatically and they will
 receive the reward.
 
-In this market where the trust is based on automatic proof checkers, we can
+In this market where trust is based on automatic proof checkers, we can
 imagine how disruptive a proof of False may be: someone who is able to
 make the checker believe that they can prove False can actually
 prove any theorem and therefore is able to claim payment for proofs
@@ -54,16 +54,16 @@ This looks like transaction history rewriting, like the hard fork of Ethereum
 blockchain after
 [the DAO event](https://en.wikipedia.org/wiki/Ethereum#The_DAO_event) but this
 is different because here the reverting of such transactions is part of the
-predefined protocol so there is no debating to do on the legitimacy of such
-an action.
+predefined crypto-currency protocol so there is no debating to do on the
+legitimacy of such an action.
 
-## How to make sure that people share their proof of False rather than taking advantage of them to steal other people's money? ##
+## How to make sure that people share their proof of False rather than using them to steal other people's money? ##
 
 All proofs are public and people may look at them carefully to see whether
 they look suspicious or not. If a proof looks suspicious, then the person who
 finds the proof suspicious can try to derive a proof of False from it, either
 by proving that the theorem that is proved is actually false, or by extracting
-the fallacious argument (critical bug exploiting hack) from the proof and
+the fallacious argument (critical-bug-exploiting hack) from the proof and
 using it to prove False directly. Then the person gets the reward and the
 original author of the suspicious proof loses their own rewards. Given that
 this is bound to happen, the self-interest of the original author pushes them
@@ -81,8 +81,10 @@ Another solution is inspired by CDS
 people can bet that no proof of False will be found by buying these bonds.
 The bonds have a predictable growth rate. Whenever a proof of False is found,
 the bonds serve to pay the reward and thus some people lose money but the
-actual market is unaffected (the money to pay the CDS rent is created in a
+actual market is unaffected (the money to pay the CDS rent is created[^4] in a
 fully predictable way).
+
+[^4]: Or, if you want to avoid money creation, the rent of these bonds can be paid by an insurance fee on all transactions in the proof market.
 
 This form of self-insurance would moreover be a strong driver to get a more
 and more resilient proof checker.
@@ -90,7 +92,7 @@ and more resilient proof checker.
 We could discuss how these bonds would work in more details, although this
 is not the subject of this post. Bonds could be created at regular intervals
 and so the longer since the last proof of False, the bigger the reward is
-(and the less interesting not sharing of proof of False becomes). The rent
+(and the less interesting not sharing a proof of False becomes). The rent
 for these bonds could slowly decrease over time to compensate for the
 creation of new bonds (but sufficiently slowly so that people are well
 compensated for their initial investment). At bond creation, there could be
@@ -106,3 +108,32 @@ would still create a shock.
 
 ## Limitations ##
 
+A first, important, limitation is the strong link required between the proof
+market and the crypto-currency itself. This is not without reason though, as
+smart contracts (which are basically programs) based upon invalidated proofs
+that they meet certain specifications would need to be invalidated as well.
+
+A second limitation is the uncertainty that this places upon any transaction
+in the system. If some transactions happen to be reverted, then the wallet
+that sent money to you may not have had enough money to actually do so. Then
+you will lose whatever exceeding amount you have received from this wallet.
+If this means that you, in turn, would not have been able to realize some
+transactions you previously conducted, the recipient may lose part of their
+money as well...
+
+This inherent risk to any transaction may be evaluated and taken into account.
+With a public transaction record, it is easy to compute a risk factor
+depending on the amount available in the payer's wallet, the part of this
+money that comes directly from rewards in the proof market and how long the
+associated proofs have been there, and recursively the risk associated to each
+of the transactions the rest of the money comes from. If this risk is too
+high, it might be a reason to refuse a transaction. Otherwise, the associated
+risk might be just taken into account as a supplementary fee.
+
+An alternative solution to both of these limitations is to make the proof
+market use its own reward tokens that can be converted into real digital coins
+only after some time has elapsed. Then only the internal transactions in the
+proof market can be reverted and there is no risk associated to transactions
+that take place outside of it. This supposes to define what delay would be
+sufficient to guarantee with near certainty that the proofs that were sumitted
+are not suspicious.
