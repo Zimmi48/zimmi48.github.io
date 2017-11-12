@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Leaving room for proofs of false in an adversarial context
+title: Leaving room for proofs of False in an adversarial context
 lang: en
 draft: true
 redirect_from: false/
@@ -16,9 +16,9 @@ receive the reward.
 In this market where trust is based on automatic proof checkers, we can
 imagine how disruptive a proof of False may be: someone who is able to
 make the checker believe that they can prove False can actually
-prove any theorem and therefore is able to claim payment for proofs
-that they did not really produce. They can also produce programs that
-do not actually meet the specifications they claim to meet.
+prove any theorem and therefore is able to claim payment for any awaiting
+conjecture. They can also produce programs that do not actually meet the
+specifications they claim to meet.
 
 Until we can have absolute certainty that a proof checker, such as the
 kernel of a proof assistant, does not make it possible to prove False[^1],
@@ -62,8 +62,8 @@ legitimacy of such an action.
 All proofs are public and people may look at them carefully to see whether
 they look suspicious or not. If a proof looks suspicious, then the person who
 finds the proof suspicious can try to derive a proof of False from it, either
-by proving that the theorem that is proved is actually false, or by extracting
-the fallacious argument (critical-bug-exploiting hack) from the proof and
+by proving that the theorem that is proved is actually wrong, or by extracting
+the fallacious argument (hack exploiting a critical bug) from the proof and
 using it to prove False directly. Then the person gets the reward and the
 original author of the suspicious proof loses their own rewards. Given that
 this is bound to happen, the self-interest of the original author pushes them
@@ -115,8 +115,8 @@ that they meet certain specifications would need to be invalidated as well.
 
 A second limitation is the uncertainty that this places upon any transaction
 in the system. If some transactions happen to be reverted, then the wallet
-that sent money to you may not have had enough money to actually do so. Then
-you will lose whatever exceeding amount you have received from this wallet.
+that was used to send you money may not have had enough money to actually do so.
+Then you will lose whatever exceeding amount you have received from this wallet.
 If this means that you, in turn, would not have been able to realize some
 transactions you previously conducted, the recipient may lose part of their
 money as well...
@@ -128,7 +128,7 @@ money that comes directly from rewards in the proof market and how long the
 associated proofs have been there, and recursively the risk associated to each
 of the transactions the rest of the money comes from. If this risk is too
 high, it might be a reason to refuse a transaction. Otherwise, the associated
-risk might be just taken into account as a supplementary fee.
+risk might just be taken into account as a supplementary fee.
 
 An alternative solution to both of these limitations is to make the proof
 market use its own reward tokens that can be converted into real digital coins
@@ -137,3 +137,5 @@ proof market can be reverted and there is no risk associated to transactions
 that take place outside of it. This supposes to define what delay would be
 sufficient to guarantee with near certainty that the proofs that were sumitted
 are not suspicious.
+
+## Conclusion ##
