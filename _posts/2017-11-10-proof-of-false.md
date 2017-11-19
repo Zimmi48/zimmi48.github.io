@@ -17,15 +17,15 @@ In this market where trust is based on automatic proof checkers, we can
 imagine how disruptive a proof of False may be: someone who is able to
 make the checker believe that they can prove False can actually
 prove any theorem and therefore is able to claim payment for any awaiting
-conjecture. They can also produce programs that do not actually meet the
+conjecture. They can also produce programs that do not really meet the
 specifications they claim to meet.
 
 Until we can have absolute certainty that a proof checker, such as the
-kernel of a proof assistant, does not make it possible to prove False[^1],
+kernel of a proof assistant, does not make it possible to prove False,[^1]
 we need to leave room for this possibility and take measures so that it does
-not break havoc[^2].
+not break havoc.[^2]
 
-[^1]: Actually we won't ever reach this level of certainty: even if we could guarantee that there are no implementation bugs left, there could still be inconsistencies in the mathematical theory that is used itself. We can never be fully sure such inconsistency is not present because of Gödel second incompleteness theorem.
+[^1]: Actually we won't ever reach this level of certainty: even if we could guarantee that there are no implementation bugs left, there could still be inconsistencies in the mathematical theory that is used itself. We can never be fully sure such inconsistency is not present because of Gödel's second incompleteness theorem.
 
 [^2]: This echoes [Vladimir Voevodsky proposal](https://www.youtube.com/watch?v=O45LaFsaqMA) of getting ready to work on mathematical proofs in inconsistent settings.
 
@@ -52,7 +52,7 @@ delay, revert the transaction.
 
 This looks like transaction history rewriting, like the hard fork of Ethereum
 blockchain after
-[the DAO event](https://en.wikipedia.org/wiki/Ethereum#The_DAO_event) but this
+[the DAO event](https://en.wikipedia.org/wiki/Ethereum#The_DAO_event), but this
 is different because here the reverting of such transactions is part of the
 predefined crypto-currency protocol so there is no debating to do on the
 legitimacy of such an action.
@@ -135,7 +135,21 @@ market use its own reward tokens that can be converted into real digital coins
 only after some time has elapsed. Then only the internal transactions in the
 proof market can be reverted and there is no risk associated to transactions
 that take place outside of it. This supposes to define what delay would be
-sufficient to guarantee with near certainty that the proofs that were sumitted
+sufficient to guarantee with near certainty that the proofs that were submitted
 are not suspicious.
 
 ## Conclusion ##
+
+We may legitimately ask whether this whole protocol is necessary. At the
+moment, proof checkers are not critical enough applications to be fully
+trustworthy in an adversarial context. They are very helpful to verify critical
+applications, but in this case the proof author is not trying to fool the
+checker, and the risk of accidentally exploiting a bug is much lower.
+We could wait until a proof checker is, itself, formally verified (a huge task
+but still bound to happen in the future). However, we would still be trusting
+a conjecture: that the underlying logic is consistent.[^5] That in itself may
+not be viewed as such a big problem, given that the whole field of
+cryptography, and therefore crypto-currencies as well, already depend on a
+[conjecture](https://en.wikipedia.org/wiki/One-way_function).
+
+[^5]: A conjecture that itself can never be completely solved, because of Gödel's second incompleteness theorem.
