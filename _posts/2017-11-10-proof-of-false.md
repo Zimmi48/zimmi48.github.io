@@ -2,8 +2,9 @@
 layout: post
 title: Leaving room for proofs of False in an adversarial context
 lang: en
-draft: true
+date: 2017-11-30 23:00:00 +0100
 redirect_from: false/
+excerpt: Imagine a crypto-currency-based market for mechanically verifiable proofs of theorems and for programs with proofs that they meet their specifications. Simply described, people can attach bounties to mathematical conjectures and other people can try to come up with a proof. If they manage to do so, they submit a formalized version that will be checked automatically and they will receive the reward. In this market where trust is based on automatic proof checkers, we can imagine how disruptive a proof of False may be.
 ---
 
 Imagine a crypto-currency-based market for mechanically verifiable proofs
