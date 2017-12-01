@@ -36,7 +36,7 @@ clear that we need to incentivize people to prove False and to share their
 proofs, by paying them for such a proof[^3] (in order to trigger said
 counter-measures).
 
-[^3]: The idea of paying for a formal proof of a theorem and in particular for a proof of False is not novel, cf. <https://www.reddit.com/r/Bitcoin/comments/1u6oza/proof_market_submit_proof_get_paid_with_bitcoin/ceffmdl/>.
+[^3]: The idea of paying for a formal proof of a theorem and in particular for a proof of False is not novel, cf. [this comment](https://www.reddit.com/r/Bitcoin/comments/1u6oza/proof_market_submit_proof_get_paid_with_bitcoin/ceffmdl/) on /r/Bitcoin in early 2014.
 
 ## What would counter-measures be like? ##
 
