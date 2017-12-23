@@ -158,7 +158,7 @@ Past work
 	directly contributed to it by creating a database for French
 	verbs conjugation.
 	* [A modern version of the Snake game](/zimmisapps/en) that you
-	can play online or on an Andoid phone.
+	can play in your web browser on mobile phone, tablet, laptop or desktop.
 	* A mass-collaboration novel writing project: unkilodeplumes
 	[[in French](https://unkilodeplumes.github.io)].
 

@@ -21,19 +21,9 @@ Une nouvelle expérience de jeu, fun et originale !
 
 ### Disponibilité
 
-Vous pouvez télécharger gratuitement Touch Snake sur
-[Google Play](https://play.google.com/store/apps/details?id=com.zimmisapps.touchsnake).
-
-En revanche, Touch Snake n'est pas encore disponible pour iPhone
-parce que nous n'avons pas envie de payer 99$/an à Apple pour
-quelques utilisateurs de plus.
-Si vous êtes un programmeur d'application iPhone et que vous voudriez
-nous aidez, contactez nous.
-Sinon, vous pouvez aussi nous offrir un iPhone et 100$ supplémentaires
-et nous nous ferons un plaisir d'accéder à votre demande.
-
-Par ailleurs, vous pouvez jouer à Touch Snake directement depuis
-[votre navigateur](/zimmisapps/touchsnake).
+Le jeu n'est plus disponible dans Google Play, ce qui ne lui apportait pas
+grand chose étant donné qu'il fonctionne très bien directement dans le
+navigateur web de votre appareil mobile.
 
 Vous pouvez consulter le code source sur
 [GitHub](https://github.com/Zimmi48/Touch-Snake).

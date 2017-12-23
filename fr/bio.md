@@ -163,7 +163,7 @@ Travaux passés
 	avec ses élèves. Certains élèves y ont même contribué en
 	créant une base de données sur la conjugaison des verbes.
 	* [Un jeu du Snake innovant](/zimmisapps/fr). Vous pouvez
-	y jouer sous Android ou dans votre navigateur.
+	y jouer dans votre navigateur sur mobile, tablette ou ordinateur.
 	* Un projet de création collaborative d'un roman :
 	[unkilodeplumes](https://unkilodeplumes.github.io/).
 
