@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Crowdsourcing, notice parue dans le Dictionnaire des biens communs
-lang: en
+lang: fr
 date: 2017-12-29 12:00:00 +0100
 redirect_from: crowd/
 excerpt: Cette année est paru le Dictionnaire des biens communs aux éditions PUF. En accord avec l'éditeur, je reproduis ici la notice <em>Crowdsourcing</em>, dont je suis l'auteur. Le <em>crowdsourcing</em> ou (externalisation ouverte) est une pratique apparue avec le Web, dit 2.0, par laquelle un problème est confié à une communauté d’internautes dont le travail consolidé permet d'y apporter une solution.
