@@ -41,7 +41,7 @@ Mon directeur de thèse est
 rédaction de démonstrations mathématiques reposant sur Coq".
 
 Je m'intéresse également au
-[_crowdsourcing_](http://fr.wikipedia.org/wiki/Crowdsourcing), et plus généralement
+[_crowdsourcing_]({% post_url 2017-12-29-crowdsourcing %}), et plus généralement
 à la collaboration de masse via Internet ainsi qu'à la
 [science ouverte](http://fr.wikipedia.org/wiki/Science_ouverte)
 et plus précisément la "recherche en public"
