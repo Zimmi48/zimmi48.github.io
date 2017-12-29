@@ -50,5 +50,5 @@ t:
     profil-credits: "Portrait par Jules Zimmermann"
 
 # Redirects function for short URLs
-gems:
+plugins:
   - jekyll-redirect-from

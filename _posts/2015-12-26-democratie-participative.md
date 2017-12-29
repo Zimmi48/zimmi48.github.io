@@ -121,7 +121,7 @@ Mais il est bien évidemment plus  sensible de changer la loi
 que d'éditer une page d'encyclopédie.
 Il faudrait donc faire apparaître les modifications
 proposées par les citoyen.ne.s pour ce qu'elles sont : des propositions
-(on retrouve d'ailleurs une connexion avec l'outil [commented.it]({% post_url 2015-09-21-roman-collaboratif %})).
+(on retrouve d'ailleurs une connexion avec l'outil [commented.it]({% post_url 2015-09-08-roman-collaboratif %})).
 Notre outil pourrait facilement aller plus loin et
 générer automatiquement une proposition de loi
 correspondant à la modification (les propositions de loi ne sont jamais que
