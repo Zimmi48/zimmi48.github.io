@@ -106,7 +106,7 @@ I would especially appreciate if you would take some of your time to share any i
 on any new and interesting collaborative projects you heard about
 or any pointers to scientific literature on the subject.
 
-[^1]: In this great [TED video](http://www.ted.com/talks/luis_von_ahn_massive_scale_online_collaboration), the inventor of Captcha and reCaptcha also presents a new massively collaborative project called Duolingo. It seems however that [Duolingo is now moving away from crowdsourced translation](http://duolingo.wikia.com/wiki/Immersion), not because the idea was a bad one but because the company has decided that it wants to be an education company and not to devote its resources to becoming a better translation provider.
+[^1]: In this great [TED video](http://www.ted.com/talks/luis_von_ahn_massive_scale_online_collaboration), the inventor of Captcha and reCaptcha also presents a new massively collaborative project called Duolingo. It seems however that [Duolingo is now moving away from crowdsourced translation](https://www.duolingo.com/comment/12877036/Why-did-Duolingo-stop-Immersion-development), not because the idea was a bad one but because the company has decided that it wants to be an education company and not to devote its resources to becoming a better translation provider.
 
 [^2]: See for instance: Von Krogh, G., Haefliger, S., Spaeth, S., & Wallin, M. W. (2012). Carrots and rainbows: Motivation and social practice in open source software development. _Mis Quarterly_, 36(2), 649-676.
 
