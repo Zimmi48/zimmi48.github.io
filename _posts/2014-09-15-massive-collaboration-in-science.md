@@ -110,4 +110,4 @@ or any pointers to scientific literature on the subject.
 
 [^2]: See for instance: Von Krogh, G., Haefliger, S., Spaeth, S., & Wallin, M. W. (2012). Carrots and rainbows: Motivation and social practice in open source software development. _Mis Quarterly_, 36(2), 649-676.
 
-[^3]: See my subsequent posts on the subject [here](http://www.theozimmermann.net/2014/11/06/collaborative-proofs/) and [there](http://www.theozimmermann.net/2014/12/feedback-collaborative-proofs/).
+[^3]: See my subsequent posts on the subject [here]({% post_url 2014-11-06-collaborative-proofs %}) and [there]({% post_url 2014-12-08-feedback-collaborative-proofs %}).
