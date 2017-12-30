@@ -4,8 +4,7 @@ title: Crowdsourcing, notice parue dans le Dictionnaire des biens communs
 lang: fr
 date: 2017-12-29 12:00:00 +0100
 redirect_from: crowd/
-excerpt: Cette année est paru le Dictionnaire des biens communs aux éditions PUF. En accord avec l'éditeur, je reproduis ici la notice <em>Crowdsourcing</em>, dont je suis l'auteur. Le <em>crowdsourcing</em> ou (externalisation ouverte) est une pratique apparue avec le Web, dit 2.0, par laquelle un problème est confié à une communauté d’internautes dont le travail consolidé permet d'y apporter une solution.
-
+excerpt: Cette année est paru le Dictionnaire des biens communs aux éditions PUF. En accord avec l'éditeur, je reproduis ici la notice <em>Crowdsourcing</em>, dont je suis l'auteur. Le <em>crowdsourcing</em> (ou externalisation ouverte) est une pratique apparue avec le Web, dit 2.0, par laquelle un problème est confié à une communauté d’internautes dont le travail consolidé permet d'y apporter une solution.
 ---
 
 Cette année est paru le
@@ -13,20 +12,20 @@ Cette année est paru le
 aux éditions PUF. En accord avec l'éditeur, je reproduis ici la notice
 *Crowdsourcing*, dont je suis l'auteur.[^1]
 
-A noter que vous pourrez également retrouver la notice sur la
+À noter que vous pourrez également retrouver la notice sur la
 *Publication en Libre Accès* (*Open Access*), par Pablo Rauzy, sur le
 [site](https://pablo.rauzy.name/openaccess/files/dico-communs_publi-libre-acces.pdf)
 de ce dernier.
 
-[^1]: Veuillez comprendre en conséquence que les conditions habituelles de license de mes billets de blog ne s'appliquent pas ici. Pour les intéressés, Pablo Rauzy (l'auteur de la notice *Publication en Libre Accès*) a écrit un [billet de blog](https://blogs.mediapart.fr/p4bl0/blog/020917/contrat-de-publication-ca-se-negocie) à propos du contrat initial avec les éditions PUF et des marges de négociation.
+[^1]: Veuillez comprendre en conséquence que les conditions habituelles de licence de mes billets de blog ne s'appliquent pas ici. Pour les intéressés, Pablo Rauzy (l'auteur de la notice *Publication en Libre Accès*) a écrit un [billet de blog](https://blogs.mediapart.fr/p4bl0/blog/020917/contrat-de-publication-ca-se-negocie) à propos du contrat initial avec les éditions PUF et des marges de négociation.
 
 ## *Crowdsourcing* ##
 
-**Voir aussi :** Concours d’innovation, *Crowdfunding* ou financement participatif, Economie collaborative, Innovation ouverte, Plateforme collaborative, Production de pair à pair, Wikipédia
+**Voir aussi :** Concours d’innovation, *Crowdfunding* ou financement participatif, Économie collaborative, Innovation ouverte, Plateforme collaborative, Production de pair à pair, Wikipédia
 
 ### Définition de la notion ###
 
-Le *crowdsourcing* ou (externalisation ouverte) est une pratique apparue avec le Web, dit 2.0, par laquelle un problème est confié à une communauté d’internautes dont le travail consolidé permet d'y apporter une solution.
+Le *crowdsourcing* (ou externalisation ouverte) est une pratique apparue avec le Web, dit 2.0, par laquelle un problème est confié à une communauté d’internautes dont le travail consolidé permet d'y apporter une solution.
 
 Le terme *crowdsourcing* est d’apparition récente mais est aussi très utilisé, ce qui peut expliquer qu’il possède une définition assez changeante, selon les sources. Estellés-Arolas et González-Ladrón-de-Guevara (2012) proposent d’intégrer les différentes définitions qu’on peut trouver dans les publications académiques en identifiant les caractéristiques essentielles du *crowdsourcing* :
 
@@ -51,7 +50,7 @@ L’encyclopédie collaborative Wikipédia, en particulier, ne tient pas dans le
 
 InnoCentive est une plate-forme d'innovation ouverte, étudiée entre autres par Isabelle Liotard et Véronique Revest (2015). Bien que répondant à la définition du crowdsourcing, elle présente la caractéristique particulière que seule la meilleure solution proposée par la foule est retenue.
 
-Le site Duolingo est un exemple de crowdsourcing où la foule reçoit une récompense autre que monétaire, en l’occurrence un service d'apprentissage de langues étrangères gratuit. Un des exercices proposés aux apprenants avancés, appelé « immersion » consiste à traduire des textes complets (de la langue apprise vers la langue maternelle).  Le travail collaboratif des apprenants permet d’obtenir des traductions de documents fournis par les clients de l'entreprise, que Duolingo estime de qualité professionnelle.[^2]
+Le site Duolingo est un exemple de crowdsourcing où la foule reçoit une récompense autre que monétaire, en l’occurrence un service d'apprentissage de langues étrangères gratuit. Un des exercices proposés aux apprenants avancés, appelé « immersion » consiste à traduire des textes complets (de la langue apprise vers la langue maternelle). Le travail collaboratif des apprenants permet d’obtenir des traductions de documents fournis par les clients de l'entreprise, que Duolingo estime de qualité professionnelle.[^2]
 
 [^2]: Il [semblerait](https://www.duolingo.com/comment/12877036/Why-did-Duolingo-stop-Immersion-development) cependant que Duolingo soit en train d'abandonner leurs services de traduction, pour se recentrer sur les services éducatifs.
 
