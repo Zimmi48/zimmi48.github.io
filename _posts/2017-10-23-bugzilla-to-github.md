@@ -183,3 +183,16 @@ to know about them.
 In other news, Pierre Letouzey has
 [migrated the Coq wiki to GitHub](https://github.com/coq/coq/wiki/WikiMigration)
 as well :) which means that the Coq website is fully static now.
+
+### Updates ###
+
+- Pierre has reused the correspondence table to redirect previous Bugzilla URLs
+  to new GitHub ones. For instance, <https://coq.inria.fr/bugs/show_bug.cgi?id=2>
+  now redirects to <https://github.com/coq/coq/issues/1156> and
+  <https://coq.inria.fr/bugs/show_bug.cgi?id=1153> now redirects to
+  <https://github.com/coq/coq/issues/5970>.
+- Erik Martin-Dorel has adapted the script to the migration of issues from a GitHub
+  repository to another one and has used it successfully to migrate the 101 issues
+  from <https://github.com/psteckler/ProofGeneral> to
+  <https://github.com/ProofGeneral/PG>. The new script is available at
+  <https://github.com/erikmd/github-issues-import-api-tools>.
