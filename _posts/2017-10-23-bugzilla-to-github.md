@@ -70,12 +70,14 @@ was expressed and a script was found[^4] which was designed for that purpose.
 
 ## The migration script ##
 
-The migration script that was found is a Python 2 script[^5] which takes an export
+The migration script that was found is a Python script[^5] which takes an export
 from Bugzilla to XML as input and uses the GitHub API to create new issues
 for every bug reports. It inserts first the bug reports whose number it can keep[^6]
 and only when this is done it inserts bug reports that need to be renumbered.
 
-[^5]: Here it is: <https://github.com/semihalf-berestovskyy-andriy/tools/blob/master/bugzilla2github>
+[^5]: It is now available on the following GitHub repository:
+      <https://github.com/berestovskyy/bugzilla2github>.
+      It has received a number of improvements since then.
 
 [^6]: On GitHub, issue reports and pull requests share a common set of identifiers. Given that about 1100 pull requests were opened on the Coq GitHub repository before the start of the migration, that was as many numbers that couldn't be used for issue reports.
 
