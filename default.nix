@@ -1,10 +1,12 @@
-with import <nixpkgs> {};
+{ pkgs ? import <nixpkgs> {} }:
+
+with pkgs;
 
 # Reference: https://stesie.github.io/2016/08/nixos-github-pages-env
 
 let jekyll_env = bundlerEnv rec {
     name = "jekyll_env";
-    ruby = ruby_2_2;
+    inherit ruby;
     gemfile = ./Gemfile;
     lockfile = ./Gemfile.lock;
     gemset = ./gemset.nix;
