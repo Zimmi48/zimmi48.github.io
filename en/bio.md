@@ -18,7 +18,7 @@ boyfriend, computer scientist, environmentalist, European,
 ex-Austinite,
 feminist, French, PhD student,
 lgBt, [Parisian](/en/paris),
-political activist,
+political activist, programmer,
 researcher, teacher,
 [wannabe world changer](/en/world-changer), young man
 
