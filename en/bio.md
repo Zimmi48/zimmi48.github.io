@@ -29,13 +29,15 @@ A PDF resume is also available upon request.
 Current topics
 --------------
 
-I am currently a PhD student in the π r² / PPS teams of the
-[IRIF laboratory](https://www.irif.univ-paris-diderot.fr/en/)
+I am currently a PhD student in the πr² Inria project-team and the
+[IRIF laboratory](https://www.irif.fr/)
 of the Paris-Diderot University. My supervisor is Professor
 [Hugo Herbelin](http://pauillac.inria.fr/~herbelin/).
-My subject is titled "Design and development of a
-tool based on Coq to write and format mathematical proofs"
-[[in French](/pdf/sujet-these.pdf)].
+My PhD topic is "Challenges in the collaborative development of a
+complex mathematical software and its ecosystem"
+(see [poster paper][opensym] at OpenSym 2018).
+
+[opensym]: http://www.opensym.org/wp-content/uploads/2018/07/OpenSym2018_paper_38-1.pdf
 
 Besides, my main interests are
 [crowdsourcing](http://en.wikipedia.org/wiki/Crowdsourcing), and more generally
@@ -51,8 +53,10 @@ In particular, communication and collaboration tools are required
 and a lot of them are still to be invented.
 
 I thrive to make my research as public as possible my publishing
-as often and as soon as possible on public archives and/or
+as often and as soon as possible on [public archives][HAL] and/or
 through this [blog](/en/blog).
+
+[HAL]: https://hal.inria.fr/search/index/q/*/authFullName_s/Théo+Zimmermann
 
 I frequently contribute to _open source_ projects and publish my own
 programs as [free software](https://github.com/Zimmi48).

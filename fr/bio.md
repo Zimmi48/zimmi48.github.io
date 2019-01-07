@@ -31,14 +31,15 @@ Une version PDF de mon CV est aussi disponible sur demande.
 Sujets actuels
 --------------
 
-Je suis actuellement en thèse dans les équipes π r² / PPS du
-[laboratoire IRIF](https://www.irif.univ-paris-diderot.fr/)
-de l'Université Paris-Diderot.
-Mon directeur de thèse est
-[Hugo Herbelin](http://pauillac.inria.fr/~herbelin/).
-[Mon sujet](/pdf/sujet-these.pdf) a pour titre
-"Conception et développement d’un outil d’aide à la
-rédaction de démonstrations mathématiques reposant sur Coq".
+Je suis actuellement en thèse dans l'équipe-projet πr² d'Inria et le
+[laboratoire IRIF](https://www.irif.fr/) de l'Université Paris-Diderot.
+Mon directeur de thèse est [Hugo Herbelin](http://pauillac.inria.fr/~herbelin/).
+Mon sujet de thèse a pour titre
+"Défis dans le développement collaboratif d'un logiciel mathématique complexe
+et de son écosystème" (voir mon article de poster à OpenSym 2018
+[[en anglais][opensym]]).
+
+[opensym]: http://www.opensym.org/wp-content/uploads/2018/07/OpenSym2018_paper_38-1.pdf
 
 Je m'intéresse également au
 [_crowdsourcing_]({% post_url 2017-12-29-crowdsourcing %}), et plus généralement
@@ -60,8 +61,10 @@ Je réponds également à des questions autour du logiciel libre sur
 [Open Source SE](http://opensource.stackexchange.com/users/5858/zimm-i48).
 
 Par ailleurs, je souhaite faire de ma recherche une activité aussi ouverte
-que possible en publiant fréquemment et rapidement sur des archives ouvertes
+que possible en publiant fréquemment et rapidement sur des [archives ouvertes][HAL]
 ainsi qu'à travers mon [blog](/fr/blog).
+
+[HAL]: https://hal.inria.fr/search/index/q/*/authFullName_s/Théo+Zimmermann
 
 Depuis octobre 2016, je suis aussi chargé de TP/TD.
 Vous pouvez lire ce que mes étudiants pensent de moi [ici](/fr/enseignement).
