@@ -50,9 +50,17 @@ L’encyclopédie collaborative Wikipédia, en particulier, ne tient pas dans le
 
 InnoCentive est une plate-forme d'innovation ouverte, étudiée entre autres par Isabelle Liotard et Véronique Revest (2015). Bien que répondant à la définition du crowdsourcing, elle présente la caractéristique particulière que seule la meilleure solution proposée par la foule est retenue.
 
-Le site Duolingo est un exemple de crowdsourcing où la foule reçoit une récompense autre que monétaire, en l’occurrence un service d'apprentissage de langues étrangères gratuit. Un des exercices proposés aux apprenants avancés, appelé « immersion » consiste à traduire des textes complets (de la langue apprise vers la langue maternelle). Le travail collaboratif des apprenants permet d’obtenir des traductions de documents fournis par les clients de l'entreprise, que Duolingo estime de qualité professionnelle.[^2]
+Le site Duolingo était à l’origine un exemple de crowdsourcing où la
+foule reçoit une récompense autre que monétaire, en l’occurrence un
+service d’apprentissage de langues étrangères gratuit. Un des
+exercices proposés aux apprenants avancés, appelé « immersion »,
+consistait à traduire des textes complets (de la langue apprise vers
+la langue maternelle). Le travail collaboratif des apprenants
+permettait d’obtenir des traductions de documents fournis par les
+clients de l’entreprise, que Duolingo estimait de qualité
+professionnelle.[^2]
 
-[^2]: Il [semblerait](https://www.duolingo.com/comment/12877036/Why-did-Duolingo-stop-Immersion-development) cependant que Duolingo soit en train d'abandonner leurs services de traduction, pour se recentrer sur les services éducatifs.
+[^2]: Duolingo a cependant progressivement abandonné cet aspect de son modèle d’affaires, ayant identifié d’autres sources de monétisation, et afin de se concentrer sur le développement de son service d’apprentissage de langues, par opposition à son service de traduction.
 
 Par ailleurs, il existe de nombreuses plateformes de *crowdscience* (plus souvent désignée sous les termes « sciences participatives » ou « sciences citoyennes »), sur lesquelles les internautes jouent et contribuent en même temps à l’avancement de la recherche (l’exemple le plus connu est FoldIt <http://fold.it> mais on peut aussi citer Phylo DNA Puzzles <http://phylo.cs.mcgill.ca/>, Galaxy Zoo <http://www.galaxyzoo.org>…).
 
@@ -96,7 +104,16 @@ En fait, cela dépend grandement de la politique choisie par la plate-forme de *
 
 Au contraire, dans le cas de reCaptcha, les contributeurs ne sont ni volontaires, ni rémunérés. Si le but initial de reCaptcha (aider à la numérisation du patrimoine littéraire de l'humanité) allait effectivement dans le sens des communs, le service a ensuite servi à améliorer *Google Street Maps* et à entraîner divers algorithmes d'intelligence artificielle de Google. Ces deux derniers bénéfices ne seront pas reversés dans les communs mais profiteront aux contributeurs seulement s'ils utilisent les services de Google.
 
-Similairement, Duolingo se situe à la frontière entre privatisation du travail gratuit des utilisateurs (justifié par le service d'apprentissage de langue fourni par la plate-forme) et contribution aux communs. En effet, les documents qui sont soumis aux apprenants pour traduction sont de deux origines : soit ils proviennent des clients de Duolingo, qui récupèrent alors le copyright sur le résultat de la traduction, soit ce sont des documents sous licence Creative Commons soumis par n'importe quel utilisateur (la traduction est alors gratuite et reversée dans le commun).
+Similairement, Duolingo se situait, avec son service de traduction, à
+la frontière entre privatisation du travail gratuit des utilisateurs
+(justifié par le service d’apprentissage de langue fourni par la
+plateforme) et contribution aux communs. En effet, les documents qui
+étaient soumis aux apprenants pour traduction avaient deux origines :
+soit ils provenaient des clients de Duolingo, qui récupéraient alors
+le copyright sur le résultat de la traduction, soit il s’agissait de
+documents sous licence Creative Commons soumis par n’importe quel
+utilisateur (la traduction étant alors gratuite et reversée dans le
+commun).
 
 Finalement, les projets de sciences citoyennes s'inscrivent de manière évidente dans le domaine des communs. Les données initiales et produites sont généralement intégralement publiques. De plus, le travail des contributeurs sert à enrichir le commun de la connaissance scientifique, bien que se pose alors de manière aiguë la question de l'accès aux résultats de la recherche (cf. la [rubrique sur l'*open access*](https://pablo.rauzy.name/openaccess/files/dico-communs_publi-libre-acces.pdf)).
 
