@@ -16,8 +16,10 @@ here's a longer list of things I am:
 
 boyfriend, computer scientist, environmentalist, European,
 ex-Austinite,
-feminist, French, PhD student,
-lgBt, [Parisian](/en/paris),
+feminist, French, PhD,
+lgBt,
+open source maintainer,
+[Parisian](/en/paris),
 political activist, programmer,
 researcher, teacher,
 [wannabe world changer](/en/world-changer), young man
@@ -29,15 +31,23 @@ A PDF resume is also available upon request.
 Current topics
 --------------
 
-I am currently a PhD student in the πr² Inria project-team and the
-[IRIF laboratory](https://www.irif.fr/)
-of the Paris-Diderot University. My supervisor is Professor
-[Hugo Herbelin](http://pauillac.inria.fr/~herbelin/).
-My PhD topic is "Challenges in the collaborative development of a
-complex mathematical software and its ecosystem"
-(see [poster paper][opensym] at OpenSym 2018).
+I am currently a post-doctoral researcher at [Inria][], in a
+project-team hosted within the [IRIF][] joint laboratory of
+[Université de Paris](https://u-paris.fr/en) and [CNRS][].  My research
+addresses software engineering, open collaboration, community and
+ecosystem issues and is applied to the specific case of the
+development of the Coq proof assistant.
 
-[opensym]: http://www.opensym.org/wp-content/uploads/2018/07/OpenSym2018_paper_38-1.pdf
+[CNRS]: http://www.cnrs.fr/en
+[Inria]: https://www.inria.fr/en
+[IRIF]: https://www.irif.fr/en/index
+
+I recently defended my PhD, whose title is "Challenges in the
+collaborative evolution of a proof language and its ecosystem."  The
+[manuscript][] and the [slides][] of the defense are available online.
+
+[manuscript]: https://www.irif.fr/_media/users/theo/memoirthesis.pdf
+[slides]: https://www.irif.fr/_media/users/theo/phd_defense.pdf
 
 Besides, my main interests are
 [crowdsourcing](http://en.wikipedia.org/wiki/Crowdsourcing), and more generally

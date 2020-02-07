@@ -16,13 +16,14 @@ catégories, voici une liste plus longue de choses que je suis :
 
 amoureux, athée, chercheur,
 [désireux de changer le monde](/fr/changer-le-monde),
+docteur,
 écologiste, enseignant,
-étudiant, Européen, féministe,
+Européen, féministe,
 Français, informaticien, jeune homme,
 lgBt, [Marseillais](/fr/marseille),
+mainteneur de logiciel libre,
 militant politique, [normalien](http://www.ens.fr),
-[Parisien](/fr/paris), scientifique,
-thésard
+[Parisien](/fr/paris), scientifique
 
 Si vous voulez connaître mon parcours,
 référez-vous à ma [page LinkedIn](https://fr.linkedin.com/in/theozim).
@@ -31,15 +32,24 @@ Une version PDF de mon CV est aussi disponible sur demande.
 Sujets actuels
 --------------
 
-Je suis actuellement en thèse dans l'équipe-projet πr² d'Inria et le
-[laboratoire IRIF](https://www.irif.fr/) de l'Université Paris-Diderot.
-Mon directeur de thèse est [Hugo Herbelin](http://pauillac.inria.fr/~herbelin/).
-Mon sujet de thèse a pour titre
-"Défis dans le développement collaboratif d'un logiciel mathématique complexe
-et de son écosystème" (voir mon article de poster à OpenSym 2018
-[[en anglais][opensym]]).
+Je suis actuellement en post-doc chez [Inria][], dans une
+équipe-projet hébergée au sein du laboratoire [IRIF][] de
+l'[Université de Paris](https://u-paris.fr/) et du [CNRS][].  Ma
+recherche a trait aux questions de génie logiciel, de collaboration
+ouverte, de gestion de communauté et d'écosystème, dans le cadre
+particulier de l'assistant de preuve Coq.
 
-[opensym]: http://www.opensym.org/wp-content/uploads/2018/07/OpenSym2018_paper_38-1.pdf
+[CNRS]: http://www.cnrs.fr/fr
+[Inria]: https://www.inria.fr/fr
+[IRIF]: https://www.irif.fr/
+
+J'ai récemment soutenu une thèse de doctorat intitulée "Défis dans
+l'évolution collaborative d'un langage de preuve et de son
+écosystème".  Le [manuscrit][] ainsi que les [diapos][] de la
+soutenance sont consultables en ligne.
+
+[diapos]: https://www.irif.fr/_media/users/theo/phd_defense.pdf
+[manuscrit]: https://www.irif.fr/_media/users/theo/memoirthesis.pdf
 
 Je m'intéresse également au
 [_crowdsourcing_]({% post_url 2017-12-29-crowdsourcing %}), et plus généralement
@@ -56,7 +66,7 @@ En particulier, de nouveaux outils de communication et de collaboration
 seront nécessaires.
 
 Je contribue fréquemment à différents projets _open source_ et je publie
-mes propres logiciels libres sur [Github](https://github.com/Zimmi48).
+mes propres logiciels libres sur [GitHub](https://github.com/Zimmi48).
 Je réponds également à des questions autour du logiciel libre sur
 [Open Source SE](http://opensource.stackexchange.com/users/5858/zimm-i48).
 
