@@ -51,6 +51,13 @@ soutenance sont consultables en ligne.
 [diapos]: https://www.irif.fr/_media/users/theo/phd_defense.pdf
 [manuscrit]: https://www.irif.fr/_media/users/theo/memoirthesis.pdf
 
+L'un de mes sujets de recherche actuels porte sur les organisations
+communautaires pour la maintenance à long-terme de paquets dans les
+écosystèmes logiciels.  J'ai récemment présenté une description
+préliminaire de ce modèle émergent d'organisation, lors du workshop
+SoHeal 2020 qui a eu lieu en ligne [[en
+anglais](https://www.youtube.com/watch?v=GmVufTUFmVc)].
+
 Je m'intéresse également au
 [_crowdsourcing_]({% post_url 2017-12-29-crowdsourcing %}), et plus généralement
 à la collaboration de masse via Internet ainsi qu'à la

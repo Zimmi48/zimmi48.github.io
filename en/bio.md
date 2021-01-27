@@ -49,6 +49,11 @@ collaborative evolution of a proof language and its ecosystem."  The
 [manuscript]: https://www.irif.fr/_media/users/theo/memoirthesis.pdf
 [slides]: https://www.irif.fr/_media/users/theo/phd_defense.pdf
 
+One of my current research focus is on community organizations for the
+long-term maintenance of ecosystem's packages.  I recently presented a
+preliminary look at this emerging model of organization in the online
+[SoHeal 2020 workshop](https://www.youtube.com/watch?v=GmVufTUFmVc).
+
 Besides, my main interests are
 [crowdsourcing](http://en.wikipedia.org/wiki/Crowdsourcing), and more generally
 mass collaboration using the Web,
