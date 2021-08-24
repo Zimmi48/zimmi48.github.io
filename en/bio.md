@@ -49,10 +49,16 @@ collaborative evolution of a proof language and its ecosystem."  The
 [manuscript]: https://www.irif.fr/_media/users/theo/memoirthesis.pdf
 [slides]: https://www.irif.fr/_media/users/theo/phd_defense.pdf
 
-One of my current research focus is on community organizations for the
-long-term maintenance of ecosystem's packages.  I recently presented a
-preliminary look at this emerging model of organization in the online
-[SoHeal 2020 workshop](https://www.youtube.com/watch?v=GmVufTUFmVc).
+One of my current research focus is on Community Package Maintenance
+Organizations (organizations for the long-term maintenance of
+ecosystem's packages).  In 2020, I presented, in the online [SoHeal
+workshop](https://www.youtube.com/watch?v=GmVufTUFmVc), a preliminary
+look at this emerging model of organization based on the research done
+during my PhD. **New:** [Our registered
+report](https://hal.inria.fr/hal-03320556) (co-authored with Jean-Rémy
+Falleri) on developing a grounded theory of these organizations has
+been accepted in [ICSME
+2021](https://icsme2021.github.io/program/Accepted.html).
 
 Besides, my main interests are
 [crowdsourcing](http://en.wikipedia.org/wiki/Crowdsourcing), and more generally

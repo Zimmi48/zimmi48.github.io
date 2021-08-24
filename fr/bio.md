@@ -53,10 +53,15 @@ soutenance sont consultables en ligne.
 
 L'un de mes sujets de recherche actuels porte sur les organisations
 communautaires pour la maintenance à long-terme de paquets dans les
-écosystèmes logiciels.  J'ai récemment présenté une description
-préliminaire de ce modèle émergent d'organisation, lors du workshop
-SoHeal 2020 qui a eu lieu en ligne [[en
-anglais](https://www.youtube.com/watch?v=GmVufTUFmVc)].
+écosystèmes logiciels (Community Package Maintenance Organizations).
+En 2020, j'ai présenté une description préliminaire de ce modèle
+émergent d'organisation, lors du workshop SoHeal qui a eu lieu en
+ligne [[en anglais](https://www.youtube.com/watch?v=GmVufTUFmVc)].
+**Nouveau :** notre *registered report* (co-écrit avec Jean-Rémy
+Falleri) sur le développement d'une *grounded theory* de ces
+organisations [[en anglais](https://hal.inria.fr/hal-03320556)] a été
+accepté à [ICSME
+2021](https://icsme2021.github.io/program/Accepted.html).
 
 Je m'intéresse également au
 [_crowdsourcing_]({% post_url 2017-12-29-crowdsourcing %}), et plus généralement
