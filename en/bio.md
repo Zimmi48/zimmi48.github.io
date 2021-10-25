@@ -9,231 +9,141 @@ trans: /fr/
 Who am I?
 ---------
 
-I don't like to put people in little boxes and yet,
-this is just what I'm about to do to myself.
-But rather than giving a few such boxes,
-here's a longer list of things I am:
+I am a *post-doc researcher* (at [Inria][] and [IRIF][]) and an *open source maintainer*.
 
-boyfriend, computer scientist, environmentalist, European,
-ex-Austinite,
-feminist, French, PhD,
-lgBt,
-open source maintainer,
-[Parisian](/en/paris),
-political activist, programmer,
-researcher, teacher,
-[wannabe world changer](/en/world-changer), young man
+My research focuses on understanding and enhancing how open source maintainers and contributors collaborate to maintain and evolve software projects and ecosystems.
 
-If you want to see my curriculum,
-please refer to my [LinkedIn page](https://fr.linkedin.com/in/theozim).
-A PDF resume is also available upon request.
+On the practioner side, I am a member of the [core development team](https://coq.inria.fr/coq-team.html) of the [Coq proof assistant](https://coq.inria.fr/). I am, in particular, the lead maintainer of Coq's documentation, the author of the [bot][] assisting the development team in everyday's tasks, and the founder of the [Coq-community][] initiative for long-term package maintenance in the Coq ecosystem.
 
-Current topics
---------------
-
-I am currently a post-doctoral researcher at [Inria][], in a
-project-team hosted within the [IRIF][] joint laboratory of
-[Université de Paris](https://u-paris.fr/en) and [CNRS][].  My research
-addresses software engineering, open collaboration, community and
-ecosystem issues and is applied to the specific case of the
-development of the Coq proof assistant.
+I defended my PhD at [Université de Paris](https://u-paris.fr/en) in 2019. My thesis was titled "Challenges in the collaborative evolution of a proof language and its ecosystem."  The [manuscript][PhD thesis] (in English) and the [slides][] (in French) of the defense are available.
 
 [CNRS]: http://www.cnrs.fr/en
 [Inria]: https://www.inria.fr/en
 [IRIF]: https://www.irif.fr/en/index
 
-I recently defended my PhD, whose title is "Challenges in the
-collaborative evolution of a proof language and its ecosystem."  The
-[manuscript][] and the [slides][] of the defense are available online.
+[bot]: https://github.com/coq/bot
+[Coq-community]: https://github.com/coq-community/manifesto
 
-[manuscript]: https://www.irif.fr/_media/users/theo/memoirthesis.pdf
+[PhD thesis]: https://hal.inria.fr/tel-02451322/
 [slides]: https://www.irif.fr/_media/users/theo/phd_defense.pdf
 
-One of my current research focus is on Community Package Maintenance
-Organizations (organizations for the long-term maintenance of
-ecosystem's packages).  In 2020, I presented, in the online [SoHeal
-workshop](https://www.youtube.com/watch?v=GmVufTUFmVc), a preliminary
-look at this emerging model of organization based on the research done
-during my PhD. **New:** [Our registered
-report](https://hal.inria.fr/hal-03320556) (co-authored with Jean-Rémy
-Falleri) on developing a grounded theory of these organizations has
-been accepted in [ICSME
-2021](https://icsme2021.github.io/program/Accepted.html).
+Research
+--------
 
-Besides, my main interests are
-[crowdsourcing](http://en.wikipedia.org/wiki/Crowdsourcing), and more generally
-mass collaboration using the Web,
-[open science](http://en.wikipedia.org/wiki/Open_science)
-and [open research](http://en.wikipedia.org/wiki/Open_research).
-I am amazed at a few projects that have enabled people,
-through online mass collaboration, to create knowledge
-in a way that would never have been possible in a pre-web era.
-I am convinced that the tremendous possibilities that the Internet
-opens are far from being unveiled.
-In particular, communication and collaboration tools are required
-and a lot of them are still to be invented.
+### Topics
 
-I thrive to make my research as public as possible my publishing
-as often and as soon as possible on [public archives][HAL] and/or
-through this [blog](/en/blog).
+I present below some of my active research topics. Other topics of interest are discussed on [my blog](/blog). See also some [past topics](/en/past-topics).
 
-[HAL]: https://hal.inria.fr/search/index/q/*/authFullName_s/Théo+Zimmermann
+#### Bug tracking and issue management
 
-I frequently contribute to _open source_ projects and publish my own
-programs as [free software](https://github.com/Zimmi48).
-I also answer questions about FLOSS on
-[Open Source SE](http://opensource.stackexchange.com/users/5858/zimm-i48).
+In 2017, I've conducted the successful migration of Coq's bug tracking system from Bugzilla to GitHub (see my [blog post]({% post_url 2017-10-23-bugzilla-to-github %}) on the topic). Together with Annalí Casanueva Artís, we have evaluated the impact of the switch in a [paper](https://hal.inria.fr/hal-01951176/) that was published in the [2019 IEEE International Conference on Software Maintenance and Evolution](https://icsme2019.github.io/).
 
-I have been teaching since october 2016.
-You can read what my students think of me [[in French](/fr/enseignement)].
+Since then, issue management has kept being a topic of interest to me, especially as issue management can become a real burden in large projects such as Coq. See my recent [blog post]({% post_url 2021-11-01-known-issues %}) on the topic.
 
-Past work
----------
+#### Reverse dependency compatibility testing
 
-* Formal maths
-    * Before my PhD, I worked with Hugo Herbelin on the automatic
-    and transparent transfer of theorems along isomorphisms.
-    On this subject, I have written a blog post
-    [[in French]({% post_url 2015-04-01-transfert-de-theoremes %})]
-    and a working paper:
-        * Zimmermann T. and Herbelin H. *Automatic and Transparent Transfer of Theorems along Isomorphisms in the Coq Proof Assistant.*
-        Presented at CICM 2015 (work-in-progress track).
-        Read it
-        on [HAL](https://hal.archives-ouvertes.fr/hal-01152588)
-        or on the [arXiv](http://arxiv.org/abs/1505.05028).
+Reverse dependency compatibility testing (RDCT) is the practice of assessing compatibility breaking changes by building and testing external projects that declare a dependency on the tested project ("reverse dependencies"). We've come up with this name with my colleagues from LaBRI after observing this practice being used in several independent projects.
 
-* Biology
-    * During my year in Texas,
-	I discovered the field of bio-informatics and computational biology.
-    I have been working with Professor
-    [Tandy Warnow](http://en.wikipedia.org/wiki/Tandy_Warnow) for one semester
-	(after having followed her class during the first semester)
-	and I have co-authored two conference papers:
-        * Zimmermann T., Mirarab S. and Warnow T.
-		[BBCA: Improving the scalability of *BEAST using random binning.](http://www.biomedcentral.com/1471-2164/15/S6/S11)
-		_BMC Genomics 15_, Suppl 6 (2014), S11.
-        * Mirarab S., Reaz R., Bayzid M. S., Zimmermann T.,
-		Swenson M. S. and Warnow T.
-		[ASTRAL: genome-scale coalescent-based species tree estimation.](http://bioinformatics.oxfordjournals.org/content/30/17/i541.long)
-		_Bioinformatics 30_, 17 (2014), i541–i548.
-	* Some works done for Prof. Warnow's class:
-		* ["Boosting BAli-Phy with UPP"](/pdf/boosting-bali-phy.pdf),
-		[C. Rottner](http://fr.linkedin.com/in/cecilerottner/en), T. Zimmermann,
-		with help of N. Nguyen and T. Warnow, class project paper.
-		* [Presentation of CABOG](/pdf/presentation-CABOG.pdf),
-		a genome assembler.
-    * When in high school, I did a report
-	[[in French](/pdf/TPE.pdf)] on the adaption of plants
-	to a new environment with two classmates.
-	* My first internship in a research unit was in middle school
-	when I visited a biology/cancer research lab for one week
-	[[report, in French](/pdf/stage-IGC.pdf)].
+In the Coq development team, we've adopted this practice in our continuous integration to increase stability and reduce the migration cost for users, and give more confidence to developers to attempt potentially breaking changes (cf. my [PhD thesis][]).
 
-* Linguistic
-	* I did an internship with Professor Paul Sabatier at LIF
-	(_Laboratoire d'Informatique Fondamentale_)
-	in Marseille
-	in the area of Natural Language Processing.
-	I developed an algorithm to infer syntactic transformation
-	of a sentence from examples and implemented it in Prolog
-	[[report, in French](/pdf/stage-LIF.pdf)].
-	* When in primary and middle school,
-	I invented a language called Enfantin.
-	This paper I wrote [[in French](/pdf/enfantin.pdf)]
-	explains everything you need to know about it.
-	On a side note, I've never spoken this language fluently
-	and I would have had no one to talk to anyways.
-	* I like languages in general. I have learned Latin,
-	Spanish and English for many years.
-	I speak English and French fluently and I love them both.
-	I am currently working on getting better at Spanish
-	and I will love to learn new foreign languages if I have time.
+When a tested reverse dependency is broken by a pull request, it can sometimes be difficult to figure out what exactly the problem is. We've integrated the [bug minimizer][] of [Jason Gross][] in the CI workflow to allow contributors to request a minimization of the broken test case. We're currently improving and evaluating this new feature.
 
-* Physics
-	* In second year of college studies
-	(_maths spé_ at Lycée Thiers, Marseille),
-	I worked on my first actual research project.
-	The subject was how to adapt a vehicle to the road surface
-	(in the context of Shell Eco-Marathon).
-	I defended this report [[in French](/pdf/TIPE.pdf)]
-	for the competitive exams leading to my admission to
-	the [ENS](http://www.ens.fr) (École Normale Supérieure), Paris.
-	I have studied, both theoretically and experimentally, the
-	variation in running resistance with respect to the type of
-	road surface, but also to the tire pressure.
+More projects in the Coq ecosystem have adopted RDCT in their CI since then. This is the case, for instance, of the [MathComp][] library. With Cyril Cohen, we're maintaining a tool, the [Coq Nix Toolbox][], that allows generating a CI configuration to test a Coq project for compatibility with its reverse dependencies (cf. our abstract and the video of the demo at the [Coq workshop 2021](https://coq-workshop.gitlab.io/2021/)).
 
-* Other computer science works
-	* During an internship at Microsoft Research Cambridge (England),
-	I worked on non-termination proofs,
-	under the supervision of
-    [Byron Cook](http://en.wikipedia.org/wiki/Byron_Cook_%28computer_scientist%29)
-	[[report, in English](/pdf/internship-MSRC.pdf)].
-	* I have read and commented many computer science research papers.
-	I'm including here a link to one of the first comment I did,
-	on a paper in the area of robotics
-	[[in French](/pdf/planification-trajectoires.pdf)].
+[Jason Gross]: https://jasongross.github.io/
 
-* Developing
-	* A number of school/research projects I'm not going to list here.
-	* My first programming project
-	(winner of the _Concours Innovez des Jeunes Inventeurs_,
-	March 2008): Test-Pedago
-	[[in French](/test-pedago)]. This is an educative software which
-	was used by a school teacher with her students. Some of them
-	directly contributed to it by creating a database for French
-	verbs conjugation.
-	* [A modern version of the Snake game](/zimmisapps/en) that you
-	can play in your web browser on mobile phone, tablet, laptop or desktop.
-	* A mass-collaboration novel writing project: unkilodeplumes
-	[[in French](https://unkilodeplumes.github.io)].
+[MathComp]: https://github.com/math-comp/math-comp
+[Coq Nix Toolbox]: https://github.com/coq-community/coq-nix-toolbox
+[bug minimizer]: https://github.com/JasonGross/coq-tools
 
-* As an editor, I contributed to the creation of Kinea, a new plurilingual
-[online magazine](http://kinea.media) which provides alternative political
-and economical analyses as well as science popularization.
+#### Community organization and package maintenance at the ecosystem-level
 
-Interests
----------
+Package ecosystems play a major role in modern code development in most programming languages. However, it often happens that packages that are important to the ecosystem (many projects depend on them) end up being left unmaintained.
 
-Apart from what I've said already, I have a broad range of interests,
-including:
+To alleviate this problem, I have observed a model of Community Package Maintenance Organization (CPMO), first in the Elm ecosystem, then in many other ecosystems. I have published a [paper](https://hal.inria.fr/hal-02534965v2) taking a first look at this model of organization in the [2020 Software Health (SoHEAL) workshop](https://soheal.github.io/SoHeal2020/index.html) (associated with the International Conference on Software Engineering). See also the [video of the talk](https://www.youtube.com/watch?v=GmVufTUFmVc) at the virtual workshop.
 
-* Travels
-	* I've been to a lot of western European countries, to the US and
-    to Canada.
-	* I lived in four different cities/towns in three different countries
-	([Marseille](/en/marseille), France; [Paris](/en/paris), France;
-	[Cambridge](/en/cambridge), England; Austin, Texas)
-	and I recommend all these places.
-	* I also love the cities of [London](/en/london),
-	New York, San Francisco, Barcelona and Dublin.
-	* With my girlfriend, we took advantage of our year abroad to visit
-	a lot of places in Texas and in the US in general.
-	Some of the cities I liked most were Houston,
-	[San Antonio](/en/san-antonio), New Orleans, Memphis, Washington (DC).
-	I would also like to recommend the fantastic National Park system,
-	in particular Big Bend National Park, the Natchez Trace Parkway,
-	the Blue Ridge Parkway and Shenandoah National Park.
+We are currently working with [Jean-Rémy Falleri][] on building a grounded theory of these organizations. See our [registered report](https://hal.inria.fr/hal-03320556) that was accepted at the [2021 IEEE International Conference on Software Maintenance and Evolution](https://icsme2021.github.io/). See also the [video of the talk](https://www.morressier.com/article/grounded-theory-community-package-maintenance-organizations/613b5419842293c031b5b64c) at the virtual conference.
 
-* Reading
-	* One of my favorite author is
-	[Isaac Asimov](http://en.wikipedia.org/wiki/Isaac_Asimov)
-	and I particularly recommend the Robots series
-	(most stories are at the crossroad
-	between science-fiction and detective stories).
-    I have now also finished the Foundation series.
-	* In 2014, I read "L'Étudiant Étranger"
-	by [Philippe Labro](http://en.wikipedia.org/wiki/Philippe_Labro)
-	and liked it a lot.
-	I had purchased this book eight years
-	before but I think I picked the perfect time to read it because it
-	echoed my own personal adventure in the US.
-    Still, "L'Étudiant Étranger" describes a very different world
-    as it takes place during the segregation.
-    * In a similar vein, I strongly recommend
-    ["To Kill a Mockingbird"](http://en.wikipedia.org/wiki/To_Kill_a_Mockingbird)
-    by Harper Lee that I had the pleasure to *listen* too.
-    * I was able to further my American history culture with
-    ["A People's History of the United States"](http://en.wikipedia.org/wiki/A_People%27s_History_of_the_United_States)
-    by Howard Zinn.
+In 2018, I have founded the [Coq-community][] organization, a CPMO for the Coq ecosystem. It has been very successful and is now playing a major role in structuring the Coq ecosystem. At the time of writing, it hosts close to 60 projects, maintained by over 30 maintainers.
 
-* Politics
+Besides package maintenance, one of the objectives of Coq-community was also to be a place to explore new forms of documentation, and establish new development practices. We have integrated the project [Hydras & Co.][] of [Pierre Castéran][]. In 2021, I have supervised the internship of [Jérémy Damour][] to contribute to this project and explore the use of [Alectryon][], a new documentation tool for Coq projects by [Clément Pit-Claudel][]. With Pierre Castéran, Jérémy Damour, [Karl Palmskog][] and Clément Pit-Claudel, we've recently submitted a [paper](https://hal.archives-ouvertes.fr/hal-03404668) about this project, our vision, and our use of modern tools and maintenance techniques to manage it.
+
+[Alectryon]: https://github.com/cpitclaudel/alectryon
+[Hydras & Co.]: https://github.com/coq-community/hydra-battles
+
+[Jean-Rémy Falleri]: https://www.labri.fr/perso/falleri/perso/
+[Pierre Castéran]: https://www.labri.fr/perso/casteran/
+[Jérémy Damour]: https://github.com/start974
+[Karl Palmskog]: https://setoid.com/
+[Clément Pit-Claudel]: http://pit-claudel.fr/clement
+
+### Methods
+
+Software engineering researchers rely on empirical methods to acquire knowledge and evaluate new tools and techniques. The goal is that software engineering practice can become more and more evidence-based, rather than relying only on expert and anecdotal knowledge. But, because empirical software engineering is still a young discipline, many empirical methods are still to be explored.
+
+With Annalí Casanueva Artís, a PhD student in economics, we've applied a quantitative method from econometrics, Regression on Discontinuity Design (RDD), to derive causality from a quasi-experiment setting (to evaluate the impact of a change in a development repository). My [PhD thesis][] contains two applications of this method (to evaluate a bug tracker switch and the introduction of a pull request template with checkboxes).
+
+With [Jean-Rémy Falleri][], we're currently applying a qualitative method from sociology, Grounded Theory (GT), to generate a theory of CPMOs from diverse sources of data (documentation, public discussion records and interviews).
+
+In the spirit of reproducible research and open science, I systematically share publicly my data analysis code as Jupyter notebooks, as well as my datasets.
+
+Software
+--------
+
+Below, I list some software projects whose maintenance I am actively involved in. See also some [past software projects](/en/past-topics#past-software-projects).
+
+### Coq
+
+*GitHub repository: <https://github.com/coq/coq>*
+
+Coq is a proof assistant that has been developed at Inria since the 1980s. Since 2015, the Coq development team has adopted modern development practices and has opened up to a community of contributors. I have been a witness and an actor of these changes, that I describe in my [PhD thesis][].
+
+Among the many changes toward more stability, we have put significant effort to improve the documentation. Thanks to [Clément Pit-Claudel][], who was the initial author of the proposal and the associated infrastructure, and many contributors, we have moved the reference manual of Coq to Sphinx, and we have subsequently introduced many changes to guarantee that it is more consistent and more exhaustive. Examples are continuously checked, and now, even the documented syntax is matched against Coq's (extensive) parsing rules, thanks to the work of [Jim Fehrle][]. All our development processes are described in detail in our [contributing guide][].
+
+[Jim Fehrle]: https://github.com/jfehrle
+
+[contributing guide]: https://github.com/coq/coq/blob/master/CONTRIBUTING.md
+
+### coqbot
+
+*GitHub repository: <https://github.com/coq/bot>*
+
+coqbot is a multi-function bot that helps Coq maintainers by automating everyday's tasks (as well as maintainers from other open source projects, within and outside the Coq ecosystem).
+
+I started writing this bot in 2018 to allow the use of GitLab's continuous integration for the GitHub repository of Coq, in ways that were not (and are still not) supported natively. This feature is used by many other projects that had similar needs (including the [MathComp][] project).
+
+The bot has acquired many new features over time, including thanks to the internship of [Julien Coolen][] that I supervised in 2020, and the collaboration with other Coq developers such as [Jason Gross][] and [Pierre-Marie Pédrot][].
+
+Today, it is an essential tool for Coq release management, issue and pull request management, continuous integration, and community support.
+It is also a platform for experimenting new ideas around open source software maintenance practice.
+
+[Julien Coolen]: https://github.com/jtcoolen
+[Pierre-Marie Pédrot]: https://www.pédrot.fr/
+
+### Coq-community templates, Docker-Coq-Action and the Coq Nix Toolbox
+
+*GitHub repositories: [templates][], [Docker-Coq-Action][], [Coq Nix Toolbox][].*
+
+As part of the [Coq-community][] initiative, there was a significant effort toward providing better tools for Coq project maintainers, notably around continuous integration (but not limited to that). I have contributed to create and maintain the three main projects around this question (together with many contributors, most notably [Karl Palmskog][], [Erik Martin-Dorel][], and [Cyril Cohen][]):
+
+1. The Coq-community [templates][] provide a tool for generating standard files (documentation, continuous integration, build and packaging files) automatically from information contained in a `meta.yml` file. They are used by most projects hosted inside Coq-community, but also by many projects outside. At the moment, the templates are only well-suited to single-package repositories, but we have plans for monorepo (multi-package repository) support in a V2 of the templates that would stop relying on the Mustache template language.
+2. [Docker-Coq-Action][] provides the simplest solution to set up continuous integration for a Coq project: a GitHub Action that only requires an opam file and almost zero configuration for simple use cases, and which is flexible enough to account for advanced use cases (in fact, it is flexible enough to be applicable to non-Coq projects as well).
+3. The [Coq Nix Toolbox][] is an advanced tool based on the [Nix][] package manager. It can be used to get a local development environment ready to build any Coq package, using released or unreleased versions of its Coq dependencies. It can also be used to generate a continuous integration setup for [RDCT](#reverse-dependency-compatibility-testing).
+
+[templates]: https://github.com/coq-community/templates
+[Docker-Coq-Action]: https://github.com/coq-community/docker-coq-action
+[Nix]: https://nixos.org/
+
+[Erik Martin-Dorel]: https://www.irit.fr/~Erik.Martin-Dorel/index_en.php
+[Cyril Cohen]: https://perso.crans.org/cohen/
+
+Teaching
+--------
+
+### At Université de Paris
+
+- Since 2017, I have been the teaching assistant of a [Coq class](https://github.com/herbelin/cours-preuves-ordinateur/).
+
+- In 2022, I will also take over as the teacher in charge of the class on Free and Open Source Software.
+
+In previous years, I was a teaching assistant for Python classes (introduction to programming; algorithms and data structures), an OCaml class and a class on languages and automata.
