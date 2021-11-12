@@ -66,10 +66,11 @@ We are currently working with [Jean-Rémy Falleri][] on building a grounded theo
 
 In 2018, I have founded the [Coq-community][] organization, a CPMO for the Coq ecosystem. It has been very successful and is now playing a major role in structuring the Coq ecosystem. At the time of writing, it hosts close to 60 projects, maintained by over 30 maintainers.
 
-Besides package maintenance, one of the objectives of Coq-community was also to be a place to explore new forms of documentation, and establish new development practices. We have integrated the project [Hydras & Co.][] of [Pierre Castéran][]. In 2021, I have supervised the internship of [Jérémy Damour][] to contribute to this project and explore the use of [Alectryon][], a new documentation tool for Coq projects by [Clément Pit-Claudel][]. With Pierre Castéran, Jérémy Damour, [Karl Palmskog][] and Clément Pit-Claudel, we've recently submitted a [paper](https://hal.archives-ouvertes.fr/hal-03404668) about this project, our vision, and our use of modern tools and maintenance techniques to manage it.
+Besides package maintenance, one of the objectives of Coq-community was also to be a place to explore new forms of documentation, and establish new development practices. We have integrated the project [Hydras & Co.][] of [Pierre Castéran][]. In 2021, I have supervised the internship of [Jérémy Damour][] to contribute to this project and explore the use of [Alectryon][], a new documentation tool for Coq projects by [Clément Pit-Claudel][]. With Pierre Castéran, Jérémy Damour, [Karl Palmskog][] and Clément Pit-Claudel, we wrote a [paper](https://hal.archives-ouvertes.fr/hal-03404668), that was accepted at [JFLA 2022][], about this project, our vision, and our use of modern tools and maintenance techniques to manage it.
 
 [Alectryon]: https://github.com/cpitclaudel/alectryon
 [Hydras & Co.]: https://github.com/coq-community/hydra-battles
+[JFLA 2022]: http://jfla.inria.fr/jfla2022.html
 
 [Jean-Rémy Falleri]: https://www.labri.fr/perso/falleri/perso/
 [Pierre Castéran]: https://www.labri.fr/perso/casteran/
