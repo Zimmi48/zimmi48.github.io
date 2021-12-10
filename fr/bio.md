@@ -14,7 +14,7 @@ Je suis *chercheur en informatique* (à l'[Inria][] et à l'[IRIF][]) et *mainte
 [Inria]: https://www.inria.fr/fr
 [IRIF]: https://www.irif.fr/
 
-Ma recherche a pour objectif de comprendre et d'améliorer la manière dont les mainteneur·rices et les contributeur·rices de logiciels libres collaborent pour faire évoluer les projets et les écosystèmes logiciels.
+Ma recherche a pour objectif de comprendre et d'améliorer la manière dont les mainteneur·ses et les contributeur·rices de logiciels libres collaborent pour faire évoluer les projets et les écosystèmes logiciels.
 
 En tant qu'acteur du logiciel libre, je suis un membre de l'équipe cœur développant l'[assistant de preuve Coq](https://coq.inria.fr/). Je maintiens la documentation de Coq ; je suis l'auteur du [bot][] qui assiste l'équipe de développement dans les tâches du quotidien ; j'ai fondé l'initiative [Coq-community][] pour la maintenance à long-terme des paquets de l'écosystème Coq.
 
