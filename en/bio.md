@@ -44,17 +44,18 @@ Since then, issue management has kept being a topic of interest to me, especiall
 
 Reverse dependency compatibility testing (RDCT) is the practice of assessing compatibility breaking changes by building and testing external projects that declare a dependency on the tested project ("reverse dependencies"). We've come up with this name with my colleagues from LaBRI after observing this practice being used in several independent projects.
 
-In the Coq development team, we've adopted this practice in our continuous integration to increase stability and reduce the migration cost for users, and give more confidence to developers to attempt potentially breaking changes (cf. my [PhD thesis][]).
+In the Coq development team, we've adopted this practice in our continuous integration to increase stability and reduce the migration cost for users, and give more confidence to developers to attempt potentially breaking changes (see my [PhD thesis][]).
 
 When a tested reverse dependency is broken by a pull request, it can sometimes be difficult to figure out what exactly the problem is. We've integrated the [bug minimizer][] of [Jason Gross][] in the CI workflow to allow contributors to request a minimization of the broken test case. We're currently improving and evaluating this new feature.
 
-More projects in the Coq ecosystem have adopted RDCT in their CI since then. This is the case, for instance, of the [MathComp][] library. With Cyril Cohen, we're maintaining a tool, the [Coq Nix Toolbox][], that allows generating a CI configuration to test a Coq project for compatibility with its reverse dependencies (cf. our abstract and the video of the demo at the [Coq workshop 2021](https://coq-workshop.gitlab.io/2021/)).
+More projects in the Coq ecosystem have adopted RDCT in their CI since then. This is the case, for instance, of the [MathComp][] library. With Cyril Cohen, we're maintaining a tool, the [Coq Nix Toolbox][], that allows generating a CI configuration to test a Coq project for compatibility with its reverse dependencies (see our abstract and the video of the demo at the [Coq workshop 2021][]).
 
 [Jason Gross]: https://jasongross.github.io/
 
 [MathComp]: https://github.com/math-comp/math-comp
 [Coq Nix Toolbox]: https://github.com/coq-community/coq-nix-toolbox
 [bug minimizer]: https://github.com/JasonGross/coq-tools
+[Coq workshop 2021]: https://coq-workshop.gitlab.io/2021/
 
 #### Community organization and package maintenance at the ecosystem-level
 
@@ -105,21 +106,22 @@ Among the many changes toward more stability, we have put significant effort to 
 
 [contributing guide]: https://github.com/coq/coq/blob/master/CONTRIBUTING.md
 
-### coqbot
+### The project-specific Coq bot
 
 *GitHub repository: <https://github.com/coq/bot>*
 
-coqbot is a multi-function bot that helps Coq maintainers by automating everyday's tasks (as well as maintainers from other open source projects, within and outside the Coq ecosystem).
+The Coq bot is a multi-task bot that helps Coq maintainers by automating everyday's tasks.
 
-I started writing this bot in 2018 to allow the use of GitLab's continuous integration for the GitHub repository of Coq, in ways that were not (and are still not) supported natively. This feature is used by many other projects that had similar needs (including the [MathComp][] project).
+I started writing this bot in 2018 to allow the use of GitLab's continuous integration for the GitHub repository of Coq, in ways that were not (and are still not) supported natively. This feature is also used by many other projects that had similar needs (mostly projects from the Coq ecosystem, such as [MathComp][], but also some projects outside).
 
-The bot has acquired many new features over time, including thanks to the internship of [Julien Coolen][] that I supervised in 2020, and the collaboration with other Coq developers such as [Jason Gross][] and [Pierre-Marie Pédrot][].
+The bot has acquired many new features over time to assist the Coq development team, including thanks to the internship of [Julien Coolen][] that I supervised in 2020, and the collaboration with other Coq developers.
 
 Today, it is an essential tool for Coq release management, issue and pull request management, continuous integration, and community support.
 It is also a platform for experimenting new ideas around open source software maintenance practice.
 
+See the [paper](https://hal.inria.fr/hal-03479327) that we wrote to present our vision, the main features of the bot and the design choices that make it easy to maintain and extend.
+
 [Julien Coolen]: https://github.com/jtcoolen
-[Pierre-Marie Pédrot]: https://www.pédrot.fr/
 
 ### Coq-community templates, Docker-Coq-Action and the Coq Nix Toolbox
 
@@ -129,7 +131,7 @@ As part of the [Coq-community][] initiative, there was a significant effort towa
 
 1. The Coq-community [templates][] provide a tool for generating standard files (documentation, continuous integration, build and packaging files) automatically from information contained in a `meta.yml` file. They are used by most projects hosted inside Coq-community, but also by many projects outside. At the moment, the templates are only well-suited to single-package repositories, but we have plans for monorepo (multi-package repository) support in a V2 of the templates that would stop relying on the Mustache template language.
 2. [Docker-Coq-Action][] provides the simplest solution to set up continuous integration for a Coq project: a GitHub Action that only requires an opam file and almost zero configuration for simple use cases, and which is flexible enough to account for advanced use cases (in fact, it is flexible enough to be applicable to non-Coq projects as well).
-3. The [Coq Nix Toolbox][] is an advanced tool based on the [Nix][] package manager. It can be used to get a local development environment ready to build any Coq package, using released or unreleased versions of its Coq dependencies. It can also be used to generate a continuous integration setup for [RDCT](#reverse-dependency-compatibility-testing).
+3. The [Coq Nix Toolbox][] is an advanced tool based on the [Nix][] package manager. It can be used to get a local development environment ready to build any Coq package, using released or unreleased versions of its Coq dependencies. It can also be used to generate a continuous integration setup for [RDCT](#reverse-dependency-compatibility-testing). See our abstract and the video of the demo at the [Coq workshop 2021][].
 
 [templates]: https://github.com/coq-community/templates
 [Docker-Coq-Action]: https://github.com/coq-community/docker-coq-action
