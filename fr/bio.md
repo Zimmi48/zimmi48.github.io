@@ -23,7 +23,7 @@ En tant qu'acteur du logiciel libre, je suis un membre de l'équipe cœur dével
 
 J'ai soutenu une thèse de doctorat à l'[Université de Paris](https://u-paris.fr) en 2019. Ma thèse s'intitulait "Défis dans l'évolution collaborative d'un langage de preuve et de son écosystème". Le [manuscript][] (en anglais) et les [diapos][] (en français) de la soutenance sont disponibles.
 
-[manuscript]: https://hal.inria.fr/tel-02451322/
+[manuscript]: https://hal.inria.fr/tel-02451322v1
 [diapos]: https://www.irif.fr/_media/users/theo/phd_defense.pdf
 
 Recherche

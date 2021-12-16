@@ -24,7 +24,7 @@ I defended my PhD at [Université de Paris](https://u-paris.fr/en) in 2019. My t
 [bot]: https://github.com/coq/bot
 [Coq-community]: https://github.com/coq-community/manifesto
 
-[PhD thesis]: https://hal.inria.fr/tel-02451322/
+[PhD thesis]: https://hal.inria.fr/tel-02451322v1
 [slides]: https://www.irif.fr/_media/users/theo/phd_defense.pdf
 
 Research
