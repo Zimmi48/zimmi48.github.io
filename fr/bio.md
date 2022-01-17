@@ -44,8 +44,9 @@ Enseignement
 ### À l'Université de Paris
 
 - Depuis 2017, je suis chargé des TD / TP du cours de Coq en M1 ([Preuves Assistées par Ordinateur][]).
-- En 2022, je serai également responsable du cours d'Introduction aux Logiciels Libres en M1.
+- Depuis 2022, je suis responsable du cours d'[Introduction aux Logiciels Libres][] en M1.
 
 Précédemment, j'ai été chargé de TD / TP pour des cours de Python (introduction à la programmation, algorithmes et structures de données), un cours d'OCaml et un cours sur les automates et les langages.
 
-[Preuves Assistées par Ordinateur]: https://github.com/herbelin/cours-preuves-ordinateur/
+[Preuves Assistées par Ordinateur]: https://github.com/herbelin/cours-preuves-ordinateur
+[Introduction aux Logiciels Libres]: /fr/cours-logiciels-libres

@@ -10,6 +10,9 @@ linkedin_username: theozim
 twitter_username: Zimm_i48
 github_username: Zimmi48
 
+titles_from_headings:
+  enabled: true
+
 # Build settings
 markdown: kramdown
 permalink: /:year/:month/:title/
@@ -52,3 +55,4 @@ t:
 # Redirects function for short URLs
 plugins:
   - jekyll-redirect-from
+  - jekyll-titles-from-headings

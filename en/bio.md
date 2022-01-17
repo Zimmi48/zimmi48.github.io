@@ -150,8 +150,8 @@ Teaching
 
 ### At Université de Paris
 
-- Since 2017, I have been the teaching assistant of a [Coq class](https://github.com/herbelin/cours-preuves-ordinateur/).
+- Since 2017, I have been the teaching assistant of a [Coq class](https://github.com/herbelin/cours-preuves-ordinateur).
 
-- In 2022, I will also take over as the teacher in charge of the class on Free and Open Source Software.
+- Since 2022, I am in charge of the class on [Free and Open Source Software](/fr/cours-logiciels-libres).
 
 In previous years, I was a teaching assistant for Python classes (introduction to programming; algorithms and data structures), an OCaml class and a class on languages and automata.
