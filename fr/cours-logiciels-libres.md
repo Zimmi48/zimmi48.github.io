@@ -13,3 +13,5 @@ Deuxième semestre, année 2021-2022.
 L'enjeu de ce cours est d'introduire la notion de logiciel libre (*free software* en anglais) et d'*open source* dans toutes ses dimensions. Nous parlerons ainsi à la fois de l'histoire des logiciels libres et de leur philosophie, de licences libres, d'économie du logiciel libre, mais aussi de la pratique du partage de code et de la maintenance collaborative via des plateformes modernes telles que GitHub / GitLab.
 
 Modalités pratiques : le cours et les TD auront lieu le vendredi de 16h15 à 18h15 en salle 1008 du bâtiment Sophie Germain.
+
+- [Cours 1 : Introduction, modalités et histoire du logiciel libre](/pdf/Cours-logiciel-libre-1.pdf)
