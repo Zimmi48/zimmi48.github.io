@@ -2,7 +2,10 @@
 layout: page
 lang: fr
 title: Cours d'introduction aux logiciels libres
+redirect_from: libre
 ---
+
+URL courte : [theoz.im/libre](http://theoz.im/libre)
 
 Cours d'option de M1, UFR d'informatique, Université de Paris.
 Deuxième semestre, année 2021-2022.
