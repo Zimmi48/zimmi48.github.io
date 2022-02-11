@@ -24,6 +24,8 @@ Modalités pratiques : le cours et les TD auront lieu le vendredi de 16h15 à 18
 
 - [Cours 3 : Licences (suite) et processus de contribution](/pdf/Cours-logiciel-libre-3.pdf)
 
+- [Cours 4 : Processus de contribution (suite)](/pdf/Cours-logiciel-libre-4.pdf)
+
 Projet : il consistera à réaliser une contribution (de code), dans un logiciel libre de votre choix (et d'aller au bout du processus pour que votre contribution soit acceptée). Vous pouvez dès maintenant commencer à réfléchir à quel logiciel libre (que vous utilisez ou qui vous intéresse) vous pourriez contribuer. [Détails](/pdf/Cours-logiciel-libre-projet.pdf)
 
 Évaluation : moitié examen / moitié projet.
