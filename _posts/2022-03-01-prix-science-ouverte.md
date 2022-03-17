@@ -2,15 +2,28 @@
 layout: post
 title: "Le projet Coq reçoit le prix Science Ouverte du Logiciel Libre de Recherche"
 lang: fr
-draft: true
-#date: 2021-11-02 20:00:00 +0100
-#redirect_from: known-issues
+date: 2022-03-17 11:00:00 +0100
+redirect_from: prix-coq
 excerpt: Le 5 février 2022, à l'occasion des Journées européennes de la science ouverte, les prix Science Ouverte du Logiciel Libre de Recherche ont été annoncés. Dans la catégorie Scientifique et Technique, le logiciel récompensé était Coq, dont j'ai représenté l'équipe de développement à cette occasion.
 ---
 
 Le 5 février 2022, à l'occasion des Journées européennes de la science ouverte, les [prix Science Ouverte du Logiciel Libre de Recherche ont été annoncés](https://www.ouvrirlascience.fr/remise-des-prix-science-ouverte-du-logiciel-libre-de-la-recherche/). Dans la catégorie Scientifique et Technique, le logiciel récompensé était Coq, dont j'ai représenté l'[équipe de développement](https://coq.inria.fr/coq-team.html) à cette occasion.
 
-La nouvelle a déjà été reprise par de nombreux articles du [CNRS](https://www.cnrs.fr/fr/cnrsinfo/osec-2022-la-science-ouverte-lheure-europeenne), de l'[INS2I](https://www.ins2i.cnrs.fr/fr/cnrsinfo/les-premiers-prix-de-la-science-ouverte-du-logiciel-libre-de-la-recherche), de l'[Université de Paris](https://u-paris.fr/prix-science-ouverte-du-logiciel-libre-de-la-recherche-trois-laureats-pour-universite-de-paris-et-lipgp/), de l'[Université Paris-Saclay](https://www.universite-paris-saclay.fr/actualites/coq-laureat-du-prix-science-ouverte-du-logiciel-libre-de-la-recherche), etc. Si je reviens dessus aujourd'hui, c'est pour présenter le contenu de la candidature que nous avions soumise pour l'obtention de ce prix.
+La nouvelle a déjà été reprise par de nombreux articles du [CNRS](https://www.cnrs.fr/fr/cnrsinfo/osec-2022-la-science-ouverte-lheure-europeenne), de l'[INS2I](https://www.ins2i.cnrs.fr/fr/cnrsinfo/les-premiers-prix-de-la-science-ouverte-du-logiciel-libre-de-la-recherche), de l'[Université de Paris](https://u-paris.fr/prix-science-ouverte-du-logiciel-libre-de-la-recherche-trois-laureats-pour-universite-de-paris-et-lipgp/), de l'[Université Paris-Saclay](https://www.universite-paris-saclay.fr/actualites/coq-laureat-du-prix-science-ouverte-du-logiciel-libre-de-la-recherche), etc. Si je reviens dessus aujourd'hui, c'est, d'une part car les vidéos de la conférence, et en particulier de la cérémonie, sont désormais disponibles, et d'autre part, pour présenter le contenu de la candidature que nous avions soumise pour l'obtention de ce prix.
+
+La vidéo de la cérémonie se trouve [ici](https://www.canal-u.tv/chaines/ouvrirlascience/ceremonie-de-remise-des-prix-de-la-science-ouverte-et-conclusions-claire) et la partie consacrée à Coq commence à 11:51 et dure jusqu'à 16:30.
+
+Si vous ne souhaitez pas la regarder, en voici des extraits :
+
+- Daniel Le Berre, président du jury :
+
+  >C'est un de nos plus vieux candidats puisqu'il a débuté dans les années 80, mais ce qui est intéressant c'est qu'on a une nouvelle génération de chercheurs qui le font évoluer, et ce qui a touché le jury c'est que ce logiciel, c'est un logiciel phare de la science française, mais cette nouvelle équipe, elle a une nouvelle façon de travailler, plus ouverte, plus "génie logiciel" que par le passé, et ils avaient écrit dans leur candidature qu'ils candidataient pour que cette approche soit validée et le jury a été touché par ça.
+
+- Mon intervention, en tant que représentant de l'équipe Coq :
+
+  >Moi je n'étais pas né quand le logiciel a été créé, mais je représente aujourd'hui l'équipe de développement de l'assistant de preuve Coq, qui est un logiciel qui a toujours été développé avec une vision ouverte, car ça correspond à la manière dont la science se construit, et qui est distribué depuis plus de 20 ans sous une licence libre, mais en revanche ce qu'on soulignait tout à l'heure, c'est qu'au-delà de la licence libre, nous avons fait le choix depuis plus de 7 ans de chercher à ouvrir réellement le développement du logiciel pour impliquer davantage une communauté, qui est aujourd'hui une communauté mondiale. Le fait que l'équipe ait fait ce choix et ait organisé, par exemple, des journées lors desquelles l'équipe introduisait la base de code à des nouveaux contributeurs, et travaillé sur la documentation, à la fois la documentation technique mais aussi la documentation des processus de contribution, a fait qu'on a pu finalement augmenter très largement le nombre de personnes qui pouvaient contribuer à l'amélioration et à l'évolution de ce système, ce qui fait qu'on a aujourd'hui un nombre de contributeurs qui a très largement augmenté, disons pour vous donner une idée, qui a été multiplié par 4 dans les 5 dernières années, et on a aussi beaucoup plus de personnes qui sont impliquées dans la maintenance au jour le jour.
+
+Puisque Daniel Le Berre mentionnait que le jury avait été touché par notre dossier de candidature, en voici le contenu ci-dessous, à commencer par la motivation de la candidature, dans laquelle nous expliquons ce que ce prix représente pour nous :
 
 ### Motivation de la candidature
 
