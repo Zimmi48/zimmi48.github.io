@@ -36,6 +36,8 @@ Modalités pratiques : le cours et les TD auront lieu le vendredi de 16h15 à 18
 
 - [Cours 7 : Gouvernance d'un projet open source](/pdf/Cours-logiciel-libre-7.pdf)
 
+- [Cours 8 : Gouvernance d'un projet open source (suite)](/pdf/Cours-logiciel-libre-8.pdf)
+
 Projet : il consiste à réaliser une contribution (de code), dans un logiciel libre de votre choix (et d'aller au bout du processus pour que votre contribution soit acceptée). [Détails](/pdf/Cours-logiciel-libre-projet.pdf)
 
 Évaluation : moitié examen / moitié projet.
