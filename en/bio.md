@@ -14,8 +14,9 @@ I am a *post-doc researcher* (at [Inria][] and [IRIF][]) and an *open source mai
 My research focuses on understanding and enhancing how open source maintainers and contributors collaborate to maintain and evolve software projects and ecosystems.
 
 On the practioner side, I am a member of the [core development team](https://coq.inria.fr/coq-team.html) of the [Coq proof assistant](https://coq.inria.fr/). I am, in particular, the lead maintainer of Coq's documentation, the author of the [bot][] assisting the development team in everyday's tasks, and the founder of the [Coq-community][] initiative for long-term package maintenance in the Coq ecosystem.
+In 2022, our team was awarded the [Open Science Award for Open Source Research Software](https://www.ouvrirlascience.fr/open-science-free-software-award-ceremony/) by the French ministry of research. See this [blog post]({% post_url 2022-03-01-prix-science-ouverte %}) (in French) on the topic.
 
-I defended my PhD at [Université de Paris](https://u-paris.fr/en) in 2019. My thesis was titled "Challenges in the collaborative evolution of a proof language and its ecosystem."  The [manuscript][PhD thesis] (in English) and the [slides][] (in French) of the defense are available.
+I defended my PhD at Université de Paris (former Université Paris-Diderot, now [Université Paris Cité](https://u-paris.fr/en)) in 2019. My thesis was titled "Challenges in the collaborative evolution of a proof language and its ecosystem."  The [manuscript][PhD thesis] (in English) and the [slides][] (in French) of the defense are available.
 
 [CNRS]: http://www.cnrs.fr/en
 [Inria]: https://www.inria.fr/en
@@ -30,6 +31,8 @@ I defended my PhD at [Université de Paris](https://u-paris.fr/en) in 2019. My t
 Research
 --------
 
+See my [Google Scholar profile](https://scholar.google.fr/citations?user=-NgHOiwAAAAJ&hl=en) for the complete list of my publications and preprints.
+
 ### Topics
 
 I present below some of my active research topics. Other topics of interest are discussed on [my blog](/blog). See also some [past topics](/en/past-topics).
@@ -38,7 +41,7 @@ I present below some of my active research topics. Other topics of interest are 
 
 In 2017, I've conducted the successful migration of Coq's bug tracking system from Bugzilla to GitHub (see my [blog post]({% post_url 2017-10-23-bugzilla-to-github %}) on the topic). Together with Annalí Casanueva Artís, we have evaluated the impact of the switch in a [paper](https://hal.inria.fr/hal-01951176/) that was published in the [2019 IEEE International Conference on Software Maintenance and Evolution](https://icsme2019.github.io/).
 
-Since then, issue management has kept being a topic of interest to me, especially as issue management can become a real burden in large projects such as Coq. See my recent [blog post]({% post_url 2021-11-01-known-issues %}) on the topic.
+Since then, issue management has kept being a topic of interest to me, especially as issue management can become a real burden in large projects such as Coq. See my 2021 [blog post]({% post_url 2021-11-01-known-issues %}) on the topic.
 
 #### Reverse dependency compatibility testing
 
@@ -46,7 +49,7 @@ Reverse dependency compatibility testing (RDCT) is the practice of assessing com
 
 In the Coq development team, we've adopted this practice in our continuous integration to increase stability and reduce the migration cost for users, and give more confidence to developers to attempt potentially breaking changes (see my [PhD thesis][]).
 
-When a tested reverse dependency is broken by a pull request, it can sometimes be difficult to figure out what exactly the problem is. We've integrated the [bug minimizer][] of [Jason Gross][] in the CI workflow to allow contributors to request a minimization of the broken test case. We're currently improving and evaluating this new feature.
+When a tested reverse dependency is broken by a pull request, it can sometimes be difficult to figure out what exactly the problem is. We've integrated the [bug minimizer][] of [Jason Gross][] in the CI workflow to allow contributors to request a minimization of the broken test case. We discuss this innovation and evaluate its effectiveness in a [recent paper](https://hal.inria.fr/hal-03586813/).
 
 More projects in the Coq ecosystem have adopted RDCT in their CI since then. This is the case, for instance, of the [MathComp][] library. With Cyril Cohen, we're maintaining a tool, the [Coq Nix Toolbox][], that allows generating a CI configuration to test a Coq project for compatibility with its reverse dependencies (see our abstract and the video of the demo at the [Coq workshop 2021][]).
 
@@ -148,7 +151,7 @@ As part of the [Coq-community][] initiative, there was a significant effort towa
 Teaching
 --------
 
-### At Université de Paris
+### At Université Paris Cité
 
 - Since 2017, I have been the teaching assistant of a [Coq class](https://github.com/herbelin/cours-preuves-ordinateur).
 
