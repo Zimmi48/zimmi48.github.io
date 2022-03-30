@@ -49,7 +49,7 @@ Reverse dependency compatibility testing (RDCT) is the practice of assessing com
 
 In the Coq development team, we've adopted this practice in our continuous integration to increase stability and reduce the migration cost for users, and give more confidence to developers to attempt potentially breaking changes (see my [PhD thesis][]).
 
-When a tested reverse dependency is broken by a pull request, it can sometimes be difficult to figure out what exactly the problem is. We've integrated the [bug minimizer][] of [Jason Gross][] in the CI workflow to allow contributors to request a minimization of the broken test case. We discuss this innovation and evaluate its effectiveness in a [recent paper](https://hal.inria.fr/hal-03586813/).
+When a tested reverse dependency is broken by a pull request, it can sometimes be difficult to figure out what exactly the problem is. We've integrated the [bug minimizer][] of [Jason Gross][] in the CI workflow to allow contributors to request a minimization of the broken test case. We discuss this innovation and evaluate its effectiveness in a [recent paper](https://hal.inria.fr/hal-03586813/) that was accepted for publication at [ITP 2022](https://itpconference.github.io/ITP22/).
 
 More projects in the Coq ecosystem have adopted RDCT in their CI since then. This is the case, for instance, of the [MathComp][] library. With Cyril Cohen, we're maintaining a tool, the [Coq Nix Toolbox][], that allows generating a CI configuration to test a Coq project for compatibility with its reverse dependencies (see our abstract and the video of the demo at the [Coq workshop 2021][]).
 
