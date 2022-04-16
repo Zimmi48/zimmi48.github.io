@@ -12,7 +12,7 @@ Deuxième semestre, année 2021-2022.
 
 L'enjeu de ce cours est d'introduire la notion de logiciel libre (*free software* en anglais) et d'*open source* dans toutes ses dimensions. Nous parlerons ainsi à la fois de l'histoire des logiciels libres et de leur philosophie, de licences libres, d'économie du logiciel libre, mais aussi de la pratique du partage de code et de la maintenance collaborative via des plateformes modernes telles que GitHub / GitLab.
 
-Modalités pratiques : le cours et les TD auront lieu le vendredi de 16h15 à 18h15 en salle 1008 du bâtiment Sophie Germain.
+Modalités pratiques : le cours et les TD sont finis pour cette année. L'examen aura lieu jeudi 12 mai à partir de midi en salle 227C de la Halle aux Farines.
 
 - [Cours 1 : Introduction, modalités et histoire du logiciel libre](/pdf/Cours-logiciel-libre-1.pdf)
 
@@ -50,6 +50,8 @@ Modalités pratiques : le cours et les TD auront lieu le vendredi de 16h15 à 18
 
 - [Cours 11 : Économie du logiciel libre (suite)](/pdf/Cours-logiciel-libre-11.pdf)
 
-Projet : il consiste à réaliser une contribution (de code), dans un logiciel libre de votre choix (et d'aller au bout du processus pour que votre contribution soit acceptée). [Détails](/pdf/Cours-logiciel-libre-projet.pdf)
+- [Récapitulatif basé sur des questions d'Open Source Stack Exchange](/fr/recap-open-source-stack-exchange)
+
+Projet : il consiste à réaliser une contribution (de code), dans un logiciel libre de votre choix (et d'aller au bout du processus pour que votre contribution soit acceptée). [Détails](/pdf/Cours-logiciel-libre-projet.pdf). Rendu du projet pour le 12 mai (jour de l'examen). Demandez-moi une extension par mail si vous ne parvenez pas à avoir terminé pour cette date (maximum quelques jours supplémentaires).
 
 Évaluation : moitié examen / moitié projet.
