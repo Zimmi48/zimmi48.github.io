@@ -49,7 +49,7 @@ Reverse dependency compatibility testing (RDCT) is the practice of assessing com
 
 In the Coq development team, we've adopted this practice in our continuous integration to increase stability and reduce the migration cost for users, and give more confidence to developers to attempt potentially breaking changes (see my [PhD thesis][]).
 
-When a tested reverse dependency is broken by a pull request, it can sometimes be difficult to figure out what exactly the problem is. We've integrated the [bug minimizer][] of [Jason Gross][] in the CI workflow to allow contributors to request a minimization of the broken test case. We discuss this innovation and evaluate its effectiveness in a [recent paper](https://hal.inria.fr/hal-03586813/) that was accepted for publication at [ITP 2022](https://itpconference.github.io/ITP22/).
+When a tested reverse dependency is broken by a pull request, it can sometimes be difficult to figure out what exactly the problem is. We've integrated the [bug minimizer][] of [Jason Gross][] in the CI workflow to allow contributors to request a minimization of the broken test case. We discuss this innovation and evaluate its effectiveness in a [recent paper](https://hal.inria.fr/hal-03586813/) that was published at [ITP 2022](https://itpconference.github.io/ITP22/).
 
 More projects in the Coq ecosystem have adopted RDCT in their CI since then. This is the case, for instance, of the [MathComp][] library. With Cyril Cohen, we're maintaining a tool, the [Coq Nix Toolbox][], that allows generating a CI configuration to test a Coq project for compatibility with its reverse dependencies (see our abstract and the video of the demo at the [Coq workshop 2021][]).
 
@@ -70,7 +70,7 @@ We are currently working with [Jean-Rémy Falleri][] on building a grounded theo
 
 In 2018, I have founded the [Coq-community][] organization, a CPMO for the Coq ecosystem. It has been very successful and is now playing a major role in structuring the Coq ecosystem. At the time of writing, it hosts close to 60 projects, maintained by over 30 maintainers.
 
-Besides package maintenance, one of the objectives of Coq-community was also to be a place to explore new forms of documentation, and establish new development practices. We have integrated the project [Hydras & Co.][] of [Pierre Castéran][]. In 2021, I have supervised the internship of [Jérémy Damour][] to contribute to this project and explore the use of [Alectryon][], a new documentation tool for Coq projects by [Clément Pit-Claudel][]. With Pierre Castéran, Jérémy Damour, [Karl Palmskog][] and Clément Pit-Claudel, we wrote a [paper](https://hal.archives-ouvertes.fr/hal-03404668), that was accepted at [JFLA 2022][], about this project, our vision, and our use of modern tools and maintenance techniques to manage it.
+Besides package maintenance, one of the objectives of Coq-community was also to be a place to explore new forms of documentation, and establish new development practices. We have integrated the project [Hydras & Co.][] of [Pierre Castéran][]. In 2021, I have supervised the internship of [Jérémy Damour][] to contribute to this project and explore the use of [Alectryon][], a new documentation tool for Coq projects by [Clément Pit-Claudel][]. With Pierre Castéran, Jérémy Damour, [Karl Palmskog][] and Clément Pit-Claudel, we wrote a [paper](https://hal.archives-ouvertes.fr/hal-03404668), that was published at [JFLA 2022][], about this project, our vision, and our use of modern tools and maintenance techniques to manage it.
 
 [Alectryon]: https://github.com/cpitclaudel/alectryon
 [Hydras & Co.]: https://github.com/coq-community/hydra-battles
@@ -86,9 +86,9 @@ Besides package maintenance, one of the objectives of Coq-community was also to 
 
 Software engineering researchers rely on empirical methods to acquire knowledge and evaluate new tools and techniques. The goal is that software engineering practice can become more and more evidence-based, rather than relying only on expert and anecdotal knowledge. But, because empirical software engineering is still a young discipline, many empirical methods are still to be explored.
 
-With Annalí Casanueva Artís, a PhD student in economics, we've applied a quantitative method from econometrics, Regression on Discontinuity Design (RDD), to derive causality from a quasi-experiment setting (to evaluate the impact of a change in a development repository). My [PhD thesis][] contains two applications of this method (to evaluate a bug tracker switch and the introduction of a pull request template with checkboxes).
+With Annalí Casanueva Artís, at the time a PhD student in economics, we've applied a quantitative method from econometrics, Regression on Discontinuity Design (RDD), to derive causality from a quasi-experiment setting (to evaluate the impact of a change in a development repository). My [PhD thesis][] contains two applications of this method (to evaluate a bug tracker switch and the introduction of a pull request template with checkboxes).
 
-With [Jean-Rémy Falleri][], we're currently applying a qualitative method from sociology, Grounded Theory (GT), to generate a theory of CPMOs from diverse sources of data (documentation, public discussion records and interviews).
+With [Jean-Rémy Falleri][], we've applied a qualitative method from sociology, Grounded Theory (GT), to generate a theory of CPMOs from diverse sources of data (documentation, public discussion records and interviews).
 
 In the spirit of reproducible research and open science, I systematically share publicly my data analysis code as Jupyter notebooks, as well as my datasets.
 
@@ -104,7 +104,7 @@ Below, I list some software projects whose maintenance I am actively involved in
 Coq is a proof assistant that has been developed at Inria since the 1980s. Since 2015, the Coq development team has adopted modern development practices and has opened up to a community of contributors. I have been a witness and an actor of these changes, that I describe in my [PhD thesis][].
 In 2022, our team was awarded the [Open Science Award for Open Source Research Software](https://www.ouvrirlascience.fr/open-science-free-software-award-ceremony/) by the French ministry of research in acknowledgment for these efforts to open up the development of Coq. See this [blog post]({% post_url 2022-03-01-prix-science-ouverte %}) (in French) on the topic.
 
-Among the many changes toward more stability, we have put significant effort to improve the documentation. Thanks to [Clément Pit-Claudel][], who was the initial author of the proposal and the associated infrastructure, and many contributors, we have moved the reference manual of Coq to Sphinx, and we have subsequently introduced many changes to guarantee that it is more consistent and more exhaustive. Examples are continuously checked, and now, even the documented syntax is matched against Coq's (extensive) parsing rules, thanks to the work of [Jim Fehrle][]. All our development processes are described in detail in our [contributing guide][].
+Among the many changes toward more stability, we have put significant effort to improve the documentation. Thanks to [Clément Pit-Claudel][], who was the initial author of the proposal and the associated infrastructure, and many contributors, we have moved the reference manual of Coq to Sphinx, and we have subsequently introduced many changes to guarantee that it is more consistent and more exhaustive. Examples are continuously checked, and now, even the documented syntax is matched against Coq's (extensive) parsing rules, thanks to a work in collaboration with [Jim Fehrle][]. All our development processes are described in detail in our [contributing guide][].
 
 [Jim Fehrle]: https://github.com/jfehrle
 
@@ -128,7 +128,7 @@ The bot has acquired many new features over time to assist the Coq development t
 Today, it is an essential tool for Coq release management, issue and pull request management, continuous integration, and community support.
 It is also a platform for experimenting new ideas around open source software maintenance practice.
 
-See the [paper](https://hal.inria.fr/hal-03479327) that we wrote to present our vision, the main features of the bot and the design choices that make it easy to maintain and extend.
+See the [paper](https://hal.inria.fr/hal-03479327) that we published at [IEEE Software](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9864592&punumber=52) to present our vision, the main features of the bot and the design choices that make it easy to maintain and extend.
 
 [Julien Coolen]: https://github.com/jtcoolen
 
