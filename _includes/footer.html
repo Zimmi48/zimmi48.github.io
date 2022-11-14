@@ -19,22 +19,26 @@
       <ul>
 	    {% if site.linkedin_username %}<li>
 		  <a alt="LinkedIn" href="https://linkedin.com/in/{{ site.linkedin_username }}">
-			<img class="linkedin-icon" src="/images/linkedin.png">
+			<img class="social-icon" src="/images/linkedin.png">
 		    <span class="username">{{ site.linkedin_username }}</span>
 		  </a>
 		</li>{% endif %}
         {% if site.github_username %}<li>
           <a alt="GitHub" href="https://github.com/{{ site.github_username }}">
-            <img class="github-icon" src="/images/github.png">
+            <img class="social-icon" src="/images/github.png">
             <span class="username">{{ site.github_username }}</span>
           </a>
         </li>{% endif %}
         {% if site.twitter_username %}<li>
           <a alt="Twitter" href="https://twitter.com/{{ site.twitter_username }}">
-            <img class="twitter-icon" src="/images/twitter.png">
+            <img class="social-icon" src="/images/twitter.png">
             <span class="username">{{ site.twitter_username }}</span>
           </a>
         </li>{% endif %}
+        <a alt="Mastodon" rel="me" href="https://fediscience.org/@Zimm_i48">
+          <img class="social-icon" src="/images/mastodon.svg">
+          <span class="username">@Zimm_i48@fediscience.org</span>
+        </a>
       </ul>
     </div>
 
