@@ -9,18 +9,16 @@ trans: /fr/
 Who am I?
 ---------
 
-I am a *post-doc researcher* (at [Inria][] and [IRIF][]) and an *open source maintainer*.
+I am an *assistant professor* in software engineering for the safety and security of systems at [Télécom Paris][] and an *open source maintainer*.
 
-My research focuses on understanding and enhancing how open source maintainers and contributors collaborate to maintain and evolve software projects and ecosystems.
+[Télécom Paris]: https://www.telecom-paris.fr/
+
+My research focuses on understanding and enhancing how open source maintainers and contributors collaborate to maintain and evolve software projects and ecosystems. In particular, I am interested in securing software supply chains, by detecting and resolving maintenance issues in open source packages used in these supply chains.
 
 On the practioner side, I am a member of the [core development team](https://coq.inria.fr/coq-team.html) of the [Coq proof assistant](https://coq.inria.fr/). I am, in particular, the lead maintainer of Coq's documentation, the author of the [bot][] assisting the development team in everyday's tasks, and the founder of the [Coq-community][] initiative for long-term package maintenance in the Coq ecosystem.
 In 2022, our team was awarded the [Open Science Award for Open Source Research Software](https://www.ouvrirlascience.fr/open-science-free-software-award-ceremony/) by the French ministry of research. See this [blog post]({% post_url 2022-03-01-prix-science-ouverte %}) (in French) on the topic.
 
 I defended my PhD at Université de Paris (former Université Paris-Diderot, now [Université Paris Cité](https://u-paris.fr/en)) in 2019. My thesis was titled "Challenges in the collaborative evolution of a proof language and its ecosystem."  The [manuscript][PhD thesis] (in English) and the [slides][] (in French) of the defense are available.
-
-[CNRS]: http://www.cnrs.fr/en
-[Inria]: https://www.inria.fr/en
-[IRIF]: https://www.irif.fr/en/index
 
 [bot]: https://github.com/coq/bot
 [Coq-community]: https://github.com/coq-community/manifesto

@@ -9,12 +9,11 @@ trans: /en/
 Qui suis-je ?
 -------------
 
-Je suis *chercheur en informatique* (à l'[Inria][] et à l'[IRIF][]) et *mainteneur de logiciels libres*.
+Je suis *enseignant-chercheur* en génie logiciel pour la sûreté et la sécurité des systèmes à [Télécom Paris][] et *mainteneur de logiciels libres*.
 
-[Inria]: https://www.inria.fr/fr
-[IRIF]: https://www.irif.fr/
+[Télécom Paris]: https://www.telecom-paris.fr/
 
-Ma recherche a pour objectif de comprendre et d'améliorer la manière dont les mainteneur·ses et les contributeur·rices de logiciels libres collaborent pour faire évoluer les projets et les écosystèmes logiciels.
+Ma recherche a pour objectif de comprendre et d'améliorer la manière dont les mainteneur·ses et les contributeur·rices de logiciels libres collaborent pour faire évoluer les projets et les écosystèmes logiciels. Une application particulière est de sécuriser les chaînes d'approvisionnement logicielles, en détectant et résolvant les problèmes de maintenance de paquets open source utilisés dans ces dernières.
 
 En tant qu'acteur du logiciel libre, je suis un membre de l'équipe cœur développant l'[assistant de preuve Coq](https://coq.inria.fr/). Je maintiens la documentation de Coq ; je suis l'auteur du [bot][] qui assiste l'équipe de développement dans les tâches du quotidien ; j'ai fondé l'initiative [Coq-community][] pour la maintenance à long-terme des paquets de l'écosystème Coq.
 En 2022, [notre équipe a été récompensée par le Prix Science Ouverte du Logiciel Libre de Recherche]({% post_url 2022-03-01-prix-science-ouverte %}), décerné par le ministère de la recherche.
