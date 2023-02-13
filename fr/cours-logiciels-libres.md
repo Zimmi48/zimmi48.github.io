@@ -17,7 +17,7 @@ Modalités pratiques : cette année, deux créneaux sont disponibles pour assist
 
 Évaluation : moitié examen / moitié projet.
 
-[Détails projet](/pdf/Cours-logiciel-libre-projet-2023.pdf).
+[Détails projet](/pdf/Cours-logiciel-libre-projet-2023.pdf) (mis à jour le 10 février 2023).
 
 - [Cours 1 : Introduction, modalités et histoire du logiciel libre](/pdf/Cours-logiciel-libre-2023-1.pdf)
 
@@ -26,6 +26,10 @@ Modalités pratiques : cette année, deux créneaux sont disponibles pour assist
 - [Cours 2 : Licences libres](/pdf/Cours-logiciel-libre-2023-2.pdf)
 
 - [TD 2 : Licences libres](/pdf/Cours-logiciel-libre-2023-td2.pdf)
+
+- [TD 3 : Licences libres (bis)](/pdf/Cours-logiciel-libre-2023-td3.pdf)
+
+- [Cours 3 : Processus de contribution](/pdf/Cours-logiciel-libre-2023-3.pdf)
 
 ## Archive année 2021-2022
 
