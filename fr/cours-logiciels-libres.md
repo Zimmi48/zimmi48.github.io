@@ -31,6 +31,10 @@ Modalités pratiques : cette année, deux créneaux sont disponibles pour assist
 
 - [Cours 3 : Processus de contribution](/pdf/Cours-logiciel-libre-2023-3.pdf)
 
+- [TD 4 : Processus de contribution](/pdf/Cours-logiciel-libre-2023-td4.pdf)
+
+- [Cours 4 : Démarrer un projet de logiciel libre](/pdf/Cours-logiciel-libre-2023-4.pdf)
+
 ## Archive année 2021-2022
 
 - [Cours 1 : Introduction, modalités et histoire du logiciel libre](/pdf/Cours-logiciel-libre-1.pdf)
