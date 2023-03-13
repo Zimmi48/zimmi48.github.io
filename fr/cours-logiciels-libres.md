@@ -41,6 +41,8 @@ Modalités pratiques : cette année, deux créneaux sont disponibles pour assist
 
 - [TD 6 : Démarrer un projet libre](/pdf/Cours-logiciel-libre-2023-td6.pdf)
 
+- [Cours 6 : Gouvernance d'un projet open source](/pdf/Cours-logiciel-libre-2023-6.pdf)
+
 ## Archive année 2021-2022
 
 - [Cours 1 : Introduction, modalités et histoire du logiciel libre](/pdf/Cours-logiciel-libre-1.pdf)
