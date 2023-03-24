@@ -45,6 +45,10 @@ Modalités pratiques : cette année, deux créneaux sont disponibles pour assist
 
 - [TD 7 : Produire de nouvelles versions d'un logiciel libre](/pdf/Cours-logiciel-libre-2023-td7.pdf)
 
+- [Cours 7 : Écosystèmes de logiciels libres](/pdf/Cours-logiciel-libre-2023-7.pdf)
+
+- [TD 8 : Gouvernance d'un projet open source](/pdf/Cours-logiciel-libre-2023-td8.pdf)
+
 ## Archive année 2021-2022
 
 - [Cours 1 : Introduction, modalités et histoire du logiciel libre](/pdf/Cours-logiciel-libre-1.pdf)
