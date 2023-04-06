@@ -15,7 +15,7 @@ I am an *assistant professor* in software engineering for the safety and securit
 
 My research focuses on understanding and enhancing how open source maintainers and contributors collaborate to maintain and evolve software projects and ecosystems. In particular, I am interested in securing software supply chains, by detecting and resolving maintenance issues in open source packages used in these supply chains.
 
-On the practioner side, I am a member of the [core development team](https://coq.inria.fr/coq-team.html) of the [Coq proof assistant](https://coq.inria.fr/). I am, in particular, the lead maintainer of Coq's documentation, the author of the [bot][] assisting the development team in everyday's tasks, and the founder of the [Coq-community][] initiative for long-term package maintenance in the Coq ecosystem.
+On the practioner side, I am a member of the [core development team](https://coq.inria.fr/coq-team.html) of the [Coq proof assistant](https://coq.inria.fr/). I am, in particular, a maintainer of Coq's documentation, the author of the [bot][] assisting the development team in everyday's tasks, and the founder of the [Coq-community][] initiative for long-term package maintenance in the Coq ecosystem.
 In 2022, our team was awarded the [Open Science Award for Open Source Research Software](https://www.ouvrirlascience.fr/open-science-free-software-award-ceremony/) by the French ministry of research. See this [blog post]({% post_url 2022-03-01-prix-science-ouverte %}) (in French) on the topic.
 
 I defended my PhD at Université de Paris (former Université Paris-Diderot, now [Université Paris Cité](https://u-paris.fr/en)) in 2019. My thesis was titled "Challenges in the collaborative evolution of a proof language and its ecosystem."  The [manuscript][PhD thesis] (in English) and the [slides][] (in French) of the defense are available.
@@ -29,7 +29,7 @@ I defended my PhD at Université de Paris (former Université Paris-Diderot, now
 Research
 --------
 
-See my [Google Scholar profile](https://scholar.google.fr/citations?user=-NgHOiwAAAAJ&hl=en) for the complete list of my publications and preprints.
+See my [Google Scholar profile](https://scholar.google.fr/citations?user=-NgHOiwAAAAJ&view_op=list_works&sortby=pubdate) for the complete list of my publications and preprints.
 
 ### Topics
 
@@ -49,7 +49,7 @@ In the Coq development team, we've adopted this practice in our continuous integ
 
 When a tested reverse dependency is broken by a pull request, it can sometimes be difficult to figure out what exactly the problem is. We've integrated the [bug minimizer][] of [Jason Gross][] in the CI workflow to allow contributors to request a minimization of the broken test case. We discuss this innovation and evaluate its effectiveness in a [recent paper](https://hal.inria.fr/hal-03586813/) that was published at [ITP 2022](https://itpconference.github.io/ITP22/).
 
-More projects in the Coq ecosystem have adopted RDCT in their CI since then. This is the case, for instance, of the [MathComp][] library. With Cyril Cohen, we're maintaining a tool, the [Coq Nix Toolbox][], that allows generating a CI configuration to test a Coq project for compatibility with its reverse dependencies (see our abstract and the video of the demo at the [Coq workshop 2021][]).
+More projects in the Coq ecosystem have adopted RDCT in their CI since then. This is the case, for instance, of the [MathComp][] library. With [Cyril Cohen][], we're maintaining a tool, the [Coq Nix Toolbox][], that allows generating a CI configuration to test a Coq project for compatibility with its reverse dependencies (see our abstract and the video of the demo at the [Coq workshop 2021][]).
 
 [Jason Gross]: https://jasongross.github.io/
 
@@ -64,9 +64,9 @@ Package ecosystems play a major role in modern code development in most programm
 
 To alleviate this problem, I have observed a model of Community Package Maintenance Organization (CPMO), first in the Elm ecosystem, then in many other ecosystems. I have published a [paper](https://hal.inria.fr/hal-02534965v2) taking a first look at this model of organization in the [2020 Software Health (SoHEAL) workshop](https://soheal.github.io/SoHeal2020/index.html) (associated with the International Conference on Software Engineering). See also the [video of the talk](https://www.youtube.com/watch?v=GmVufTUFmVc) at the virtual workshop.
 
-We are currently working with [Jean-Rémy Falleri][] on building a grounded theory of these organizations. See our [registered report](https://hal.inria.fr/hal-03320556) that was accepted at the [2021 IEEE International Conference on Software Maintenance and Evolution](https://icsme2021.github.io/). See also the [video of the talk](https://youtu.be/BUffMIO-geo) at the virtual conference.
+Then, with [Jean-Rémy Falleri][], we've pushed the study of these organizations further and built a grounded theory of CPMOs. See our [recent preprint](https://hal.telecom-paris.fr/hal-03976601), which follows our [registered report](https://hal.inria.fr/hal-03320556) at the [2021 IEEE International Conference on Software Maintenance and Evolution](https://icsme2021.github.io/). See also the [video of the talk](https://youtu.be/BUffMIO-geo) at the virtual conference.
 
-In 2018, I have founded the [Coq-community][] organization, a CPMO for the Coq ecosystem. It has been very successful and is now playing a major role in structuring the Coq ecosystem. At the time of writing, it hosts close to 60 projects, maintained by over 30 maintainers.
+In 2018, I founded the [Coq-community][] organization, a CPMO for the Coq ecosystem. It has been very successful and is now playing a major role in structuring the Coq ecosystem. At the time of writing, it hosts over 60 projects, maintained by 40 maintainers.
 
 Besides package maintenance, one of the objectives of Coq-community was also to be a place to explore new forms of documentation, and establish new development practices. We have integrated the project [Hydras & Co.][] of [Pierre Castéran][]. In 2021, I have supervised the internship of [Jérémy Damour][] to contribute to this project and explore the use of [Alectryon][], a new documentation tool for Coq projects by [Clément Pit-Claudel][]. With Pierre Castéran, Jérémy Damour, [Karl Palmskog][] and Clément Pit-Claudel, we wrote a [paper](https://hal.archives-ouvertes.fr/hal-03404668), that was published at [JFLA 2022][], about this project, our vision, and our use of modern tools and maintenance techniques to manage it.
 
@@ -84,11 +84,13 @@ Besides package maintenance, one of the objectives of Coq-community was also to 
 
 Software engineering researchers rely on empirical methods to acquire knowledge and evaluate new tools and techniques. The goal is that software engineering practice can become more and more evidence-based, rather than relying only on expert and anecdotal knowledge. But, because empirical software engineering is still a young discipline, many empirical methods are still to be explored.
 
-With Annalí Casanueva Artís, at the time a PhD student in economics, we've applied a quantitative method from econometrics, Regression on Discontinuity Design (RDD), to derive causality from a quasi-experiment setting (to evaluate the impact of a change in a development repository). My [PhD thesis][] contains two applications of this method (to evaluate a bug tracker switch and the introduction of a pull request template with checkboxes).
+With [Annalí Casanueva Artís][], an empirical political economist, we've applied a quantitative method from econometrics, Regression on Discontinuity Design (RDD), to derive causality from a quasi-experiment setting (to evaluate the impact of a change in a development repository). My [PhD thesis][] contains two applications of this method (to evaluate a bug tracker switch and the introduction of a pull request template with checkboxes).
 
 With [Jean-Rémy Falleri][], we've applied a qualitative method from sociology, Grounded Theory (GT), to generate a theory of CPMOs from diverse sources of data (documentation, public discussion records and interviews).
 
 In the spirit of reproducible research and open science, I systematically share publicly my data analysis code as Jupyter notebooks, as well as my datasets.
+
+[Annalí Casanueva Artís]: https://annalicasanueva.com/en/
 
 Software
 --------
