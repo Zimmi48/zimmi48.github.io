@@ -33,25 +33,29 @@ Modalités pratiques : cette année, deux créneaux sont disponibles pour assist
 
 - [TD 4 : Processus de contribution](/pdf/Cours-logiciel-libre-2023-td4.pdf)
 
-- [Cours 4 : Démarrer un projet de logiciel libre](/pdf/Cours-logiciel-libre-2023-4.pdf)
-
 - [TD 5 : Processus de contribution (suite)](/pdf/Cours-logiciel-libre-2023-td5.pdf)
 
-- [Cours 5 : Produire des nouvelles versions d'un logiciel libre](/pdf/Cours-logiciel-libre-2023-5.pdf)
+- [Cours 4 : Démarrer un projet de logiciel libre](/pdf/Cours-logiciel-libre-2023-4.pdf)
 
 - [TD 6 : Démarrer un projet libre](/pdf/Cours-logiciel-libre-2023-td6.pdf)
 
-- [Cours 6 : Gouvernance d'un projet open source](/pdf/Cours-logiciel-libre-2023-6.pdf)
+- [Cours 5 : Produire des nouvelles versions d'un logiciel libre](/pdf/Cours-logiciel-libre-2023-5.pdf)
 
 - [TD 7 : Produire de nouvelles versions d'un logiciel libre](/pdf/Cours-logiciel-libre-2023-td7.pdf)
 
-- [Cours 7 : Écosystèmes de logiciels libres](/pdf/Cours-logiciel-libre-2023-7.pdf)
+- [Cours 6 : Gouvernance d'un projet open source](/pdf/Cours-logiciel-libre-2023-6.pdf)
 
 - [TD 8 : Gouvernance d'un projet open source](/pdf/Cours-logiciel-libre-2023-td8.pdf)
 
-- [Cours 8 : Économie du logiciel libre](/pdf/Cours-logiciel-libre-2023-8.pdf)
+- [Cours 7 : Écosystèmes de logiciels libres](/pdf/Cours-logiciel-libre-2023-7.pdf)
 
 - [TD 9 : Écosystèmes de logiciels libres](/pdf/Cours-logiciel-libre-2023-td9.pdf)
+
+- [Cours 8 : Économie du logiciel libre](/pdf/Cours-logiciel-libre-2023-8.pdf)
+
+- [TD 10 : Modèles économiques du logiciel libre](/pdf/Cours-logiciel-libre-2023-td10.pdf)
+
+- [Cours 9 : Économie du logiciel libre (suite)](/pdf/Cours-logiciel-libre-2023-9.pdf)
 
 ## Archive année 2021-2022
 
