@@ -9,7 +9,7 @@ trans: /fr/
 Who am I?
 ---------
 
-I am an *assistant professor* in software engineering for the safety and security of systems at [Télécom Paris][] and an *open source maintainer*.
+I am an *associate professor* in software engineering for the safety and security of systems at [Télécom Paris][] and an *open source maintainer*.
 
 [Télécom Paris]: https://www.telecom-paris.fr/
 
