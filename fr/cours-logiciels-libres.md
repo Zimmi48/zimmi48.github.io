@@ -7,13 +7,42 @@ redirect_from: libre
 
 URL courte de cette page : [theoz.im/libre](http://theoz.im/libre)
 
-Cours d'option de M1, deuxième semestre, UFR d'informatique, Université Paris Cité.
+Il s'agit de la page au sujet du cours d'introduction aux logiciels libres que je donne à Télécom Paris ([CSC_3TC37_TP](https://synapses.telecom-paris.fr/catalogue/2024-2025/ue/22098/csc-3tc37-tp-contribution-a-un-logiciel-libre) en première année du cycle ingénieur).
 
-L'enjeu de ce cours est d'introduire la notion de logiciel libre (*free software* en anglais) et d'*open source* dans toutes ses dimensions. Nous parlerons ainsi à la fois de l'histoire des logiciels libres et de leur philosophie, de licences libres, d'économie du logiciel libre, mais aussi de la pratique du partage de code et de la maintenance collaborative via des plateformes modernes telles que GitHub / GitLab.
+L'enjeu de ce cours est d'introduire la notion de logiciel libre (*free software* en anglais) et d'*open source* dans toutes ses dimensions. Nous parlons ainsi à la fois de l'histoire des logiciels libres et de leur philosophie, de licences libres, d'économie du logiciel libre, mais aussi de la pratique du partage de code et de la maintenance collaborative via des plateformes modernes telles que GitHub / GitLab.
 
-## Année 2022-2023
+La partie pratique du cours consiste à contribuer à un projet de logiciel libre. Nous guidons les étudiants étape par étape pour que cette expérience soit un succès.
 
-Modalités pratiques : cette année, deux créneaux sont disponibles pour assister aux cours / TD, le vendredi, soit de 8h30 à 10h30 (salle 1009, bâtiment Sophie Germain), soit de 14h à 16h (salle 027C, bâtiment Halle aux Farines).
+[Slides consolidés de la partie cours magistral](/pdf/inf113.pdf).
+
+Programme séance par séance :
+
+- Cours 1 : Introduction, définition du logiciel libre.
+- TP 1 : Plongée dans une base de code.
+- Rendu 1 : Recherche de projets.
+- Cours 2 : Histoire du logiciel libre, licences libres.
+- TP 2 : Analyse de projets.
+- Rendu 2 : Analyse de projets, compilation / installation en mode développeur.
+- TP 3 : Retour sur les difficultés rencontrés pour l'installation en mode développeur.
+- Cours 3 : Licences libres (suite et fin).
+- Rendu 3 : Recherches de contributions potentielles.
+- Cours 4 : Communication, processus de contribution, communautés.
+- TP 4 : Choix d'issue, communication.
+- Rendu 4 : Communication.
+- Cours 5 : Gouvernance.
+- TP 5 : Aide au projet.
+- Cours 6 : Modèles économiques.
+- Examen.
+- TP 6 : Aide au projet.
+- Soutenances de projet.
+
+## Historique
+
+Le cours de Télécom Paris a des racines dans le cours d'introduction aux logiciels libres que j'ai donné à l'Université Paris Cité en 2021-2022 et 2022-2023. Les supports de cours de ces années sont disponibles ci-dessous.
+
+Avant moi, un cours similaire a été donné par Stefano Zacchiroli à l'Université Paris Diderot (ancien nom de l'Université Paris Cité) pendant environ dix ans. Une partie du matériel du cours sur les modèles économiques du logiciel libre est dérivée d'un autre cours à l'Université Paris Diderot, donné par Ralf Treinen.
+
+### Année 2022-2023
 
 Évaluation : moitié examen / moitié projet.
 
@@ -57,7 +86,7 @@ Modalités pratiques : cette année, deux créneaux sont disponibles pour assist
 
 - [Cours 9 : Économie du logiciel libre (suite)](/pdf/Cours-logiciel-libre-2023-9.pdf)
 
-## Archive année 2021-2022
+### Année 2021-2022
 
 - [Cours 1 : Introduction, modalités et histoire du logiciel libre](/pdf/Cours-logiciel-libre-1.pdf)
 
