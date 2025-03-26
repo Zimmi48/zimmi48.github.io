@@ -15,13 +15,13 @@ I am an *associate professor* in software engineering for the safety and securit
 
 My research focuses on understanding and enhancing how open source maintainers and contributors collaborate to maintain and evolve software projects and ecosystems. In particular, I am interested in securing software supply chains, by detecting and resolving maintenance issues in open source packages used in these supply chains.
 
-On the practioner side, I am a member of the [core development team](https://coq.inria.fr/coq-team.html) of the [Coq proof assistant](https://coq.inria.fr/). I am, in particular, a maintainer of Coq's documentation, the author of the [bot][] assisting the development team in everyday's tasks, and the founder of the [Coq-community][] initiative for long-term package maintenance in the Coq ecosystem.
+On the practitioner side, I am a member of the [core team](https://rocq-prover.org/rocq-team/core) of the [Rocq Prover](https://rocq-prover.org), a proof assistant (formerly known as Coq). I am, in particular, a maintainer of Rocq's documentation, the author of the [bot][] assisting the development team in everyday tasks, and the founder of the [Rocq-community][] initiative for long-term package maintenance in the Rocq ecosystem.
 In 2022, our team was awarded the [Open Science Award for Open Source Research Software](https://www.ouvrirlascience.fr/open-science-free-software-award-ceremony/) by the French ministry of research. See this [blog post]({% post_url 2022-03-01-prix-science-ouverte %}) (in French) on the topic.
 
 I defended my PhD at Université de Paris (former Université Paris-Diderot, now [Université Paris Cité](https://u-paris.fr/en)) in 2019. My thesis was titled "Challenges in the collaborative evolution of a proof language and its ecosystem."  The [manuscript][PhD thesis] (in English) and the [slides][] (in French) of the defense are available.
 
 [bot]: https://github.com/coq/bot
-[Coq-community]: https://github.com/coq-community/manifesto
+[Rocq-community]: https://github.com/rocq-community/manifesto
 
 [PhD thesis]: https://hal.inria.fr/tel-02451322v1
 [slides]: https://www.irif.fr/_media/users/theo/phd_defense.pdf
@@ -34,6 +34,8 @@ See my [Google Scholar profile](https://scholar.google.fr/citations?user=-NgHOiw
 ### Topics
 
 I present below some of my active research topics. Other topics of interest are discussed on [my blog](/blog). See also some [past topics](/en/past-topics).
+
+Students interested in doing research with me are welcome to reach out. There is a (non-exhaustive) list of project ideas on [this page](/en/projects).
 
 #### Bug tracking and issue management
 
@@ -54,7 +56,7 @@ More projects in the Coq ecosystem have adopted RDCT in their CI since then. Thi
 [Jason Gross]: https://jasongross.github.io/
 
 [MathComp]: https://github.com/math-comp/math-comp
-[Coq Nix Toolbox]: https://github.com/coq-community/coq-nix-toolbox
+[Coq Nix Toolbox]: https://github.com/rocq-community/coq-nix-toolbox
 [bug minimizer]: https://github.com/JasonGross/coq-tools
 [Coq workshop 2021]: https://coq-workshop.gitlab.io/2021/
 
@@ -66,12 +68,12 @@ To alleviate this problem, I have observed a model of Community Package Maintena
 
 Then, with [Jean-Rémy Falleri][], we've pushed the study of these organizations further and built a grounded theory of CPMOs. See our [recent preprint](https://hal.telecom-paris.fr/hal-03976601), which follows our [registered report](https://hal.inria.fr/hal-03320556) at the [2021 IEEE International Conference on Software Maintenance and Evolution](https://icsme2021.github.io/). See also the [video of the talk](https://youtu.be/BUffMIO-geo) at the virtual conference.
 
-In 2018, I founded the [Coq-community][] organization, a CPMO for the Coq ecosystem. It has been very successful and is now playing a major role in structuring the Coq ecosystem. At the time of writing, it hosts over 60 projects, maintained by 40 maintainers.
+In 2018, I founded the [Rocq-community][] organization, a CPMO for the Rocq ecosystem. It has been very successful and is now playing a major role in structuring the Rocq ecosystem. At the time of writing, it hosts over 60 projects, maintained by 40 maintainers.
 
-Besides package maintenance, one of the objectives of Coq-community was also to be a place to explore new forms of documentation, and establish new development practices. We have integrated the project [Hydras & Co.][] of [Pierre Castéran][]. In 2021, I have supervised the internship of [Jérémy Damour][] to contribute to this project and explore the use of [Alectryon][], a new documentation tool for Coq projects by [Clément Pit-Claudel][]. With Pierre Castéran, Jérémy Damour, [Karl Palmskog][] and Clément Pit-Claudel, we wrote a [paper](https://hal.archives-ouvertes.fr/hal-03404668), that was published at [JFLA 2022][], about this project, our vision, and our use of modern tools and maintenance techniques to manage it.
+Besides package maintenance, one of the objectives of Rocq-community was also to be a place to explore new forms of documentation, and establish new development practices. We have integrated the project [Hydras & Co.][] of [Pierre Castéran][]. In 2021, I have supervised the internship of [Jérémy Damour][] to contribute to this project and explore the use of [Alectryon][], a new documentation tool for Rocq projects by [Clément Pit-Claudel][]. With Pierre Castéran, Jérémy Damour, [Karl Palmskog][] and Clément Pit-Claudel, we wrote a [paper](https://hal.archives-ouvertes.fr/hal-03404668), that was published at [JFLA 2022][], about this project, our vision, and our use of modern tools and maintenance techniques to manage it.
 
 [Alectryon]: https://github.com/cpitclaudel/alectryon
-[Hydras & Co.]: https://github.com/coq-community/hydra-battles
+[Hydras & Co.]: https://github.com/rocq-community/hydra-battles
 [JFLA 2022]: http://jfla.inria.fr/jfla2022.html
 
 [Jean-Rémy Falleri]: https://www.labri.fr/perso/falleri/perso/
@@ -97,21 +99,22 @@ Software
 
 Below, I list some software projects whose maintenance I am actively involved in. See also some [past software projects](/en/past-topics#past-software-projects).
 
-### Coq
+### The Rocq Prover
 
-*GitHub repository: <https://github.com/coq/coq>*
+*GitHub repository: <https://github.com/rocq-prover/rocq>*
 
-Coq is a proof assistant that has been developed at Inria since the 1980s. Since 2015, the Coq development team has adopted modern development practices and has opened up to a community of contributors. I have been a witness and an actor of these changes, that I describe in my [PhD thesis][].
-In 2022, our team was awarded the [Open Science Award for Open Source Research Software](https://www.ouvrirlascience.fr/open-science-free-software-award-ceremony/) by the French ministry of research in acknowledgment for these efforts to open up the development of Coq. See this [blog post]({% post_url 2022-03-01-prix-science-ouverte %}) (in French) on the topic.
+The Rocq Prover is a proof assistant (formerly known as Coq) that has been developed at Inria since the 1980s. Since 2015, the Rocq development team has adopted modern development practices and has opened up to a community of contributors. I have been a witness and an actor of these changes, that I describe in my [PhD thesis][].
+In 2022, our team was awarded the [Open Science Award for Open Source Research Software](https://www.ouvrirlascience.fr/open-science-free-software-award-ceremony/) by the French ministry of research in acknowledgment for these efforts to open up the development of Rocq. See this [blog post]({% post_url 2022-03-01-prix-science-ouverte %}) (in French) on the topic.
 
-Among the many changes toward more stability, we have put significant effort to improve the documentation. Thanks to [Clément Pit-Claudel][], who was the initial author of the proposal and the associated infrastructure, and many contributors, we have moved the reference manual of Coq to Sphinx, and we have subsequently introduced many changes to guarantee that it is more consistent and more exhaustive. Examples are continuously checked, and now, even the documented syntax is matched against Coq's (extensive) parsing rules, thanks to a work in collaboration with [Jim Fehrle][]. All our development processes are described in detail in our [contributing guide][].
+Among the many changes toward more stability, we have put significant effort to improve the documentation. Thanks to [Clément Pit-Claudel][], who was the initial author of the proposal and the associated infrastructure, and many contributors, we have moved the reference manual of Rocq to Sphinx, and we have subsequently introduced many changes to guarantee that it is more consistent and more exhaustive. Examples are continuously checked, and now, even the documented syntax is matched against Rocq's (extensive) parsing rules, thanks to a work in collaboration with [Jim Fehrle][]. All our development processes are described in detail in our [contributing guide][].
 
 [Jim Fehrle]: https://github.com/jfehrle
 
-[contributing guide]: https://github.com/coq/coq/blob/master/CONTRIBUTING.md
+[contributing guide]: https://github.com/rocq-prover/rocq/blob/master/CONTRIBUTING.md
 
-To make Coq and the many great packages of its ecosystem more accessible, but also to improve reproducibility and replicability of research based on Coq, two related initiatives are the [Coq-community][] CPMO, that I have already [presented above](#community-organization-and-package-maintenance-at-the-ecosystem-level), and the [Coq Platform][]. The latter is a project, led by Michael Soegtrop, with help from Karl Palmskog, Enrico Tassi, myself, and others, to provide an easy way to install a standardized bundle containing Coq and a selection of useful Coq packages, on any operating system. This project started based on previous work by Michael Soegtrop on the Coq Windows installer, and on [experimentations](https://github.com/MisterDA/ocaml-platform) done by Antonin Décimo on opam-based Windows installers, under the supervision of [Yann Régis-Gianas][] and myself. See the [recent paper](https://hal.inria.fr/hal-03592675) that we have published on the topic.
+To make the Rocq Prover and the many great packages of its ecosystem more accessible, but also to improve reproducibility and replicability of research based on Rocq, two related initiatives are the [Rocq-community][] CPMO, that I have already [presented above](#community-organization-and-package-maintenance-at-the-ecosystem-level), and the [Rocq Platform][]. The latter is a project, led by Michael Soegtrop, with help from Karl Palmskog, Enrico Tassi, myself, and others, to provide an easy way to install a standardized bundle containing the Rocq Prover and a selection of useful Rocq packages, on any operating system. This project started based on previous work by Michael Soegtrop on the Coq Windows installer, and on [experimentations](https://github.com/MisterDA/ocaml-platform) done by Antonin Décimo on opam-based Windows installers, under the supervision of [Yann Régis-Gianas][] and myself. See the [paper](https://hal.inria.fr/hal-03592675) that we have published on the topic.
 
+[Rocq-community]: https://github.com/rocq-community/manifesto
 [Coq Platform]: https://github.com/coq/platform
 [Yann Régis-Gianas]: https://yrg.gitlab.io/homepage/
 
@@ -132,18 +135,18 @@ See the [paper](https://hal.inria.fr/hal-03479327) that we published at [IEEE So
 
 [Julien Coolen]: https://github.com/jtcoolen
 
-### Coq-community templates, Docker-Coq-Action and the Coq Nix Toolbox
+### Rocq-community templates, Docker-Coq-Action and the Coq Nix Toolbox
 
 *GitHub repositories: [templates][], [Docker-Coq-Action][], [Coq Nix Toolbox][].*
 
-As part of the [Coq-community][] initiative, there was a significant effort toward providing better tools for Coq project maintainers, notably around continuous integration (but not limited to that). I have contributed to create and maintain the three main projects around this question (together with many contributors, most notably [Karl Palmskog][], [Erik Martin-Dorel][], and [Cyril Cohen][]):
+As part of the [Rocq-community][] initiative, there was a significant effort toward providing better tools for Rocq project maintainers, notably around continuous integration (but not limited to that). I have contributed to create and maintain the three main projects around this question (together with many contributors, most notably [Karl Palmskog][], [Erik Martin-Dorel][], and [Cyril Cohen][]):
 
-1. The Coq-community [templates][] provide a tool for generating standard files (documentation, continuous integration, build and packaging files) automatically from information contained in a `meta.yml` file. They are used by most projects hosted inside Coq-community, but also by many projects outside. At the moment, the templates are only well-suited to single-package repositories, but we have plans for monorepo (multi-package repository) support in a V2 of the templates that would stop relying on the Mustache template language.
+1. The Rocq-community [templates][] provide a tool for generating standard files (documentation, continuous integration, build and packaging files) automatically from information contained in a `meta.yml` file. They are used by most projects hosted inside Rocq-community, but also by many projects outside. At the moment, the templates are only well-suited to single-package repositories, but we have plans for monorepo (multi-package repository) support in a V2 of the templates that would stop relying on the Mustache template language.
 2. [Docker-Coq-Action][] provides the simplest solution to set up continuous integration for a Coq project: a GitHub Action that only requires an opam file and almost zero configuration for simple use cases, and which is flexible enough to account for advanced use cases (in fact, it is flexible enough to be applicable to non-Coq projects as well).
 3. The [Coq Nix Toolbox][] is an advanced tool based on the [Nix][] package manager. It can be used to get a local development environment ready to build any Coq package, using released or unreleased versions of its Coq dependencies. It can also be used to generate a continuous integration setup for [RDCT](#reverse-dependency-compatibility-testing). See our abstract and the video of the demo at the [Coq workshop 2021][].
 
-[templates]: https://github.com/coq-community/templates
-[Docker-Coq-Action]: https://github.com/coq-community/docker-coq-action
+[templates]: https://github.com/rocq-community/templates
+[Docker-Coq-Action]: https://github.com/rocq-community/docker-coq-action
 [Nix]: https://nixos.org/
 
 [Erik Martin-Dorel]: https://www.irit.fr/~Erik.Martin-Dorel/index_en.php
@@ -152,10 +155,16 @@ As part of the [Coq-community][] initiative, there was a significant effort towa
 Teaching
 --------
 
-### At Université Paris Cité
+### At Télécom Paris
 
-- Since 2017, I have been the teaching assistant of a [Coq class](https://github.com/herbelin/cours-preuves-ordinateur).
+In 2024-2025, I am responsible for:
 
-- Since 2022, I am in charge of the class on [Free and Open Source Software](/fr/cours-logiciels-libres).
+- The practical part of a course on logical foundations of computer science ([CSC_3TC34_TP](https://synapses.telecom-paris.fr/catalogue/2024-2025/ue/22099/CSC-3TC34-TP-logique-et-fondements-de-l-informatique?from=P5181), formerly INF110), which includes labs introducing the Rocq Prover. The theoretical part is given by David Madore. The course is part of the first year of the engineering cycle at Télécom Paris. The lab subjects are [available](https://gitlab.telecom-paris.fr/theo.zimmermann/coder-deployment-for-inf110/-/blob/main/inf110-workspace-contents/) (in French).
+- With Marc Jeanmougin, a course on contributing to free software, also part of the first year of the engineering cycle at Télécom Paris ([CSC_3TC37_TP](https://synapses.telecom-paris.fr/catalogue/2024-2025/ue/22098/csc-3tc37-tp-contribution-a-un-logiciel-libre), formerly INF113). The course material is [available](/fr/cours-logiciels-libres) (in French).
+- An optional course on web development, part of the second year of the engineering cycle at Télécom Paris ([CSC_0EL10_TP](https://synapses.telecom-paris.fr/catalogue/2024-2025/ue/2133/CSC-0EL10-TP-web-development-developpement-web?from=P5015), formerly INF203).
 
-In previous years, I was a teaching assistant for Python classes (introduction to programming; algorithms and data structures), an OCaml class and a class on languages and automata.
+### Previously
+
+At Université Paris Cité, I was responsible for the course on [Free Software](/fr/cours-logiciels-libres) in the first year of the master's program for two years (2021-2022 and 2022-2023). I was also in charge of the labs for the Coq course in the first year of the master's program ([Computer-Assisted Proofs][]) for seven years (from 2016-2017 to 2022-2023). In previous years, I was also in charge of labs for Python classes (introduction to programming; algorithms and data structures), an OCaml class, and a class on languages and automata.
+
+[Computer-Assisted Proofs]: https://github.com/herbelin/cours-preuves-ordinateur
