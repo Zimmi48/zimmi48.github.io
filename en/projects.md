@@ -4,6 +4,8 @@ lang: en
 title: Research projects ideas
 ---
 
+*NEW:* I'm currently offering the following Master's internship project on ["Linking Open Source Contributors to GitHub Profiles: Improving Identity Resolution in Large-Scale Open Source Software Research"](/en/projects/identity-resolution)
+
 The following are project ideas on which I could supervise interested students.
 If you are interested in my research topics, but want to discuss a different project, feel free to contact me as well.
 If you are a student who is already involved in an open-source community and would like to conduct action-research to improve the software maintenance / collaboration process of the project you are involved in, there are many more ideas related to this that we could discuss.
