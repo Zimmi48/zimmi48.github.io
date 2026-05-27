@@ -43,11 +43,16 @@ Enseignement
 
 ### À Télécom Paris
 
-En 2024-2025, je suis responsable de :
+En 2025-2026, je suis responsable de :
 
-- La partie TD/TP de l'UE de première année du cycle ingénieur [CSC_3TC34_TP](https://synapses.telecom-paris.fr/catalogue/2024-2025/ue/22099/CSC-3TC34-TP-logique-et-fondements-de-l-informatique?from=P5181) (anciennement INF110) "Logique et Fondement de l'Informatique", qui comporte notamment un TP en Python de simulation de machines de Turing et quatre TP introduisant l'assistant de preuve Rocq (les sujets de TP sont [disponibles](https://gitlab.telecom-paris.fr/theo.zimmermann/coder-deployment-for-inf110/-/blob/main/inf110-workspace-contents/)). David Madore est responsable de la partie théorique / cours magistral (supports également [disponibles](https://perso.telecom-paristech.fr/madore/inf110/)).
-- Avec Marc Jeanmougin, l'UE de première année du cycle ingénieur [CSC_3TC37_TP](https://synapses.telecom-paris.fr/catalogue/2024-2025/ue/22098/csc-3tc37-tp-contribution-a-un-logiciel-libre) (anciennement INF113) sur la contribution aux logiciels libres. Le matériel du cours est [disponible](/fr/cours-logiciels-libres).
-- L'UE d'option de deuxième année [CSC_0EL10_TP](https://synapses.telecom-paris.fr/catalogue/2024-2025/ue/2133/CSC-0EL10-TP-web-development-developpement-web?from=P5015) (anciennement INF203) "Web development".
+- La partie TD/TP de l'UE de première année du cycle ingénieur [CSC_3TC34_TP](https://synapses.telecom-paris.fr/catalogue/2025-2026/ue/22099/CSC-3TC34-TP-logique-et-fondements-de-l-informatique) (anciennement INF110) "Logique et Fondement de l'Informatique", qui comporte notamment un TP en Python de simulation de machines de Turing et quatre TP introduisant l'assistant de preuve Rocq (les sujets de TP sont [disponibles](https://gitlab.telecom-paris.fr/theo.zimmermann/coder-deployment-for-inf110/-/blob/main/inf110-workspace-contents/)). David Madore est responsable de la partie théorique / cours magistral (supports également [disponibles](https://perso.telecom-paristech.fr/madore/inf110/)).
+- Avec Marc Jeanmougin, l'UE de première année du cycle ingénieur [CSC_3TC37_TP](https://synapses.telecom-paris.fr/catalogue/2025-2026/ue/22098/csc-3tc37-tp-contribution-a-un-logiciel-libre) (anciennement INF113) sur la contribution aux logiciels libres. Le matériel du cours est [disponible](/fr/cours-logiciels-libres).
+- L'UE d'option de deuxième année [CSC_0EL10_TP](https://synapses.telecom-paris.fr/catalogue/2025-2026/ue/2133/CSC-0EL10-TP-web-development-developpement-web) (anciennement INF203) "Web development".
+
+À partir de 2026-2027, je suis également impliqué dans la création d'une nouvelle option de troisième année en génie logiciel ([SWENG](https://sweng.telecom-paris.fr/)) et je serai responsable de deux nouveaux cours :
+
+- Un cours de Méthodes Empiriques en Génie Logiciel, pour l'option SWENG, avec Stefano Zacchiroli.
+- Un cours sur le DevOps, pour les étudiants de deuxième année de la filière SLR (Systèmes et Logiciels Répartis), avec Marc Jeanmougin.
 
 ### Précédemment
 

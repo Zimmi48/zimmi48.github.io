@@ -157,11 +157,16 @@ Teaching
 
 ### At Télécom Paris
 
-In 2024-2025, I am responsible for:
+In 2025-2026, I am responsible for:
 
-- The practical part of a course on logical foundations of computer science ([CSC_3TC34_TP](https://synapses.telecom-paris.fr/catalogue/2024-2025/ue/22099/CSC-3TC34-TP-logique-et-fondements-de-l-informatique?from=P5181), formerly INF110), which includes labs introducing the Rocq Prover. The theoretical part is given by David Madore. The course is part of the first year of the engineering cycle at Télécom Paris. The lab subjects are [available](https://gitlab.telecom-paris.fr/theo.zimmermann/coder-deployment-for-inf110/-/blob/main/inf110-workspace-contents/) (in French).
-- With Marc Jeanmougin, a course on contributing to free software, also part of the first year of the engineering cycle at Télécom Paris ([CSC_3TC37_TP](https://synapses.telecom-paris.fr/catalogue/2024-2025/ue/22098/csc-3tc37-tp-contribution-a-un-logiciel-libre), formerly INF113). The course material is [available](/fr/cours-logiciels-libres) (in French).
-- An optional course on web development, part of the second year of the engineering cycle at Télécom Paris ([CSC_0EL10_TP](https://synapses.telecom-paris.fr/catalogue/2024-2025/ue/2133/CSC-0EL10-TP-web-development-developpement-web?from=P5015), formerly INF203).
+- The practical part of a course on logical foundations of computer science ([CSC_3TC34_TP](https://synapses.telecom-paris.fr/catalogue/2025-2026/ue/22099/CSC-3TC34-TP-logique-et-fondements-de-l-informatique), formerly INF110), which includes labs introducing the Rocq Prover. The theoretical part is given by David Madore. The course is part of the first year of the engineering cycle at Télécom Paris. The lab subjects are [available](https://gitlab.telecom-paris.fr/theo.zimmermann/coder-deployment-for-inf110/-/blob/main/inf110-workspace-contents/) (in French).
+- With Marc Jeanmougin, a course on contributing to free software, also part of the first year of the engineering cycle at Télécom Paris ([CSC_3TC37_TP](https://synapses.telecom-paris.fr/catalogue/2025-2026/ue/22098/csc-3tc37-tp-contribution-a-un-logiciel-libre), formerly INF113). The course material is [available](/fr/cours-logiciels-libres) (in French).
+- An optional course on web development, part of the second year of the engineering cycle at Télécom Paris ([CSC_0EL10_TP](https://synapses.telecom-paris.fr/catalogue/2025-2026/ue/2133/CSC-0EL10-TP-web-development-developpement-web), formerly INF203).
+
+Starting from 2026-2027, I am also involved in creating a new third-year option on software engineering ([SWENG](https://sweng.telecom-paris.fr/)) and I will be responsible for two new courses:
+
+- A course on Empirical Methods in Software Engineering, for the SWENG option, with Stefano Zacchiroli.
+- A course on DevOps, for second year students in SLR, with Marc Jeanmougin.
 
 ### Previously
 
