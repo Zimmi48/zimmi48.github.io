@@ -18,7 +18,7 @@ Ma recherche a pour objectif de comprendre et d'améliorer la manière dont les 
 En tant qu'acteur du logiciel libre, je suis un membre de l'équipe cœur développant le logiciel [Rocq Prover](https://rocq-prover.org), un assistant de preuve (anciennement connu sous le nom de Coq). Je maintiens la documentation de Rocq ; je suis l'auteur du [bot][] qui assiste l'équipe de développement dans les tâches du quotidien ; j'ai fondé l'initiative [Rocq-community][] pour la maintenance à long-terme des paquets de l'écosystème Rocq.
 En 2022, [notre équipe a été récompensée par le Prix Science Ouverte du Logiciel Libre de Recherche]({% post_url 2022-03-01-prix-science-ouverte %}), décerné par le ministère de la recherche.
 
-[bot]: https://github.com/coq/bot
+[bot]: https://github.com/rocq-prover/bot
 [Rocq-community]: https://github.com/rocq-community/manifesto
 
 J'ai soutenu une thèse de doctorat à l'Université de Paris (ex-Université Paris Diderot, désormais [Université Paris Cité](https://u-paris.fr)) en 2019. Ma thèse s'intitulait "Défis dans l'évolution collaborative d'un langage de preuve et de son écosystème". Le [manuscript][] (en anglais) et les [diapos][] (en français) de la soutenance sont disponibles.

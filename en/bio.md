@@ -20,7 +20,7 @@ In 2022, our team was awarded the [Open Science Award for Open Source Research S
 
 I defended my PhD at Université de Paris (former Université Paris-Diderot, now [Université Paris Cité](https://u-paris.fr/en)) in 2019. My thesis was titled "Challenges in the collaborative evolution of a proof language and its ecosystem."  The [manuscript][PhD thesis] (in English) and the [slides][] (in French) of the defense are available.
 
-[bot]: https://github.com/coq/bot
+[bot]: https://github.com/rocq-prover/bot
 [Rocq-community]: https://github.com/rocq-community/manifesto
 
 [PhD thesis]: https://hal.inria.fr/tel-02451322v1
@@ -115,38 +115,38 @@ Among the many changes toward more stability, we have put significant effort to 
 To make the Rocq Prover and the many great packages of its ecosystem more accessible, but also to improve reproducibility and replicability of research based on Rocq, two related initiatives are the [Rocq-community][] CPMO, that I have already [presented above](#community-organization-and-package-maintenance-at-the-ecosystem-level), and the [Rocq Platform][]. The latter is a project, led by Michael Soegtrop, with help from Karl Palmskog, Enrico Tassi, myself, and others, to provide an easy way to install a standardized bundle containing the Rocq Prover and a selection of useful Rocq packages, on any operating system. This project started based on previous work by Michael Soegtrop on the Coq Windows installer, and on [experimentations](https://github.com/MisterDA/ocaml-platform) done by Antonin Décimo on opam-based Windows installers, under the supervision of [Yann Régis-Gianas][] and myself. See the [paper](https://hal.inria.fr/hal-03592675) that we have published on the topic.
 
 [Rocq-community]: https://github.com/rocq-community/manifesto
-[Coq Platform]: https://github.com/coq/platform
+[Rocq Platform]: https://github.com/rocq-prover/platform
 [Yann Régis-Gianas]: https://yrg.gitlab.io/homepage/
 
-### The project-specific Coq bot
+### The project-specific Rocq bot
 
-*GitHub repository: <https://github.com/coq/bot>*
+*GitHub repository: <https://github.com/rocq-prover/bot>*
 
-The Coq bot is a multi-task bot that helps Coq maintainers by automating everyday's tasks.
+The Rocq bot is a multi-task bot that helps Rocq maintainers by automating everyday's tasks.
 
-I started writing this bot in 2018 to allow the use of GitLab's continuous integration for the GitHub repository of Coq, in ways that were not (and are still not) supported natively. This feature is also used by many other projects that had similar needs (mostly projects from the Coq ecosystem, such as [MathComp][], but also some projects outside).
+I started writing this bot in 2018 to allow the use of GitLab's continuous integration for the GitHub repository of Rocq, in ways that were not (and are still not) supported natively. This feature is also used by many other projects that had similar needs (mostly projects from the Rocq ecosystem, such as [MathComp][], but also some projects outside).
 
-The bot has acquired many new features over time to assist the Coq development team, including thanks to the internship of [Julien Coolen][] that I supervised in 2020, and the collaboration with other Coq developers.
+The bot has acquired many new features over time to assist the Rocq development team, including thanks to the internship of [Julien Coolen][] that I supervised in 2020, and the collaboration with other Rocq developers.
 
-Today, it is an essential tool for Coq release management, issue and pull request management, continuous integration, and community support.
+Today, it is an essential tool for Rocq release management, issue and pull request management, continuous integration, and community support.
 It is also a platform for experimenting new ideas around open source software maintenance practice.
 
 See the [paper](https://hal.inria.fr/hal-03479327) that we published at [IEEE Software](https://ieeexplore.ieee.org/xpl/tocresult.jsp?isnumber=9864592&punumber=52) to present our vision, the main features of the bot and the design choices that make it easy to maintain and extend.
 
 [Julien Coolen]: https://github.com/jtcoolen
 
-### Rocq-community templates, Docker-Coq-Action and the Coq Nix Toolbox
+### Rocq-community templates, Docker-Opam-Action and the Coq Nix Toolbox
 
-*GitHub repositories: [templates][], [Docker-Coq-Action][], [Coq Nix Toolbox][].*
+*GitHub repositories: [templates][], [Docker-Opam-Action][], [Coq Nix Toolbox][].*
 
 As part of the [Rocq-community][] initiative, there was a significant effort toward providing better tools for Rocq project maintainers, notably around continuous integration (but not limited to that). I have contributed to create and maintain the three main projects around this question (together with many contributors, most notably [Karl Palmskog][], [Erik Martin-Dorel][], and [Cyril Cohen][]):
 
 1. The Rocq-community [templates][] provide a tool for generating standard files (documentation, continuous integration, build and packaging files) automatically from information contained in a `meta.yml` file. They are used by most projects hosted inside Rocq-community, but also by many projects outside. At the moment, the templates are only well-suited to single-package repositories, but we have plans for monorepo (multi-package repository) support in a V2 of the templates that would stop relying on the Mustache template language.
-2. [Docker-Coq-Action][] provides the simplest solution to set up continuous integration for a Coq project: a GitHub Action that only requires an opam file and almost zero configuration for simple use cases, and which is flexible enough to account for advanced use cases (in fact, it is flexible enough to be applicable to non-Coq projects as well).
-3. The [Coq Nix Toolbox][] is an advanced tool based on the [Nix][] package manager. It can be used to get a local development environment ready to build any Coq package, using released or unreleased versions of its Coq dependencies. It can also be used to generate a continuous integration setup for [RDCT](#reverse-dependency-compatibility-testing). See our abstract and the video of the demo at the [Coq workshop 2021][].
+2. [Docker-Opam-Action][] provides the simplest solution to set up continuous integration for a Rocq project: a GitHub Action that only requires an opam file and almost zero configuration for simple use cases, and which is flexible enough to account for advanced use cases (in fact, it is flexible enough to be applicable to non-Rocq projects as well).
+3. The [Coq Nix Toolbox][] is an advanced tool based on the [Nix][] package manager. It can be used to get a local development environment ready to build any Rocq package, using released or unreleased versions of its Rocq dependencies. It can also be used to generate a continuous integration setup for [RDCT](#reverse-dependency-compatibility-testing). See our abstract and the video of the demo at the [Coq workshop 2021][].
 
 [templates]: https://github.com/rocq-community/templates
-[Docker-Coq-Action]: https://github.com/rocq-community/docker-coq-action
+[Docker-Opam-Action]: https://github.com/rocq-prover/docker-opam-action
 [Nix]: https://nixos.org/
 
 [Erik Martin-Dorel]: https://www.irit.fr/~Erik.Martin-Dorel/index_en.php
